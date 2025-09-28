@@ -1,0 +1,321 @@
+{
+  "weathers": [
+    {
+      "id": "sun",
+      "name": "Harsh Sunlight",
+      "icon": "☀️",
+      "duration": 5,
+      "extendedDuration": 8,
+      "effects": [
+        "Fire-type moves deal 50% more damage",
+        "Water-type moves deal 50% less damage",
+        "Solar Beam and Solar Blade charge instantly",
+        "Weather Ball becomes Fire-type and doubles in power",
+        "Thunder and Hurricane accuracy drops to 50%",
+        "Moonlight, Synthesis, and Morning Sun heal 2/3 HP",
+        "Growth increases Attack and Sp. Attack by 2 stages"
+      ],
+      "summonMoves": ["Sunny Day"],
+      "summonAbilities": ["Drought"],
+      "beneficialAbilities": [
+        {
+          "name": "Chlorophyll",
+          "effect": "Doubles Speed"
+        },
+        {
+          "name": "Solar Power",
+          "effect": "Increases Sp. Attack by 50% but loses 1/8 HP per turn"
+        },
+        {
+          "name": "Flower Gift",
+          "effect": "Increases team's Attack and Sp. Defense by 50%"
+        },
+        {
+          "name": "Forecast",
+          "effect": "Castform becomes Fire-type"
+        },
+        {
+          "name": "Leaf Guard",
+          "effect": "Prevents status conditions"
+        },
+        {
+          "name": "Harvest",
+          "effect": "100% chance to restore consumed Berry"
+        },
+        {
+          "name": "Protosynthesis",
+          "effect": "Boosts highest stat by 30% (50% for Speed)"
+        }
+      ]
+    },
+    {
+      "id": "rain",
+      "name": "Rain",
+      "icon": "🌧️",
+      "duration": 5,
+      "extendedDuration": 8,
+      "effects": [
+        "Water-type moves deal 50% more damage",
+        "Fire-type moves deal 50% less damage",
+        "Thunder and Hurricane have 100% accuracy",
+        "Solar Beam and Solar Blade power is halved",
+        "Weather Ball becomes Water-type and doubles in power",
+        "Moonlight, Synthesis, and Morning Sun heal 1/4 HP"
+      ],
+      "summonMoves": ["Rain Dance"],
+      "summonAbilities": ["Drizzle"],
+      "beneficialAbilities": [
+        {
+          "name": "Swift Swim",
+          "effect": "Doubles Speed"
+        },
+        {
+          "name": "Rain Dish",
+          "effect": "Restores 1/16 HP per turn"
+        },
+        {
+          "name": "Dry Skin",
+          "effect": "Restores 1/8 HP per turn"
+        },
+        {
+          "name": "Hydration",
+          "effect": "Cures status conditions at end of turn"
+        },
+        {
+          "name": "Forecast",
+          "effect": "Castform becomes Water-type"
+        }
+      ]
+    },
+    {
+      "id": "sandstorm",
+      "name": "Sandstorm",
+      "icon": "🏜️",
+      "duration": 5,
+      "extendedDuration": 8,
+      "effects": [
+        "Non-Rock, Ground, or Steel types take 1/16 damage per turn",
+        "Rock-type Pokémon get 50% Special Defense boost",
+        "Solar Beam and Solar Blade power is halved",
+        "Weather Ball becomes Rock-type and doubles in power",
+        "Moonlight, Synthesis, and Morning Sun heal 1/4 HP",
+        "Shore Up heals 2/3 HP instead of 1/2"
+      ],
+      "summonMoves": ["Sandstorm"],
+      "summonAbilities": ["Sand Stream"],
+      "beneficialAbilities": [
+        {
+          "name": "Sand Veil",
+          "effect": "Increases evasion by 20%"
+        },
+        {
+          "name": "Sand Rush",
+          "effect": "Doubles Speed"
+        },
+        {
+          "name": "Sand Force",
+          "effect": "Rock, Ground, Steel moves deal 30% more damage"
+        },
+        {
+          "name": "Overcoat",
+          "effect": "Immune to weather damage"
+        },
+        {
+          "name": "Magic Guard",
+          "effect": "Immune to indirect damage"
+        },
+        {
+          "name": "Forecast",
+          "effect": "Castform becomes Rock-type (Gen 9+)"
+        }
+      ],
+      "immuneTypes": ["Rock", "Ground", "Steel"]
+    },
+    {
+      "id": "hail",
+      "name": "Hail",
+      "icon": "🧊",
+      "duration": 5,
+      "extendedDuration": 8,
+      "effects": [
+        "Non-Ice types take 1/16 damage per turn",
+        "Blizzard has 100% accuracy",
+        "Solar Beam and Solar Blade power is halved",
+        "Weather Ball becomes Ice-type and doubles in power",
+        "Moonlight, Synthesis, and Morning Sun heal 1/4 HP",
+        "Aurora Veil can be used"
+      ],
+      "summonMoves": ["Hail"],
+      "summonAbilities": [],
+      "beneficialAbilities": [
+        {
+          "name": "Ice Body",
+          "effect": "Restores 1/16 HP per turn"
+        },
+        {
+          "name": "Snow Cloak",
+          "effect": "Increases evasion by 20%"
+        },
+        {
+          "name": "Slush Rush",
+          "effect": "Doubles Speed"
+        },
+        {
+          "name": "Forecast",
+          "effect": "Castform becomes Ice-type"
+        },
+        {
+          "name": "Overcoat",
+          "effect": "Immune to weather damage"
+        },
+        {
+          "name": "Magic Guard",
+          "effect": "Immune to indirect damage"
+        }
+      ],
+      "immuneTypes": ["Ice"],
+      "note": "Replaced by Snow in Generation 9"
+    },
+    {
+      "id": "snow",
+      "name": "Snow",
+      "icon": "❄️",
+      "duration": 5,
+      "extendedDuration": 8,
+      "effects": [
+        "Ice-type Pokémon get 50% Defense boost",
+        "No chip damage to any type",
+        "Blizzard has 100% accuracy",
+        "Solar Beam and Solar Blade power is halved",
+        "Weather Ball becomes Ice-type and doubles in power",
+        "Moonlight, Synthesis, and Morning Sun heal 1/4 HP",
+        "Aurora Veil can be used"
+      ],
+      "summonMoves": ["Snowscape", "Chilly Reception"],
+      "summonAbilities": ["Snow Warning"],
+      "beneficialAbilities": [
+        {
+          "name": "Ice Body",
+          "effect": "Restores 1/16 HP per turn"
+        },
+        {
+          "name": "Snow Cloak",
+          "effect": "Increases evasion by 20%"
+        },
+        {
+          "name": "Slush Rush",
+          "effect": "Doubles Speed"
+        },
+        {
+          "name": "Forecast",
+          "effect": "Castform becomes Ice-type"
+        }
+      ],
+      "note": "Introduced in Generation 9, replaces Hail"
+    },
+    {
+      "id": "fog",
+      "name": "Fog",
+      "icon": "🌫️",
+      "duration": "Permanent (overworld)",
+      "effects": [
+        "Accuracy of all moves reduced by 40% (Gen 4)",
+        "Reduces accuracy of moves by 10% (Gen 5+)",
+        "Weather Ball becomes Normal-type",
+        "Primarily an overworld weather condition"
+      ],
+      "summonMoves": [],
+      "summonAbilities": [],
+      "beneficialAbilities": [],
+      "note": "Mainly exists as overworld weather, limited battle effects"
+    },
+    {
+      "id": "extreme_sun",
+      "name": "Extremely Harsh Sunlight",
+      "icon": "🔥",
+      "duration": "While ability holder is active",
+      "effects": [
+        "All effects of regular sun",
+        "Water-type moves fail completely",
+        "Cannot be overwritten by regular weather",
+        "Ends when Primal Groudon switches out"
+      ],
+      "summonMoves": [],
+      "summonAbilities": ["Desolate Land"],
+      "beneficialAbilities": [
+        "Same as regular sun plus immunity to Water moves"
+      ],
+      "note": "Primal Weather introduced in Gen 6"
+    },
+    {
+      "id": "heavy_rain",
+      "name": "Heavy Rain",
+      "icon": "🌊",
+      "duration": "While ability holder is active",
+      "effects": [
+        "All effects of regular rain",
+        "Fire-type moves fail completely",
+        "Cannot be overwritten by regular weather",
+        "Ends when Primal Kyogre switches out"
+      ],
+      "summonMoves": [],
+      "summonAbilities": ["Primordial Sea"],
+      "beneficialAbilities": [
+        "Same as regular rain plus immunity to Fire moves"
+      ],
+      "note": "Primal Weather introduced in Gen 6"
+    },
+    {
+      "id": "strong_winds",
+      "name": "Strong Winds",
+      "icon": "🌪️",
+      "duration": "While ability holder is active",
+      "effects": [
+        "Super-effective moves against Flying-types deal normal damage",
+        "Cannot be overwritten by regular weather",
+        "Ends when Mega Rayquaza switches out",
+        "Weather Ball becomes Normal-type"
+      ],
+      "summonMoves": [],
+      "summonAbilities": ["Delta Stream"],
+      "beneficialAbilities": [],
+      "note": "Primal Weather introduced in Gen 6"
+    }
+  ],
+  "neutralizingAbilities": [
+    {
+      "name": "Cloud Nine",
+      "effect": "Suppresses all weather effects while active"
+    },
+    {
+      "name": "Air Lock",
+      "effect": "Suppresses all weather effects while active"
+    }
+  ],
+  "items": [
+    {
+      "name": "Heat Rock",
+      "effect": "Extends Sunny Day to 8 turns"
+    },
+    {
+      "name": "Damp Rock",
+      "effect": "Extends Rain Dance to 8 turns"
+    },
+    {
+      "name": "Smooth Rock",
+      "effect": "Extends Sandstorm to 8 turns"
+    },
+    {
+      "name": "Icy Rock",
+      "effect": "Extends Hail/Snow to 8 turns"
+    },
+    {
+      "name": "Safety Goggles",
+      "effect": "Immune to weather damage and powder moves"
+    },
+    {
+      "name": "Utility Umbrella",
+      "effect": "Holder ignores effects of rain and sun"
+    }
+  ]
+}

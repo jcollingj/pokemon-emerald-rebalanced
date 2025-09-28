@@ -1,0 +1,2039 @@
+[
+  {
+    "id": 1,
+    "name": "Stench",
+    "description": "May cause a foe to flinch.",
+    "aiRating": 1
+  },
+  {
+    "id": 2,
+    "name": "Drizzle",
+    "description": "Summons rain in battle.",
+    "aiRating": 9
+  },
+  {
+    "id": 3,
+    "name": "Speed Boost",
+    "description": "Gradually boosts Speed.",
+    "aiRating": 9
+  },
+  {
+    "id": 4,
+    "name": "Battle Armor",
+    "description": "Blocks critical hits.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 5,
+    "name": "Sturdy",
+    "description": "Negates 1-hit KO attacks.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 6,
+    "name": "Damp",
+    "description": "Prevents self-destruction.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 7,
+    "name": "Limber",
+    "description": "Prevents paralysis.",
+    "aiRating": 3,
+    "breakable": true
+  },
+  {
+    "id": 8,
+    "name": "Sand Veil",
+    "description": "Ups evasion in a sandstorm.",
+    "aiRating": 3,
+    "breakable": true
+  },
+  {
+    "id": 9,
+    "name": "Static",
+    "description": "Paralyzes on contact.",
+    "aiRating": 4
+  },
+  {
+    "id": 10,
+    "name": "Volt Absorb",
+    "description": "Turns electricity into HP.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 11,
+    "name": "Water Absorb",
+    "description": "Changes water into HP.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 12,
+    "name": "Oblivious",
+    "description": "Prevents attraction.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 13,
+    "name": "Cloud Nine",
+    "description": "Negates weather effects.",
+    "aiRating": 5
+  },
+  {
+    "id": 14,
+    "name": "Compound Eyes",
+    "description": "Raises accuracy.",
+    "aiRating": 7
+  },
+  {
+    "id": 15,
+    "name": "Insomnia",
+    "description": "Prevents sleep.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 16,
+    "name": "Color Change",
+    "description": "Changes type to foe's move.",
+    "aiRating": 2
+  },
+  {
+    "id": 17,
+    "name": "Immunity",
+    "description": "Prevents poisoning.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 18,
+    "name": "Flash Fire",
+    "description": "Powers up if hit by fire.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 19,
+    "name": "Shield Dust",
+    "description": "Prevents added effects.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 20,
+    "name": "Own Tempo",
+    "description": "Prevents confusion.",
+    "aiRating": 3,
+    "breakable": true
+  },
+  {
+    "id": 21,
+    "name": "Suction Cups",
+    "description": "Firmly anchors the body.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 22,
+    "name": "Intimidate",
+    "description": "Lowers the foe's Attack.",
+    "aiRating": 7
+  },
+  {
+    "id": 23,
+    "name": "Shadow Tag",
+    "description": "Prevents the foe's escape.",
+    "aiRating": 10
+  },
+  {
+    "id": 24,
+    "name": "Rough Skin",
+    "description": "Hurts to touch.",
+    "aiRating": 6
+  },
+  {
+    "id": 25,
+    "name": "Wonder Guard",
+    "description": "Only “Supereffective” hits.",
+    "aiRating": 10,
+    "breakable": true,
+    "cantBeSwapped": true
+  },
+  {
+    "id": 26,
+    "name": "Levitate",
+    "description": "Not hit by Ground attacks.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 27,
+    "name": "Effect Spore",
+    "description": "Leaves spores on contact.",
+    "aiRating": 4
+  },
+  {
+    "id": 28,
+    "name": "Synchronize",
+    "description": "Passes on status problems.",
+    "aiRating": 4
+  },
+  {
+    "id": 29,
+    "name": "Clear Body",
+    "description": "Prevents ability reduction.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 30,
+    "name": "Natural Cure",
+    "description": "Heals upon switching out.",
+    "aiRating": 7
+  },
+  {
+    "id": 31,
+    "name": "Lightning Rod",
+    "description": "Draws electrical moves.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 32,
+    "name": "Serene Grace",
+    "description": "Promotes added effects.",
+    "aiRating": 8
+  },
+  {
+    "id": 33,
+    "name": "Swift Swim",
+    "description": "Raises Speed in rain.",
+    "aiRating": 6
+  },
+  {
+    "id": 34,
+    "name": "Chlorophyll",
+    "description": "Raises Speed in sunshine.",
+    "aiRating": 6
+  },
+  {
+    "id": 35,
+    "name": "Illuminate",
+    "description": "Encounter rate increases.",
+    "aiRating": 0,
+    "breakable": true
+  },
+  {
+    "id": 36,
+    "name": "Trace",
+    "description": "Copies special ability.",
+    "aiRating": 6,
+    "cantBeTraced": true
+  },
+  {
+    "id": 37,
+    "name": "Huge Power",
+    "description": "Raises Attack.",
+    "aiRating": 10
+  },
+  {
+    "id": 38,
+    "name": "Poison Point",
+    "description": "Poisons foe on contact.",
+    "aiRating": 4
+  },
+  {
+    "id": 39,
+    "name": "Inner Focus",
+    "description": "Prevents flinching.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 40,
+    "name": "Magma Armor",
+    "description": "Prevents freezing.",
+    "aiRating": 1,
+    "breakable": true
+  },
+  {
+    "id": 41,
+    "name": "Water Veil",
+    "description": "Prevents burns.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 42,
+    "name": "Magnet Pull",
+    "description": "Traps Steel-type Pokémon.",
+    "aiRating": 9
+  },
+  {
+    "id": 43,
+    "name": "Soundproof",
+    "description": "Avoids sound-based moves.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 44,
+    "name": "Rain Dish",
+    "description": "Slight HP recovery in rain.",
+    "aiRating": 3
+  },
+  {
+    "id": 45,
+    "name": "Sand Stream",
+    "description": "Summons a sandstorm.",
+    "aiRating": 9
+  },
+  {
+    "id": 46,
+    "name": "Pressure",
+    "description": "Raises foe's PP usage.",
+    "aiRating": 5
+  },
+  {
+    "id": 47,
+    "name": "Thick Fat",
+    "description": "Heat-and-cold protection.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 48,
+    "name": "Early Bird",
+    "description": "Awakens quickly from sleep.",
+    "aiRating": 4
+  },
+  {
+    "id": 49,
+    "name": "Flame Body",
+    "description": "Burns the foe on contact.",
+    "aiRating": 4
+  },
+  {
+    "id": 50,
+    "name": "Run Away",
+    "description": "Makes escaping easier.",
+    "aiRating": 0
+  },
+  {
+    "id": 51,
+    "name": "Keen Eye",
+    "description": "Prevents loss of accuracy.",
+    "aiRating": 1,
+    "breakable": true
+  },
+  {
+    "id": 52,
+    "name": "Hyper Cutter",
+    "description": "Prevents Attack reduction.",
+    "aiRating": 3,
+    "breakable": true
+  },
+  {
+    "id": 53,
+    "name": "Pickup",
+    "description": "May pick up items.",
+    "aiRating": 1
+  },
+  {
+    "id": 54,
+    "name": "Truant",
+    "description": "Moves only every two turns.",
+    "aiRating": 0,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 55,
+    "name": "Hustle",
+    "description": "Trades accuracy for power.",
+    "aiRating": 7
+  },
+  {
+    "id": 56,
+    "name": "Cute Charm",
+    "description": "Infatuates on contact.",
+    "aiRating": 2
+  },
+  {
+    "id": 57,
+    "name": "Plus",
+    "description": "Powers up with Minus.",
+    "aiRating": 0
+  },
+  {
+    "id": 58,
+    "name": "Minus",
+    "description": "Powers up with Plus.",
+    "aiRating": 0
+  },
+  {
+    "id": 59,
+    "name": "Forecast",
+    "description": "Changes with the weather.",
+    "aiRating": 6,
+    "cantBeTraced": true
+  },
+  {
+    "id": 60,
+    "name": "Sticky Hold",
+    "description": "Prevents item theft.",
+    "aiRating": 3,
+    "breakable": true
+  },
+  {
+    "id": 61,
+    "name": "Shed Skin",
+    "description": "Heals the body by shedding.",
+    "aiRating": 7
+  },
+  {
+    "id": 62,
+    "name": "Guts",
+    "description": "Ups Attack if suffering.",
+    "aiRating": 6
+  },
+  {
+    "id": 63,
+    "name": "Marvel Scale",
+    "description": "Ups Defense if suffering.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 64,
+    "name": "Liquid Ooze",
+    "description": "Draining causes injury.",
+    "aiRating": 3
+  },
+  {
+    "id": 65,
+    "name": "Overgrow",
+    "description": "Ups Grass moves in a pinch.",
+    "aiRating": 5
+  },
+  {
+    "id": 66,
+    "name": "Blaze",
+    "description": "Ups Fire moves in a pinch.",
+    "aiRating": 5
+  },
+  {
+    "id": 67,
+    "name": "Torrent",
+    "description": "Ups Water moves in a pinch.",
+    "aiRating": 5
+  },
+  {
+    "id": 68,
+    "name": "Swarm",
+    "description": "Ups Bug moves in a pinch.",
+    "aiRating": 5
+  },
+  {
+    "id": 69,
+    "name": "Rock Head",
+    "description": "Prevents recoil damage.",
+    "aiRating": 5
+  },
+  {
+    "id": 70,
+    "name": "Drought",
+    "description": "Summons sunlight in battle.",
+    "aiRating": 9
+  },
+  {
+    "id": 71,
+    "name": "Arena Trap",
+    "description": "Prevents fleeing.",
+    "aiRating": 9
+  },
+  {
+    "id": 72,
+    "name": "Vital Spirit",
+    "description": "Prevents sleep.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 73,
+    "name": "White Smoke",
+    "description": "Prevents ability reduction.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 74,
+    "name": "Pure Power",
+    "description": "Raises Attack.",
+    "aiRating": 10
+  },
+  {
+    "id": 75,
+    "name": "Shell Armor",
+    "description": "Blocks critical hits.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 76,
+    "name": "Air Lock",
+    "description": "Negates weather effects.",
+    "aiRating": 5
+  },
+  {
+    "id": 77,
+    "name": "Tangled Feet",
+    "description": "Ups evasion if confused.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 78,
+    "name": "Motor Drive",
+    "description": "Electricity raises Speed.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 79,
+    "name": "Rivalry",
+    "description": "Powers up against rivals.",
+    "aiRating": 1
+  },
+  {
+    "id": 80,
+    "name": "Steadfast",
+    "description": "Flinching raises Speed.",
+    "aiRating": 2
+  },
+  {
+    "id": 81,
+    "name": "Snow Cloak",
+    "description": "Ups evasion in Hail or Snow.",
+    "aiRating": 3,
+    "breakable": true
+  },
+  {
+    "id": 82,
+    "name": "Gluttony",
+    "description": "Eats Berries early.",
+    "aiRating": 3
+  },
+  {
+    "id": 83,
+    "name": "Anger Point",
+    "description": "Critical hits raise Attack.",
+    "aiRating": 4
+  },
+  {
+    "id": 84,
+    "name": "Unburden",
+    "description": "Using a hold item ups Speed.",
+    "aiRating": 7
+  },
+  {
+    "id": 85,
+    "name": "Heatproof",
+    "description": "Heat and burn protection.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 86,
+    "name": "Simple",
+    "description": "Prone to wild stat changes.",
+    "aiRating": 8,
+    "breakable": true
+  },
+  {
+    "id": 87,
+    "name": "Dry Skin",
+    "description": "Prefers moisture to heat.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 88,
+    "name": "Download",
+    "description": "Adjusts power favorably.",
+    "aiRating": 7
+  },
+  {
+    "id": 89,
+    "name": "Iron Fist",
+    "description": "Boosts punching moves.",
+    "aiRating": 6
+  },
+  {
+    "id": 90,
+    "name": "Poison Heal",
+    "description": "Restores HP if poisoned.",
+    "aiRating": 8
+  },
+  {
+    "id": 91,
+    "name": "Adaptability",
+    "description": "Boosts same type attacks.",
+    "aiRating": 8
+  },
+  {
+    "id": 92,
+    "name": "Skill Link",
+    "description": "Multi-hit moves hit 5 times.",
+    "aiRating": 7
+  },
+  {
+    "id": 93,
+    "name": "Hydration",
+    "description": "Cures status in rain.",
+    "aiRating": 4
+  },
+  {
+    "id": 94,
+    "name": "Solar Power",
+    "description": "Powers up in sunshine.",
+    "aiRating": 3
+  },
+  {
+    "id": 95,
+    "name": "Quick Feet",
+    "description": "Ups Speed if suffering.",
+    "aiRating": 5
+  },
+  {
+    "id": 96,
+    "name": "Normalize",
+    "description": "Moves become Normal-type.",
+    "aiRating": 0
+  },
+  {
+    "id": 97,
+    "name": "Sniper",
+    "description": "Boosts critical hits.",
+    "aiRating": 3
+  },
+  {
+    "id": 98,
+    "name": "Magic Guard",
+    "description": "Only damaged by attacks.",
+    "aiRating": 9
+  },
+  {
+    "id": 99,
+    "name": "No Guard",
+    "description": "Ensures that all moves hit.",
+    "aiRating": 8
+  },
+  {
+    "id": 100,
+    "name": "Stall",
+    "description": "Always moves last.",
+    "aiRating": 0
+  },
+  {
+    "id": 101,
+    "name": "Technician",
+    "description": "Boosts weaker moves.",
+    "aiRating": 8
+  },
+  {
+    "id": 102,
+    "name": "Leaf Guard",
+    "description": "Blocks status in sunshine.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 103,
+    "name": "Klutz",
+    "description": "Can't use hold items.",
+    "aiRating": 0
+  },
+  {
+    "id": 104,
+    "name": "Mold Breaker",
+    "description": "Moves hit through abilities.",
+    "aiRating": 7
+  },
+  {
+    "id": 105,
+    "name": "Super Luck",
+    "description": "Critical hits land often.",
+    "aiRating": 3
+  },
+  {
+    "id": 106,
+    "name": "Aftermath",
+    "description": "Fainting damages the foe.",
+    "aiRating": 5
+  },
+  {
+    "id": 107,
+    "name": "Anticipation",
+    "description": "Senses dangerous moves.",
+    "aiRating": 2
+  },
+  {
+    "id": 108,
+    "name": "Forewarn",
+    "description": "Determines a foe's move.",
+    "aiRating": 2
+  },
+  {
+    "id": 109,
+    "name": "Unaware",
+    "description": "Ignores stat changes.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 110,
+    "name": "Tinted Lens",
+    "description": "Ups “not very effective”.",
+    "aiRating": 7
+  },
+  {
+    "id": 111,
+    "name": "Filter",
+    "description": "Weakens “supereffective”.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 112,
+    "name": "Slow Start",
+    "description": "Takes a while to get going.",
+    "aiRating": 0
+  },
+  {
+    "id": 113,
+    "name": "Scrappy",
+    "description": "Hits Ghost-type Pokémon.",
+    "aiRating": 6
+  },
+  {
+    "id": 114,
+    "name": "Storm Drain",
+    "description": "Draws in Water moves.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 115,
+    "name": "Ice Body",
+    "description": "HP recovery in Hail or Snow.",
+    "aiRating": 3
+  },
+  {
+    "id": 116,
+    "name": "Solid Rock",
+    "description": "Weakens “supereffective”.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 117,
+    "name": "Snow Warning",
+    "description": "Summons snow in battle.",
+    "aiRating": 8
+  },
+  {
+    "id": 118,
+    "name": "Honey Gather",
+    "description": "May gather Honey.",
+    "aiRating": 0
+  },
+  {
+    "id": 119,
+    "name": "Frisk",
+    "description": "Checks a foe's item.",
+    "aiRating": 3
+  },
+  {
+    "id": 120,
+    "name": "Reckless",
+    "description": "Boosts moves with recoil.",
+    "aiRating": 6
+  },
+  {
+    "id": 121,
+    "name": "Multitype",
+    "description": "Changes type to its Plate.",
+    "aiRating": 8,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 122,
+    "name": "Flower Gift",
+    "description": "Allies power up in sunshine.",
+    "aiRating": 4,
+    "breakable": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 123,
+    "name": "Bad Dreams",
+    "description": "Damages sleeping Pokémon.",
+    "aiRating": 4
+  },
+  {
+    "id": 124,
+    "name": "Pickpocket",
+    "description": "Steals the foe's held item.",
+    "aiRating": 3
+  },
+  {
+    "id": 125,
+    "name": "Sheer Force",
+    "description": "Trades effects for power.",
+    "aiRating": 8
+  },
+  {
+    "id": 126,
+    "name": "Contrary",
+    "description": "Inverts stat changes.",
+    "aiRating": 8,
+    "breakable": true
+  },
+  {
+    "id": 127,
+    "name": "Unnerve",
+    "description": "Foes can't eat Berries.",
+    "aiRating": 3
+  },
+  {
+    "id": 128,
+    "name": "Defiant",
+    "description": "Lowered stats up Attack.",
+    "aiRating": 5
+  },
+  {
+    "id": 129,
+    "name": "Defeatist",
+    "description": "Gives up at half HP.",
+    "aiRating": 0
+  },
+  {
+    "id": 130,
+    "name": "Cursed Body",
+    "description": "Disables moves on contact.",
+    "aiRating": 4
+  },
+  {
+    "id": 131,
+    "name": "Healer",
+    "description": "Heals partner Pokémon.",
+    "aiRating": 0
+  },
+  {
+    "id": 132,
+    "name": "Friend Guard",
+    "description": "Lowers damage to partner.",
+    "aiRating": 0,
+    "breakable": true
+  },
+  {
+    "id": 133,
+    "name": "Weak Armor",
+    "description": "Its stats change when hit.",
+    "aiRating": 2
+  },
+  {
+    "id": 134,
+    "name": "Heavy Metal",
+    "description": "Doubles weight.",
+    "aiRating": 0,
+    "breakable": true
+  },
+  {
+    "id": 135,
+    "name": "Light Metal",
+    "description": "Halves weight.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 136,
+    "name": "Multiscale",
+    "description": "Halves damage at full HP.",
+    "aiRating": 8,
+    "breakable": true
+  },
+  {
+    "id": 137,
+    "name": "Toxic Boost",
+    "description": "Ups Attack if poisoned.",
+    "aiRating": 6
+  },
+  {
+    "id": 138,
+    "name": "Flare Boost",
+    "description": "Ups Sp. Atk if burned.",
+    "aiRating": 5
+  },
+  {
+    "id": 139,
+    "name": "Harvest",
+    "description": "May recycle a used Berry.",
+    "aiRating": 5
+  },
+  {
+    "id": 140,
+    "name": "Telepathy",
+    "description": "Can't be damaged by an ally.",
+    "aiRating": 0,
+    "breakable": true
+  },
+  {
+    "id": 141,
+    "name": "Moody",
+    "description": "Stats change gradually.",
+    "aiRating": 10
+  },
+  {
+    "id": 142,
+    "name": "Overcoat",
+    "description": "Blocks weather and powder.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 143,
+    "name": "Poison Touch",
+    "description": "Poisons foe on contact.",
+    "aiRating": 4
+  },
+  {
+    "id": 144,
+    "name": "Regenerator",
+    "description": "Heals upon switching out.",
+    "aiRating": 8
+  },
+  {
+    "id": 145,
+    "name": "Big Pecks",
+    "description": "Prevents Defense loss.",
+    "aiRating": 1,
+    "breakable": true
+  },
+  {
+    "id": 146,
+    "name": "Sand Rush",
+    "description": "Ups Speed in a sandstorm.",
+    "aiRating": 6
+  },
+  {
+    "id": 147,
+    "name": "Wonder Skin",
+    "description": "May avoid status problems.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 148,
+    "name": "Analytic",
+    "description": "Moving last boosts power.",
+    "aiRating": 5
+  },
+  {
+    "id": 149,
+    "name": "Illusion",
+    "description": "Appears as a partner.",
+    "aiRating": 8,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 150,
+    "name": "Imposter",
+    "description": "Transforms into the foe.",
+    "aiRating": 9,
+    "cantBeTraced": true
+  },
+  {
+    "id": 151,
+    "name": "Infiltrator",
+    "description": "Passes through barriers.",
+    "aiRating": 6
+  },
+  {
+    "id": 152,
+    "name": "Mummy",
+    "description": "Spreads with contact.",
+    "aiRating": 5
+  },
+  {
+    "id": 153,
+    "name": "Moxie",
+    "description": "KOs raise Attack.",
+    "aiRating": 7
+  },
+  {
+    "id": 154,
+    "name": "Justified",
+    "description": "Dark hits raise Attack.",
+    "aiRating": 4
+  },
+  {
+    "id": 155,
+    "name": "Rattled",
+    "description": "Raises Speed when scared.",
+    "aiRating": 3
+  },
+  {
+    "id": 156,
+    "name": "Magic Bounce",
+    "description": "Reflects status moves.",
+    "aiRating": 9,
+    "breakable": true
+  },
+  {
+    "id": 157,
+    "name": "Sap Sipper",
+    "description": "Grass increases Attack.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 158,
+    "name": "Prankster",
+    "description": "Status moves go first.",
+    "aiRating": 8
+  },
+  {
+    "id": 159,
+    "name": "Sand Force",
+    "description": "Powers up in a sandstorm.",
+    "aiRating": 4
+  },
+  {
+    "id": 160,
+    "name": "Iron Barbs",
+    "description": "Hurts to touch.",
+    "aiRating": 6
+  },
+  {
+    "id": 161,
+    "name": "Zen Mode",
+    "description": "Transforms at half HP.",
+    "aiRating": 0,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 162,
+    "name": "Victory Star",
+    "description": "Raises party accuracy.",
+    "aiRating": 6
+  },
+  {
+    "id": 163,
+    "name": "Turboblaze",
+    "description": "Moves hit through abilities.",
+    "aiRating": 7
+  },
+  {
+    "id": 164,
+    "name": "Teravolt",
+    "description": "Moves hit through abilities.",
+    "aiRating": 7
+  },
+  {
+    "id": 165,
+    "name": "Aroma Veil",
+    "description": "Prevents limiting of moves.",
+    "aiRating": 3,
+    "breakable": true
+  },
+  {
+    "id": 166,
+    "name": "Flower Veil",
+    "description": "Protects Grass-types.",
+    "aiRating": 0
+  },
+  {
+    "id": 167,
+    "name": "Cheek Pouch",
+    "description": "Eating Berries restores HP.",
+    "aiRating": 4
+  },
+  {
+    "id": 168,
+    "name": "Protean",
+    "description": "Changes type to used move.",
+    "aiRating": 8
+  },
+  {
+    "id": 169,
+    "name": "Fur Coat",
+    "description": "Raises Defense.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 170,
+    "name": "Magician",
+    "description": "Steals the foe's held item.",
+    "aiRating": 3
+  },
+  {
+    "id": 171,
+    "name": "Bulletproof",
+    "description": "Avoids some projectiles.",
+    "aiRating": 7
+  },
+  {
+    "id": 172,
+    "name": "Competitive",
+    "description": "Lowered stats up Sp. Atk.",
+    "aiRating": 5
+  },
+  {
+    "id": 173,
+    "name": "Strong Jaw",
+    "description": "Boosts biting moves.",
+    "aiRating": 6
+  },
+  {
+    "id": 174,
+    "name": "Refrigerate",
+    "description": "Normal moves become Ice.",
+    "aiRating": 8
+  },
+  {
+    "id": 175,
+    "name": "Sweet Veil",
+    "description": "Prevents party from sleep.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 176,
+    "name": "Stance Change",
+    "description": "Transforms as it battles.",
+    "aiRating": 10,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 177,
+    "name": "Gale Wings",
+    "description": "Flying moves go first.",
+    "aiRating": 6
+  },
+  {
+    "id": 178,
+    "name": "Mega Launcher",
+    "description": "Boosts pulse moves.",
+    "aiRating": 7
+  },
+  {
+    "id": 179,
+    "name": "Grass Pelt",
+    "description": "Ups Defense in grass.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 180,
+    "name": "Symbiosis",
+    "description": "Passes its item to an ally.",
+    "aiRating": 0
+  },
+  {
+    "id": 181,
+    "name": "Tough Claws",
+    "description": "Boosts contact moves.",
+    "aiRating": 7
+  },
+  {
+    "id": 182,
+    "name": "Pixilate",
+    "description": "Normal moves become Fairy.",
+    "aiRating": 8
+  },
+  {
+    "id": 183,
+    "name": "Gooey",
+    "description": "Lowers Speed on contact.",
+    "aiRating": 5
+  },
+  {
+    "id": 184,
+    "name": "Aerilate",
+    "description": "Normal moves become Flying.",
+    "aiRating": 8
+  },
+  {
+    "id": 185,
+    "name": "Parental Bond",
+    "description": "Moves hit twice.",
+    "aiRating": 10
+  },
+  {
+    "id": 186,
+    "name": "Dark Aura",
+    "description": "Boosts Dark moves.",
+    "aiRating": 6
+  },
+  {
+    "id": 187,
+    "name": "Fairy Aura",
+    "description": "Boosts Fairy moves.",
+    "aiRating": 6
+  },
+  {
+    "id": 188,
+    "name": "Aura Break",
+    "description": "Reverse aura abilities.",
+    "aiRating": 3
+  },
+  {
+    "id": 189,
+    "name": "Primordial Sea",
+    "description": "Summons heavy rain.",
+    "aiRating": 10
+  },
+  {
+    "id": 190,
+    "name": "Desolate Land",
+    "description": "Summons intense sunlight.",
+    "aiRating": 10
+  },
+  {
+    "id": 191,
+    "name": "Delta Stream",
+    "description": "Summons strong winds.",
+    "aiRating": 10
+  },
+  {
+    "id": 192,
+    "name": "Stamina",
+    "description": "Boosts Defense when hit.",
+    "aiRating": 6
+  },
+  {
+    "id": 193,
+    "name": "Wimp Out",
+    "description": "Flees at half HP.",
+    "aiRating": 3
+  },
+  {
+    "id": 194,
+    "name": "Emergency Exit",
+    "description": "Flees at half HP.",
+    "aiRating": 3
+  },
+  {
+    "id": 195,
+    "name": "Water Compaction",
+    "description": "Water boosts Defense.",
+    "aiRating": 4
+  },
+  {
+    "id": 196,
+    "name": "Merciless",
+    "description": "Criticals poisoned foes.",
+    "aiRating": 4
+  },
+  {
+    "id": 197,
+    "name": "Shields Down",
+    "description": "Shell breaks at half HP.",
+    "aiRating": 6,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 198,
+    "name": "Stakeout",
+    "description": "Stronger as foes switch in.",
+    "aiRating": 6
+  },
+  {
+    "id": 199,
+    "name": "Water Bubble",
+    "description": "Guards from fire and burns.",
+    "aiRating": 8
+  },
+  {
+    "id": 200,
+    "name": "Steelworker",
+    "description": "Powers up Steel moves.",
+    "aiRating": 6
+  },
+  {
+    "id": 201,
+    "name": "Berserk",
+    "description": "Boosts Sp. Atk at low HP.",
+    "aiRating": 5
+  },
+  {
+    "id": 202,
+    "name": "Slush Rush",
+    "description": "Raises Speed in Hail/Snow.",
+    "aiRating": 5
+  },
+  {
+    "id": 203,
+    "name": "Long Reach",
+    "description": "Never makes contact.",
+    "aiRating": 3
+  },
+  {
+    "id": 204,
+    "name": "Liquid Voice",
+    "description": "Makes sound moves Water.",
+    "aiRating": 5
+  },
+  {
+    "id": 205,
+    "name": "Triage",
+    "description": "Healing moves go first.",
+    "aiRating": 7
+  },
+  {
+    "id": 206,
+    "name": "Galvanize",
+    "description": "Normal moves turn Electric.",
+    "aiRating": 8
+  },
+  {
+    "id": 207,
+    "name": "Surge Surfer",
+    "description": "Faster on electricity.",
+    "aiRating": 4
+  },
+  {
+    "id": 208,
+    "name": "Schooling",
+    "description": "Forms a school when strong.",
+    "aiRating": 6,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 209,
+    "name": "Disguise",
+    "description": "Decoy protects it once.",
+    "aiRating": 8,
+    "breakable": true,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 210,
+    "name": "Battle Bond",
+    "description": "Changes form after a KO.",
+    "aiRating": 6,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 211,
+    "name": "Power Construct",
+    "description": "Cells aid it when weakened.",
+    "aiRating": 10,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 212,
+    "name": "Corrosion",
+    "description": "Poisons any type.",
+    "aiRating": 5
+  },
+  {
+    "id": 213,
+    "name": "Comatose",
+    "description": "Always drowsing.",
+    "aiRating": 6,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 214,
+    "name": "Queenly Majesty",
+    "description": "Protects from priority.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 215,
+    "name": "Innards Out",
+    "description": "Hurts foe when defeated.",
+    "aiRating": 5
+  },
+  {
+    "id": 216,
+    "name": "Dancer",
+    "description": "Dances along with others.",
+    "aiRating": 5
+  },
+  {
+    "id": 217,
+    "name": "Battery",
+    "description": "Boosts ally's Sp. Atk.",
+    "aiRating": 0
+  },
+  {
+    "id": 218,
+    "name": "Fluffy",
+    "description": "Tougher but flammable.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 219,
+    "name": "Dazzling",
+    "description": "Protects from priority.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 220,
+    "name": "Soul-Heart",
+    "description": "KOs raise Sp. Atk.",
+    "aiRating": 7
+  },
+  {
+    "id": 221,
+    "name": "Tangling Hair",
+    "description": "Lowers Speed on contact.",
+    "aiRating": 5
+  },
+  {
+    "id": 222,
+    "name": "Receiver",
+    "description": "Copies ally's ability.",
+    "aiRating": 0,
+    "cantBeTraced": true
+  },
+  {
+    "id": 223,
+    "name": "Power Of Alchemy",
+    "description": "Copies ally's ability.",
+    "aiRating": 0,
+    "cantBeTraced": true
+  },
+  {
+    "id": 224,
+    "name": "Beast Boost",
+    "description": "KOs boost best stat.",
+    "aiRating": 7
+  },
+  {
+    "id": 225,
+    "name": "RKS System",
+    "description": "Memories change its type.",
+    "aiRating": 8,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 226,
+    "name": "Electric Surge",
+    "description": "Field becomes Electric.",
+    "aiRating": 8
+  },
+  {
+    "id": 227,
+    "name": "Psychic Surge",
+    "description": "Field becomes weird.",
+    "aiRating": 8
+  },
+  {
+    "id": 228,
+    "name": "Misty Surge",
+    "description": "Field becomes misty.",
+    "aiRating": 8
+  },
+  {
+    "id": 229,
+    "name": "Grassy Surge",
+    "description": "Field becomes grassy.",
+    "aiRating": 8
+  },
+  {
+    "id": 230,
+    "name": "Full Metal Body",
+    "description": "Prevents stat reduction.",
+    "aiRating": 4
+  },
+  {
+    "id": 231,
+    "name": "Shadow Shield",
+    "description": "Halves damage at full HP.",
+    "aiRating": 8
+  },
+  {
+    "id": 232,
+    "name": "Prism Armor",
+    "description": "Weakens “supereffective”.",
+    "aiRating": 6
+  },
+  {
+    "id": 233,
+    "name": "Neuroforce",
+    "description": "Ups “supereffective”.",
+    "aiRating": 6
+  },
+  {
+    "id": 234,
+    "name": "Intrepid Sword",
+    "description": "Ups Attack on entry.",
+    "aiRating": 3
+  },
+  {
+    "id": 235,
+    "name": "Dauntless Shield",
+    "description": "Ups Defense on entry.",
+    "aiRating": 3
+  },
+  {
+    "id": 236,
+    "name": "Libero",
+    "description": "Changes type to move's.",
+    "aiRating": 0
+  },
+  {
+    "id": 237,
+    "name": "Ball Fetch",
+    "description": "Fetches failed Poké Ball.",
+    "aiRating": 0
+  },
+  {
+    "id": 238,
+    "name": "Cotton Down",
+    "description": "Lower Speed of all when hit.",
+    "aiRating": 3
+  },
+  {
+    "id": 239,
+    "name": "Propeller Tail",
+    "description": "Ignores foe's redirection.",
+    "aiRating": 2
+  },
+  {
+    "id": 240,
+    "name": "Mirror Armor",
+    "description": "Reflect stat decreases.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 241,
+    "name": "Gulp Missile",
+    "description": "If hit, spits prey from sea.",
+    "aiRating": 3,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 242,
+    "name": "Stalwart",
+    "description": "Ignores foe's redirection.",
+    "aiRating": 2
+  },
+  {
+    "id": 243,
+    "name": "Steam Engine",
+    "description": "Fire or Water hits up Speed.",
+    "aiRating": 3
+  },
+  {
+    "id": 244,
+    "name": "Punk Rock",
+    "description": "Ups and resists sound.",
+    "aiRating": 2,
+    "breakable": true
+  },
+  {
+    "id": 245,
+    "name": "Sand Spit",
+    "description": "Creates a sandstorm if hit.",
+    "aiRating": 5
+  },
+  {
+    "id": 246,
+    "name": "Ice Scales",
+    "description": "Halves special damage.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 247,
+    "name": "Ripen",
+    "description": "Doubles effect of Berries.",
+    "aiRating": 4
+  },
+  {
+    "id": 248,
+    "name": "Ice Face",
+    "description": "Hail or Snow renew free hit.",
+    "aiRating": 4,
+    "breakable": true,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 249,
+    "name": "Power Spot",
+    "description": "Powers up ally moves.",
+    "aiRating": 2
+  },
+  {
+    "id": 250,
+    "name": "Mimicry",
+    "description": "Changes type on terrain.",
+    "aiRating": 2
+  },
+  {
+    "id": 251,
+    "name": "Screen Cleaner",
+    "description": "Removes walls of light.",
+    "aiRating": 3
+  },
+  {
+    "id": 252,
+    "name": "Steely Spirit",
+    "description": "Boosts ally's Steel moves.",
+    "aiRating": 2
+  },
+  {
+    "id": 253,
+    "name": "Perish Body",
+    "description": "Foe faints in 3 turns if hit.",
+    "aiRating": 0
+  },
+  {
+    "id": 254,
+    "name": "Wandering Spirit",
+    "description": "Trade abilities on contact.",
+    "aiRating": 2
+  },
+  {
+    "id": 255,
+    "name": "Gorilla Tactics",
+    "description": "Ups Attack and locks move.",
+    "aiRating": 4
+  },
+  {
+    "id": 256,
+    "name": "Neutralizing Gas",
+    "description": "All Abilities are nullified.",
+    "aiRating": 5,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 257,
+    "name": "Pastel Veil",
+    "description": "Protects team from poison.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 258,
+    "name": "Hunger Switch",
+    "description": "Changes form each turn.",
+    "aiRating": 2,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 259,
+    "name": "Quick Draw",
+    "description": "Moves first occasionally.",
+    "aiRating": 4
+  },
+  {
+    "id": 260,
+    "name": "Unseen Fist",
+    "description": "Contact evades protection.",
+    "aiRating": 6
+  },
+  {
+    "id": 261,
+    "name": "Curious Medicine",
+    "description": "Remove ally's stat changes.",
+    "aiRating": 3
+  },
+  {
+    "id": 262,
+    "name": "Transistor",
+    "description": "Ups Electric-type moves.",
+    "aiRating": 6
+  },
+  {
+    "id": 263,
+    "name": "Dragon's Maw",
+    "description": "Ups Dragon-type moves.",
+    "aiRating": 6
+  },
+  {
+    "id": 264,
+    "name": "Chilling Neigh",
+    "description": "KOs boost Attack stat.",
+    "aiRating": 7
+  },
+  {
+    "id": 265,
+    "name": "Grim Neigh",
+    "description": "KOs boost Sp. Atk stat.",
+    "aiRating": 7
+  },
+  {
+    "id": 266,
+    "name": "As One",
+    "description": "Unnerve and Chilling Neigh.",
+    "aiRating": 10,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 267,
+    "name": "As One",
+    "description": "Unnerve and Grim Neigh.",
+    "aiRating": 10,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 268,
+    "name": "Lingering Aroma",
+    "description": "Spreads with contact.",
+    "aiRating": 5
+  },
+  {
+    "id": 269,
+    "name": "Seed Sower",
+    "description": "Affects terrain when hit.",
+    "aiRating": 5
+  },
+  {
+    "id": 270,
+    "name": "Thermal Exchange",
+    "description": "Fire hits up Attack.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 271,
+    "name": "Anger Shell",
+    "description": "Gets angry at half HP.",
+    "aiRating": 3
+  },
+  {
+    "id": 272,
+    "name": "Purifying Salt",
+    "description": "Protected by pure salts.",
+    "aiRating": 6,
+    "breakable": true
+  },
+  {
+    "id": 273,
+    "name": "Well-Baked Body",
+    "description": "Strengthened by Fire.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 274,
+    "name": "Wind Rider",
+    "description": "Ups Attack if hit by wind.",
+    "aiRating": 4,
+    "breakable": true
+  },
+  {
+    "id": 275,
+    "name": "Guard Dog",
+    "description": "Cannot be intimidated.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 276,
+    "name": "Rocky Payload",
+    "description": "Powers up Rock moves.",
+    "aiRating": 6
+  },
+  {
+    "id": 277,
+    "name": "Wind Power",
+    "description": "Gets charged by wind.",
+    "aiRating": 4
+  },
+  {
+    "id": 278,
+    "name": "Zero to Hero",
+    "description": "Changes form on switch out.",
+    "aiRating": 10,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 279,
+    "name": "Commander",
+    "description": "Commands from Dondozo.",
+    "aiRating": 10,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 280,
+    "name": "Electromorphosis",
+    "description": "Gets Charged when hit.",
+    "aiRating": 5
+  },
+  {
+    "id": 281,
+    "name": "Protosynthesis",
+    "description": "Sun boosts best stat.",
+    "aiRating": 7,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 282,
+    "name": "Quark Drive",
+    "description": "Elec. field ups best stat.",
+    "aiRating": 7,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 283,
+    "name": "Good as Gold",
+    "description": "Avoids status moves.",
+    "aiRating": 8,
+    "breakable": true
+  },
+  {
+    "id": 284,
+    "name": "Vessel of Ruin",
+    "description": "Lowers foes' sp. damage.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 285,
+    "name": "Sword of Ruin",
+    "description": "Lowers foes' Defense.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 286,
+    "name": "Tablets of Ruin",
+    "description": "Lowers foes' damage.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 287,
+    "name": "Beads of Ruin",
+    "description": "Lowers foes' Sp. Defense.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 288,
+    "name": "Orichalcum Pulse",
+    "description": "Summons sunlight in battle.",
+    "aiRating": 8
+  },
+  {
+    "id": 289,
+    "name": "Hadron Engine",
+    "description": "Field becomes Electric.",
+    "aiRating": 8
+  },
+  {
+    "id": 290,
+    "name": "Opportunist",
+    "description": "Copies foe's stat change.",
+    "aiRating": 5
+  },
+  {
+    "id": 291,
+    "name": "Cud Chew",
+    "description": "Eats a used berry again.",
+    "aiRating": 4
+  },
+  {
+    "id": 292,
+    "name": "Sharpness",
+    "description": "Strengthens slicing moves.",
+    "aiRating": 7
+  },
+  {
+    "id": 293,
+    "name": "Supreme Overlord",
+    "description": "Inherits fallen's strength.",
+    "aiRating": 6
+  },
+  {
+    "id": 294,
+    "name": "Costar",
+    "description": "Copies ally's stat changes.",
+    "aiRating": 5
+  },
+  {
+    "id": 295,
+    "name": "Toxic Debris",
+    "description": "Throws poison spikes if hit.",
+    "aiRating": 4
+  },
+  {
+    "id": 296,
+    "name": "Armor Tail",
+    "description": "Protects from priority.",
+    "aiRating": 5,
+    "breakable": true
+  },
+  {
+    "id": 297,
+    "name": "Earth Eater",
+    "description": "Eats ground to heal HP.",
+    "aiRating": 7,
+    "breakable": true
+  },
+  {
+    "id": 298,
+    "name": "Mycelium Might",
+    "description": "Status moves never fail.",
+    "aiRating": 2
+  },
+  {
+    "id": 299,
+    "name": "Hospitality",
+    "description": "Restores ally's HP.",
+    "aiRating": 5
+  },
+  {
+    "id": 300,
+    "name": "Mind's Eye",
+    "description": "Keen Eye and Scrappy.",
+    "aiRating": 8,
+    "breakable": true
+  },
+  {
+    "id": 301,
+    "name": "Embody Aspect",
+    "description": "Raises Speed.",
+    "aiRating": 6,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 302,
+    "name": "Embody Aspect",
+    "description": "Raises Attack.",
+    "aiRating": 6,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 303,
+    "name": "Embody Aspect",
+    "description": "Raises Sp. Def.",
+    "aiRating": 6,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 304,
+    "name": "Embody Aspect",
+    "description": "Raises Defense.",
+    "aiRating": 6,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 305,
+    "name": "Toxic Chain",
+    "description": "Moves can poison.",
+    "aiRating": 8
+  },
+  {
+    "id": 306,
+    "name": "Supersweet Syrup",
+    "description": "Lowers the foe's Evasion.",
+    "aiRating": 5
+  },
+  {
+    "id": 307,
+    "name": "Tera Shift",
+    "description": "Terastallizes upon entry.",
+    "aiRating": 10,
+    "cantBeSwapped": true,
+    "cantBeTraced": true,
+    "cantBeSuppressed": true,
+    "cantBeOverwritten": true
+  },
+  {
+    "id": 308,
+    "name": "Tera Shell",
+    "description": "Resists all at full HP.",
+    "aiRating": 10,
+    "breakable": true,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 309,
+    "name": "Teraform Zero",
+    "description": "Zeroes weather and terrain.",
+    "aiRating": 10,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  },
+  {
+    "id": 310,
+    "name": "Poison Puppeteer",
+    "description": "Confuses poisoned foes.",
+    "aiRating": 8,
+    "cantBeSwapped": true,
+    "cantBeTraced": true
+  }
+]
