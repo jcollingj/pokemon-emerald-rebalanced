@@ -33924,7 +33924,7 @@
     },
     "abilities": [
       "Guts",
-      "Sand Veil"
+      "Sand Stream"
     ],
     "height": 6,
     "weight": 720,
@@ -39970,16 +39970,17 @@
     "name": "Nosepass",
     "natDexNum": 299,
     "types": [
-      "Rock"
+      "Rock",
+      "Electric"
     ],
     "baseStats": {
-      "hp": 30,
-      "attack": 45,
+      "hp": 50,
+      "attack": 20,
       "defense": 135,
       "speed": 30,
-      "spAttack": 45,
+      "spAttack": 90,
       "spDefense": 90,
-      "total": 375
+      "total": 415
     },
     "abilities": [
       "Sturdy",
@@ -40065,7 +40066,33 @@
         "level": 43,
         "move": "Lock On"
       }
-    ]
+    ],
+    "modifications": {
+      "implemented": true,
+      "statChanges": {
+        "hp": {
+          "current": 30,
+          "proposed": 50,
+          "notes": "Increased HP to improve survivability as Roxanne's gym ace"
+        },
+        "attack": {
+          "current": 45,
+          "proposed": 20,
+          "notes": "Lowered Attack since Nosepass is a special attacker/tank"
+        },
+        "spAttack": {
+          "current": 45,
+          "proposed": 90,
+          "notes": "Major Special Attack buff to make Nosepass a threatening special attacker for first gym"
+        }
+      },
+      "generalNotes": [
+        "Rebalanced to be Roxanne's signature ace Pokémon",
+        "Focus on special attacking rather than physical moves",
+        "Higher HP allows it to tank hits and use Thunder Wave effectively",
+        "Design goal: Make first gym challenging but fair"
+      ]
+    }
   },
   {
     "id": 300,

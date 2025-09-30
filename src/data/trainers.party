@@ -4798,29 +4798,59 @@ Items: Potion / Potion
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Larvitar @ Smooth Rock
+Level: 10
+Ability: 3
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Stealth Rock
+- Rock Slide
+- Bite
+- Protect
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+Geodude @ Wide Lens
+Level: 11
+Ability: 1
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Defense Curl
+- Rollout
 - Rock Throw
-- Rock Tomb
+- Tackle
 
-Nosepass @ Oran Berry
-Level: 15
+Omanyte @ Oran Berry
+Level: 12
+Ability: 1
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Water Gun
+- Ancient Power
+- Withdraw
+- Bite
+
+Lileep @ Sitrus Berry
+Level: 13
+Ability: 1
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+- Ancient Power
+- Acid
+- Confuse Ray
+- Ingrain
+
+Anorith @ Focus Sash
+Level: 14
+Ability: 1
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fury Cutter
+- Rock Blast
+- Water Gun
+- Metal Claw
+
+Nosepass @ Chesto Berry
+Level: 15
+Ability: 3
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Power Gem
+- Thunderbolt
+- Thunder Wave
+- Rest
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY

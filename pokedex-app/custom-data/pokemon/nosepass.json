@@ -1,0 +1,29 @@
+{
+  "name": "Nosepass",
+  "modifications": {
+    "implemented": true,
+    "statChanges": {
+      "hp": {
+        "current": 30,
+        "proposed": 50,
+        "notes": "Increased HP to improve survivability as Roxanne's gym ace"
+      },
+      "attack": {
+        "current": 45,
+        "proposed": 20,
+        "notes": "Lowered Attack since Nosepass is a special attacker/tank"
+      },
+      "spAttack": {
+        "current": 45,
+        "proposed": 90,
+        "notes": "Major Special Attack buff to make Nosepass a threatening special attacker for first gym"
+      }
+    },
+    "generalNotes": [
+      "Rebalanced to be Roxanne's signature ace Pokémon",
+      "Focus on special attacking rather than physical moves",
+      "Higher HP allows it to tank hits and use Thunder Wave effectively",
+      "Design goal: Make first gym challenging but fair"
+    ]
+  }
+}

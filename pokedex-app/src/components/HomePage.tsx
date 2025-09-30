@@ -14,6 +14,18 @@ const pages = [
     icon: '📖',
   },
   {
+    path: '/trainers',
+    title: 'Trainers',
+    description: 'Browse all trainers in the game with their teams and battle information',
+    icon: '👤',
+  },
+  {
+    path: '/gym-leaders',
+    title: 'Gym Leaders & Elite Four',
+    description: 'Challenge the Gym Leaders and Elite Four with their specialized teams',
+    icon: '🏆',
+  },
+  {
     path: '/abilities',
     title: 'Abilities',
     description: 'Browse and search all Pokémon abilities with descriptions and properties',
@@ -25,7 +37,6 @@ const pages = [
     description: 'Weather conditions, effects, and related abilities in battle',
     icon: '🌦️',
   },
-  // Add more pages here as we create them
 ];
 
 export function HomePage({ navigate }: HomePageProps) {

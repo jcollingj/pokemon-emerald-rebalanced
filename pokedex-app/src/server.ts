@@ -3,6 +3,8 @@ import index from "./index.html";
 import abilitiesData from "./data/abilities.json";
 import pokemonData from "./data/pokemon.json";
 import movesData from "./data/moves.json";
+import trainersData from "./data/trainers.json";
+import gymLeadersData from "./data/gym-leaders.json";
 
 const server = serve({
   routes: {
@@ -77,26 +79,38 @@ const server = serve({
       return Response.json(move);
     },
 
-    "/api/hello": {
+    "/api/trainers": {
       async GET(req) {
-        return Response.json({
-          message: "Hello, world!",
-          method: "GET",
-        });
-      },
-      async PUT(req) {
-        return Response.json({
-          message: "Hello, world!",
-          method: "PUT",
-        });
+        return Response.json(trainersData);
       },
     },
 
-    "/api/hello/:name": async req => {
-      const name = req.params.name;
-      return Response.json({
-        message: `Hello, ${name}!`,
-      });
+    "/api/trainers/:id": async req => {
+      const id = parseInt(req.params.id);
+      const trainer = trainersData.find(t => t.id === id);
+
+      if (!trainer) {
+        return new Response("Trainer not found", { status: 404 });
+      }
+
+      return Response.json(trainer);
+    },
+
+    "/api/gym-leaders": {
+      async GET(req) {
+        return Response.json(gymLeadersData);
+      },
+    },
+
+    "/api/gym-leaders/:id": async req => {
+      const id = parseInt(req.params.id);
+      const leader = gymLeadersData.find(l => l.id === id);
+
+      if (!leader) {
+        return new Response("Gym leader not found", { status: 404 });
+      }
+
+      return Response.json(leader);
     },
   },
 

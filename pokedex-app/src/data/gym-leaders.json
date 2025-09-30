@@ -1,0 +1,5053 @@
+[
+  {
+    "id": 261,
+    "constantName": "TRAINER_SIDNEY",
+    "name": "SIDNEY",
+    "trainerClass": "Elite Four",
+    "pic": "Elite Four Sidney",
+    "gender": "Male",
+    "music": "Elite Four",
+    "items": [
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer",
+      "Force Setup First Turn"
+    ],
+    "party": [
+      {
+        "level": 46,
+        "moves": [
+          "Roar",
+          "Double edge",
+          "Sand attack",
+          "Crunch"
+        ],
+        "species": "Mightyena",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Torment",
+          "Double team",
+          "Swagger",
+          "Extrasensory"
+        ],
+        "species": "Shiftry",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 46,
+        "moves": [
+          "Leech seed",
+          "Feint attack",
+          "Needle arm",
+          "Cotton spore"
+        ],
+        "species": "Cacturne",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Surf",
+          "Swords dance",
+          "Strength",
+          "Facade"
+        ],
+        "species": "Crawdaunt",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 49,
+        "moves": [
+          "Aerial ace",
+          "Rock slide",
+          "Swords dance",
+          "Slash"
+        ],
+        "species": "Absol",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "constantName": "TRAINER_PHOEBE",
+    "name": "PHOEBE",
+    "trainerClass": "Elite Four",
+    "pic": "Elite Four Phoebe",
+    "gender": "Female",
+    "music": "Elite Four",
+    "items": [
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 48,
+        "moves": [
+          "Shadow punch",
+          "Confuse ray",
+          "Curse",
+          "Protect"
+        ],
+        "species": "Dusclops",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 49,
+        "moves": [
+          "Shadow ball",
+          "Grudge",
+          "Will o wisp",
+          "Feint attack"
+        ],
+        "species": "Banette",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Shadow ball",
+          "Double team",
+          "Night shade",
+          "Feint attack"
+        ],
+        "species": "Sableye",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 49,
+        "moves": [
+          "Shadow ball",
+          "Psychic",
+          "Thunderbolt",
+          "Facade"
+        ],
+        "species": "Banette",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 51,
+        "moves": [
+          "Shadow ball",
+          "Ice beam",
+          "Rock slide",
+          "Earthquake"
+        ],
+        "species": "Dusclops",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "constantName": "TRAINER_GLACIA",
+    "name": "GLACIA",
+    "trainerClass": "Elite Four",
+    "pic": "Elite Four Glacia",
+    "gender": "Female",
+    "music": "Elite Four",
+    "items": [
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 50,
+        "moves": [
+          "Encore",
+          "Body slam",
+          "Hail",
+          "Ice ball"
+        ],
+        "species": "Sealeo",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Light screen",
+          "Crunch",
+          "Icy wind",
+          "Ice beam"
+        ],
+        "species": "Glalie",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 52,
+        "moves": [
+          "Attract",
+          "Double edge",
+          "Hail",
+          "Blizzard"
+        ],
+        "species": "Sealeo",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 52,
+        "moves": [
+          "Shadow ball",
+          "Explosion",
+          "Hail",
+          "Ice beam"
+        ],
+        "species": "Glalie",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Surf",
+          "Body slam",
+          "Ice beam",
+          "Sheer cold"
+        ],
+        "species": "Walrein",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "constantName": "TRAINER_DRAKE",
+    "name": "DRAKE",
+    "trainerClass": "Elite Four",
+    "pic": "Elite Four Drake",
+    "gender": "Male",
+    "music": "Elite Four",
+    "items": [
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 52,
+        "moves": [
+          "Rock tomb",
+          "Dragon claw",
+          "Protect",
+          "Double edge"
+        ],
+        "species": "Shelgon",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 54,
+        "moves": [
+          "Double edge",
+          "Dragon breath",
+          "Dragon dance",
+          "Aerial ace"
+        ],
+        "species": "Altaria",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Smokescreen",
+          "Dragon dance",
+          "Surf",
+          "Body slam"
+        ],
+        "species": "Kingdra",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Flamethrower",
+          "Crunch",
+          "Dragon breath",
+          "Earthquake"
+        ],
+        "species": "Flygon",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Flamethrower",
+          "Dragon claw",
+          "Rock slide",
+          "Crunch"
+        ],
+        "species": "Salamence",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "constantName": "TRAINER_ROXANNE_1",
+    "name": "ROXANNE",
+    "trainerClass": "Leader",
+    "pic": "Leader Roxanne",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Potion",
+      "Potion"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 12,
+        "moves": [
+          "Tackle",
+          "Defense curl",
+          "Rock throw",
+          "Rock tomb"
+        ],
+        "species": "Geodude",
+        "ivs": {
+          "hp": 12,
+          "attack": 12,
+          "defense": 12,
+          "spAttack": 12,
+          "spDefense": 12,
+          "speed": 12
+        }
+      },
+      {
+        "level": 12,
+        "moves": [
+          "Tackle",
+          "Defense curl",
+          "Rock throw",
+          "Rock tomb"
+        ],
+        "species": "Geodude",
+        "ivs": {
+          "hp": 12,
+          "attack": 12,
+          "defense": 12,
+          "spAttack": 12,
+          "spDefense": 12,
+          "speed": 12
+        }
+      },
+      {
+        "level": 15,
+        "moves": [
+          "Block",
+          "Harden",
+          "Tackle",
+          "Rock tomb"
+        ],
+        "species": "Nosepass",
+        "heldItem": "Oran berry",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "constantName": "TRAINER_BRAWLY_1",
+    "name": "BRAWLY",
+    "trainerClass": "Leader",
+    "pic": "Leader Brawly",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Super Potion",
+      "Super Potion"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 16,
+        "moves": [
+          "Karate chop",
+          "Low kick",
+          "Seismic toss",
+          "Bulk up"
+        ],
+        "species": "Machop",
+        "ivs": {
+          "hp": 12,
+          "attack": 12,
+          "defense": 12,
+          "spAttack": 12,
+          "spDefense": 12,
+          "speed": 12
+        }
+      },
+      {
+        "level": 16,
+        "moves": [
+          "Focus punch",
+          "Light screen",
+          "Reflect",
+          "Bulk up"
+        ],
+        "species": "Meditite",
+        "ivs": {
+          "hp": 12,
+          "attack": 12,
+          "defense": 12,
+          "spAttack": 12,
+          "spDefense": 12,
+          "speed": 12
+        }
+      },
+      {
+        "level": 19,
+        "moves": [
+          "Arm thrust",
+          "Vital throw",
+          "Reversal",
+          "Bulk up"
+        ],
+        "species": "Makuhita",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "constantName": "TRAINER_WATTSON_1",
+    "name": "WATTSON",
+    "trainerClass": "Leader",
+    "pic": "Leader Wattson",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Super Potion",
+      "Super Potion"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 20,
+        "moves": [
+          "Rollout",
+          "Spark",
+          "Self destruct",
+          "Shock wave"
+        ],
+        "species": "Voltorb",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 20,
+        "moves": [
+          "Shock wave",
+          "Leer",
+          "Quick attack",
+          "Howl"
+        ],
+        "species": "Electrike",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 22,
+        "moves": [
+          "Supersonic",
+          "Shock wave",
+          "Thunder wave",
+          "Sonic boom"
+        ],
+        "species": "Magneton",
+        "ivs": {
+          "hp": 26,
+          "attack": 26,
+          "defense": 26,
+          "spAttack": 26,
+          "spDefense": 26,
+          "speed": 26
+        }
+      },
+      {
+        "level": 24,
+        "moves": [
+          "Quick attack",
+          "Thunder wave",
+          "Shock wave",
+          "Howl"
+        ],
+        "species": "Manectric",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "constantName": "TRAINER_FLANNERY_1",
+    "name": "FLANNERY",
+    "trainerClass": "Leader",
+    "pic": "Leader Flannery",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Hyper Potion",
+      "Hyper Potion"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 24,
+        "moves": [
+          "Overheat",
+          "Take down",
+          "Magnitude",
+          "Sunny day"
+        ],
+        "species": "Numel",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 24,
+        "moves": [
+          "Overheat",
+          "Smog",
+          "Light screen",
+          "Sunny day"
+        ],
+        "species": "Slugma",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 26,
+        "moves": [
+          "Overheat",
+          "Tackle",
+          "Sunny day",
+          "Attract"
+        ],
+        "species": "Camerupt",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 29,
+        "moves": [
+          "Overheat",
+          "Sunny day",
+          "Body slam",
+          "Attract"
+        ],
+        "species": "Torkoal",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "constantName": "TRAINER_NORMAN_1",
+    "name": "NORMAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Norman",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Hyper Potion",
+      "Hyper Potion"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 27,
+        "moves": [
+          "Teeter dance",
+          "Psybeam",
+          "Facade",
+          "Encore"
+        ],
+        "species": "Spinda",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 27,
+        "moves": [
+          "Slash",
+          "Facade",
+          "Encore",
+          "Feint attack"
+        ],
+        "species": "Vigoroth",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 29,
+        "moves": [
+          "Slash",
+          "Belly drum",
+          "Facade",
+          "Headbutt"
+        ],
+        "species": "Linoone",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 31,
+        "moves": [
+          "Counter",
+          "Yawn",
+          "Facade",
+          "Feint attack"
+        ],
+        "species": "Slaking",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "constantName": "TRAINER_WINONA_1",
+    "name": "WINONA",
+    "trainerClass": "Leader",
+    "pic": "Leader Winona",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Hyper Potion",
+      "Hyper Potion"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer",
+      "Risky"
+    ],
+    "party": [
+      {
+        "level": 29,
+        "moves": [
+          "Perish song",
+          "Mirror move",
+          "Safeguard",
+          "Aerial ace"
+        ],
+        "species": "Swablu",
+        "ivs": {
+          "hp": 25,
+          "attack": 25,
+          "defense": 25,
+          "spAttack": 25,
+          "spDefense": 25,
+          "speed": 25
+        }
+      },
+      {
+        "level": 29,
+        "moves": [
+          "Sunny day",
+          "Aerial ace",
+          "Solar beam",
+          "Synthesis"
+        ],
+        "species": "Tropius",
+        "ivs": {
+          "hp": 25,
+          "attack": 25,
+          "defense": 25,
+          "spAttack": 25,
+          "spDefense": 25,
+          "speed": 25
+        }
+      },
+      {
+        "level": 30,
+        "moves": [
+          "Water gun",
+          "Supersonic",
+          "Protect",
+          "Aerial ace"
+        ],
+        "species": "Pelipper",
+        "ivs": {
+          "hp": 25,
+          "attack": 25,
+          "defense": 25,
+          "spAttack": 25,
+          "spDefense": 25,
+          "speed": 25
+        }
+      },
+      {
+        "level": 31,
+        "moves": [
+          "Sand attack",
+          "Fury attack",
+          "Steel wing",
+          "Aerial ace"
+        ],
+        "species": "Skarmory",
+        "ivs": {
+          "hp": 26,
+          "attack": 26,
+          "defense": 26,
+          "spAttack": 26,
+          "spDefense": 26,
+          "speed": 26
+        }
+      },
+      {
+        "level": 33,
+        "moves": [
+          "Earthquake",
+          "Dragon breath",
+          "Dragon dance",
+          "Aerial ace"
+        ],
+        "species": "Altaria",
+        "heldItem": "Oran berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "constantName": "TRAINER_TATE_AND_LIZA_1",
+    "name": "TATE&LIZA",
+    "trainerClass": "Leader",
+    "pic": "Leader Tate And Liza",
+    "gender": "Male",
+    "music": "Female",
+    "items": [
+      "Hyper Potion",
+      "Hyper Potion",
+      "Hyper Potion",
+      "Hyper Potion"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 41,
+        "moves": [
+          "Earthquake",
+          "Ancient power",
+          "Psychic",
+          "Light screen"
+        ],
+        "species": "Claydol",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 41,
+        "moves": [
+          "Psychic",
+          "Sunny day",
+          "Confuse ray",
+          "Calm mind"
+        ],
+        "species": "Xatu",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 42,
+        "moves": [
+          "Light screen",
+          "Psychic",
+          "Hypnosis",
+          "Calm mind"
+        ],
+        "species": "Lunatone",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      },
+      {
+        "level": 42,
+        "moves": [
+          "Sunny day",
+          "Solar beam",
+          "Psychic",
+          "Flamethrower"
+        ],
+        "species": "Solrock",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "constantName": "TRAINER_JUAN_1",
+    "name": "JUAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Juan",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Hyper Potion",
+      "Hyper Potion"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 41,
+        "moves": [
+          "Water pulse",
+          "Attract",
+          "Sweet kiss",
+          "Flail"
+        ],
+        "species": "Luvdisc",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 41,
+        "moves": [
+          "Rain dance",
+          "Water pulse",
+          "Amnesia",
+          "Earthquake"
+        ],
+        "species": "Whiscash",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Encore",
+          "Body slam",
+          "Aurora beam",
+          "Water pulse"
+        ],
+        "species": "Sealeo",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Water pulse",
+          "Crabhammer",
+          "Taunt",
+          "Leer"
+        ],
+        "species": "Crawdaunt",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 46,
+        "moves": [
+          "Water pulse",
+          "Double team",
+          "Ice beam",
+          "Rest"
+        ],
+        "species": "Kingdra",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "constantName": "TRAINER_WALLACE",
+    "name": "WALLACE",
+    "trainerClass": "Champion",
+    "pic": "Champion Wallace",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": false,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 57,
+        "moves": [
+          "Rain dance",
+          "Water spout",
+          "Double edge",
+          "Blizzard"
+        ],
+        "species": "Wailord",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Toxic",
+          "Hydro pump",
+          "Sludge bomb",
+          "Ice beam"
+        ],
+        "species": "Tentacruel",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 56,
+        "moves": [
+          "Giga drain",
+          "Surf",
+          "Leech seed",
+          "Double team"
+        ],
+        "species": "Ludicolo",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 56,
+        "moves": [
+          "Earthquake",
+          "Surf",
+          "Amnesia",
+          "Hyper beam"
+        ],
+        "species": "Whiscash",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 56,
+        "moves": [
+          "Dragon dance",
+          "Earthquake",
+          "Hyper beam",
+          "Surf"
+        ],
+        "species": "Gyarados",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 58,
+        "moves": [
+          "Recover",
+          "Surf",
+          "Ice beam",
+          "Toxic"
+        ],
+        "species": "Milotic",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 770,
+    "constantName": "TRAINER_ROXANNE_2",
+    "name": "ROXANNE",
+    "trainerClass": "Leader",
+    "pic": "Leader Roxanne",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 32,
+        "moves": [
+          "Protect",
+          "Rollout",
+          "Magnitude",
+          "Explosion"
+        ],
+        "species": "Golem",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 35,
+        "moves": [
+          "Swords dance",
+          "Ice beam",
+          "Surf",
+          "Rock slide"
+        ],
+        "species": "Kabuto",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 35,
+        "moves": [
+          "Iron tail",
+          "Explosion",
+          "Roar",
+          "Rock slide"
+        ],
+        "species": "Onix",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 37,
+        "moves": [
+          "Double team",
+          "Explosion",
+          "Protect",
+          "Rock slide"
+        ],
+        "species": "Nosepass",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 771,
+    "constantName": "TRAINER_ROXANNE_3",
+    "name": "ROXANNE",
+    "trainerClass": "Leader",
+    "pic": "Leader Roxanne",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 37,
+        "moves": [
+          "Protect",
+          "Ice beam",
+          "Rock slide",
+          "Surf"
+        ],
+        "species": "Omanyte",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 37,
+        "moves": [
+          "Protect",
+          "Rollout",
+          "Magnitude",
+          "Explosion"
+        ],
+        "species": "Golem",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 40,
+        "moves": [
+          "Swords dance",
+          "Ice beam",
+          "Surf",
+          "Rock slide"
+        ],
+        "species": "Kabutops",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 40,
+        "moves": [
+          "Iron tail",
+          "Explosion",
+          "Roar",
+          "Rock slide"
+        ],
+        "species": "Onix",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 42,
+        "moves": [
+          "Double team",
+          "Explosion",
+          "Protect",
+          "Rock slide"
+        ],
+        "species": "Nosepass",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 772,
+    "constantName": "TRAINER_ROXANNE_4",
+    "name": "ROXANNE",
+    "trainerClass": "Leader",
+    "pic": "Leader Roxanne",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 42,
+        "moves": [
+          "Protect",
+          "Ice beam",
+          "Rock slide",
+          "Surf"
+        ],
+        "species": "Omastar",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 42,
+        "moves": [
+          "Protect",
+          "Rollout",
+          "Earthquake",
+          "Explosion"
+        ],
+        "species": "Golem",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 45,
+        "moves": [
+          "Swords dance",
+          "Ice beam",
+          "Surf",
+          "Rock slide"
+        ],
+        "species": "Kabutops",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 45,
+        "moves": [
+          "Iron tail",
+          "Explosion",
+          "Roar",
+          "Rock slide"
+        ],
+        "species": "Onix",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 47,
+        "moves": [
+          "Double team",
+          "Explosion",
+          "Protect",
+          "Rock slide"
+        ],
+        "species": "Nosepass",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 773,
+    "constantName": "TRAINER_ROXANNE_5",
+    "name": "ROXANNE",
+    "trainerClass": "Leader",
+    "pic": "Leader Roxanne",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 47,
+        "moves": [
+          "Rock slide",
+          "Hyper beam",
+          "Supersonic",
+          "Protect"
+        ],
+        "species": "Aerodactyl",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 47,
+        "moves": [
+          "Focus punch",
+          "Rollout",
+          "Earthquake",
+          "Explosion"
+        ],
+        "species": "Golem",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 47,
+        "moves": [
+          "Protect",
+          "Ice beam",
+          "Rock slide",
+          "Surf"
+        ],
+        "species": "Omastar",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Swords dance",
+          "Ice beam",
+          "Surf",
+          "Rock slide"
+        ],
+        "species": "Kabutops",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Iron tail",
+          "Explosion",
+          "Roar",
+          "Rock slide"
+        ],
+        "species": "Steelix",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 52,
+        "moves": [
+          "Double team",
+          "Explosion",
+          "Protect",
+          "Rock slide"
+        ],
+        "species": "Nosepass",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 774,
+    "constantName": "TRAINER_BRAWLY_2",
+    "name": "BRAWLY",
+    "trainerClass": "Leader",
+    "pic": "Leader Brawly",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 33,
+        "moves": [
+          "Karate chop",
+          "Rock slide",
+          "Focus punch",
+          "Bulk up"
+        ],
+        "species": "Machamp",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 33,
+        "moves": [
+          "Psychic",
+          "Light screen",
+          "Reflect",
+          "Focus punch"
+        ],
+        "species": "Meditite",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 35,
+        "moves": [
+          "Pursuit",
+          "Counter",
+          "Protect",
+          "Triple kick"
+        ],
+        "species": "Hitmontop",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 37,
+        "moves": [
+          "Fake out",
+          "Focus punch",
+          "Belly drum",
+          "Earthquake"
+        ],
+        "species": "Hariyama",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 775,
+    "constantName": "TRAINER_BRAWLY_3",
+    "name": "BRAWLY",
+    "trainerClass": "Leader",
+    "pic": "Leader Brawly",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 38,
+        "moves": [
+          "Karate chop",
+          "Rock slide",
+          "Focus punch",
+          "Bulk up"
+        ],
+        "species": "Machamp",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 38,
+        "moves": [
+          "Psychic",
+          "Light screen",
+          "Reflect",
+          "Focus punch"
+        ],
+        "species": "Medicham",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 40,
+        "moves": [
+          "Pursuit",
+          "Counter",
+          "Protect",
+          "Triple kick"
+        ],
+        "species": "Hitmontop",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 42,
+        "moves": [
+          "Fake out",
+          "Focus punch",
+          "Belly drum",
+          "Earthquake"
+        ],
+        "species": "Hariyama",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 776,
+    "constantName": "TRAINER_BRAWLY_4",
+    "name": "BRAWLY",
+    "trainerClass": "Leader",
+    "pic": "Leader Brawly",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 40,
+        "moves": [
+          "Sky uppercut",
+          "Protect",
+          "Fire punch",
+          "Ice punch"
+        ],
+        "species": "Hitmonchan",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Karate chop",
+          "Rock slide",
+          "Focus punch",
+          "Bulk up"
+        ],
+        "species": "Machamp",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Focus punch",
+          "Light screen",
+          "Reflect",
+          "Psychic"
+        ],
+        "species": "Medicham",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 45,
+        "moves": [
+          "Pursuit",
+          "Counter",
+          "Protect",
+          "Triple kick"
+        ],
+        "species": "Hitmontop",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 47,
+        "moves": [
+          "Fake out",
+          "Focus punch",
+          "Belly drum",
+          "Earthquake"
+        ],
+        "species": "Hariyama",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 777,
+    "constantName": "TRAINER_BRAWLY_5",
+    "name": "BRAWLY",
+    "trainerClass": "Leader",
+    "pic": "Leader Brawly",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 46,
+        "moves": [
+          "Mega kick",
+          "Focus punch",
+          "Earthquake",
+          "Bulk up"
+        ],
+        "species": "Hitmonlee",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 46,
+        "moves": [
+          "Sky uppercut",
+          "Protect",
+          "Fire punch",
+          "Ice punch"
+        ],
+        "species": "Hitmonchan",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Cross chop",
+          "Rock slide",
+          "Focus punch",
+          "Bulk up"
+        ],
+        "species": "Machamp",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Focus punch",
+          "Light screen",
+          "Reflect",
+          "Psychic"
+        ],
+        "species": "Medicham",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Pursuit",
+          "Counter",
+          "Protect",
+          "Triple kick"
+        ],
+        "species": "Hitmontop",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 52,
+        "moves": [
+          "Fake out",
+          "Focus punch",
+          "Belly drum",
+          "Earthquake"
+        ],
+        "species": "Hariyama",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 778,
+    "constantName": "TRAINER_WATTSON_2",
+    "name": "WATTSON",
+    "trainerClass": "Leader",
+    "pic": "Leader Wattson",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 36,
+        "moves": [
+          "Thunder",
+          "Protect",
+          "Thunder wave",
+          "Light screen"
+        ],
+        "species": "Mareep",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 36,
+        "moves": [
+          "Rollout",
+          "Thunder",
+          "Explosion",
+          "Rain dance"
+        ],
+        "species": "Electrode",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 38,
+        "moves": [
+          "Supersonic",
+          "Protect",
+          "Thunder",
+          "Rain dance"
+        ],
+        "species": "Magneton",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 40,
+        "moves": [
+          "Bite",
+          "Thunder wave",
+          "Thunder",
+          "Protect"
+        ],
+        "species": "Manectric",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 779,
+    "constantName": "TRAINER_WATTSON_3",
+    "name": "WATTSON",
+    "trainerClass": "Leader",
+    "pic": "Leader Wattson",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 39,
+        "moves": [
+          "Thunder",
+          "Slam",
+          "Rain dance",
+          "Shock wave"
+        ],
+        "species": "Pikachu",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 41,
+        "moves": [
+          "Thunder",
+          "Protect",
+          "Thunder wave",
+          "Light screen"
+        ],
+        "species": "Flaaffy",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 41,
+        "moves": [
+          "Rollout",
+          "Thunder",
+          "Explosion",
+          "Rain dance"
+        ],
+        "species": "Electrode",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Supersonic",
+          "Protect",
+          "Thunder",
+          "Rain dance"
+        ],
+        "species": "Magneton",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 45,
+        "moves": [
+          "Bite",
+          "Thunder wave",
+          "Thunder",
+          "Protect"
+        ],
+        "species": "Manectric",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 780,
+    "constantName": "TRAINER_WATTSON_4",
+    "name": "WATTSON",
+    "trainerClass": "Leader",
+    "pic": "Leader Wattson",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 44,
+        "moves": [
+          "Thunder",
+          "Slam",
+          "Rain dance",
+          "Protect"
+        ],
+        "species": "Raichu",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 46,
+        "moves": [
+          "Thunder",
+          "Protect",
+          "Thunder wave",
+          "Light screen"
+        ],
+        "species": "Ampharos",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 46,
+        "moves": [
+          "Rollout",
+          "Thunder",
+          "Explosion",
+          "Rain dance"
+        ],
+        "species": "Electrode",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Supersonic",
+          "Protect",
+          "Thunder",
+          "Rain dance"
+        ],
+        "species": "Magneton",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Bite",
+          "Thunder wave",
+          "Thunder",
+          "Protect"
+        ],
+        "species": "Manectric",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 781,
+    "constantName": "TRAINER_WATTSON_5",
+    "name": "WATTSON",
+    "trainerClass": "Leader",
+    "pic": "Leader Wattson",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 50,
+        "moves": [
+          "Swift",
+          "Focus punch",
+          "Thunder punch",
+          "Light screen"
+        ],
+        "species": "Electabuzz",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 51,
+        "moves": [
+          "Thunder",
+          "Slam",
+          "Rain dance",
+          "Protect"
+        ],
+        "species": "Raichu",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 51,
+        "moves": [
+          "Thunder",
+          "Protect",
+          "Thunder wave",
+          "Light screen"
+        ],
+        "species": "Ampharos",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Rollout",
+          "Thunder",
+          "Explosion",
+          "Rain dance"
+        ],
+        "species": "Electrode",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Supersonic",
+          "Protect",
+          "Thunder",
+          "Rain dance"
+        ],
+        "species": "Magneton",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Bite",
+          "Thunder wave",
+          "Thunder",
+          "Protect"
+        ],
+        "species": "Manectric",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 782,
+    "constantName": "TRAINER_FLANNERY_2",
+    "name": "FLANNERY",
+    "trainerClass": "Leader",
+    "pic": "Leader Flannery",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 38,
+        "moves": [
+          "Overheat",
+          "Attract",
+          "Light screen",
+          "Rock slide"
+        ],
+        "species": "Magcargo",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 36,
+        "moves": [
+          "Flamethrower",
+          "Attract",
+          "Solar beam",
+          "Bounce"
+        ],
+        "species": "Ponyta",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 38,
+        "moves": [
+          "Overheat",
+          "Sunny day",
+          "Earthquake",
+          "Attract"
+        ],
+        "species": "Camerupt",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 40,
+        "moves": [
+          "Overheat",
+          "Sunny day",
+          "Explosion",
+          "Attract"
+        ],
+        "species": "Torkoal",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 783,
+    "constantName": "TRAINER_FLANNERY_3",
+    "name": "FLANNERY",
+    "trainerClass": "Leader",
+    "pic": "Leader Flannery",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 41,
+        "moves": [
+          "Helping hand",
+          "Flamethrower",
+          "Roar",
+          "Sunny day"
+        ],
+        "species": "Growlithe",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Overheat",
+          "Attract",
+          "Light screen",
+          "Rock slide"
+        ],
+        "species": "Magcargo",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 41,
+        "moves": [
+          "Flamethrower",
+          "Attract",
+          "Solar beam",
+          "Bounce"
+        ],
+        "species": "Ponyta",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Overheat",
+          "Sunny day",
+          "Earthquake",
+          "Attract"
+        ],
+        "species": "Camerupt",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 45,
+        "moves": [
+          "Overheat",
+          "Sunny day",
+          "Explosion",
+          "Attract"
+        ],
+        "species": "Torkoal",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 784,
+    "constantName": "TRAINER_FLANNERY_4",
+    "name": "FLANNERY",
+    "trainerClass": "Leader",
+    "pic": "Leader Flannery",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 46,
+        "moves": [
+          "Roar",
+          "Solar beam",
+          "Taunt",
+          "Sunny day"
+        ],
+        "species": "Houndour",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 46,
+        "moves": [
+          "Helping hand",
+          "Flamethrower",
+          "Sunny day",
+          "Roar"
+        ],
+        "species": "Growlithe",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Overheat",
+          "Attract",
+          "Light screen",
+          "Rock slide"
+        ],
+        "species": "Magcargo",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 46,
+        "moves": [
+          "Flamethrower",
+          "Attract",
+          "Solar beam",
+          "Bounce"
+        ],
+        "species": "Rapidash",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Overheat",
+          "Sunny day",
+          "Earthquake",
+          "Attract"
+        ],
+        "species": "Camerupt",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Overheat",
+          "Sunny day",
+          "Explosion",
+          "Attract"
+        ],
+        "species": "Torkoal",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 785,
+    "constantName": "TRAINER_FLANNERY_5",
+    "name": "FLANNERY",
+    "trainerClass": "Leader",
+    "pic": "Leader Flannery",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 51,
+        "moves": [
+          "Helping hand",
+          "Flamethrower",
+          "Sunny day",
+          "Roar"
+        ],
+        "species": "Arcanine",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Overheat",
+          "Attract",
+          "Light screen",
+          "Rock slide"
+        ],
+        "species": "Magcargo",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 51,
+        "moves": [
+          "Roar",
+          "Solar beam",
+          "Taunt",
+          "Sunny day"
+        ],
+        "species": "Houndoom",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 51,
+        "moves": [
+          "Flamethrower",
+          "Attract",
+          "Solar beam",
+          "Bounce"
+        ],
+        "species": "Rapidash",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Overheat",
+          "Sunny day",
+          "Earthquake",
+          "Attract"
+        ],
+        "species": "Camerupt",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Overheat",
+          "Sunny day",
+          "Explosion",
+          "Attract"
+        ],
+        "species": "Torkoal",
+        "heldItem": "White herb",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 786,
+    "constantName": "TRAINER_NORMAN_2",
+    "name": "NORMAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Norman",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 42,
+        "moves": [
+          "Light screen",
+          "Sing",
+          "Skill swap",
+          "Focus punch"
+        ],
+        "species": "Chansey",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 42,
+        "moves": [
+          "Blizzard",
+          "Shadow ball",
+          "Double edge",
+          "Fire blast"
+        ],
+        "species": "Slaking",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Teeter dance",
+          "Skill swap",
+          "Facade",
+          "Hypnosis"
+        ],
+        "species": "Spinda",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 45,
+        "moves": [
+          "Hyper beam",
+          "Flamethrower",
+          "Thunderbolt",
+          "Shadow ball"
+        ],
+        "species": "Slaking",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 787,
+    "constantName": "TRAINER_NORMAN_3",
+    "name": "NORMAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Norman",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 47,
+        "moves": [
+          "Blizzard",
+          "Shadow ball",
+          "Double edge",
+          "Fire blast"
+        ],
+        "species": "Slaking",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 47,
+        "moves": [
+          "Light screen",
+          "Sing",
+          "Skill swap",
+          "Focus punch"
+        ],
+        "species": "Chansey",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 45,
+        "moves": [
+          "Fake out",
+          "Dizzy punch",
+          "Endure",
+          "Reversal"
+        ],
+        "species": "Kangaskhan",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Teeter dance",
+          "Skill swap",
+          "Facade",
+          "Hypnosis"
+        ],
+        "species": "Spinda",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Hyper beam",
+          "Flamethrower",
+          "Thunderbolt",
+          "Shadow ball"
+        ],
+        "species": "Slaking",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 788,
+    "constantName": "TRAINER_NORMAN_4",
+    "name": "NORMAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Norman",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 52,
+        "moves": [
+          "Blizzard",
+          "Shadow ball",
+          "Double edge",
+          "Fire blast"
+        ],
+        "species": "Slaking",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 52,
+        "moves": [
+          "Light screen",
+          "Sing",
+          "Skill swap",
+          "Focus punch"
+        ],
+        "species": "Blissey",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Fake out",
+          "Dizzy punch",
+          "Endure",
+          "Reversal"
+        ],
+        "species": "Kangaskhan",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Teeter dance",
+          "Skill swap",
+          "Facade",
+          "Hypnosis"
+        ],
+        "species": "Spinda",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Hyper beam",
+          "Flamethrower",
+          "Thunderbolt",
+          "Shadow ball"
+        ],
+        "species": "Slaking",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 789,
+    "constantName": "TRAINER_NORMAN_5",
+    "name": "NORMAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Norman",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 57,
+        "moves": [
+          "Blizzard",
+          "Shadow ball",
+          "Double edge",
+          "Fire blast"
+        ],
+        "species": "Slaking",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 57,
+        "moves": [
+          "Protect",
+          "Sing",
+          "Skill swap",
+          "Focus punch"
+        ],
+        "species": "Blissey",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Fake out",
+          "Dizzy punch",
+          "Endure",
+          "Reversal"
+        ],
+        "species": "Kangaskhan",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 57,
+        "moves": [
+          "Take down",
+          "Protect",
+          "Fire blast",
+          "Earthquake"
+        ],
+        "species": "Tauros",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 58,
+        "moves": [
+          "Teeter dance",
+          "Skill swap",
+          "Facade",
+          "Hypnosis"
+        ],
+        "species": "Spinda",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 60,
+        "moves": [
+          "Hyper beam",
+          "Flamethrower",
+          "Thunderbolt",
+          "Shadow ball"
+        ],
+        "species": "Slaking",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 790,
+    "constantName": "TRAINER_WINONA_2",
+    "name": "WINONA",
+    "trainerClass": "Leader",
+    "pic": "Leader Winona",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer",
+      "Risky"
+    ],
+    "party": [
+      {
+        "level": 40,
+        "moves": [
+          "Thunder wave",
+          "Thunderbolt",
+          "Protect",
+          "Ice beam"
+        ],
+        "species": "Dratini",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 38,
+        "moves": [
+          "Sunny day",
+          "Aerial ace",
+          "Solar beam",
+          "Earthquake"
+        ],
+        "species": "Tropius",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 41,
+        "moves": [
+          "Surf",
+          "Supersonic",
+          "Protect",
+          "Aerial ace"
+        ],
+        "species": "Pelipper",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Whirlwind",
+          "Spikes",
+          "Steel wing",
+          "Aerial ace"
+        ],
+        "species": "Skarmory",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 45,
+        "moves": [
+          "Aerial ace",
+          "Rest",
+          "Dragon dance",
+          "Earthquake"
+        ],
+        "species": "Altaria",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 791,
+    "constantName": "TRAINER_WINONA_3",
+    "name": "WINONA",
+    "trainerClass": "Leader",
+    "pic": "Leader Winona",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer",
+      "Risky"
+    ],
+    "party": [
+      {
+        "level": 43,
+        "moves": [
+          "Hypnosis",
+          "Psychic",
+          "Reflect",
+          "Dream eater"
+        ],
+        "species": "Hoothoot",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 43,
+        "moves": [
+          "Sunny day",
+          "Aerial ace",
+          "Solar beam",
+          "Earthquake"
+        ],
+        "species": "Tropius",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 45,
+        "moves": [
+          "Thunder wave",
+          "Thunderbolt",
+          "Protect",
+          "Ice beam"
+        ],
+        "species": "Dragonair",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 46,
+        "moves": [
+          "Surf",
+          "Supersonic",
+          "Protect",
+          "Aerial ace"
+        ],
+        "species": "Pelipper",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Whirlwind",
+          "Spikes",
+          "Steel wing",
+          "Aerial ace"
+        ],
+        "species": "Skarmory",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Aerial ace",
+          "Rest",
+          "Dragon dance",
+          "Earthquake"
+        ],
+        "species": "Altaria",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 792,
+    "constantName": "TRAINER_WINONA_4",
+    "name": "WINONA",
+    "trainerClass": "Leader",
+    "pic": "Leader Winona",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer",
+      "Risky"
+    ],
+    "party": [
+      {
+        "level": 48,
+        "moves": [
+          "Hypnosis",
+          "Psychic",
+          "Reflect",
+          "Dream eater"
+        ],
+        "species": "Noctowl",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 49,
+        "moves": [
+          "Sunny day",
+          "Aerial ace",
+          "Solar beam",
+          "Earthquake"
+        ],
+        "species": "Tropius",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Thunder wave",
+          "Thunderbolt",
+          "Protect",
+          "Ice beam"
+        ],
+        "species": "Dragonair",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 51,
+        "moves": [
+          "Surf",
+          "Supersonic",
+          "Protect",
+          "Aerial ace"
+        ],
+        "species": "Pelipper",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Whirlwind",
+          "Spikes",
+          "Steel wing",
+          "Aerial ace"
+        ],
+        "species": "Skarmory",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Aerial ace",
+          "Rest",
+          "Dragon dance",
+          "Earthquake"
+        ],
+        "species": "Altaria",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 793,
+    "constantName": "TRAINER_WINONA_5",
+    "name": "WINONA",
+    "trainerClass": "Leader",
+    "pic": "Leader Winona",
+    "gender": "Female",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer",
+      "Risky"
+    ],
+    "party": [
+      {
+        "level": 53,
+        "moves": [
+          "Hypnosis",
+          "Psychic",
+          "Reflect",
+          "Dream eater"
+        ],
+        "species": "Noctowl",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 54,
+        "moves": [
+          "Sunny day",
+          "Aerial ace",
+          "Solar beam",
+          "Earthquake"
+        ],
+        "species": "Tropius",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Surf",
+          "Supersonic",
+          "Protect",
+          "Aerial ace"
+        ],
+        "species": "Pelipper",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Hyper beam",
+          "Thunderbolt",
+          "Earthquake",
+          "Ice beam"
+        ],
+        "species": "Dragonite",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 58,
+        "moves": [
+          "Whirlwind",
+          "Spikes",
+          "Steel wing",
+          "Aerial ace"
+        ],
+        "species": "Skarmory",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 60,
+        "moves": [
+          "Sky attack",
+          "Rest",
+          "Dragon dance",
+          "Earthquake"
+        ],
+        "species": "Altaria",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 794,
+    "constantName": "TRAINER_TATE_AND_LIZA_2",
+    "name": "TATE&LIZA",
+    "trainerClass": "Leader",
+    "pic": "Leader Tate And Liza",
+    "gender": "Male",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 48,
+        "moves": [
+          "Yawn",
+          "Psychic",
+          "Calm mind",
+          "Protect"
+        ],
+        "species": "Slowpoke",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 49,
+        "moves": [
+          "Earthquake",
+          "Ancient power",
+          "Psychic",
+          "Light screen"
+        ],
+        "species": "Claydol",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 49,
+        "moves": [
+          "Psychic",
+          "Rest",
+          "Confuse ray",
+          "Calm mind"
+        ],
+        "species": "Xatu",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Earthquake",
+          "Psychic",
+          "Rest",
+          "Calm mind"
+        ],
+        "species": "Lunatone",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 50,
+        "moves": [
+          "Sunny day",
+          "Solar beam",
+          "Psychic",
+          "Flamethrower"
+        ],
+        "species": "Solrock",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 795,
+    "constantName": "TRAINER_TATE_AND_LIZA_3",
+    "name": "TATE&LIZA",
+    "trainerClass": "Leader",
+    "pic": "Leader Tate And Liza",
+    "gender": "Male",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 53,
+        "moves": [
+          "Hypnosis",
+          "Dream eater",
+          "Headbutt",
+          "Protect"
+        ],
+        "species": "Drowzee",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Yawn",
+          "Psychic",
+          "Calm mind",
+          "Protect"
+        ],
+        "species": "Slowpoke",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 54,
+        "moves": [
+          "Earthquake",
+          "Explosion",
+          "Psychic",
+          "Light screen"
+        ],
+        "species": "Claydol",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 54,
+        "moves": [
+          "Psychic",
+          "Rest",
+          "Confuse ray",
+          "Calm mind"
+        ],
+        "species": "Xatu",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Earthquake",
+          "Psychic",
+          "Rest",
+          "Calm mind"
+        ],
+        "species": "Lunatone",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 55,
+        "moves": [
+          "Sunny day",
+          "Solar beam",
+          "Psychic",
+          "Flamethrower"
+        ],
+        "species": "Solrock",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 796,
+    "constantName": "TRAINER_TATE_AND_LIZA_4",
+    "name": "TATE&LIZA",
+    "trainerClass": "Leader",
+    "pic": "Leader Tate And Liza",
+    "gender": "Male",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 58,
+        "moves": [
+          "Hypnosis",
+          "Dream eater",
+          "Headbutt",
+          "Protect"
+        ],
+        "species": "Hypno",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 59,
+        "moves": [
+          "Earthquake",
+          "Explosion",
+          "Psychic",
+          "Light screen"
+        ],
+        "species": "Claydol",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 58,
+        "moves": [
+          "Yawn",
+          "Psychic",
+          "Calm mind",
+          "Protect"
+        ],
+        "species": "Slowpoke",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 59,
+        "moves": [
+          "Psychic",
+          "Rest",
+          "Confuse ray",
+          "Calm mind"
+        ],
+        "species": "Xatu",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 60,
+        "moves": [
+          "Earthquake",
+          "Psychic",
+          "Rest",
+          "Calm mind"
+        ],
+        "species": "Lunatone",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 60,
+        "moves": [
+          "Sunny day",
+          "Solar beam",
+          "Psychic",
+          "Flamethrower"
+        ],
+        "species": "Solrock",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 797,
+    "constantName": "TRAINER_TATE_AND_LIZA_5",
+    "name": "TATE&LIZA",
+    "trainerClass": "Leader",
+    "pic": "Leader Tate And Liza",
+    "gender": "Male",
+    "music": "Female",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 63,
+        "moves": [
+          "Hypnosis",
+          "Dream eater",
+          "Headbutt",
+          "Protect"
+        ],
+        "species": "Hypno",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 64,
+        "moves": [
+          "Earthquake",
+          "Explosion",
+          "Psychic",
+          "Light screen"
+        ],
+        "species": "Claydol",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 63,
+        "moves": [
+          "Yawn",
+          "Psychic",
+          "Calm mind",
+          "Protect"
+        ],
+        "species": "Slowking",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 64,
+        "moves": [
+          "Psychic",
+          "Rest",
+          "Confuse ray",
+          "Calm mind"
+        ],
+        "species": "Xatu",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 65,
+        "moves": [
+          "Earthquake",
+          "Psychic",
+          "Rest",
+          "Calm mind"
+        ],
+        "species": "Lunatone",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 65,
+        "moves": [
+          "Sunny day",
+          "Solar beam",
+          "Psychic",
+          "Flamethrower"
+        ],
+        "species": "Solrock",
+        "heldItem": "Sitrus berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 798,
+    "constantName": "TRAINER_JUAN_2",
+    "name": "JUAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Juan",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 46,
+        "moves": [
+          "Hypnosis",
+          "Rain dance",
+          "Protect",
+          "Hydro pump"
+        ],
+        "species": "Poliwag",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 46,
+        "moves": [
+          "Rain dance",
+          "Water pulse",
+          "Double team",
+          "Fissure"
+        ],
+        "species": "Whiscash",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Water pulse",
+          "Body slam",
+          "Protect",
+          "Ice beam"
+        ],
+        "species": "Walrein",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 48,
+        "moves": [
+          "Rest",
+          "Crabhammer",
+          "Taunt",
+          "Double team"
+        ],
+        "species": "Crawdaunt",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 51,
+        "moves": [
+          "Water pulse",
+          "Double team",
+          "Ice beam",
+          "Rest"
+        ],
+        "species": "Kingdra",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 799,
+    "constantName": "TRAINER_JUAN_3",
+    "name": "JUAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Juan",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 50,
+        "moves": [
+          "Hypnosis",
+          "Rain dance",
+          "Protect",
+          "Hydro pump"
+        ],
+        "species": "Poliwhirl",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 51,
+        "moves": [
+          "Rain dance",
+          "Water pulse",
+          "Double team",
+          "Fissure"
+        ],
+        "species": "Whiscash",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Water pulse",
+          "Body slam",
+          "Protect",
+          "Ice beam"
+        ],
+        "species": "Walrein",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 53,
+        "moves": [
+          "Rest",
+          "Guillotine",
+          "Taunt",
+          "Double team"
+        ],
+        "species": "Crawdaunt",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 56,
+        "moves": [
+          "Water pulse",
+          "Double team",
+          "Ice beam",
+          "Rest"
+        ],
+        "species": "Kingdra",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 800,
+    "constantName": "TRAINER_JUAN_4",
+    "name": "JUAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Juan",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 56,
+        "moves": [
+          "Hydro pump",
+          "Perish song",
+          "Ice beam",
+          "Confuse ray"
+        ],
+        "species": "Lapras",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 58,
+        "moves": [
+          "Rain dance",
+          "Water pulse",
+          "Double team",
+          "Fissure"
+        ],
+        "species": "Whiscash",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 56,
+        "moves": [
+          "Hypnosis",
+          "Rain dance",
+          "Protect",
+          "Hydro pump"
+        ],
+        "species": "Poliwhirl",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 58,
+        "moves": [
+          "Water pulse",
+          "Body slam",
+          "Protect",
+          "Ice beam"
+        ],
+        "species": "Walrein",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 58,
+        "moves": [
+          "Rest",
+          "Guillotine",
+          "Taunt",
+          "Double team"
+        ],
+        "species": "Crawdaunt",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 61,
+        "moves": [
+          "Water pulse",
+          "Double team",
+          "Ice beam",
+          "Rest"
+        ],
+        "species": "Kingdra",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 801,
+    "constantName": "TRAINER_JUAN_5",
+    "name": "JUAN",
+    "trainerClass": "Leader",
+    "pic": "Leader Juan",
+    "gender": "Male",
+    "music": "Male",
+    "items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "doubleBattle": true,
+    "aiFlags": [
+      "Basic Trainer"
+    ],
+    "party": [
+      {
+        "level": 61,
+        "moves": [
+          "Hydro pump",
+          "Perish song",
+          "Ice beam",
+          "Confuse ray"
+        ],
+        "species": "Lapras",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 63,
+        "moves": [
+          "Rain dance",
+          "Water pulse",
+          "Double team",
+          "Fissure"
+        ],
+        "species": "Whiscash",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 61,
+        "moves": [
+          "Hypnosis",
+          "Rain dance",
+          "Hydro pump",
+          "Perish song"
+        ],
+        "species": "Politoed",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 63,
+        "moves": [
+          "Water pulse",
+          "Body slam",
+          "Protect",
+          "Sheer cold"
+        ],
+        "species": "Walrein",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 63,
+        "moves": [
+          "Rest",
+          "Guillotine",
+          "Taunt",
+          "Double team"
+        ],
+        "species": "Crawdaunt",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      },
+      {
+        "level": 66,
+        "moves": [
+          "Water pulse",
+          "Double team",
+          "Ice beam",
+          "Rest"
+        ],
+        "species": "Kingdra",
+        "heldItem": "Chesto berry",
+        "ivs": {
+          "hp": 31,
+          "attack": 31,
+          "defense": 31,
+          "spAttack": 31,
+          "spDefense": 31,
+          "speed": 31
+        }
+      }
+    ]
+  }
+]

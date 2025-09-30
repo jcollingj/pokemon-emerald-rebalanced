@@ -2,6 +2,8 @@ import { HomePage } from "./components/HomePage";
 import { AbilitiesPage } from "./components/AbilitiesPage";
 import { WeatherPage } from "./components/WeatherPage";
 import { PokemonPage } from "./components/PokemonPage";
+import { TrainersPage } from "./components/TrainersPage";
+import { GymLeadersPage } from "./components/GymLeadersPage";
 import { useRoute } from "./hooks/useRoute";
 import "./index.css";
 
@@ -16,6 +18,10 @@ export function App() {
         return <WeatherPage navigate={navigate} />;
       case '/pokemon':
         return <PokemonPage navigate={navigate} />;
+      case '/trainers':
+        return <TrainersPage navigate={navigate} />;
+      case '/gym-leaders':
+        return <GymLeadersPage navigate={navigate} />;
       case '/':
       default:
         return <HomePage navigate={navigate} />;
