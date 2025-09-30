@@ -141,6 +141,7 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
   const [modificationsExpanded, setModificationsExpanded] = useState(true);
   const [highlightedIndex, setHighlightedIndex] = useState(0);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const isInitialLoad = useRef(true);
 
   interface Ability {
     id: number;
@@ -155,6 +156,16 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
       .then((data) => {
         setPokemon(data);
         setLoading(false);
+
+        // After Pokemon data is loaded, check URL for selected Pokemon
+        const url = new URL(window.location.href);
+        const pokemonId = url.searchParams.get('id');
+        if (pokemonId) {
+          const pokemon = data.find((p: Pokemon) => p.id === parseInt(pokemonId));
+          if (pokemon) {
+            setSelectedPokemon(pokemon);
+          }
+        }
       })
       .catch((err) => {
         console.error("Failed to fetch pokemon:", err);
@@ -162,30 +173,45 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
       });
   }, []);
 
-  // Sync openInfoCards to URL
+  // Sync selectedPokemon and openInfoCards to URL
   useEffect(() => {
-    if (selectedPokemon && openInfoCards.length > 0) {
-      const cardIds = openInfoCards.map(card => card.id).join(',');
-      const url = new URL(window.location.href);
-      url.searchParams.set('cards', cardIds);
+    // Skip URL sync during initial load
+    if (isInitialLoad.current) {
+      return;
+    }
+
+    const url = new URL(window.location.href);
+
+    if (selectedPokemon) {
+      url.searchParams.set('id', selectedPokemon.id.toString());
+
+      if (openInfoCards.length > 0) {
+        const cardIds = openInfoCards.map(card => card.id).join(',');
+        url.searchParams.set('cards', cardIds);
+      } else {
+        url.searchParams.delete('cards');
+      }
+
       window.history.replaceState({}, '', url.toString());
-    } else if (selectedPokemon) {
-      const url = new URL(window.location.href);
+    } else {
+      // Clear all params when no Pokemon is selected
+      url.searchParams.delete('id');
       url.searchParams.delete('cards');
       window.history.replaceState({}, '', url.toString());
     }
   }, [openInfoCards, selectedPokemon]);
 
-  // Restore openInfoCards from URL on Pokemon selection
+  // Restore openInfoCards from URL when Pokemon is first selected from URL
   useEffect(() => {
-    if (selectedPokemon) {
+    if (selectedPokemon && openInfoCards.length === 0 && isInitialLoad.current) {
       const url = new URL(window.location.href);
       const cardsParam = url.searchParams.get('cards');
       if (cardsParam) {
         const cardIds = cardsParam.split(',');
-        const cardsToRestore: Array<{id: string, type: 'move' | 'ability', data: Move | Ability}> = [];
 
         const restoreCards = async () => {
+          const cardsToRestore: Array<{id: string, type: 'move' | 'ability', data: Move | Ability}> = [];
+
           for (const cardId of cardIds) {
             if (cardId.startsWith('move-')) {
               const moveId = cardId.replace('move-', '');
@@ -214,13 +240,22 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
               }
             }
           }
-          setOpenInfoCards(cardsToRestore);
+
+          if (cardsToRestore.length > 0) {
+            setOpenInfoCards(cardsToRestore);
+          }
+
+          // Mark initial load as complete
+          isInitialLoad.current = false;
         };
 
         restoreCards();
+      } else {
+        // No cards to restore, mark initial load as complete
+        isInitialLoad.current = false;
       }
     }
-  }, [selectedPokemon]);
+  }, [selectedPokemon, openInfoCards.length]);
 
   const handleMoveClick = async (moveName: string) => {
     try {
@@ -385,7 +420,10 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
   if (selectedPokemon) {
     return (
       <div className="space-y-4">
-        <Button variant="ghost" onClick={() => setSelectedPokemon(null)}>
+        <Button variant="ghost" onClick={() => {
+          setSelectedPokemon(null);
+          setOpenInfoCards([]);
+        }}>
           <ArrowLeft className="mr-2 h-4 w-4" />
           Back to List
         </Button>
