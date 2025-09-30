@@ -162,6 +162,66 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
       });
   }, []);
 
+  // Sync openInfoCards to URL
+  useEffect(() => {
+    if (selectedPokemon && openInfoCards.length > 0) {
+      const cardIds = openInfoCards.map(card => card.id).join(',');
+      const url = new URL(window.location.href);
+      url.searchParams.set('cards', cardIds);
+      window.history.replaceState({}, '', url.toString());
+    } else if (selectedPokemon) {
+      const url = new URL(window.location.href);
+      url.searchParams.delete('cards');
+      window.history.replaceState({}, '', url.toString());
+    }
+  }, [openInfoCards, selectedPokemon]);
+
+  // Restore openInfoCards from URL on Pokemon selection
+  useEffect(() => {
+    if (selectedPokemon) {
+      const url = new URL(window.location.href);
+      const cardsParam = url.searchParams.get('cards');
+      if (cardsParam) {
+        const cardIds = cardsParam.split(',');
+        const cardsToRestore: Array<{id: string, type: 'move' | 'ability', data: Move | Ability}> = [];
+
+        const restoreCards = async () => {
+          for (const cardId of cardIds) {
+            if (cardId.startsWith('move-')) {
+              const moveId = cardId.replace('move-', '');
+              try {
+                const response = await fetch(`/api/moves/${moveId}`);
+                if (response.ok) {
+                  const moveData = await response.json();
+                  cardsToRestore.push({ id: cardId, type: 'move', data: moveData });
+                }
+              } catch (err) {
+                console.error('Failed to restore move card:', err);
+              }
+            } else if (cardId.startsWith('ability-')) {
+              const abilityId = cardId.replace('ability-', '');
+              try {
+                const response = await fetch('/api/abilities');
+                if (response.ok) {
+                  const abilities: Ability[] = await response.json();
+                  const abilityData = abilities.find(a => a.id === parseInt(abilityId));
+                  if (abilityData) {
+                    cardsToRestore.push({ id: cardId, type: 'ability', data: abilityData });
+                  }
+                }
+              } catch (err) {
+                console.error('Failed to restore ability card:', err);
+              }
+            }
+          }
+          setOpenInfoCards(cardsToRestore);
+        };
+
+        restoreCards();
+      }
+    }
+  }, [selectedPokemon]);
+
   const handleMoveClick = async (moveName: string) => {
     try {
       const response = await fetch(`/api/moves/search?name=${encodeURIComponent(moveName)}`);
