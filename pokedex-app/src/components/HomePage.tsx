@@ -8,6 +8,12 @@ interface HomePageProps {
 
 const pages = [
   {
+    path: '/pokemon',
+    title: 'Pokédex',
+    description: 'Complete Pokédex with stats, abilities, and detailed information for all Pokémon',
+    icon: '📖',
+  },
+  {
     path: '/abilities',
     title: 'Abilities',
     description: 'Browse and search all Pokémon abilities with descriptions and properties',

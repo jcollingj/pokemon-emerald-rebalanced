@@ -1,0 +1,42 @@
+{
+  "name": "Jigglypuff",
+  "modifications": {
+    "implemented": false,
+    "statChanges": {
+      "hp": {
+        "current": 115,
+        "proposed": 130,
+        "notes": "Increase HP to make Jigglypuff more viable as a defensive wall"
+      },
+      "defense": {
+        "current": 20,
+        "proposed": 35,
+        "notes": "Slight defense buff to help survive physical attacks"
+      }
+    },
+    "abilityChanges": [
+      {
+        "type": "add",
+        "ability": "Huge Power",
+        "notes": "Add Huge Power as hidden ability to give Jigglypuff an offensive niche"
+      }
+    ],
+    "moveChanges": [
+      {
+        "move": "Rest",
+        "modification": "When Jigglypuff uses Rest, it wakes up after 1 turn instead of 2",
+        "notes": "Makes Rest more viable for Jigglypuff specifically, plays into the sleeping theme"
+      },
+      {
+        "move": "Sing",
+        "modification": "Accuracy increased to 75% for Jigglypuff only",
+        "notes": "Signature move should be more reliable"
+      }
+    ],
+    "generalNotes": [
+      "Jigglypuff needs buffs to be competitively viable",
+      "Focus on the sleep/rest theme as its unique identity",
+      "Consider making it a bulky support Pokémon with reliable utility moves"
+    ]
+  }
+}

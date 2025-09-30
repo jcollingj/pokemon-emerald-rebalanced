@@ -1,0 +1,35 @@
+{
+  "name": "Delibird",
+  "modifications": {
+    "implemented": true,
+    "statChanges": {
+      "attack": {
+        "current": 55,
+        "proposed": 85,
+        "notes": "Significant attack buff to make Present more threatening"
+      },
+      "speed": {
+        "current": 75,
+        "proposed": 95,
+        "notes": "Increase speed to be a faster support/offense hybrid"
+      },
+      "defense": {
+        "current": 45,
+        "proposed": 65,
+        "notes": "Better bulk to survive at least one hit"
+      }
+    },
+    "moveChanges": [
+      {
+        "move": "Present",
+        "modification": "For Delibird only: Present has 50% chance to heal ally 25% HP, 50% chance to deal 120 BP damage to foe (no self-harm)",
+        "notes": "Make Present actually usable and embody the gift-giving theme better"
+      }
+    ],
+    "generalNotes": [
+      "Delibird is one of the weakest Pokémon and needs major help",
+      "Lean into the support/surprise attacker role",
+      "Present should be its signature gimmick - make it reliable and strong"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Farfetch'd",
+  "modifications": {
+    "implemented": false,
+    "statChanges": {
+      "attack": {
+        "current": 90,
+        "proposed": 110,
+        "notes": "Increase attack to make Farfetch'd a legitimate physical attacker"
+      },
+      "speed": {
+        "current": 60,
+        "proposed": 80,
+        "notes": "Speed buff to help it outpace more threats"
+      }
+    },
+    "abilityChanges": [
+      {
+        "type": "add",
+        "ability": "Sharpness",
+        "notes": "Give Sharpness ability to boost its cutting moves (Slash, Leaf Blade, etc.)"
+      }
+    ],
+    "generalNotes": [
+      "Farfetch'd has always been underpowered and deserves buffs",
+      "Focus on its signature leek/blade theme with slicing moves",
+      "Make it a viable choice attacker with high crit rate potential"
+    ]
+  }
+}
