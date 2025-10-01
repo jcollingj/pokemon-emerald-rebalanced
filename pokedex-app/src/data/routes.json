@@ -1,0 +1,8471 @@
+[
+  {
+    "name": "GRANITE_CAVE_1F",
+    "displayName": "G R A N I T E C A V E 1 F",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 9,
+          "maxLevel": 9
+        },
+        {
+          "species": "Abra",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 6,
+          "maxLevel": 6
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 6,
+          "maxLevel": 6
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 9,
+          "maxLevel": 9
+        }
+      ]
+    }
+  },
+  {
+    "name": "GRANITE_CAVE_B1F",
+    "displayName": "G R A N I T E C A V E B1 F",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 9,
+          "maxLevel": 9
+        },
+        {
+          "species": "Aron",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Aron",
+          "minLevel": 9,
+          "maxLevel": 9
+        },
+        {
+          "species": "Aron",
+          "minLevel": 11,
+          "maxLevel": 11
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Abra",
+          "minLevel": 9,
+          "maxLevel": 9
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 11,
+          "maxLevel": 11
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 9,
+          "maxLevel": 9
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 11,
+          "maxLevel": 11
+        }
+      ]
+    }
+  },
+  {
+    "name": "SEAFLOOR_CAVERN_ROOM1",
+    "displayName": "S E A F L O O R C A V E R N R O O M1",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 29,
+          "maxLevel": 29
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "CAVE_OF_ORIGIN_1F",
+    "displayName": "C A V E O F O R I G I N 1 F",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP1",
+    "displayName": "C A V E O F O R I G I N U N U S E D R U B Y S A P P H I R E M A P1",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "ARTISAN_CAVE_B1F",
+    "displayName": "A R T I S A N C A V E B1 F",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Smeargle",
+          "minLevel": 40,
+          "maxLevel": 40
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 41,
+          "maxLevel": 41
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 42,
+          "maxLevel": 42
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 43,
+          "maxLevel": 43
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 44,
+          "maxLevel": 44
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 45,
+          "maxLevel": 45
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 46,
+          "maxLevel": 46
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 47,
+          "maxLevel": 47
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 48,
+          "maxLevel": 48
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 49,
+          "maxLevel": 49
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 50,
+          "maxLevel": 50
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 50,
+          "maxLevel": 50
+        }
+      ]
+    }
+  },
+  {
+    "name": "ARTISAN_CAVE_1F",
+    "displayName": "A R T I S A N C A V E 1 F",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Smeargle",
+          "minLevel": 40,
+          "maxLevel": 40
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 41,
+          "maxLevel": 41
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 42,
+          "maxLevel": 42
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 43,
+          "maxLevel": 43
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 44,
+          "maxLevel": 44
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 45,
+          "maxLevel": 45
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 46,
+          "maxLevel": 46
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 47,
+          "maxLevel": 47
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 48,
+          "maxLevel": 48
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 49,
+          "maxLevel": 49
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 50,
+          "maxLevel": 50
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 50,
+          "maxLevel": 50
+        }
+      ]
+    }
+  },
+  {
+    "name": "GRANITE_CAVE_B2F",
+    "displayName": "G R A N I T E C A V E B2 F",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Aron",
+          "minLevel": 11,
+          "maxLevel": 11
+        },
+        {
+          "species": "Aron",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 11,
+          "maxLevel": 11
+        },
+        {
+          "species": "Aron",
+          "minLevel": 12,
+          "maxLevel": 12
+        },
+        {
+          "species": "Abra",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 11,
+          "maxLevel": 11
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 12,
+          "maxLevel": 12
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 12,
+          "maxLevel": 12
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 10,
+          "maxLevel": 10
+        }
+      ],
+      "rockSmash": [
+        {
+          "species": "Geodude",
+          "minLevel": 10,
+          "maxLevel": 15
+        },
+        {
+          "species": "Nosepass",
+          "minLevel": 10,
+          "maxLevel": 20
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 5,
+          "maxLevel": 10
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 15,
+          "maxLevel": 20
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 15,
+          "maxLevel": 20
+        }
+      ]
+    }
+  },
+  {
+    "name": "SEAFLOOR_CAVERN_ROOM2",
+    "displayName": "S E A F L O O R C A V E R N R O O M2",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 29,
+          "maxLevel": 29
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP2",
+    "displayName": "C A V E O F O R I G I N U N U S E D R U B Y S A P P H I R E M A P2",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "SEAFLOOR_CAVERN_ROOM3",
+    "displayName": "S E A F L O O R C A V E R N R O O M3",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 29,
+          "maxLevel": 29
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP3",
+    "displayName": "C A V E O F O R I G I N U N U S E D R U B Y S A P P H I R E M A P3",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Sableye",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "SEAFLOOR_CAVERN_ROOM4",
+    "displayName": "S E A F L O O R C A V E R N R O O M4",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 29,
+          "maxLevel": 29
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "SEAFLOOR_CAVERN_ROOM5",
+    "displayName": "S E A F L O O R C A V E R N R O O M5",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 29,
+          "maxLevel": 29
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "SEAFLOOR_CAVERN_ROOM6",
+    "displayName": "S E A F L O O R C A V E R N R O O M6",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 29,
+          "maxLevel": 29
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 30,
+          "maxLevel": 35
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "SEAFLOOR_CAVERN_ROOM7",
+    "displayName": "S E A F L O O R C A V E R N R O O M7",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 29,
+          "maxLevel": 29
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 30,
+          "maxLevel": 35
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "SEAFLOOR_CAVERN_ROOM8",
+    "displayName": "S E A F L O O R C A V E R N R O O M8",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 29,
+          "maxLevel": 29
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "ROUTE101",
+    "displayName": "Route 101",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Pidgey",
+          "minLevel": 2,
+          "maxLevel": 2
+        },
+        {
+          "species": "Rattata",
+          "minLevel": 2,
+          "maxLevel": 2
+        },
+        {
+          "species": "Pidgey",
+          "minLevel": 2,
+          "maxLevel": 2
+        },
+        {
+          "species": "Pidgey",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Rattata",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Caterpie",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Weedle",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Rattata",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Caterpie",
+          "minLevel": 2,
+          "maxLevel": 2
+        },
+        {
+          "species": "Weedle",
+          "minLevel": 2,
+          "maxLevel": 2
+        },
+        {
+          "species": "Pikachu",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Pikachu",
+          "minLevel": 3,
+          "maxLevel": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "ROUTE102",
+    "displayName": "Route 102",
+    "trainers": [
+      {
+        "id": 318,
+        "name": "CALVIN",
+        "trainerClass": "Youngster",
+        "constantName": "TRAINER_CALVIN_1"
+      },
+      {
+        "id": 333,
+        "name": "ALLEN",
+        "trainerClass": "Youngster",
+        "constantName": "TRAINER_ALLEN"
+      },
+      {
+        "id": 603,
+        "name": "TIANA",
+        "trainerClass": "Lass",
+        "constantName": "TRAINER_TIANA"
+      },
+      {
+        "id": 615,
+        "name": "RICK",
+        "trainerClass": "Bug Catcher",
+        "constantName": "TRAINER_RICK"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Poochyena",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Wurmple",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Poochyena",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Wurmple",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Lotad",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Lotad",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Zigzagoon",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Zigzagoon",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Zigzagoon",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Ralts",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Zigzagoon",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Seedot",
+          "minLevel": 3,
+          "maxLevel": 3
+        }
+      ],
+      "water": [
+        {
+          "species": "Marill",
+          "minLevel": 20,
+          "maxLevel": 30
+        },
+        {
+          "species": "Marill",
+          "minLevel": 10,
+          "maxLevel": 20
+        },
+        {
+          "species": "Marill",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Marill",
+          "minLevel": 5,
+          "maxLevel": 10
+        },
+        {
+          "species": "Goldeen",
+          "minLevel": 20,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Corphish",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE103",
+    "displayName": "Route 103",
+    "trainers": [
+      {
+        "id": 36,
+        "name": "DAISY",
+        "trainerClass": "Aroma Lady",
+        "constantName": "TRAINER_DAISY"
+      },
+      {
+        "id": 293,
+        "name": "MIGUEL",
+        "trainerClass": "Pokefan",
+        "constantName": "TRAINER_MIGUEL_1"
+      },
+      {
+        "id": 336,
+        "name": "ANDREW",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_ANDREW"
+      },
+      {
+        "id": 481,
+        "name": "AMY & LIV",
+        "trainerClass": "Twins",
+        "constantName": "TRAINER_AMY_AND_LIV_1"
+      },
+      {
+        "id": 520,
+        "name": "BRENDAN",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_BRENDAN_ROUTE_103_MUDKIP"
+      },
+      {
+        "id": 523,
+        "name": "BRENDAN",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_BRENDAN_ROUTE_103_TREECKO"
+      },
+      {
+        "id": 526,
+        "name": "BRENDAN",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_BRENDAN_ROUTE_103_TORCHIC"
+      },
+      {
+        "id": 529,
+        "name": "MAY",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_MAY_ROUTE_103_MUDKIP"
+      },
+      {
+        "id": 532,
+        "name": "MAY",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_MAY_ROUTE_103_TREECKO"
+      },
+      {
+        "id": 535,
+        "name": "MAY",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_MAY_ROUTE_103_TORCHIC"
+      },
+      {
+        "id": 702,
+        "name": "MARCOS",
+        "trainerClass": "Guitarist",
+        "constantName": "TRAINER_MARCOS"
+      },
+      {
+        "id": 703,
+        "name": "RHETT",
+        "trainerClass": "Black Belt",
+        "constantName": "TRAINER_RHETT"
+      },
+      {
+        "id": 735,
+        "name": "PETE",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_PETE"
+      },
+      {
+        "id": 736,
+        "name": "ISABELLE",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_ISABELLE"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Poochyena",
+          "minLevel": 2,
+          "maxLevel": 2
+        },
+        {
+          "species": "Poochyena",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Poochyena",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Poochyena",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 2,
+          "maxLevel": 2
+        },
+        {
+          "species": "Zigzagoon",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Zigzagoon",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Zigzagoon",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 2,
+          "maxLevel": 2
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 4,
+          "maxLevel": 4
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE104",
+    "displayName": "Route 104",
+    "trainers": [
+      {
+        "id": 114,
+        "name": "CINDY",
+        "trainerClass": "Lady",
+        "constantName": "TRAINER_CINDY_1"
+      },
+      {
+        "id": 136,
+        "name": "WINSTON",
+        "trainerClass": "Rich Boy",
+        "constantName": "TRAINER_WINSTON_1"
+      },
+      {
+        "id": 319,
+        "name": "BILLY",
+        "trainerClass": "Youngster",
+        "constantName": "TRAINER_BILLY"
+      },
+      {
+        "id": 337,
+        "name": "IVAN",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_IVAN"
+      },
+      {
+        "id": 483,
+        "name": "GINA & MIA",
+        "trainerClass": "Twins",
+        "constantName": "TRAINER_GINA_AND_MIA_1"
+      },
+      {
+        "id": 604,
+        "name": "HALEY",
+        "trainerClass": "Lass",
+        "constantName": "TRAINER_HALEY_1"
+      },
+      {
+        "id": 696,
+        "name": "DARIAN",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_DARIAN"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Poochyena",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Wurmple",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Poochyena",
+          "minLevel": 5,
+          "maxLevel": 5
+        },
+        {
+          "species": "Marill",
+          "minLevel": 5,
+          "maxLevel": 5
+        },
+        {
+          "species": "Marill",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Poochyena",
+          "minLevel": 5,
+          "maxLevel": 5
+        },
+        {
+          "species": "Taillow",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Taillow",
+          "minLevel": 5,
+          "maxLevel": 5
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 4,
+          "maxLevel": 4
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 3,
+          "maxLevel": 3
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 5,
+          "maxLevel": 5
+        }
+      ],
+      "water": [
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Magikarp",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Magikarp",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Magikarp",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Magikarp",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE105",
+    "displayName": "Route 105",
+    "trainers": [
+      {
+        "id": 46,
+        "name": "FOSTER",
+        "trainerClass": "Ruin Maniac",
+        "constantName": "TRAINER_FOSTER"
+      },
+      {
+        "id": 151,
+        "name": "LUIS",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_LUIS"
+      },
+      {
+        "id": 152,
+        "name": "DOMINIK",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_DOMINIK"
+      },
+      {
+        "id": 441,
+        "name": "BEVERLY",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_BEVERLY"
+      },
+      {
+        "id": 442,
+        "name": "IMANI",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_IMANI"
+      },
+      {
+        "id": 737,
+        "name": "ANDRES",
+        "trainerClass": "Ruin Maniac",
+        "constantName": "TRAINER_ANDRES_1"
+      },
+      {
+        "id": 738,
+        "name": "JOSUE",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_JOSUE"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE106",
+    "displayName": "Route 106",
+    "trainers": [
+      {
+        "id": 153,
+        "name": "DOUGLAS",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_DOUGLAS"
+      },
+      {
+        "id": 339,
+        "name": "ELLIOT",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_ELLIOT_1"
+      },
+      {
+        "id": 340,
+        "name": "NED",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_NED"
+      },
+      {
+        "id": 443,
+        "name": "KYLA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_KYLA"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE107",
+    "displayName": "Route 107",
+    "trainers": [
+      {
+        "id": 154,
+        "name": "DARRIN",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_DARRIN"
+      },
+      {
+        "id": 155,
+        "name": "TONY",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_TONY_1"
+      },
+      {
+        "id": 444,
+        "name": "DENISE",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_DENISE"
+      },
+      {
+        "id": 445,
+        "name": "BETH",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_BETH"
+      },
+      {
+        "id": 692,
+        "name": "LISA & RAY",
+        "trainerClass": "Sis And Bro",
+        "constantName": "TRAINER_LISA_AND_RAY"
+      },
+      {
+        "id": 739,
+        "name": "CAMRON",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_CAMRON"
+      }
+    ],
+    "items": [],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE108",
+    "displayName": "Route 108",
+    "trainers": [
+      {
+        "id": 156,
+        "name": "JEROME",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_JEROME"
+      },
+      {
+        "id": 157,
+        "name": "MATTHEW",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_MATTHEW"
+      },
+      {
+        "id": 446,
+        "name": "TARA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_TARA"
+      },
+      {
+        "id": 447,
+        "name": "MISSY",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_MISSY"
+      },
+      {
+        "id": 740,
+        "name": "CORY",
+        "trainerClass": "Sailor",
+        "constantName": "TRAINER_CORY_1"
+      },
+      {
+        "id": 741,
+        "name": "CAROLINA",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_CAROLINA"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE109",
+    "displayName": "Route 109",
+    "trainers": [
+      {
+        "id": 57,
+        "name": "LOLA",
+        "trainerClass": "Tuber F",
+        "constantName": "TRAINER_LOLA_1"
+      },
+      {
+        "id": 58,
+        "name": "AUSTINA",
+        "trainerClass": "Tuber F",
+        "constantName": "TRAINER_AUSTINA"
+      },
+      {
+        "id": 59,
+        "name": "GWEN",
+        "trainerClass": "Tuber F",
+        "constantName": "TRAINER_GWEN"
+      },
+      {
+        "id": 64,
+        "name": "RICKY",
+        "trainerClass": "Tuber M",
+        "constantName": "TRAINER_RICKY_1"
+      },
+      {
+        "id": 158,
+        "name": "DAVID",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_DAVID"
+      },
+      {
+        "id": 345,
+        "name": "CARTER",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_CARTER"
+      },
+      {
+        "id": 448,
+        "name": "ALICE",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_ALICE"
+      },
+      {
+        "id": 490,
+        "name": "HUEY",
+        "trainerClass": "Sailor",
+        "constantName": "TRAINER_HUEY"
+      },
+      {
+        "id": 491,
+        "name": "EDMOND",
+        "trainerClass": "Sailor",
+        "constantName": "TRAINER_EDMOND"
+      },
+      {
+        "id": 680,
+        "name": "MEL & PAUL",
+        "trainerClass": "Young Couple",
+        "constantName": "TRAINER_MEL_AND_PAUL"
+      },
+      {
+        "id": 697,
+        "name": "HAILEY",
+        "trainerClass": "Tuber F",
+        "constantName": "TRAINER_HAILEY"
+      },
+      {
+        "id": 698,
+        "name": "CHANDLER",
+        "trainerClass": "Tuber M",
+        "constantName": "TRAINER_CHANDLER"
+      },
+      {
+        "id": 742,
+        "name": "ELIJAH",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_ELIJAH"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE110",
+    "displayName": "Route 110",
+    "trainers": [
+      {
+        "id": 232,
+        "name": "EDWARD",
+        "trainerClass": "Psychic",
+        "constantName": "TRAINER_EDWARD"
+      },
+      {
+        "id": 243,
+        "name": "JACLYN",
+        "trainerClass": "Psychic",
+        "constantName": "TRAINER_JACLYN"
+      },
+      {
+        "id": 302,
+        "name": "ISABEL",
+        "trainerClass": "Pokefan",
+        "constantName": "TRAINER_ISABEL_1"
+      },
+      {
+        "id": 334,
+        "name": "TIMMY",
+        "trainerClass": "Youngster",
+        "constantName": "TRAINER_TIMMY"
+      },
+      {
+        "id": 341,
+        "name": "DALE",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_DALE"
+      },
+      {
+        "id": 351,
+        "name": "JACOB",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_JACOB"
+      },
+      {
+        "id": 352,
+        "name": "ANTHONY",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_ANTHONY"
+      },
+      {
+        "id": 353,
+        "name": "BENJAMIN",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_BENJAMIN_1"
+      },
+      {
+        "id": 358,
+        "name": "ABIGAIL",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_ABIGAIL_1"
+      },
+      {
+        "id": 359,
+        "name": "JASMINE",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_JASMINE"
+      },
+      {
+        "id": 512,
+        "name": "EDWIN",
+        "trainerClass": "Collector",
+        "constantName": "TRAINER_EDWIN_1"
+      },
+      {
+        "id": 521,
+        "name": "BRENDAN",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_BRENDAN_ROUTE_110_MUDKIP"
+      },
+      {
+        "id": 524,
+        "name": "BRENDAN",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_BRENDAN_ROUTE_110_TREECKO"
+      },
+      {
+        "id": 527,
+        "name": "BRENDAN",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_BRENDAN_ROUTE_110_TORCHIC"
+      },
+      {
+        "id": 530,
+        "name": "MAY",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_MAY_ROUTE_110_MUDKIP"
+      },
+      {
+        "id": 533,
+        "name": "MAY",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_MAY_ROUTE_110_TREECKO"
+      },
+      {
+        "id": 536,
+        "name": "MAY",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_MAY_ROUTE_110_TORCHIC"
+      },
+      {
+        "id": 699,
+        "name": "KALEB",
+        "trainerClass": "Pokefan",
+        "constantName": "TRAINER_KALEB"
+      },
+      {
+        "id": 700,
+        "name": "JOSEPH",
+        "trainerClass": "Guitarist",
+        "constantName": "TRAINER_JOSEPH"
+      },
+      {
+        "id": 701,
+        "name": "ALYSSA",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_ALYSSA"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Poochyena",
+          "minLevel": 12,
+          "maxLevel": 12
+        },
+        {
+          "species": "Electrike",
+          "minLevel": 12,
+          "maxLevel": 12
+        },
+        {
+          "species": "Gulpin",
+          "minLevel": 12,
+          "maxLevel": 12
+        },
+        {
+          "species": "Electrike",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Minun",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Minun",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Gulpin",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 12,
+          "maxLevel": 12
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 12,
+          "maxLevel": 12
+        },
+        {
+          "species": "Plusle",
+          "minLevel": 12,
+          "maxLevel": 12
+        },
+        {
+          "species": "Plusle",
+          "minLevel": 13,
+          "maxLevel": 13
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE111",
+    "displayName": "Route 111",
+    "trainers": [
+      {
+        "id": 44,
+        "name": "DUSTY",
+        "trainerClass": "Ruin Maniac",
+        "constantName": "TRAINER_DUSTY_1"
+      },
+      {
+        "id": 78,
+        "name": "WILTON",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_WILTON_1"
+      },
+      {
+        "id": 94,
+        "name": "BROOKE",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_BROOKE_1"
+      },
+      {
+        "id": 189,
+        "name": "DAISUKE",
+        "trainerClass": "Black Belt",
+        "constantName": "TRAINER_DAISUKE"
+      },
+      {
+        "id": 211,
+        "name": "DREW",
+        "trainerClass": "Camper",
+        "constantName": "TRAINER_DREW"
+      },
+      {
+        "id": 212,
+        "name": "BEAU",
+        "trainerClass": "Camper",
+        "constantName": "TRAINER_BEAU"
+      },
+      {
+        "id": 218,
+        "name": "TRAVIS",
+        "trainerClass": "Camper",
+        "constantName": "TRAINER_TRAVIS"
+      },
+      {
+        "id": 292,
+        "name": "VICTOR",
+        "trainerClass": "Winstrate",
+        "constantName": "TRAINER_VICTOR"
+      },
+      {
+        "id": 299,
+        "name": "VICTORIA",
+        "trainerClass": "Winstrate",
+        "constantName": "TRAINER_VICTORIA"
+      },
+      {
+        "id": 312,
+        "name": "VICKY",
+        "trainerClass": "Winstrate",
+        "constantName": "TRAINER_VICKY"
+      },
+      {
+        "id": 469,
+        "name": "HEIDI",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_HEIDI"
+      },
+      {
+        "id": 470,
+        "name": "BECKY",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_BECKY"
+      },
+      {
+        "id": 476,
+        "name": "IRENE",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_IRENE"
+      },
+      {
+        "id": 606,
+        "name": "VIVI",
+        "trainerClass": "Winstrate",
+        "constantName": "TRAINER_VIVI"
+      },
+      {
+        "id": 704,
+        "name": "TYRON",
+        "trainerClass": "Camper",
+        "constantName": "TRAINER_TYRON"
+      },
+      {
+        "id": 705,
+        "name": "CELINA",
+        "trainerClass": "Aroma Lady",
+        "constantName": "TRAINER_CELINA"
+      },
+      {
+        "id": 706,
+        "name": "BIANCA",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_BIANCA"
+      },
+      {
+        "id": 707,
+        "name": "HAYDEN",
+        "trainerClass": "Kindler",
+        "constantName": "TRAINER_HAYDEN"
+      },
+      {
+        "id": 743,
+        "name": "CELIA",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_CELIA"
+      },
+      {
+        "id": 744,
+        "name": "BRYAN",
+        "trainerClass": "Ruin Maniac",
+        "constantName": "TRAINER_BRYAN"
+      },
+      {
+        "id": 745,
+        "name": "BRANDEN",
+        "trainerClass": "Camper",
+        "constantName": "TRAINER_BRANDEN"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Sandshrew",
+          "minLevel": 20,
+          "maxLevel": 20
+        },
+        {
+          "species": "Trapinch",
+          "minLevel": 20,
+          "maxLevel": 20
+        },
+        {
+          "species": "Sandshrew",
+          "minLevel": 21,
+          "maxLevel": 21
+        },
+        {
+          "species": "Trapinch",
+          "minLevel": 21,
+          "maxLevel": 21
+        },
+        {
+          "species": "Baltoy",
+          "minLevel": 19,
+          "maxLevel": 19
+        },
+        {
+          "species": "Baltoy",
+          "minLevel": 21,
+          "maxLevel": 21
+        },
+        {
+          "species": "Sandshrew",
+          "minLevel": 19,
+          "maxLevel": 19
+        },
+        {
+          "species": "Trapinch",
+          "minLevel": 19,
+          "maxLevel": 19
+        },
+        {
+          "species": "Baltoy",
+          "minLevel": 20,
+          "maxLevel": 20
+        },
+        {
+          "species": "Cacnea",
+          "minLevel": 20,
+          "maxLevel": 20
+        },
+        {
+          "species": "Cacnea",
+          "minLevel": 22,
+          "maxLevel": 22
+        },
+        {
+          "species": "Cacnea",
+          "minLevel": 22,
+          "maxLevel": 22
+        }
+      ],
+      "water": [
+        {
+          "species": "Marill",
+          "minLevel": 20,
+          "maxLevel": 30
+        },
+        {
+          "species": "Marill",
+          "minLevel": 10,
+          "maxLevel": 20
+        },
+        {
+          "species": "Marill",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Marill",
+          "minLevel": 5,
+          "maxLevel": 10
+        },
+        {
+          "species": "Goldeen",
+          "minLevel": 20,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Barboach",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      },
+      "rockSmash": [
+        {
+          "species": "Geodude",
+          "minLevel": 10,
+          "maxLevel": 15
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 5,
+          "maxLevel": 10
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 15,
+          "maxLevel": 20
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 15,
+          "maxLevel": 20
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 15,
+          "maxLevel": 20
+        }
+      ]
+    }
+  },
+  {
+    "name": "ROUTE112",
+    "displayName": "Route 112",
+    "trainers": [
+      {
+        "id": 213,
+        "name": "LARRY",
+        "trainerClass": "Camper",
+        "constantName": "TRAINER_LARRY"
+      },
+      {
+        "id": 471,
+        "name": "CAROL",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_CAROL"
+      },
+      {
+        "id": 626,
+        "name": "BRICE",
+        "trainerClass": "Hiker",
+        "constantName": "TRAINER_BRICE"
+      },
+      {
+        "id": 627,
+        "name": "TRENT",
+        "trainerClass": "Hiker",
+        "constantName": "TRAINER_TRENT_1"
+      },
+      {
+        "id": 746,
+        "name": "BRYANT",
+        "trainerClass": "Kindler",
+        "constantName": "TRAINER_BRYANT"
+      },
+      {
+        "id": 747,
+        "name": "SHAYLA",
+        "trainerClass": "Aroma Lady",
+        "constantName": "TRAINER_SHAYLA"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Numel",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Numel",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Marill",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Numel",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Numel",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Marill",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Numel",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Marill",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Numel",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Numel",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Numel",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Numel",
+          "minLevel": 16,
+          "maxLevel": 16
+        }
+      ]
+    }
+  },
+  {
+    "name": "ROUTE113",
+    "displayName": "Route 113",
+    "trainers": [
+      {
+        "id": 326,
+        "name": "JAYLEN",
+        "trainerClass": "Youngster",
+        "constantName": "TRAINER_JAYLEN"
+      },
+      {
+        "id": 327,
+        "name": "DILLON",
+        "trainerClass": "Youngster",
+        "constantName": "TRAINER_DILLON"
+      },
+      {
+        "id": 419,
+        "name": "LAO",
+        "trainerClass": "Ninja Boy",
+        "constantName": "TRAINER_LAO_1"
+      },
+      {
+        "id": 420,
+        "name": "LUNG",
+        "trainerClass": "Ninja Boy",
+        "constantName": "TRAINER_LUNG"
+      },
+      {
+        "id": 434,
+        "name": "MADELINE",
+        "trainerClass": "Parasol Lady",
+        "constantName": "TRAINER_MADELINE_1"
+      },
+      {
+        "id": 677,
+        "name": "TORI & TIA",
+        "trainerClass": "Twins",
+        "constantName": "TRAINER_TORI_AND_TIA"
+      },
+      {
+        "id": 708,
+        "name": "SOPHIE",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_SOPHIE"
+      },
+      {
+        "id": 709,
+        "name": "COBY",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_COBY"
+      },
+      {
+        "id": 710,
+        "name": "LAWRENCE",
+        "trainerClass": "Camper",
+        "constantName": "TRAINER_LAWRENCE"
+      },
+      {
+        "id": 711,
+        "name": "WYATT",
+        "trainerClass": "Pokemaniac",
+        "constantName": "TRAINER_WYATT"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Spinda",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Spinda",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Slugma",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Spinda",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Spinda",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Slugma",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Spinda",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Slugma",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Spinda",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Skarmory",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Spinda",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Skarmory",
+          "minLevel": 16,
+          "maxLevel": 16
+        }
+      ]
+    }
+  },
+  {
+    "name": "ROUTE114",
+    "displayName": "Route 114",
+    "trainers": [
+      {
+        "id": 143,
+        "name": "STEVE",
+        "trainerClass": "Pokemaniac",
+        "constantName": "TRAINER_STEVE_1"
+      },
+      {
+        "id": 206,
+        "name": "BERNIE",
+        "trainerClass": "Kindler",
+        "constantName": "TRAINER_BERNIE_1"
+      },
+      {
+        "id": 214,
+        "name": "SHANE",
+        "trainerClass": "Camper",
+        "constantName": "TRAINER_SHANE"
+      },
+      {
+        "id": 338,
+        "name": "CLAUDE",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_CLAUDE"
+      },
+      {
+        "id": 342,
+        "name": "NOLAN",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_NOLAN"
+      },
+      {
+        "id": 472,
+        "name": "NANCY",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_NANCY"
+      },
+      {
+        "id": 628,
+        "name": "LENNY",
+        "trainerClass": "Hiker",
+        "constantName": "TRAINER_LENNY"
+      },
+      {
+        "id": 629,
+        "name": "LUCAS",
+        "trainerClass": "Hiker",
+        "constantName": "TRAINER_LUCAS_1"
+      },
+      {
+        "id": 679,
+        "name": "TYRA & IVY",
+        "trainerClass": "Sr And Jr",
+        "constantName": "TRAINER_TYRA_AND_IVY"
+      },
+      {
+        "id": 712,
+        "name": "ANGELINA",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_ANGELINA"
+      },
+      {
+        "id": 713,
+        "name": "KAI",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_KAI"
+      },
+      {
+        "id": 714,
+        "name": "CHARLOTTE",
+        "trainerClass": "Picnicker",
+        "constantName": "TRAINER_CHARLOTTE"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Swablu",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Lotad",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Swablu",
+          "minLevel": 17,
+          "maxLevel": 17
+        },
+        {
+          "species": "Swablu",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Lotad",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Lombre",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Lombre",
+          "minLevel": 16,
+          "maxLevel": 16
+        },
+        {
+          "species": "Lombre",
+          "minLevel": 18,
+          "maxLevel": 18
+        },
+        {
+          "species": "Seviper",
+          "minLevel": 17,
+          "maxLevel": 17
+        },
+        {
+          "species": "Seviper",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Seviper",
+          "minLevel": 17,
+          "maxLevel": 17
+        },
+        {
+          "species": "Nuzleaf",
+          "minLevel": 15,
+          "maxLevel": 15
+        }
+      ],
+      "water": [
+        {
+          "species": "Marill",
+          "minLevel": 20,
+          "maxLevel": 30
+        },
+        {
+          "species": "Marill",
+          "minLevel": 10,
+          "maxLevel": 20
+        },
+        {
+          "species": "Marill",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Marill",
+          "minLevel": 5,
+          "maxLevel": 10
+        },
+        {
+          "species": "Goldeen",
+          "minLevel": 20,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Barboach",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      },
+      "rockSmash": [
+        {
+          "species": "Geodude",
+          "minLevel": 10,
+          "maxLevel": 15
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 5,
+          "maxLevel": 10
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 15,
+          "maxLevel": 20
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 15,
+          "maxLevel": 20
+        },
+        {
+          "species": "Geodude",
+          "minLevel": 15,
+          "maxLevel": 20
+        }
+      ]
+    }
+  },
+  {
+    "name": "ROUTE115",
+    "displayName": "Route 115",
+    "trainers": [
+      {
+        "id": 182,
+        "name": "KOICHI",
+        "trainerClass": "Black Belt",
+        "constantName": "TRAINER_KOICHI"
+      },
+      {
+        "id": 183,
+        "name": "NOB",
+        "trainerClass": "Black Belt",
+        "constantName": "TRAINER_NOB_1"
+      },
+      {
+        "id": 307,
+        "name": "TIMOTHY",
+        "trainerClass": "Expert",
+        "constantName": "TRAINER_TIMOTHY_1"
+      },
+      {
+        "id": 427,
+        "name": "CYNDY",
+        "trainerClass": "Battle Girl",
+        "constantName": "TRAINER_CYNDY_1"
+      },
+      {
+        "id": 513,
+        "name": "HECTOR",
+        "trainerClass": "Collector",
+        "constantName": "TRAINER_HECTOR"
+      },
+      {
+        "id": 748,
+        "name": "KYRA",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_KYRA"
+      },
+      {
+        "id": 749,
+        "name": "JAIDEN",
+        "trainerClass": "Ninja Boy",
+        "constantName": "TRAINER_JAIDEN"
+      },
+      {
+        "id": 750,
+        "name": "ALIX",
+        "trainerClass": "Psychic",
+        "constantName": "TRAINER_ALIX"
+      },
+      {
+        "id": 751,
+        "name": "HELENE",
+        "trainerClass": "Battle Girl",
+        "constantName": "TRAINER_HELENE"
+      },
+      {
+        "id": 752,
+        "name": "MARLENE",
+        "trainerClass": "Psychic",
+        "constantName": "TRAINER_MARLENE"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Swablu",
+          "minLevel": 23,
+          "maxLevel": 23
+        },
+        {
+          "species": "Taillow",
+          "minLevel": 23,
+          "maxLevel": 23
+        },
+        {
+          "species": "Swablu",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Taillow",
+          "minLevel": 24,
+          "maxLevel": 24
+        },
+        {
+          "species": "Taillow",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Swellow",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Jigglypuff",
+          "minLevel": 24,
+          "maxLevel": 24
+        },
+        {
+          "species": "Jigglypuff",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 24,
+          "maxLevel": 24
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 24,
+          "maxLevel": 24
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 25,
+          "maxLevel": 25
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE116",
+    "displayName": "Route 116",
+    "trainers": [
+      {
+        "id": 273,
+        "name": "JERRY",
+        "trainerClass": "School Kid",
+        "constantName": "TRAINER_JERRY_1"
+      },
+      {
+        "id": 280,
+        "name": "KAREN",
+        "trainerClass": "School Kid",
+        "constantName": "TRAINER_KAREN_1"
+      },
+      {
+        "id": 322,
+        "name": "JOEY",
+        "trainerClass": "Youngster",
+        "constantName": "TRAINER_JOEY"
+      },
+      {
+        "id": 605,
+        "name": "JANICE",
+        "trainerClass": "Lass",
+        "constantName": "TRAINER_JANICE"
+      },
+      {
+        "id": 617,
+        "name": "JOSE",
+        "trainerClass": "Bug Catcher",
+        "constantName": "TRAINER_JOSE"
+      },
+      {
+        "id": 631,
+        "name": "CLARK",
+        "trainerClass": "Hiker",
+        "constantName": "TRAINER_CLARK"
+      },
+      {
+        "id": 694,
+        "name": "DAWSON",
+        "trainerClass": "Rich Boy",
+        "constantName": "TRAINER_DAWSON"
+      },
+      {
+        "id": 695,
+        "name": "SARAH",
+        "trainerClass": "Lady",
+        "constantName": "TRAINER_SARAH"
+      },
+      {
+        "id": 753,
+        "name": "DEVAN",
+        "trainerClass": "Hiker",
+        "constantName": "TRAINER_DEVAN"
+      },
+      {
+        "id": 754,
+        "name": "JOHNSON",
+        "trainerClass": "Youngster",
+        "constantName": "TRAINER_JOHNSON"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Poochyena",
+          "minLevel": 6,
+          "maxLevel": 6
+        },
+        {
+          "species": "Whismur",
+          "minLevel": 6,
+          "maxLevel": 6
+        },
+        {
+          "species": "Nincada",
+          "minLevel": 6,
+          "maxLevel": 6
+        },
+        {
+          "species": "Abra",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Nincada",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Taillow",
+          "minLevel": 6,
+          "maxLevel": 6
+        },
+        {
+          "species": "Taillow",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Taillow",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Poochyena",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Poochyena",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Skitty",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Skitty",
+          "minLevel": 8,
+          "maxLevel": 8
+        }
+      ]
+    }
+  },
+  {
+    "name": "ROUTE117",
+    "displayName": "Route 117",
+    "trainers": [
+      {
+        "id": 227,
+        "name": "DEREK",
+        "trainerClass": "Bug Maniac",
+        "constantName": "TRAINER_DEREK"
+      },
+      {
+        "id": 287,
+        "name": "ANNA & MEG",
+        "trainerClass": "Sr And Jr",
+        "constantName": "TRAINER_ANNA_AND_MEG_1"
+      },
+      {
+        "id": 364,
+        "name": "DYLAN",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_DYLAN_1"
+      },
+      {
+        "id": 369,
+        "name": "MARIA",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_MARIA_1"
+      },
+      {
+        "id": 538,
+        "name": "ISAAC",
+        "trainerClass": "Pkmn Breeder",
+        "constantName": "TRAINER_ISAAC_1"
+      },
+      {
+        "id": 545,
+        "name": "LYDIA",
+        "trainerClass": "Pkmn Breeder",
+        "constantName": "TRAINER_LYDIA_1"
+      },
+      {
+        "id": 755,
+        "name": "MELINA",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_MELINA"
+      },
+      {
+        "id": 756,
+        "name": "BRANDI",
+        "trainerClass": "Psychic",
+        "constantName": "TRAINER_BRANDI"
+      },
+      {
+        "id": 757,
+        "name": "AISHA",
+        "trainerClass": "Battle Girl",
+        "constantName": "TRAINER_AISHA"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Poochyena",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Poochyena",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Marill",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Illumise",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Illumise",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Illumise",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Illumise",
+          "minLevel": 14,
+          "maxLevel": 14
+        },
+        {
+          "species": "Volbeat",
+          "minLevel": 13,
+          "maxLevel": 13
+        },
+        {
+          "species": "Seedot",
+          "minLevel": 13,
+          "maxLevel": 13
+        }
+      ],
+      "water": [
+        {
+          "species": "Marill",
+          "minLevel": 20,
+          "maxLevel": 30
+        },
+        {
+          "species": "Marill",
+          "minLevel": 10,
+          "maxLevel": 20
+        },
+        {
+          "species": "Marill",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Marill",
+          "minLevel": 5,
+          "maxLevel": 10
+        },
+        {
+          "species": "Goldeen",
+          "minLevel": 20,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Corphish",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Corphish",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE118",
+    "displayName": "Route 118",
+    "trainers": [
+      {
+        "id": 37,
+        "name": "ROSE",
+        "trainerClass": "Aroma Lady",
+        "constantName": "TRAINER_ROSE_1"
+      },
+      {
+        "id": 196,
+        "name": "DALTON",
+        "trainerClass": "Guitarist",
+        "constantName": "TRAINER_DALTON_1"
+      },
+      {
+        "id": 343,
+        "name": "BARNY",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_BARNY"
+      },
+      {
+        "id": 344,
+        "name": "WADE",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_WADE"
+      },
+      {
+        "id": 398,
+        "name": "PERRY",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_PERRY"
+      },
+      {
+        "id": 408,
+        "name": "CHESTER",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_CHESTER"
+      },
+      {
+        "id": 715,
+        "name": "DEANDRE",
+        "trainerClass": "Youngster",
+        "constantName": "TRAINER_DEANDRE"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zigzagoon",
+          "minLevel": 24,
+          "maxLevel": 24
+        },
+        {
+          "species": "Electrike",
+          "minLevel": 24,
+          "maxLevel": 24
+        },
+        {
+          "species": "Zigzagoon",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Electrike",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Linoone",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Manectric",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Kecleon",
+          "minLevel": 25,
+          "maxLevel": 25
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE119",
+    "displayName": "Route 119",
+    "trainers": [
+      {
+        "id": 223,
+        "name": "BRENT",
+        "trainerClass": "Bug Maniac",
+        "constantName": "TRAINER_BRENT"
+      },
+      {
+        "id": 224,
+        "name": "DONALD",
+        "trainerClass": "Bug Maniac",
+        "constantName": "TRAINER_DONALD"
+      },
+      {
+        "id": 225,
+        "name": "TAYLOR",
+        "trainerClass": "Bug Maniac",
+        "constantName": "TRAINER_TAYLOR"
+      },
+      {
+        "id": 399,
+        "name": "HUGH",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_HUGH"
+      },
+      {
+        "id": 400,
+        "name": "PHIL",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_PHIL"
+      },
+      {
+        "id": 415,
+        "name": "YASU",
+        "trainerClass": "Ninja Boy",
+        "constantName": "TRAINER_YASU"
+      },
+      {
+        "id": 416,
+        "name": "TAKASHI",
+        "trainerClass": "Ninja Boy",
+        "constantName": "TRAINER_TAKASHI"
+      },
+      {
+        "id": 522,
+        "name": "BRENDAN",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_BRENDAN_ROUTE_119_MUDKIP"
+      },
+      {
+        "id": 525,
+        "name": "BRENDAN",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_BRENDAN_ROUTE_119_TREECKO"
+      },
+      {
+        "id": 528,
+        "name": "BRENDAN",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_BRENDAN_ROUTE_119_TORCHIC"
+      },
+      {
+        "id": 531,
+        "name": "MAY",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_MAY_ROUTE_119_MUDKIP"
+      },
+      {
+        "id": 534,
+        "name": "MAY",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_MAY_ROUTE_119_TREECKO"
+      },
+      {
+        "id": 537,
+        "name": "MAY",
+        "trainerClass": "Rival",
+        "constantName": "TRAINER_MAY_ROUTE_119_TORCHIC"
+      },
+      {
+        "id": 552,
+        "name": "JACKSON",
+        "trainerClass": "Pkmn Ranger",
+        "constantName": "TRAINER_JACKSON_1"
+      },
+      {
+        "id": 559,
+        "name": "CATHERINE",
+        "trainerClass": "Pkmn Ranger",
+        "constantName": "TRAINER_CATHERINE_1"
+      },
+      {
+        "id": 618,
+        "name": "DOUG",
+        "trainerClass": "Bug Catcher",
+        "constantName": "TRAINER_DOUG"
+      },
+      {
+        "id": 619,
+        "name": "GREG",
+        "trainerClass": "Bug Catcher",
+        "constantName": "TRAINER_GREG"
+      },
+      {
+        "id": 620,
+        "name": "KENT",
+        "trainerClass": "Bug Catcher",
+        "constantName": "TRAINER_KENT"
+      },
+      {
+        "id": 651,
+        "name": "HIDEO",
+        "trainerClass": "Ninja Boy",
+        "constantName": "TRAINER_HIDEO"
+      },
+      {
+        "id": 693,
+        "name": "CHRIS",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_CHRIS"
+      },
+      {
+        "id": 759,
+        "name": "FABIAN",
+        "trainerClass": "Guitarist",
+        "constantName": "TRAINER_FABIAN"
+      },
+      {
+        "id": 760,
+        "name": "DAYTON",
+        "trainerClass": "Kindler",
+        "constantName": "TRAINER_DAYTON"
+      },
+      {
+        "id": 761,
+        "name": "RACHEL",
+        "trainerClass": "Parasol Lady",
+        "constantName": "TRAINER_RACHEL"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zigzagoon",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Linoone",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Zigzagoon",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Linoone",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 24,
+          "maxLevel": 24
+        },
+        {
+          "species": "Tropius",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Tropius",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Tropius",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Kecleon",
+          "minLevel": 25,
+          "maxLevel": 25
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Carvanha",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Carvanha",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE120",
+    "displayName": "Route 120",
+    "trainers": [
+      {
+        "id": 45,
+        "name": "CHIP",
+        "trainerClass": "Ruin Maniac",
+        "constantName": "TRAINER_CHIP"
+      },
+      {
+        "id": 95,
+        "name": "JENNIFER",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_JENNIFER"
+      },
+      {
+        "id": 226,
+        "name": "JEFFREY",
+        "trainerClass": "Bug Maniac",
+        "constantName": "TRAINER_JEFFREY_1"
+      },
+      {
+        "id": 405,
+        "name": "COLIN",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_COLIN"
+      },
+      {
+        "id": 406,
+        "name": "ROBERT",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_ROBERT_1"
+      },
+      {
+        "id": 435,
+        "name": "CLARISSA",
+        "trainerClass": "Parasol Lady",
+        "constantName": "TRAINER_CLARISSA"
+      },
+      {
+        "id": 436,
+        "name": "ANGELICA",
+        "trainerClass": "Parasol Lady",
+        "constantName": "TRAINER_ANGELICA"
+      },
+      {
+        "id": 553,
+        "name": "LORENZO",
+        "trainerClass": "Pkmn Ranger",
+        "constantName": "TRAINER_LORENZO"
+      },
+      {
+        "id": 560,
+        "name": "JENNA",
+        "trainerClass": "Pkmn Ranger",
+        "constantName": "TRAINER_JENNA"
+      },
+      {
+        "id": 652,
+        "name": "KEIGO",
+        "trainerClass": "Ninja Boy",
+        "constantName": "TRAINER_KEIGO"
+      },
+      {
+        "id": 653,
+        "name": "RILEY",
+        "trainerClass": "Ninja Boy",
+        "constantName": "TRAINER_RILEY"
+      },
+      {
+        "id": 762,
+        "name": "LEONEL",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_LEONEL"
+      },
+      {
+        "id": 763,
+        "name": "CALLIE",
+        "trainerClass": "Battle Girl",
+        "constantName": "TRAINER_CALLIE"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Poochyena",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Mightyena",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Mightyena",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Marill",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Marill",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Absol",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Absol",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Kecleon",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Seedot",
+          "minLevel": 25,
+          "maxLevel": 25
+        }
+      ],
+      "water": [
+        {
+          "species": "Marill",
+          "minLevel": 20,
+          "maxLevel": 30
+        },
+        {
+          "species": "Marill",
+          "minLevel": 10,
+          "maxLevel": 20
+        },
+        {
+          "species": "Marill",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Marill",
+          "minLevel": 5,
+          "maxLevel": 10
+        },
+        {
+          "species": "Goldeen",
+          "minLevel": 20,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Goldeen",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Barboach",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Barboach",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE121",
+    "displayName": "Route 121",
+    "trainers": [
+      {
+        "id": 11,
+        "name": "MARCEL",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_MARCEL"
+      },
+      {
+        "id": 107,
+        "name": "TAMMY",
+        "trainerClass": "Hex Maniac",
+        "constantName": "TRAINER_TAMMY"
+      },
+      {
+        "id": 127,
+        "name": "JESSICA",
+        "trainerClass": "Beauty",
+        "constantName": "TRAINER_JESSICA_1"
+      },
+      {
+        "id": 254,
+        "name": "WALTER",
+        "trainerClass": "Gentleman",
+        "constantName": "TRAINER_WALTER_1"
+      },
+      {
+        "id": 286,
+        "name": "KATE & JOY",
+        "trainerClass": "Sr And Jr",
+        "constantName": "TRAINER_KATE_AND_JOY"
+      },
+      {
+        "id": 300,
+        "name": "VANESSA",
+        "trainerClass": "Pokefan",
+        "constantName": "TRAINER_VANESSA"
+      },
+      {
+        "id": 764,
+        "name": "CALE",
+        "trainerClass": "Bug Maniac",
+        "constantName": "TRAINER_CALE"
+      },
+      {
+        "id": 765,
+        "name": "MYLES",
+        "trainerClass": "Pkmn Breeder",
+        "constantName": "TRAINER_MYLES"
+      },
+      {
+        "id": 766,
+        "name": "PAT",
+        "trainerClass": "Pkmn Breeder",
+        "constantName": "TRAINER_PAT"
+      },
+      {
+        "id": 767,
+        "name": "CRISTIN",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_CRISTIN_1"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Poochyena",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Shuppet",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Mightyena",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Shuppet",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Mightyena",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Gloom",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Kecleon",
+          "minLevel": 25,
+          "maxLevel": 25
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE122",
+    "displayName": "Route 122",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE123",
+    "displayName": "Route 123",
+    "trainers": [
+      {
+        "id": 12,
+        "name": "ALBERTO",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_ALBERTO"
+      },
+      {
+        "id": 13,
+        "name": "ED",
+        "trainerClass": "Collector",
+        "constantName": "TRAINER_ED"
+      },
+      {
+        "id": 29,
+        "name": "FREDRICK",
+        "trainerClass": "Expert",
+        "constantName": "TRAINER_FREDRICK"
+      },
+      {
+        "id": 39,
+        "name": "VIOLET",
+        "trainerClass": "Aroma Lady",
+        "constantName": "TRAINER_VIOLET"
+      },
+      {
+        "id": 75,
+        "name": "BRAXTON",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_BRAXTON"
+      },
+      {
+        "id": 92,
+        "name": "WENDY",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_WENDY"
+      },
+      {
+        "id": 106,
+        "name": "KINDRA",
+        "trainerClass": "Hex Maniac",
+        "constantName": "TRAINER_KINDRA"
+      },
+      {
+        "id": 195,
+        "name": "FERNANDO",
+        "trainerClass": "Guitarist",
+        "constantName": "TRAINER_FERNANDO_1"
+      },
+      {
+        "id": 238,
+        "name": "CAMERON",
+        "trainerClass": "Psychic",
+        "constantName": "TRAINER_CAMERON_1"
+      },
+      {
+        "id": 249,
+        "name": "JACKI",
+        "trainerClass": "Psychic",
+        "constantName": "TRAINER_JACKI_1"
+      },
+      {
+        "id": 484,
+        "name": "MIU & YUKI",
+        "trainerClass": "Twins",
+        "constantName": "TRAINER_MIU_AND_YUKI"
+      },
+      {
+        "id": 503,
+        "name": "JAZMYN",
+        "trainerClass": "Cooltrainer 2",
+        "constantName": "TRAINER_JAZMYN"
+      },
+      {
+        "id": 504,
+        "name": "JONAS",
+        "trainerClass": "Ninja Boy",
+        "constantName": "TRAINER_JONAS"
+      },
+      {
+        "id": 505,
+        "name": "KAYLEY",
+        "trainerClass": "Parasol Lady",
+        "constantName": "TRAINER_KAYLEY"
+      },
+      {
+        "id": 539,
+        "name": "DAVIS",
+        "trainerClass": "Bug Catcher",
+        "constantName": "TRAINER_DAVIS"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Poochyena",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Shuppet",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Mightyena",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Shuppet",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Mightyena",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Oddish",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Gloom",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 27,
+          "maxLevel": 27
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Kecleon",
+          "minLevel": 25,
+          "maxLevel": 25
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE124",
+    "displayName": "Route 124",
+    "trainers": [
+      {
+        "id": 15,
+        "name": "DECLAN",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_DECLAN"
+      },
+      {
+        "id": 159,
+        "name": "SPENCER",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_SPENCER"
+      },
+      {
+        "id": 160,
+        "name": "ROLAND",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_ROLAND"
+      },
+      {
+        "id": 174,
+        "name": "CHAD",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_CHAD"
+      },
+      {
+        "id": 449,
+        "name": "JENNY",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_JENNY_1"
+      },
+      {
+        "id": 450,
+        "name": "GRACE",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_GRACE"
+      },
+      {
+        "id": 595,
+        "name": "ISABELLA",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_ISABELLA"
+      },
+      {
+        "id": 687,
+        "name": "LILA & ROY",
+        "trainerClass": "Sis And Bro",
+        "constantName": "TRAINER_LILA_AND_ROY_1"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE125",
+    "displayName": "Route 125",
+    "trainers": [
+      {
+        "id": 161,
+        "name": "NOLEN",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_NOLEN"
+      },
+      {
+        "id": 162,
+        "name": "STAN",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_STAN"
+      },
+      {
+        "id": 403,
+        "name": "PRESLEY",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_PRESLEY"
+      },
+      {
+        "id": 451,
+        "name": "TANYA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_TANYA"
+      },
+      {
+        "id": 452,
+        "name": "SHARON",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_SHARON"
+      },
+      {
+        "id": 492,
+        "name": "ERNEST",
+        "trainerClass": "Sailor",
+        "constantName": "TRAINER_ERNEST_1"
+      },
+      {
+        "id": 506,
+        "name": "AURON",
+        "trainerClass": "Expert",
+        "constantName": "TRAINER_AURON"
+      },
+      {
+        "id": 678,
+        "name": "KIM & IRIS",
+        "trainerClass": "Sr And Jr",
+        "constantName": "TRAINER_KIM_AND_IRIS"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE126",
+    "displayName": "Route 126",
+    "trainers": [
+      {
+        "id": 163,
+        "name": "BARRY",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_BARRY"
+      },
+      {
+        "id": 164,
+        "name": "DEAN",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_DEAN"
+      },
+      {
+        "id": 377,
+        "name": "PABLO",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_PABLO_1"
+      },
+      {
+        "id": 383,
+        "name": "ISOBEL",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_ISOBEL"
+      },
+      {
+        "id": 453,
+        "name": "NIKKI",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_NIKKI"
+      },
+      {
+        "id": 454,
+        "name": "BRENDA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_BRENDA"
+      },
+      {
+        "id": 459,
+        "name": "SIENNA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_SIENNA"
+      },
+      {
+        "id": 576,
+        "name": "LEONARDO",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_LEONARDO"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE127",
+    "displayName": "Route 127",
+    "trainers": [
+      {
+        "id": 374,
+        "name": "CAMDEN",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_CAMDEN"
+      },
+      {
+        "id": 384,
+        "name": "DONNY",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_DONNY"
+      },
+      {
+        "id": 577,
+        "name": "ATHENA",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_ATHENA"
+      },
+      {
+        "id": 667,
+        "name": "JONAH",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_JONAH"
+      },
+      {
+        "id": 668,
+        "name": "HENRY",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_HENRY"
+      },
+      {
+        "id": 669,
+        "name": "ROGER",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_ROGER"
+      },
+      {
+        "id": 672,
+        "name": "KOJI",
+        "trainerClass": "Black Belt",
+        "constantName": "TRAINER_KOJI_1"
+      },
+      {
+        "id": 674,
+        "name": "AIDAN",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_AIDAN"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE128",
+    "displayName": "Route 128",
+    "trainers": [
+      {
+        "id": 376,
+        "name": "ISAIAH",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_ISAIAH_1"
+      },
+      {
+        "id": 386,
+        "name": "KATELYN",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_KATELYN_1"
+      },
+      {
+        "id": 464,
+        "name": "CARLEE",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_CARLEE"
+      },
+      {
+        "id": 578,
+        "name": "HARRISON",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_HARRISON"
+      },
+      {
+        "id": 670,
+        "name": "ALEXA",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_ALEXA"
+      },
+      {
+        "id": 671,
+        "name": "RUBEN",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_RUBEN"
+      },
+      {
+        "id": 673,
+        "name": "WAYNE",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_WAYNE"
+      }
+    ],
+    "items": [],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Luvdisc",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Luvdisc",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Corsola",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE129",
+    "displayName": "Route 129",
+    "trainers": [
+      {
+        "id": 378,
+        "name": "CHASE",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_CHASE"
+      },
+      {
+        "id": 387,
+        "name": "ALLISON",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_ALLISON"
+      },
+      {
+        "id": 580,
+        "name": "CLARENCE",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_CLARENCE"
+      },
+      {
+        "id": 675,
+        "name": "REED",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_REED"
+      },
+      {
+        "id": 676,
+        "name": "TISHA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_TISHA"
+      }
+    ],
+    "items": [],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wailord",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE130",
+    "displayName": "Route 130",
+    "trainers": [
+      {
+        "id": 165,
+        "name": "RODNEY",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_RODNEY"
+      },
+      {
+        "id": 168,
+        "name": "SANTIAGO",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_SANTIAGO"
+      },
+      {
+        "id": 455,
+        "name": "KATIE",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_KATIE"
+      }
+    ],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Wynaut",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 25,
+          "maxLevel": 25
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 40,
+          "maxLevel": 40
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 20,
+          "maxLevel": 20
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 45,
+          "maxLevel": 45
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 15,
+          "maxLevel": 15
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 50,
+          "maxLevel": 50
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 5,
+          "maxLevel": 5
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Wynaut",
+          "minLevel": 5,
+          "maxLevel": 5
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE131",
+    "displayName": "Route 131",
+    "trainers": [
+      {
+        "id": 166,
+        "name": "RICHARD",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_RICHARD"
+      },
+      {
+        "id": 167,
+        "name": "HERMAN",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_HERMAN"
+      },
+      {
+        "id": 171,
+        "name": "KEVIN",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_KEVIN"
+      },
+      {
+        "id": 385,
+        "name": "TALIA",
+        "trainerClass": "Triathlete",
+        "constantName": "TRAINER_TALIA"
+      },
+      {
+        "id": 456,
+        "name": "SUSIE",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_SUSIE"
+      },
+      {
+        "id": 457,
+        "name": "KARA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_KARA"
+      },
+      {
+        "id": 686,
+        "name": "RELI & IAN",
+        "trainerClass": "Sis And Bro",
+        "constantName": "TRAINER_RELI_AND_IAN"
+      }
+    ],
+    "items": [],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE132",
+    "displayName": "Route 132",
+    "trainers": [
+      {
+        "id": 169,
+        "name": "GILBERT",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_GILBERT"
+      },
+      {
+        "id": 181,
+        "name": "KIYO",
+        "trainerClass": "Black Belt",
+        "constantName": "TRAINER_KIYO"
+      },
+      {
+        "id": 350,
+        "name": "RONALD",
+        "trainerClass": "Fisherman",
+        "constantName": "TRAINER_RONALD"
+      },
+      {
+        "id": 458,
+        "name": "DANA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_DANA"
+      },
+      {
+        "id": 594,
+        "name": "PAXTON",
+        "trainerClass": "Expert",
+        "constantName": "TRAINER_PAXTON"
+      },
+      {
+        "id": 598,
+        "name": "JONATHAN",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_JONATHAN"
+      },
+      {
+        "id": 733,
+        "name": "DARCY",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_DARCY"
+      },
+      {
+        "id": 758,
+        "name": "MAKAYLA",
+        "trainerClass": "Expert",
+        "constantName": "TRAINER_MAKAYLA"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Horsea",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE133",
+    "displayName": "Route 133",
+    "trainers": [
+      {
+        "id": 88,
+        "name": "WARREN",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_WARREN"
+      },
+      {
+        "id": 137,
+        "name": "MOLLIE",
+        "trainerClass": "Expert",
+        "constantName": "TRAINER_MOLLIE"
+      },
+      {
+        "id": 170,
+        "name": "FRANKLIN",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_FRANKLIN"
+      },
+      {
+        "id": 414,
+        "name": "BECK",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_BECK"
+      },
+      {
+        "id": 460,
+        "name": "DEBRA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_DEBRA"
+      },
+      {
+        "id": 461,
+        "name": "LINDA",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_LINDA"
+      },
+      {
+        "id": 511,
+        "name": "CONOR",
+        "trainerClass": "Expert",
+        "constantName": "TRAINER_CONOR"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Horsea",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "ROUTE134",
+    "displayName": "Route 134",
+    "trainers": [
+      {
+        "id": 172,
+        "name": "JACK",
+        "trainerClass": "Swimmer M",
+        "constantName": "TRAINER_JACK"
+      },
+      {
+        "id": 180,
+        "name": "HITOSHI",
+        "trainerClass": "Black Belt",
+        "constantName": "TRAINER_HITOSHI"
+      },
+      {
+        "id": 397,
+        "name": "AARON",
+        "trainerClass": "Dragon Tamer",
+        "constantName": "TRAINER_AARON"
+      },
+      {
+        "id": 413,
+        "name": "ALEX",
+        "trainerClass": "Bird Keeper",
+        "constantName": "TRAINER_ALEX"
+      },
+      {
+        "id": 463,
+        "name": "LAUREL",
+        "trainerClass": "Swimmer F",
+        "constantName": "TRAINER_LAUREL"
+      },
+      {
+        "id": 507,
+        "name": "KELVIN",
+        "trainerClass": "Sailor",
+        "constantName": "TRAINER_KELVIN"
+      },
+      {
+        "id": 508,
+        "name": "MARLEY",
+        "trainerClass": "Cooltrainer",
+        "constantName": "TRAINER_MARLEY"
+      },
+      {
+        "id": 509,
+        "name": "REYNA",
+        "trainerClass": "Battle Girl",
+        "constantName": "TRAINER_REYNA"
+      },
+      {
+        "id": 510,
+        "name": "HUDSON",
+        "trainerClass": "Sailor",
+        "constantName": "TRAINER_HUDSON"
+      }
+    ],
+    "items": [
+      {
+        "item": "Ball",
+        "hidden": false
+      },
+      {
+        "item": "Ball",
+        "hidden": false
+      }
+    ],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 10,
+          "maxLevel": 30
+        },
+        {
+          "species": "Wingull",
+          "minLevel": 15,
+          "maxLevel": 25
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Pelipper",
+          "minLevel": 25,
+          "maxLevel": 30
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Sharpedo",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Horsea",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "GRANITE_CAVE_STEVENS_ROOM",
+    "displayName": "G R A N I T E C A V E S T E V E N S R O O M",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 9,
+          "maxLevel": 9
+        },
+        {
+          "species": "Abra",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 10,
+          "maxLevel": 10
+        },
+        {
+          "species": "Makuhita",
+          "minLevel": 6,
+          "maxLevel": 6
+        },
+        {
+          "species": "Aron",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Aron",
+          "minLevel": 8,
+          "maxLevel": 8
+        },
+        {
+          "species": "Aron",
+          "minLevel": 7,
+          "maxLevel": 7
+        },
+        {
+          "species": "Aron",
+          "minLevel": 8,
+          "maxLevel": 8
+        }
+      ]
+    }
+  },
+  {
+    "name": "SEAFLOOR_CAVERN_ENTRANCE",
+    "displayName": "S E A F L O O R C A V E R N E N T R A N C E",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 30,
+          "maxLevel": 35
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "CAVE_OF_ORIGIN_ENTRANCE",
+    "displayName": "C A V E O F O R I G I N E N T R A N C E",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 31,
+          "maxLevel": 31
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 29,
+          "maxLevel": 29
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 34,
+          "maxLevel": 34
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 36,
+          "maxLevel": 36
+        }
+      ]
+    }
+  },
+  {
+    "name": "SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+    "displayName": "S H O A L C A V E L O W T I D E S T A I R S R O O M",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        }
+      ]
+    }
+  },
+  {
+    "name": "SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+    "displayName": "S H O A L C A V E L O W T I D E L O W E R R O O M",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        }
+      ]
+    }
+  },
+  {
+    "name": "SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+    "displayName": "S H O A L C A V E L O W T I D E I N N E R R O O M",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 25,
+          "maxLevel": 35
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+    "displayName": "S H O A L C A V E L O W T I D E E N T R A N C E R O O M",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 5,
+          "maxLevel": 35
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 25,
+          "maxLevel": 30
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 25,
+          "maxLevel": 35
+        }
+      ],
+      "fishing": {
+        "oldRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 5,
+            "maxLevel": 10
+          }
+        ],
+        "goodRod": [
+          {
+            "species": "Magikarp",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Tentacool",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 10,
+            "maxLevel": 30
+          }
+        ],
+        "superRod": [
+          {
+            "species": "Wailmer",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "species": "Wailmer",
+            "minLevel": 40,
+            "maxLevel": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+    "displayName": "S H O A L C A V E L O W T I D E I C E R O O M",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Zubat",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Zubat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Snorunt",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Spheal",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "species": "Snorunt",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 32,
+          "maxLevel": 32
+        },
+        {
+          "species": "Snorunt",
+          "minLevel": 30,
+          "maxLevel": 30
+        }
+      ]
+    }
+  },
+  {
+    "name": "ALTERING_CAVE",
+    "displayName": "A L T E R I N G C A V E",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Smeargle",
+          "minLevel": 22,
+          "maxLevel": 22
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 24,
+          "maxLevel": 24
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 20,
+          "maxLevel": 20
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 22,
+          "maxLevel": 22
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 24,
+          "maxLevel": 24
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 28,
+          "maxLevel": 28
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 18,
+          "maxLevel": 18
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 20,
+          "maxLevel": 20
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 26,
+          "maxLevel": 26
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 20,
+          "maxLevel": 20
+        },
+        {
+          "species": "Smeargle",
+          "minLevel": 26,
+          "maxLevel": 26
+        }
+      ]
+    }
+  },
+  {
+    "name": "METEOR_FALLS_STEVENS_CAVE",
+    "displayName": "M E T E O R F A L L S S T E V E N S C A V E",
+    "trainers": [],
+    "items": [],
+    "wildEncounters": {
+      "land": [
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Solrock",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Solrock",
+          "minLevel": 33,
+          "maxLevel": 33
+        },
+        {
+          "species": "Solrock",
+          "minLevel": 37,
+          "maxLevel": 37
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 35,
+          "maxLevel": 35
+        },
+        {
+          "species": "Solrock",
+          "minLevel": 39,
+          "maxLevel": 39
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 38,
+          "maxLevel": 38
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 40,
+          "maxLevel": 40
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 38,
+          "maxLevel": 38
+        },
+        {
+          "species": "Golbat",
+          "minLevel": 40,
+          "maxLevel": 40
+        }
+      ]
+    }
+  }
+]

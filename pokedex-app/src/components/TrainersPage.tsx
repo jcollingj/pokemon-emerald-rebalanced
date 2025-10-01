@@ -57,6 +57,7 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
   const [classFilter, setClassFilter] = useState<string>("all");
+  const [locationFilter, setLocationFilter] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("id");
   const [selectedTrainer, setSelectedTrainer] = useState<Trainer | null>(null);
   const [highlightedIndex, setHighlightedIndex] = useState(0);
@@ -81,6 +82,22 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
     return Array.from(classes).sort();
   }, [trainers]);
 
+  const allLocations = useMemo(() => {
+    const locations = new Set<string>();
+    trainers.forEach((t) => {
+      if (t.location) locations.add(t.location);
+    });
+    return Array.from(locations).sort((a, b) => {
+      // Extract route numbers for proper sorting
+      const routeA = a.match(/Route\s*(\d+)/);
+      const routeB = b.match(/Route\s*(\d+)/);
+      if (routeA && routeB) {
+        return parseInt(routeA[1]) - parseInt(routeB[1]);
+      }
+      return a.localeCompare(b);
+    });
+  }, [trainers]);
+
   const filteredAndSortedTrainers = useMemo(() => {
     let filtered = trainers;
 
@@ -89,13 +106,19 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
       filtered = filtered.filter((t) =>
         t.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         t.trainerClass.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        t.id.toString().includes(searchTerm)
+        t.id.toString().includes(searchTerm) ||
+        (t.location && t.location.toLowerCase().includes(searchTerm.toLowerCase()))
       );
     }
 
     // Filter by class
     if (classFilter !== "all") {
       filtered = filtered.filter((t) => t.trainerClass === classFilter);
+    }
+
+    // Filter by location
+    if (locationFilter !== "all") {
+      filtered = filtered.filter((t) => t.location === locationFilter);
     }
 
     // Sort
@@ -113,10 +136,24 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
       case "partySize":
         sorted.sort((a, b) => b.party.length - a.party.length);
         break;
+      case "location":
+        sorted.sort((a, b) => {
+          const locA = a.location || "zzz";
+          const locB = b.location || "zzz";
+          // Extract route numbers for proper sorting
+          const routeA = locA.match(/Route\s*(\d+)/);
+          const routeB = locB.match(/Route\s*(\d+)/);
+          if (routeA && routeB) {
+            return parseInt(routeA[1]) - parseInt(routeB[1]);
+          }
+          return locA.localeCompare(locB);
+        });
+        break;
     }
 
-    return sorted;
-  }, [trainers, searchTerm, classFilter, sortBy]);
+    // Limit to 50 results
+    return sorted.slice(0, 50);
+  }, [trainers, searchTerm, classFilter, locationFilter, sortBy]);
 
   // Auto-focus search input on mount
   useEffect(() => {
@@ -164,7 +201,7 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
 
   useEffect(() => {
     setHighlightedIndex(0);
-  }, [searchTerm, classFilter, sortBy]);
+  }, [searchTerm, classFilter, locationFilter, sortBy]);
 
   useEffect(() => {
     if (!selectedTrainer) {
@@ -195,6 +232,9 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
                   {selectedTrainer.name}
                 </CardTitle>
                 <CardDescription className="text-lg">{selectedTrainer.trainerClass}</CardDescription>
+                {selectedTrainer.location && (
+                  <CardDescription className="text-base mt-1">📍 {selectedTrainer.location}</CardDescription>
+                )}
               </div>
               <div className="text-right text-sm text-muted-foreground">
                 <div>ID: {selectedTrainer.id}</div>
@@ -241,120 +281,60 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
 
             {/* Party */}
             <div>
-              <h3 className="font-semibold mb-3">Party ({selectedTrainer.party.length})</h3>
-              <div className="space-y-4">
+              <h3 className="font-semibold mb-2">Party ({selectedTrainer.party.length})</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {selectedTrainer.party.map((mon, idx) => (
-                  <Card key={idx}>
-                    <CardHeader className="pb-3">
-                      <div className="flex items-center justify-between">
-                        <CardTitle className="text-lg">
-                          {mon.nickname ? `${mon.nickname} (${mon.species})` : mon.species}
-                        </CardTitle>
-                        <div className="text-sm font-bold">Lv. {mon.level}</div>
+                  <Card key={idx} className="p-3">
+                    <div className="space-y-2">
+                      {/* Header - Name, Level, Item */}
+                      <div>
+                        <div className="flex items-center justify-between">
+                          <span className="font-bold text-sm">
+                            {mon.nickname ? `${mon.nickname} (${mon.species})` : mon.species}
+                          </span>
+                          <span className="text-xs font-bold">Lv. {mon.level}</span>
+                        </div>
+                        {mon.heldItem && (
+                          <div className="text-xs text-muted-foreground">@ {mon.heldItem}</div>
+                        )}
                       </div>
-                      {mon.heldItem && (
-                        <CardDescription>@ {mon.heldItem}</CardDescription>
-                      )}
-                    </CardHeader>
-                    <CardContent className="space-y-3">
-                      <div className="grid grid-cols-2 gap-2 text-sm">
+
+                      {/* Ability & Nature */}
+                      <div className="text-xs space-y-0.5">
                         {mon.ability && (
-                          <div>
-                            <span className="text-muted-foreground">Ability:</span> {mon.ability}
-                          </div>
+                          <div><span className="text-muted-foreground">Ability:</span> {mon.ability}</div>
                         )}
                         {mon.nature && (
-                          <div>
-                            <span className="text-muted-foreground">Nature:</span> {mon.nature}
-                          </div>
-                        )}
-                        {mon.shiny && (
-                          <div className="col-span-2">
-                            <span className="px-2 py-1 bg-yellow-500 text-white rounded text-xs">✨ Shiny</span>
-                          </div>
+                          <div><span className="text-muted-foreground">Nature:</span> {mon.nature}</div>
                         )}
                       </div>
 
-                      {/* IVs */}
+                      {/* IVs - Compact inline */}
                       {mon.ivs && (
-                        <div>
-                          <div className="text-xs text-muted-foreground mb-1">IVs</div>
-                          <div className="grid grid-cols-6 gap-1 text-xs">
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.hp}</div>
-                              <div className="text-muted-foreground">HP</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.attack}</div>
-                              <div className="text-muted-foreground">Atk</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.defense}</div>
-                              <div className="text-muted-foreground">Def</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.spAttack}</div>
-                              <div className="text-muted-foreground">SpA</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.spDefense}</div>
-                              <div className="text-muted-foreground">SpD</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.speed}</div>
-                              <div className="text-muted-foreground">Spe</div>
-                            </div>
-                          </div>
+                        <div className="text-xs">
+                          <span className="text-muted-foreground">IVs:</span> {mon.ivs.hp} HP / {mon.ivs.attack} Atk / {mon.ivs.defense} Def / {mon.ivs.spAttack} SpA / {mon.ivs.spDefense} SpD / {mon.ivs.speed} Spe
                         </div>
                       )}
 
-                      {/* EVs */}
+                      {/* EVs - Compact inline (only if they exist) */}
                       {mon.evs && Object.values(mon.evs).some(ev => ev > 0) && (
-                        <div>
-                          <div className="text-xs text-muted-foreground mb-1">EVs</div>
-                          <div className="grid grid-cols-6 gap-1 text-xs">
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.hp}</div>
-                              <div className="text-muted-foreground">HP</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.attack}</div>
-                              <div className="text-muted-foreground">Atk</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.defense}</div>
-                              <div className="text-muted-foreground">Def</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.spAttack}</div>
-                              <div className="text-muted-foreground">SpA</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.spDefense}</div>
-                              <div className="text-muted-foreground">SpD</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.speed}</div>
-                              <div className="text-muted-foreground">Spe</div>
-                            </div>
-                          </div>
+                        <div className="text-xs">
+                          <span className="text-muted-foreground">EVs:</span> {mon.evs.hp > 0 && `${mon.evs.hp} HP`}{mon.evs.attack > 0 && ` / ${mon.evs.attack} Atk`}{mon.evs.defense > 0 && ` / ${mon.evs.defense} Def`}{mon.evs.spAttack > 0 && ` / ${mon.evs.spAttack} SpA`}{mon.evs.spDefense > 0 && ` / ${mon.evs.spDefense} SpD`}{mon.evs.speed > 0 && ` / ${mon.evs.speed} Spe`}
                         </div>
                       )}
 
-                      {/* Moves */}
+                      {/* Moves - Compact */}
                       {mon.moves && mon.moves.length > 0 && (
-                        <div>
-                          <div className="text-xs text-muted-foreground mb-1">Moves</div>
-                          <div className="space-y-1">
+                        <div className="text-xs">
+                          <div className="text-muted-foreground mb-0.5">Moves:</div>
+                          <div className="space-y-0.5">
                             {mon.moves.map((move, moveIdx) => (
-                              <div key={moveIdx} className="px-2 py-1 bg-muted rounded text-sm">
-                                - {move}
-                              </div>
+                              <div key={moveIdx}>- {move}</div>
                             ))}
                           </div>
                         </div>
                       )}
-                    </CardContent>
+                    </div>
                   </Card>
                 ))}
               </div>
@@ -382,7 +362,7 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
         <CardHeader>
           <CardTitle>Search & Filter</CardTitle>
           <CardDescription>
-            Found {filteredAndSortedTrainers.length} of {trainers.length} trainers
+            Showing {filteredAndSortedTrainers.length} of {trainers.length} trainers (limited to 50 max)
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -392,7 +372,7 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
                 <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
                 <Input
                   ref={searchInputRef}
-                  placeholder="Search by name, class, or ID... (CMD+/)"
+                  placeholder="Search by name, class, location, or ID... (CMD+/)"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="pl-10"
@@ -414,6 +394,20 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
               </SelectContent>
             </Select>
 
+            <Select value={locationFilter} onValueChange={setLocationFilter}>
+              <SelectTrigger className="w-[200px]">
+                <SelectValue placeholder="Filter by location" />
+              </SelectTrigger>
+              <SelectContent className="max-h-[300px]">
+                <SelectItem value="all">All Locations</SelectItem>
+                {allLocations.map((loc) => (
+                  <SelectItem key={loc} value={loc}>
+                    {loc}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+
             <Select value={sortBy} onValueChange={setSortBy}>
               <SelectTrigger className="w-[180px]">
                 <SelectValue placeholder="Sort by" />
@@ -422,6 +416,7 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
                 <SelectItem value="id">ID</SelectItem>
                 <SelectItem value="name">Name</SelectItem>
                 <SelectItem value="class">Class</SelectItem>
+                <SelectItem value="location">Location</SelectItem>
                 <SelectItem value="partySize">Party Size</SelectItem>
               </SelectContent>
             </Select>
@@ -448,6 +443,9 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
               <CardDescription className="text-base font-semibold text-foreground">
                 {t.trainerClass}
               </CardDescription>
+              {t.location && (
+                <CardDescription className="text-sm mt-1">📍 {t.location}</CardDescription>
+              )}
             </CardHeader>
             <CardContent className="space-y-2">
               <div className="text-sm text-muted-foreground">

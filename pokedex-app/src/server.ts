@@ -5,6 +5,7 @@ import pokemonData from "./data/pokemon.json";
 import movesData from "./data/moves.json";
 import trainersData from "./data/trainers.json";
 import gymLeadersData from "./data/gym-leaders.json";
+import routesData from "./data/routes.json";
 
 const server = serve({
   routes: {
@@ -111,6 +112,12 @@ const server = serve({
       }
 
       return Response.json(leader);
+    },
+
+    "/api/routes": {
+      async GET(req) {
+        return Response.json(routesData);
+      },
     },
   },
 

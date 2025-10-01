@@ -1,7 +1,13 @@
 #!/usr/bin/env bun
 
-import { readFile, writeFile } from 'fs/promises';
+import { readFile, writeFile, readdir } from 'fs/promises';
 import { join } from 'path';
+
+interface PokemonData {
+  id: number;
+  name: string;
+  abilities: string[];
+}
 
 interface TrainerMon {
   species: string;
@@ -53,8 +59,71 @@ const GYM_LEADERS = [
 
 const ELITE_FOUR = ['SIDNEY', 'PHOEBE', 'GLACIA', 'DRAKE', 'WALLACE'];
 
+async function buildTrainerLocationMap(projectRoot: string): Promise<Map<string, string>> {
+  const trainerLocationMap = new Map<string, string>();
+  const mapsDir = join(projectRoot, 'data/maps');
+
+  try {
+    const mapDirs = await readdir(mapsDir, { withFileTypes: true });
+
+    for (const dir of mapDirs) {
+      if (!dir.isDirectory()) continue;
+
+      const mapName = dir.name;
+      const scriptsPath = join(mapsDir, mapName, 'scripts.inc');
+
+      try {
+        const scriptsContent = await readFile(scriptsPath, 'utf-8');
+
+        // Find all TRAINER_ references in the scripts
+        const trainerMatches = scriptsContent.matchAll(/TRAINER_(\w+)/g);
+
+        for (const match of trainerMatches) {
+          const trainerConstant = match[0]; // Full TRAINER_XXX
+
+          // Format the location name nicely
+          let locationName = mapName
+            .replace(/_/g, ' ')
+            .replace(/([A-Z])/g, ' $1')
+            .trim()
+            .replace(/\s+/g, ' ');
+
+          // Clean up common patterns
+          locationName = locationName
+            .replace(/Route (\d+)/, 'Route $1')
+            .replace(/Mt /g, 'Mt. ')
+            .replace(/City /g, 'City - ')
+            .replace(/Town /g, 'Town - ');
+
+          trainerLocationMap.set(trainerConstant, locationName);
+        }
+      } catch (err) {
+        // Skip maps without scripts.inc
+        continue;
+      }
+    }
+  } catch (err) {
+    console.warn('Could not read maps directory:', err);
+  }
+
+  return trainerLocationMap;
+}
+
 async function parseTrainers() {
   const projectRoot = join(import.meta.dir, '../..');
+
+  // Build trainer location map from map files
+  console.log('Building trainer location map...');
+  const trainerLocationMap = await buildTrainerLocationMap(projectRoot);
+
+  // Load Pokemon data for ability lookups
+  console.log('Loading Pokemon data...');
+  const pokemonDataPath = join(import.meta.dir, '../src/data/pokemon.json');
+  const pokemonData: PokemonData[] = JSON.parse(await readFile(pokemonDataPath, 'utf-8'));
+  const pokemonMap = new Map<string, PokemonData>();
+  pokemonData.forEach(p => {
+    pokemonMap.set(p.name.toUpperCase(), p);
+  });
 
   // Read trainer constants
   const opponentsPath = join(projectRoot, 'include/constants/opponents.h');
@@ -201,11 +270,34 @@ async function parseTrainers() {
         currentMon.level = parseInt(line.replace('Level:', '').trim(), 10);
       } else if (line.startsWith('Ability:')) {
         let ability = line.replace('Ability:', '').trim();
-        ability = ability.replace('ABILITY_', '');
-        currentMon.ability = ability
-          .split('_')
-          .map(word => word.charAt(0) + word.slice(1).toLowerCase())
-          .join(' ');
+
+        // Check if it's a numeric ability slot (1, 2, or 3)
+        const abilitySlot = parseInt(ability, 10);
+        if (!isNaN(abilitySlot) && abilitySlot >= 1 && abilitySlot <= 3) {
+          // Look up the pokemon's ability at this slot
+          if (currentMon.species) {
+            const pokemon = pokemonMap.get(currentMon.species.toUpperCase());
+            if (pokemon) {
+              // Try to get the ability at this slot
+              const slotAbility = pokemon.abilities[abilitySlot - 1];
+              if (slotAbility) {
+                currentMon.ability = slotAbility;
+              } else {
+                // Fallback: if slot 3 doesn't exist, try slot 2, then slot 1
+                currentMon.ability = pokemon.abilities[1] || pokemon.abilities[0] || `Slot ${abilitySlot}`;
+              }
+            } else {
+              currentMon.ability = `Slot ${abilitySlot}`;
+            }
+          }
+        } else {
+          // It's an ability name
+          ability = ability.replace('ABILITY_', '');
+          currentMon.ability = ability
+            .split('_')
+            .map(word => word.charAt(0) + word.slice(1).toLowerCase())
+            .join(' ');
+        }
       } else if (line.startsWith('Nature:')) {
         let nature = line.replace('Nature:', '').trim();
         nature = nature.replace('NATURE_', '');
@@ -284,6 +376,7 @@ async function parseTrainers() {
       doubleBattle,
       aiFlags,
       party,
+      location: trainerLocationMap.get(constantName),
     };
 
     trainers.push(trainer);

@@ -14,6 +14,12 @@ const pages = [
     icon: '📖',
   },
   {
+    path: '/routes',
+    title: 'Routes & Areas',
+    description: 'Explore routes with wild encounters, trainers, and items for each location',
+    icon: '🗺️',
+  },
+  {
     path: '/trainers',
     title: 'Trainers',
     description: 'Browse all trainers in the game with their teams and battle information',

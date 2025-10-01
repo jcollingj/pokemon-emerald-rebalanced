@@ -25,7 +25,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Chimney"
   },
   {
     "id": 2,
@@ -53,7 +54,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Aqua Hideout 1 F"
   },
   {
     "id": 3,
@@ -94,7 +96,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Aqua Hideout B1 F"
   },
   {
     "id": 4,
@@ -122,7 +125,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Aqua Hideout B1 F"
   },
   {
     "id": 5,
@@ -150,7 +154,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Aqua Hideout B2 F"
   },
   {
     "id": 6,
@@ -178,7 +183,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Seafloor Cavern Room1"
   },
   {
     "id": 7,
@@ -206,7 +212,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Seafloor Cavern Room1"
   },
   {
     "id": 8,
@@ -234,7 +241,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Seafloor Cavern Room4"
   },
   {
     "id": 9,
@@ -327,7 +335,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 3 F"
   },
   {
     "id": 10,
@@ -355,7 +364,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Petalburg Woods"
   },
   {
     "id": 11,
@@ -399,7 +409,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 12,
@@ -440,7 +451,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 13,
@@ -481,7 +493,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 14,
@@ -509,7 +522,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Seafloor Cavern Room4"
   },
   {
     "id": 15,
@@ -537,7 +551,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route124"
   },
   {
     "id": 16,
@@ -565,7 +580,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Rusturf Tunnel"
   },
   {
     "id": 17,
@@ -606,7 +622,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119 Weather Institute 1 F"
   },
   {
     "id": 18,
@@ -647,7 +664,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119 Weather Institute 2 F"
   },
   {
     "id": 19,
@@ -701,7 +719,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119 Weather Institute 2 F"
   },
   {
     "id": 20,
@@ -729,7 +748,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Slateport City - Oceanic Museum 2 F"
   },
   {
     "id": 21,
@@ -770,7 +790,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Slateport City - Oceanic Museum 2 F"
   },
   {
     "id": 22,
@@ -798,7 +819,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Space Center 1 F"
   },
   {
     "id": 23,
@@ -826,7 +848,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre Summit"
   },
   {
     "id": 24,
@@ -854,7 +877,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre Summit"
   },
   {
     "id": 25,
@@ -895,7 +919,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre Summit"
   },
   {
     "id": 26,
@@ -923,7 +948,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119 Weather Institute 1 F"
   },
   {
     "id": 27,
@@ -951,7 +977,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Aqua Hideout B1 F"
   },
   {
     "id": 28,
@@ -979,7 +1006,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Aqua Hideout B2 F"
   },
   {
     "id": 29,
@@ -1020,7 +1048,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 30,
@@ -1064,7 +1093,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Aqua Hideout B2 F"
   },
   {
     "id": 31,
@@ -1092,7 +1122,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 2 F"
   },
   {
     "id": 32,
@@ -1133,7 +1164,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route119 Weather Institute 2 F"
   },
   {
     "id": 33,
@@ -1174,7 +1206,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Seafloor Cavern Room3"
   },
   {
     "id": 34,
@@ -1232,7 +1265,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Seafloor Cavern Room9"
   },
   {
     "id": 35,
@@ -1260,7 +1294,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 2 F"
   },
   {
     "id": 36,
@@ -1301,7 +1336,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 37,
@@ -1355,7 +1391,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route118"
   },
   {
     "id": 38,
@@ -1404,7 +1441,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Victory Road B2 F"
   },
   {
     "id": 39,
@@ -1445,7 +1483,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 40,
@@ -1681,7 +1720,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 45,
@@ -1750,7 +1790,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 46,
@@ -1801,7 +1842,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route105"
   },
   {
     "id": 47,
@@ -2230,7 +2272,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 58,
@@ -2258,7 +2301,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 59,
@@ -2286,7 +2330,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 60,
@@ -2483,7 +2528,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 65,
@@ -2524,7 +2570,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109 Seashore House"
   },
   {
     "id": 66,
@@ -2552,7 +2599,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Abandoned Ship Corridors 1 F"
   },
   {
     "id": 67,
@@ -2719,7 +2767,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Petalburg City - Gym"
   },
   {
     "id": 72,
@@ -2754,7 +2803,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Petalburg City - Gym"
   },
   {
     "id": 73,
@@ -2790,7 +2840,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Petalburg City - Gym"
   },
   {
     "id": 74,
@@ -2824,7 +2875,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Petalburg City - Gym"
   },
   {
     "id": 75,
@@ -2932,7 +2984,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 76,
@@ -2989,7 +3042,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle8"
   },
   {
     "id": 77,
@@ -3033,7 +3087,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle8"
   },
   {
     "id": 78,
@@ -3090,7 +3145,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 79,
@@ -3134,7 +3190,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road 1 F"
   },
   {
     "id": 80,
@@ -3178,7 +3235,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road 1 F"
   },
   {
     "id": 81,
@@ -3235,7 +3293,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road B1 F"
   },
   {
     "id": 82,
@@ -3305,7 +3364,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road B2 F"
   },
   {
     "id": 83,
@@ -3362,7 +3422,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road B2 F"
   },
   {
     "id": 84,
@@ -3634,7 +3695,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route133"
   },
   {
     "id": 89,
@@ -3668,7 +3730,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Petalburg City - Gym"
   },
   {
     "id": 90,
@@ -3703,7 +3766,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Petalburg City - Gym"
   },
   {
     "id": 91,
@@ -3739,7 +3803,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Petalburg City - Gym"
   },
   {
     "id": 92,
@@ -3813,7 +3878,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 93,
@@ -3859,7 +3925,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle8"
   },
   {
     "id": 94,
@@ -3916,7 +3983,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 95,
@@ -3947,7 +4015,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 96,
@@ -3978,7 +4047,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road 1 F"
   },
   {
     "id": 97,
@@ -4009,7 +4079,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road B1 F"
   },
   {
     "id": 98,
@@ -4066,7 +4137,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road B1 F"
   },
   {
     "id": 99,
@@ -4110,7 +4182,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road B2 F"
   },
   {
     "id": 100,
@@ -4167,7 +4240,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road B2 F"
   },
   {
     "id": 101,
@@ -4436,7 +4510,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle7"
   },
   {
     "id": 106,
@@ -4477,7 +4552,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 107,
@@ -4518,7 +4594,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 108,
@@ -4546,7 +4623,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 6 F"
   },
   {
     "id": 109,
@@ -4574,7 +4652,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 5 F"
   },
   {
     "id": 110,
@@ -4783,7 +4862,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route104"
   },
   {
     "id": 115,
@@ -4839,7 +4919,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 116,
@@ -4893,7 +4974,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Space Center 1 F"
   },
   {
     "id": 117,
@@ -4960,7 +5042,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 119,
@@ -4992,7 +5075,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "S S Tidal Rooms"
   },
   {
     "id": 120,
@@ -5153,7 +5237,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Chimney"
   },
   {
     "id": 125,
@@ -5181,7 +5266,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Chimney"
   },
   {
     "id": 126,
@@ -5209,7 +5295,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Chimney"
   },
   {
     "id": 127,
@@ -5260,7 +5347,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 128,
@@ -5288,7 +5376,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 129,
@@ -5316,7 +5405,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 130,
@@ -5384,7 +5474,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 131,
@@ -5425,7 +5516,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 132,
@@ -5661,7 +5753,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route104"
   },
   {
     "id": 137,
@@ -5702,7 +5795,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Route133"
   },
   {
     "id": 138,
@@ -5734,7 +5828,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "S S Tidal Rooms"
   },
   {
     "id": 139,
@@ -5895,7 +5990,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 144,
@@ -5936,7 +6032,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Abandoned Ship Rooms 1 F"
   },
   {
     "id": 145,
@@ -5964,7 +6061,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 2 F"
   },
   {
     "id": 146,
@@ -5992,7 +6090,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Chimney"
   },
   {
     "id": 147,
@@ -6171,7 +6270,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route105"
   },
   {
     "id": 152,
@@ -6199,7 +6299,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route105"
   },
   {
     "id": 153,
@@ -6240,7 +6341,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route106"
   },
   {
     "id": 154,
@@ -6294,7 +6396,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route107"
   },
   {
     "id": 155,
@@ -6322,7 +6425,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route107"
   },
   {
     "id": 156,
@@ -6350,7 +6454,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route108"
   },
   {
     "id": 157,
@@ -6378,7 +6483,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route108"
   },
   {
     "id": 158,
@@ -6419,7 +6525,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 159,
@@ -6460,7 +6567,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route124"
   },
   {
     "id": 160,
@@ -6488,7 +6596,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route124"
   },
   {
     "id": 161,
@@ -6516,7 +6625,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route125"
   },
   {
     "id": 162,
@@ -6544,7 +6654,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route125"
   },
   {
     "id": 163,
@@ -6572,7 +6683,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route126"
   },
   {
     "id": 164,
@@ -6626,7 +6738,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route126"
   },
   {
     "id": 165,
@@ -6654,7 +6767,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route130"
   },
   {
     "id": 166,
@@ -6682,7 +6796,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route131"
   },
   {
     "id": 167,
@@ -6723,7 +6838,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route131"
   },
   {
     "id": 168,
@@ -6764,7 +6880,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route130"
   },
   {
     "id": 169,
@@ -6792,7 +6909,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route132"
   },
   {
     "id": 170,
@@ -6820,7 +6938,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route133"
   },
   {
     "id": 171,
@@ -6848,7 +6967,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route131"
   },
   {
     "id": 172,
@@ -6876,7 +6996,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route134"
   },
   {
     "id": 173,
@@ -6971,7 +7092,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route124"
   },
   {
     "id": 175,
@@ -7137,7 +7259,8 @@
           "speed": 15
         }
       }
-    ]
+    ],
+    "location": "Dewford Town - Gym"
   },
   {
     "id": 180,
@@ -7178,7 +7301,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Route134"
   },
   {
     "id": 181,
@@ -7206,7 +7330,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route132"
   },
   {
     "id": 182,
@@ -7247,7 +7372,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 183,
@@ -7275,7 +7401,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 184,
@@ -7507,7 +7634,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle4"
   },
   {
     "id": 189,
@@ -7535,7 +7663,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 190,
@@ -7563,7 +7692,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 4 F"
   },
   {
     "id": 191,
@@ -7613,7 +7743,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mauville City - Gym"
   },
   {
     "id": 192,
@@ -7654,7 +7785,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Aqua Hideout B1 F"
   },
   {
     "id": 193,
@@ -7682,7 +7814,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Aqua Hideout B2 F"
   },
   {
     "id": 194,
@@ -7723,7 +7856,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mauville City - Gym"
   },
   {
     "id": 195,
@@ -7764,7 +7898,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 196,
@@ -7805,7 +7940,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route118"
   },
   {
     "id": 197,
@@ -8049,7 +8185,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 202,
@@ -8090,7 +8227,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 203,
@@ -8118,7 +8256,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 204,
@@ -8146,7 +8285,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 205,
@@ -8174,7 +8314,8 @@
           "speed": 14
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 206,
@@ -8215,7 +8356,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 207,
@@ -8412,7 +8554,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 212,
@@ -8481,7 +8624,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 213,
@@ -8509,7 +8653,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route112"
   },
   {
     "id": 214,
@@ -8550,7 +8695,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 215,
@@ -8578,7 +8724,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle3"
   },
   {
     "id": 216,
@@ -8619,7 +8766,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Jagged Pass"
   },
   {
     "id": 217,
@@ -8647,7 +8795,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Jagged Pass"
   },
   {
     "id": 218,
@@ -8675,7 +8824,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 219,
@@ -8893,7 +9043,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 224,
@@ -8947,7 +9098,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 225,
@@ -9001,7 +9153,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 226,
@@ -9055,7 +9208,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 227,
@@ -9096,7 +9250,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route117"
   },
   {
     "id": 228,
@@ -9382,7 +9537,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 233,
@@ -9410,7 +9566,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 234,
@@ -9438,7 +9595,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 235,
@@ -9466,7 +9624,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 236,
@@ -9520,7 +9679,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 3 F"
   },
   {
     "id": 237,
@@ -9561,7 +9721,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle7"
   },
   {
     "id": 238,
@@ -9589,7 +9750,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 239,
@@ -9783,7 +9945,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 244,
@@ -9811,7 +9974,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 245,
@@ -9839,7 +10003,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 246,
@@ -9867,7 +10032,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 247,
@@ -9921,7 +10087,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 3 F"
   },
   {
     "id": 248,
@@ -9962,7 +10129,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle7"
   },
   {
     "id": 249,
@@ -10003,7 +10171,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 250,
@@ -10195,7 +10364,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 255,
@@ -10236,7 +10406,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "S S Tidal Rooms"
   },
   {
     "id": 256,
@@ -10264,7 +10435,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "S S Tidal Rooms"
   },
   {
     "id": 257,
@@ -10573,7 +10745,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Sidneys Room"
   },
   {
     "id": 262,
@@ -10683,7 +10856,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Phoebes Room"
   },
   {
     "id": 263,
@@ -10793,7 +10967,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Glacias Room"
   },
   {
     "id": 264,
@@ -10903,7 +11078,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Drakes Room"
   },
   {
     "id": 265,
@@ -10923,51 +11099,76 @@
     ],
     "party": [
       {
-        "level": 12,
+        "level": 10,
         "moves": [
-          "Tackle",
+          "Stealth rock",
+          "Rock slide",
+          "Bite",
+          "Protect"
+        ],
+        "species": "Larvitar",
+        "heldItem": "Smooth rock",
+        "ability": "Sand Stream",
+        "ivs": {
+          "hp": 20,
+          "attack": 20,
+          "defense": 20,
+          "spAttack": 20,
+          "spDefense": 20,
+          "speed": 20
+        }
+      },
+      {
+        "level": 11,
+        "moves": [
           "Defense curl",
+          "Rollout",
           "Rock throw",
-          "Rock tomb"
+          "Tackle"
         ],
         "species": "Geodude",
+        "heldItem": "Wide lens",
+        "ability": "Magnet Pull",
         "ivs": {
-          "hp": 12,
-          "attack": 12,
-          "defense": 12,
-          "spAttack": 12,
-          "spDefense": 12,
-          "speed": 12
+          "hp": 20,
+          "attack": 20,
+          "defense": 20,
+          "spAttack": 20,
+          "spDefense": 20,
+          "speed": 20
         }
       },
       {
         "level": 12,
         "moves": [
-          "Tackle",
-          "Defense curl",
-          "Rock throw",
-          "Rock tomb"
+          "Water gun",
+          "Ancient power",
+          "Withdraw",
+          "Bite"
         ],
-        "species": "Geodude",
-        "ivs": {
-          "hp": 12,
-          "attack": 12,
-          "defense": 12,
-          "spAttack": 12,
-          "spDefense": 12,
-          "speed": 12
-        }
-      },
-      {
-        "level": 15,
-        "moves": [
-          "Block",
-          "Harden",
-          "Tackle",
-          "Rock tomb"
-        ],
-        "species": "Nosepass",
+        "species": "Omanyte",
         "heldItem": "Oran berry",
+        "ability": "Swift Swim",
+        "ivs": {
+          "hp": 20,
+          "attack": 20,
+          "defense": 20,
+          "spAttack": 20,
+          "spDefense": 20,
+          "speed": 20
+        }
+      },
+      {
+        "level": 13,
+        "moves": [
+          "Ancient power",
+          "Acid",
+          "Confuse ray",
+          "Ingrain"
+        ],
+        "species": "Lileep",
+        "heldItem": "Sitrus berry",
+        "ability": "Suction Cups",
         "ivs": {
           "hp": 24,
           "attack": 24,
@@ -10976,8 +11177,49 @@
           "spDefense": 24,
           "speed": 24
         }
+      },
+      {
+        "level": 14,
+        "moves": [
+          "Fury cutter",
+          "Rock blast",
+          "Water gun",
+          "Metal claw"
+        ],
+        "species": "Anorith",
+        "heldItem": "Focus sash",
+        "ability": "Battle Armor",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 15,
+        "moves": [
+          "Power gem",
+          "Thunderbolt",
+          "Thunder wave",
+          "Rest"
+        ],
+        "species": "Nosepass",
+        "heldItem": "Chesto berry",
+        "ability": "Sand Force",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
       }
-    ]
+    ],
+    "location": "Rustboro City - Gym"
   },
   {
     "id": 266,
@@ -11051,7 +11293,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Dewford Town - Gym"
   },
   {
     "id": 267,
@@ -11143,7 +11386,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Mauville City - Gym"
   },
   {
     "id": 268,
@@ -11235,7 +11479,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 269,
@@ -11327,7 +11572,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Petalburg City - Gym"
   },
   {
     "id": 270,
@@ -11438,7 +11684,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Fortree City - Gym"
   },
   {
     "id": 271,
@@ -11533,7 +11780,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 272,
@@ -11643,7 +11891,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym 1 F"
   },
   {
     "id": 273,
@@ -11671,7 +11920,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 274,
@@ -11699,7 +11949,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle2"
   },
   {
     "id": 275,
@@ -11753,7 +12004,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle2"
   },
   {
     "id": 276,
@@ -11958,7 +12210,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 281,
@@ -11999,7 +12252,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle2"
   },
   {
     "id": 282,
@@ -12214,7 +12468,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 287,
@@ -12264,7 +12519,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route117"
   },
   {
     "id": 288,
@@ -12507,7 +12763,8 @@
           "speed": 3
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 293,
@@ -12536,7 +12793,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 294,
@@ -12665,7 +12923,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "S S Tidal Rooms"
   },
   {
     "id": 295,
@@ -12811,7 +13070,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 300,
@@ -12840,7 +13100,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 301,
@@ -12897,7 +13158,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 302,
@@ -12940,7 +13202,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 303,
@@ -13140,7 +13403,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 308,
@@ -13305,7 +13569,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 313,
@@ -13346,7 +13611,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Mt. Chimney"
   },
   {
     "id": 314,
@@ -13538,7 +13804,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route102"
   },
   {
     "id": 319,
@@ -13579,7 +13846,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route104"
   },
   {
     "id": 320,
@@ -13609,7 +13877,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Rustboro City - Gym"
   },
   {
     "id": 321,
@@ -13650,7 +13919,8 @@
           "speed": 14
         }
       }
-    ]
+    ],
+    "location": "Rustboro City - Gym"
   },
   {
     "id": 322,
@@ -13678,7 +13948,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 323,
@@ -13729,7 +14000,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Mauville City - Gym"
   },
   {
     "id": 324,
@@ -13783,7 +14055,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road 1 F"
   },
   {
     "id": 325,
@@ -13837,7 +14110,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Victory Road 1 F"
   },
   {
     "id": 326,
@@ -13865,7 +14139,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 327,
@@ -13893,7 +14168,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 328,
@@ -14111,7 +14387,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle1"
   },
   {
     "id": 333,
@@ -14152,7 +14429,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route102"
   },
   {
     "id": 334,
@@ -14193,7 +14471,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 335,
@@ -14323,7 +14602,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Champions Room"
   },
   {
     "id": 336,
@@ -14377,7 +14657,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 337,
@@ -14431,7 +14712,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route104"
   },
   {
     "id": 338,
@@ -14485,7 +14767,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 339,
@@ -14539,7 +14822,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route106"
   },
   {
     "id": 340,
@@ -14567,7 +14851,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route106"
   },
   {
     "id": 341,
@@ -14634,7 +14919,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 342,
@@ -14662,7 +14948,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 343,
@@ -14703,7 +14990,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route118"
   },
   {
     "id": 344,
@@ -14731,7 +15019,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route118"
   },
   {
     "id": 345,
@@ -14772,7 +15061,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 346,
@@ -15121,7 +15411,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route132"
   },
   {
     "id": 351,
@@ -15175,7 +15466,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 352,
@@ -15216,7 +15508,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 353,
@@ -15244,7 +15537,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 354,
@@ -15384,7 +15678,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 359,
@@ -15438,7 +15733,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 360,
@@ -15578,7 +15874,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route117"
   },
   {
     "id": 365,
@@ -15718,7 +16015,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route117"
   },
   {
     "id": 370,
@@ -15871,7 +16169,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route127"
   },
   {
     "id": 375,
@@ -15912,7 +16211,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Abandoned Ship Rooms 1 F"
   },
   {
     "id": 376,
@@ -15940,7 +16240,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route128"
   },
   {
     "id": 377,
@@ -15981,7 +16282,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route126"
   },
   {
     "id": 378,
@@ -16022,7 +16324,8 @@
           "speed": 9
         }
       }
-    ]
+    ],
+    "location": "Route129"
   },
   {
     "id": 379,
@@ -16162,7 +16465,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route126"
   },
   {
     "id": 384,
@@ -16203,7 +16507,8 @@
           "speed": 19
         }
       }
-    ]
+    ],
+    "location": "Route127"
   },
   {
     "id": 385,
@@ -16231,7 +16536,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route131"
   },
   {
     "id": 386,
@@ -16259,7 +16565,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route128"
   },
   {
     "id": 387,
@@ -16300,7 +16607,8 @@
           "speed": 29
         }
       }
-    ]
+    ],
+    "location": "Route129"
   },
   {
     "id": 388,
@@ -16453,7 +16761,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Meteor Falls 1 F 2 R"
   },
   {
     "id": 393,
@@ -16677,7 +16986,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Route134"
   },
   {
     "id": 398,
@@ -16705,7 +17015,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route118"
   },
   {
     "id": 399,
@@ -16746,7 +17057,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 400,
@@ -16774,7 +17086,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 401,
@@ -16828,7 +17141,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Fortree City - Gym"
   },
   {
     "id": 402,
@@ -16856,7 +17170,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Fortree City - Gym"
   },
   {
     "id": 403,
@@ -16897,7 +17212,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route125"
   },
   {
     "id": 404,
@@ -16938,7 +17254,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Fortree City - Gym"
   },
   {
     "id": 405,
@@ -16979,7 +17296,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 406,
@@ -17007,7 +17325,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 407,
@@ -17061,7 +17380,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle6"
   },
   {
     "id": 408,
@@ -17102,7 +17422,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route118"
   },
   {
     "id": 409,
@@ -17307,7 +17628,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route134"
   },
   {
     "id": 414,
@@ -17335,7 +17657,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route133"
   },
   {
     "id": 415,
@@ -17364,7 +17687,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 416,
@@ -17406,7 +17730,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 417,
@@ -17454,7 +17779,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Victory Road B2 F"
   },
   {
     "id": 418,
@@ -17480,7 +17806,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Abandoned Ship Rooms2 1 F"
   },
   {
     "id": 419,
@@ -17547,7 +17874,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 420,
@@ -17586,7 +17914,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 421,
@@ -17941,7 +18270,8 @@
           "speed": 15
         }
       }
-    ]
+    ],
+    "location": "Dewford Town - Gym"
   },
   {
     "id": 426,
@@ -17969,7 +18299,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Dewford Town - Gym"
   },
   {
     "id": 427,
@@ -18010,7 +18341,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 428,
@@ -18038,7 +18370,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle4"
   },
   {
     "id": 429,
@@ -18066,7 +18399,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle4"
   },
   {
     "id": 430,
@@ -18263,7 +18597,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 435,
@@ -18304,7 +18639,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 436,
@@ -18337,7 +18673,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 437,
@@ -18546,7 +18883,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route105"
   },
   {
     "id": 442,
@@ -18574,7 +18912,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route105"
   },
   {
     "id": 443,
@@ -18602,7 +18941,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route106"
   },
   {
     "id": 444,
@@ -18643,7 +18983,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route107"
   },
   {
     "id": 445,
@@ -18671,7 +19012,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route107"
   },
   {
     "id": 446,
@@ -18712,7 +19054,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route108"
   },
   {
     "id": 447,
@@ -18740,7 +19083,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route108"
   },
   {
     "id": 448,
@@ -18794,7 +19138,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 449,
@@ -18822,7 +19167,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route124"
   },
   {
     "id": 450,
@@ -18850,7 +19196,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route124"
   },
   {
     "id": 451,
@@ -18878,7 +19225,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route125"
   },
   {
     "id": 452,
@@ -18906,7 +19254,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route125"
   },
   {
     "id": 453,
@@ -18947,7 +19296,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route126"
   },
   {
     "id": 454,
@@ -18975,7 +19325,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route126"
   },
   {
     "id": 455,
@@ -19016,7 +19367,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route130"
   },
   {
     "id": 456,
@@ -19044,7 +19396,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route131"
   },
   {
     "id": 457,
@@ -19072,7 +19425,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route131"
   },
   {
     "id": 458,
@@ -19100,7 +19454,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route132"
   },
   {
     "id": 459,
@@ -19141,7 +19496,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route126"
   },
   {
     "id": 460,
@@ -19169,7 +19525,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route133"
   },
   {
     "id": 461,
@@ -19210,7 +19567,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route133"
   },
   {
     "id": 462,
@@ -19292,7 +19650,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route134"
   },
   {
     "id": 464,
@@ -19320,7 +19679,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route128"
   },
   {
     "id": 465,
@@ -19522,7 +19882,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 470,
@@ -19573,7 +19934,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 471,
@@ -19614,7 +19976,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route112"
   },
   {
     "id": 472,
@@ -19655,7 +20018,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 473,
@@ -19696,7 +20060,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle3"
   },
   {
     "id": 474,
@@ -19750,7 +20115,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Jagged Pass"
   },
   {
     "id": 475,
@@ -19783,7 +20149,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 6 F"
   },
   {
     "id": 476,
@@ -19824,7 +20191,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 477,
@@ -20081,7 +20449,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 482,
@@ -20163,7 +20532,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route104"
   },
   {
     "id": 484,
@@ -20204,7 +20574,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 485,
@@ -20476,7 +20847,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 491,
@@ -20504,7 +20876,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 492,
@@ -20545,7 +20918,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route125"
   },
   {
     "id": 493,
@@ -20599,7 +20973,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109 Seashore House"
   },
   {
     "id": 494,
@@ -20640,7 +21015,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Battle Frontier Battle Pyramid Floor"
   },
   {
     "id": 495,
@@ -20694,7 +21070,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "S S Tidal Lower Deck"
   },
   {
     "id": 496,
@@ -20735,7 +21112,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Abandoned Ship Corridors B1 F"
   },
   {
     "id": 497,
@@ -20979,7 +21357,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 502,
@@ -21032,7 +21411,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 503,
@@ -21063,7 +21443,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 504,
@@ -21096,7 +21477,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 505,
@@ -21129,7 +21511,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 506,
@@ -21170,7 +21553,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route125"
   },
   {
     "id": 507,
@@ -21211,7 +21595,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route134"
   },
   {
     "id": 508,
@@ -21247,7 +21632,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Route134"
   },
   {
     "id": 509,
@@ -21288,7 +21674,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Route134"
   },
   {
     "id": 510,
@@ -21316,7 +21703,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route134"
   },
   {
     "id": 511,
@@ -21357,7 +21745,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Route133"
   },
   {
     "id": 512,
@@ -21398,7 +21787,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 513,
@@ -21439,7 +21829,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 514,
@@ -21493,7 +21884,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Space Center 2 F"
   },
   {
     "id": 515,
@@ -21766,7 +22158,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Victory Road 1 F"
   },
   {
     "id": 520,
@@ -21794,7 +22187,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 521,
@@ -21848,7 +22242,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 522,
@@ -21902,7 +22297,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 523,
@@ -21932,7 +22328,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 524,
@@ -21986,7 +22383,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 525,
@@ -22040,7 +22438,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 526,
@@ -22068,7 +22467,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 527,
@@ -22122,7 +22522,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 528,
@@ -22176,7 +22577,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 529,
@@ -22204,7 +22606,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 530,
@@ -22258,7 +22661,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 531,
@@ -22312,7 +22716,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 532,
@@ -22340,7 +22745,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 533,
@@ -22394,7 +22800,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 534,
@@ -22448,7 +22855,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 535,
@@ -22476,7 +22884,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 536,
@@ -22530,7 +22939,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 537,
@@ -22584,7 +22994,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 538,
@@ -22677,7 +23088,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route117"
   },
   {
     "id": 539,
@@ -22705,7 +23117,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route123"
   },
   {
     "id": 540,
@@ -22756,7 +23169,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Victory Road B1 F"
   },
   {
     "id": 541,
@@ -23221,7 +23635,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route117"
   },
   {
     "id": 546,
@@ -23265,7 +23680,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Victory Road B1 F"
   },
   {
     "id": 547,
@@ -23293,7 +23709,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Abandoned Ship Rooms2 1 F"
   },
   {
     "id": 548,
@@ -23696,7 +24113,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 553,
@@ -23753,7 +24171,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 554,
@@ -23784,7 +24203,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle6"
   },
   {
     "id": 555,
@@ -23971,7 +24391,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 560,
@@ -24030,7 +24451,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 561,
@@ -24074,7 +24496,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle6"
   },
   {
     "id": 562,
@@ -24282,7 +24705,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Jagged Pass"
   },
   {
     "id": 567,
@@ -24323,7 +24747,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Seafloor Cavern Room3"
   },
   {
     "id": 568,
@@ -24405,7 +24830,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre Summit"
   },
   {
     "id": 570,
@@ -24446,7 +24872,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Jagged Pass"
   },
   {
     "id": 571,
@@ -24487,7 +24914,8 @@
           "speed": 15
         }
       }
-    ]
+    ],
+    "location": "Rustboro City - Gym"
   },
   {
     "id": 572,
@@ -24515,7 +24943,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Dewford Town - Gym"
   },
   {
     "id": 573,
@@ -24543,7 +24972,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Dewford Town - Gym"
   },
   {
     "id": 574,
@@ -24571,7 +25001,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Dewford Town - Gym"
   },
   {
     "id": 575,
@@ -24599,7 +25030,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 576,
@@ -24627,7 +25059,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route126"
   },
   {
     "id": 577,
@@ -24678,7 +25111,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route127"
   },
   {
     "id": 578,
@@ -24706,7 +25140,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route128"
   },
   {
     "id": 579,
@@ -24734,7 +25169,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Chimney"
   },
   {
     "id": 580,
@@ -24762,7 +25198,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route129"
   },
   {
     "id": 581,
@@ -24818,7 +25255,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 583,
@@ -24846,7 +25284,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 584,
@@ -24874,7 +25313,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 585,
@@ -24902,7 +25342,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 586,
@@ -24943,7 +25384,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Space Center 1 F"
   },
   {
     "id": 587,
@@ -24971,7 +25413,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Space Center 1 F"
   },
   {
     "id": 588,
@@ -24999,7 +25442,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Space Center 2 F"
   },
   {
     "id": 589,
@@ -25027,7 +25471,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Space Center 2 F"
   },
   {
     "id": 590,
@@ -25055,7 +25500,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Space Center 2 F"
   },
   {
     "id": 591,
@@ -25083,7 +25529,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 592,
@@ -25124,7 +25571,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Rustboro City"
   },
   {
     "id": 593,
@@ -25165,7 +25613,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Rustboro City"
   },
   {
     "id": 594,
@@ -25206,7 +25655,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route132"
   },
   {
     "id": 595,
@@ -25234,7 +25684,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route124"
   },
   {
     "id": 596,
@@ -25275,7 +25726,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119 Weather Institute 2 F"
   },
   {
     "id": 597,
@@ -25342,7 +25794,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Mt. Chimney"
   },
   {
     "id": 598,
@@ -25388,7 +25841,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route132"
   },
   {
     "id": 599,
@@ -25429,7 +25883,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Rustboro City"
   },
   {
     "id": 600,
@@ -25472,7 +25927,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Rustboro City"
   },
   {
     "id": 601,
@@ -25530,7 +25986,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 4 F"
   },
   {
     "id": 602,
@@ -25588,7 +26045,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Mt. Chimney"
   },
   {
     "id": 603,
@@ -25629,7 +26087,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route102"
   },
   {
     "id": 604,
@@ -25670,7 +26129,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route104"
   },
   {
     "id": 605,
@@ -25698,7 +26158,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 606,
@@ -25752,7 +26213,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 607,
@@ -25957,7 +26419,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle1"
   },
   {
     "id": 612,
@@ -26011,7 +26474,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle1"
   },
   {
     "id": 613,
@@ -26039,7 +26503,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 614,
@@ -26080,7 +26545,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym B1 F"
   },
   {
     "id": 615,
@@ -26121,7 +26587,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route102"
   },
   {
     "id": 616,
@@ -26188,7 +26655,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Petalburg Woods"
   },
   {
     "id": 617,
@@ -26229,7 +26697,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 618,
@@ -26270,7 +26739,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 619,
@@ -26311,7 +26781,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 620,
@@ -26339,7 +26810,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 621,
@@ -26380,7 +26852,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Petalburg Woods"
   },
   {
     "id": 622,
@@ -26611,7 +27084,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route112"
   },
   {
     "id": 627,
@@ -26665,7 +27139,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route112"
   },
   {
     "id": 628,
@@ -26706,7 +27181,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 629,
@@ -26747,7 +27223,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 630,
@@ -26801,7 +27278,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle3"
   },
   {
     "id": 631,
@@ -26829,7 +27307,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 632,
@@ -26870,7 +27349,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Jagged Pass"
   },
   {
     "id": 633,
@@ -27002,7 +27482,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Rusturf Tunnel"
   },
   {
     "id": 636,
@@ -27311,7 +27792,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Mt. Pyre 2 F"
   },
   {
     "id": 641,
@@ -27352,7 +27834,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "S S Tidal Rooms"
   },
   {
     "id": 642,
@@ -27393,7 +27876,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Abandoned Ship Rooms2 1 F"
   },
   {
     "id": 643,
@@ -27585,7 +28069,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109 Seashore House"
   },
   {
     "id": 648,
@@ -27621,7 +28106,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 649,
@@ -27672,7 +28158,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mauville City - Gym"
   },
   {
     "id": 650,
@@ -27705,7 +28192,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 651,
@@ -27757,7 +28245,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 652,
@@ -27809,7 +28298,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 653,
@@ -27861,7 +28351,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 654,
@@ -27902,7 +28393,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Fortree City - Gym"
   },
   {
     "id": 655,
@@ -27956,7 +28448,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Fortree City - Gym"
   },
   {
     "id": 656,
@@ -27984,7 +28477,8 @@
           "speed": 3
         }
       }
-    ]
+    ],
+    "location": "Mauville City"
   },
   {
     "id": 657,
@@ -28093,7 +28587,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Victory Road 1 F"
   },
   {
     "id": 658,
@@ -28487,7 +28982,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Lilycove City"
   },
   {
     "id": 662,
@@ -28554,7 +29050,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Lilycove City"
   },
   {
     "id": 663,
@@ -28621,7 +29118,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Lilycove City"
   },
   {
     "id": 664,
@@ -28688,7 +29186,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Lilycove City"
   },
   {
     "id": 665,
@@ -28755,7 +29254,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Lilycove City"
   },
   {
     "id": 666,
@@ -28822,7 +29322,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Lilycove City"
   },
   {
     "id": 667,
@@ -28876,7 +29377,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route127"
   },
   {
     "id": 668,
@@ -28917,7 +29419,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route127"
   },
   {
     "id": 669,
@@ -28971,7 +29474,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route127"
   },
   {
     "id": 670,
@@ -29015,7 +29519,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route128"
   },
   {
     "id": 671,
@@ -29059,7 +29564,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route128"
   },
   {
     "id": 672,
@@ -29087,7 +29593,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route127"
   },
   {
     "id": 673,
@@ -29141,7 +29648,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route128"
   },
   {
     "id": 674,
@@ -29182,7 +29690,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route127"
   },
   {
     "id": 675,
@@ -29223,7 +29732,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route129"
   },
   {
     "id": 676,
@@ -29251,7 +29761,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route129"
   },
   {
     "id": 677,
@@ -29292,7 +29803,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 678,
@@ -29343,7 +29855,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route125"
   },
   {
     "id": 679,
@@ -29394,7 +29907,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 680,
@@ -29445,7 +29959,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 681,
@@ -29496,7 +30011,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Meteor Falls 1 F 2 R"
   },
   {
     "id": 682,
@@ -29743,7 +30259,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route131"
   },
   {
     "id": 687,
@@ -29784,7 +30301,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route124"
   },
   {
     "id": 688,
@@ -29989,7 +30507,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route107"
   },
   {
     "id": 693,
@@ -30056,7 +30575,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 694,
@@ -30098,7 +30618,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 695,
@@ -30143,7 +30664,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 696,
@@ -30171,7 +30693,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route104"
   },
   {
     "id": 697,
@@ -30199,7 +30722,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 698,
@@ -30240,7 +30764,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 699,
@@ -30283,7 +30808,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 700,
@@ -30324,7 +30850,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 701,
@@ -30352,7 +30879,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110"
   },
   {
     "id": 702,
@@ -30380,7 +30908,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 703,
@@ -30408,7 +30937,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 704,
@@ -30436,7 +30966,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 705,
@@ -30464,7 +30995,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 706,
@@ -30492,7 +31024,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 707,
@@ -30520,7 +31053,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 708,
@@ -30561,7 +31095,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 709,
@@ -30602,7 +31137,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 710,
@@ -30643,7 +31179,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 711,
@@ -30684,7 +31221,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route113"
   },
   {
     "id": 712,
@@ -30725,7 +31263,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 713,
@@ -30753,7 +31292,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 714,
@@ -30781,7 +31321,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route114"
   },
   {
     "id": 715,
@@ -30835,7 +31376,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route118"
   },
   {
     "id": 716,
@@ -30863,7 +31405,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 1 F"
   },
   {
     "id": 717,
@@ -30891,7 +31434,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 1 F"
   },
   {
     "id": 718,
@@ -30919,7 +31463,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 2 F 1 R"
   },
   {
     "id": 719,
@@ -30960,7 +31505,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 2 F 1 R"
   },
   {
     "id": 720,
@@ -31001,7 +31547,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 2 F 1 R"
   },
   {
     "id": 721,
@@ -31029,7 +31576,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 2 F 2 R"
   },
   {
     "id": 722,
@@ -31057,7 +31605,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 2 F 2 R"
   },
   {
     "id": 723,
@@ -31085,7 +31634,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 2 F 2 R"
   },
   {
     "id": 724,
@@ -31113,7 +31663,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 3 F 1 R"
   },
   {
     "id": 725,
@@ -31141,7 +31692,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 3 F 2 R"
   },
   {
     "id": 726,
@@ -31169,7 +31721,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 4 F"
   },
   {
     "id": 727,
@@ -31197,7 +31750,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 4 F"
   },
   {
     "id": 728,
@@ -31225,7 +31779,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 4 F"
   },
   {
     "id": 729,
@@ -31253,7 +31808,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 2 F 1 R"
   },
   {
     "id": 730,
@@ -31281,7 +31837,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 2 F 2 R"
   },
   {
     "id": 731,
@@ -31309,7 +31866,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 3 F 1 R"
   },
   {
     "id": 732,
@@ -31376,7 +31934,8 @@
           "speed": 9
         }
       }
-    ]
+    ],
+    "location": "Magma Hideout 4 F"
   },
   {
     "id": 733,
@@ -31420,7 +31979,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route132"
   },
   {
     "id": 734,
@@ -31474,7 +32034,8 @@
           "speed": 18
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Space Center 2 F"
   },
   {
     "id": 735,
@@ -31502,7 +32063,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 736,
@@ -31530,7 +32092,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route103"
   },
   {
     "id": 737,
@@ -31571,7 +32134,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route105"
   },
   {
     "id": 738,
@@ -31612,7 +32176,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route105"
   },
   {
     "id": 739,
@@ -31640,7 +32205,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route107"
   },
   {
     "id": 740,
@@ -31694,7 +32260,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route108"
   },
   {
     "id": 741,
@@ -31751,7 +32318,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Route108"
   },
   {
     "id": 742,
@@ -31792,7 +32360,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route109"
   },
   {
     "id": 743,
@@ -31833,7 +32402,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 744,
@@ -31874,7 +32444,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 745,
@@ -31915,7 +32486,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route111"
   },
   {
     "id": 746,
@@ -31956,7 +32528,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route112"
   },
   {
     "id": 747,
@@ -31997,7 +32570,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route112"
   },
   {
     "id": 748,
@@ -32038,7 +32612,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 749,
@@ -32079,7 +32654,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 750,
@@ -32120,7 +32696,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 751,
@@ -32161,7 +32738,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 752,
@@ -32202,7 +32780,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route115"
   },
   {
     "id": 753,
@@ -32243,7 +32822,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 754,
@@ -32284,7 +32864,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route116"
   },
   {
     "id": 755,
@@ -32312,7 +32893,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route117"
   },
   {
     "id": 756,
@@ -32340,7 +32922,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route117"
   },
   {
     "id": 757,
@@ -32368,7 +32951,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route117"
   },
   {
     "id": 758,
@@ -32412,7 +32996,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route132"
   },
   {
     "id": 759,
@@ -32440,7 +33025,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 760,
@@ -32481,7 +33067,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 761,
@@ -32509,7 +33096,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route119"
   },
   {
     "id": 762,
@@ -32544,7 +33132,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 763,
@@ -32585,7 +33174,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route120"
   },
   {
     "id": 764,
@@ -32626,7 +33216,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 765,
@@ -32719,7 +33310,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 766,
@@ -32812,7 +33404,8 @@
           "speed": 1
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 767,
@@ -32856,7 +33449,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Route121"
   },
   {
     "id": 768,
@@ -32897,7 +33491,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Rustboro City"
   },
   {
     "id": 769,
@@ -32938,7 +33533,8 @@
           "speed": 6
         }
       }
-    ]
+    ],
+    "location": "Rustboro City"
   },
   {
     "id": 770,
@@ -36727,7 +37323,8 @@
           "speed": 12
         }
       }
-    ]
+    ],
+    "location": "Mauville City - Gym"
   },
   {
     "id": 803,
@@ -36755,7 +37352,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Fortree City - Gym"
   },
   {
     "id": 804,
@@ -36885,7 +37483,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Meteor Falls Stevens Cave"
   },
   {
     "id": 805,
@@ -39141,7 +39740,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle7"
   },
   {
     "id": 849,
@@ -39180,7 +39780,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle7"
   },
   {
     "id": 850,
@@ -39206,7 +39807,8 @@
           "speed": 0
         }
       }
-    ]
+    ],
+    "location": "Route110 Trick House Puzzle7"
   },
   {
     "id": 851,

@@ -214,120 +214,60 @@ export function GymLeadersPage({ navigate }: GymLeadersPageProps) {
 
             {/* Party */}
             <div>
-              <h3 className="font-semibold mb-3">Party ({selectedLeader.party.length})</h3>
-              <div className="space-y-4">
+              <h3 className="font-semibold mb-2">Party ({selectedLeader.party.length})</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {selectedLeader.party.map((mon, idx) => (
-                  <Card key={idx}>
-                    <CardHeader className="pb-3">
-                      <div className="flex items-center justify-between">
-                        <CardTitle className="text-lg">
-                          {mon.nickname ? `${mon.nickname} (${mon.species})` : mon.species}
-                        </CardTitle>
-                        <div className="text-sm font-bold">Lv. {mon.level}</div>
+                  <Card key={idx} className="p-3">
+                    <div className="space-y-2">
+                      {/* Header - Name, Level, Item */}
+                      <div>
+                        <div className="flex items-center justify-between">
+                          <span className="font-bold text-sm">
+                            {mon.nickname ? `${mon.nickname} (${mon.species})` : mon.species}
+                          </span>
+                          <span className="text-xs font-bold">Lv. {mon.level}</span>
+                        </div>
+                        {mon.heldItem && (
+                          <div className="text-xs text-muted-foreground">@ {mon.heldItem}</div>
+                        )}
                       </div>
-                      {mon.heldItem && (
-                        <CardDescription>@ {mon.heldItem}</CardDescription>
-                      )}
-                    </CardHeader>
-                    <CardContent className="space-y-3">
-                      <div className="grid grid-cols-2 gap-2 text-sm">
+
+                      {/* Ability & Nature */}
+                      <div className="text-xs space-y-0.5">
                         {mon.ability && (
-                          <div>
-                            <span className="text-muted-foreground">Ability:</span> {mon.ability}
-                          </div>
+                          <div><span className="text-muted-foreground">Ability:</span> {mon.ability}</div>
                         )}
                         {mon.nature && (
-                          <div>
-                            <span className="text-muted-foreground">Nature:</span> {mon.nature}
-                          </div>
-                        )}
-                        {mon.shiny && (
-                          <div className="col-span-2">
-                            <span className="px-2 py-1 bg-yellow-500 text-white rounded text-xs">✨ Shiny</span>
-                          </div>
+                          <div><span className="text-muted-foreground">Nature:</span> {mon.nature}</div>
                         )}
                       </div>
 
-                      {/* IVs */}
+                      {/* IVs - Compact inline */}
                       {mon.ivs && (
-                        <div>
-                          <div className="text-xs text-muted-foreground mb-1">IVs</div>
-                          <div className="grid grid-cols-6 gap-1 text-xs">
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.hp}</div>
-                              <div className="text-muted-foreground">HP</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.attack}</div>
-                              <div className="text-muted-foreground">Atk</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.defense}</div>
-                              <div className="text-muted-foreground">Def</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.spAttack}</div>
-                              <div className="text-muted-foreground">SpA</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.spDefense}</div>
-                              <div className="text-muted-foreground">SpD</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.ivs.speed}</div>
-                              <div className="text-muted-foreground">Spe</div>
-                            </div>
-                          </div>
+                        <div className="text-xs">
+                          <span className="text-muted-foreground">IVs:</span> {mon.ivs.hp} HP / {mon.ivs.attack} Atk / {mon.ivs.defense} Def / {mon.ivs.spAttack} SpA / {mon.ivs.spDefense} SpD / {mon.ivs.speed} Spe
                         </div>
                       )}
 
-                      {/* EVs */}
+                      {/* EVs - Compact inline (only if they exist) */}
                       {mon.evs && Object.values(mon.evs).some(ev => ev > 0) && (
-                        <div>
-                          <div className="text-xs text-muted-foreground mb-1">EVs</div>
-                          <div className="grid grid-cols-6 gap-1 text-xs">
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.hp}</div>
-                              <div className="text-muted-foreground">HP</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.attack}</div>
-                              <div className="text-muted-foreground">Atk</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.defense}</div>
-                              <div className="text-muted-foreground">Def</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.spAttack}</div>
-                              <div className="text-muted-foreground">SpA</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.spDefense}</div>
-                              <div className="text-muted-foreground">SpD</div>
-                            </div>
-                            <div className="text-center p-1 bg-muted rounded">
-                              <div className="font-semibold">{mon.evs.speed}</div>
-                              <div className="text-muted-foreground">Spe</div>
-                            </div>
-                          </div>
+                        <div className="text-xs">
+                          <span className="text-muted-foreground">EVs:</span> {mon.evs.hp > 0 && `${mon.evs.hp} HP`}{mon.evs.attack > 0 && ` / ${mon.evs.attack} Atk`}{mon.evs.defense > 0 && ` / ${mon.evs.defense} Def`}{mon.evs.spAttack > 0 && ` / ${mon.evs.spAttack} SpA`}{mon.evs.spDefense > 0 && ` / ${mon.evs.spDefense} SpD`}{mon.evs.speed > 0 && ` / ${mon.evs.speed} Spe`}
                         </div>
                       )}
 
-                      {/* Moves */}
+                      {/* Moves - Compact */}
                       {mon.moves && mon.moves.length > 0 && (
-                        <div>
-                          <div className="text-xs text-muted-foreground mb-1">Moves</div>
-                          <div className="space-y-1">
+                        <div className="text-xs">
+                          <div className="text-muted-foreground mb-0.5">Moves:</div>
+                          <div className="space-y-0.5">
                             {mon.moves.map((move, moveIdx) => (
-                              <div key={moveIdx} className="px-2 py-1 bg-muted rounded text-sm">
-                                - {move}
-                              </div>
+                              <div key={moveIdx}>- {move}</div>
                             ))}
                           </div>
                         </div>
                       )}
-                    </CardContent>
+                    </div>
                   </Card>
                 ))}
               </div>

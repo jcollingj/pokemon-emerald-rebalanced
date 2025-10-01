@@ -108,7 +108,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Sidneys Room"
   },
   {
     "id": 262,
@@ -218,7 +219,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Phoebes Room"
   },
   {
     "id": 263,
@@ -328,7 +330,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Glacias Room"
   },
   {
     "id": 264,
@@ -438,7 +441,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Drakes Room"
   },
   {
     "id": 265,
@@ -458,51 +462,76 @@
     ],
     "party": [
       {
-        "level": 12,
+        "level": 10,
         "moves": [
-          "Tackle",
+          "Stealth rock",
+          "Rock slide",
+          "Bite",
+          "Protect"
+        ],
+        "species": "Larvitar",
+        "heldItem": "Smooth rock",
+        "ability": "Sand Stream",
+        "ivs": {
+          "hp": 20,
+          "attack": 20,
+          "defense": 20,
+          "spAttack": 20,
+          "spDefense": 20,
+          "speed": 20
+        }
+      },
+      {
+        "level": 11,
+        "moves": [
           "Defense curl",
+          "Rollout",
           "Rock throw",
-          "Rock tomb"
+          "Tackle"
         ],
         "species": "Geodude",
+        "heldItem": "Wide lens",
+        "ability": "Magnet Pull",
         "ivs": {
-          "hp": 12,
-          "attack": 12,
-          "defense": 12,
-          "spAttack": 12,
-          "spDefense": 12,
-          "speed": 12
+          "hp": 20,
+          "attack": 20,
+          "defense": 20,
+          "spAttack": 20,
+          "spDefense": 20,
+          "speed": 20
         }
       },
       {
         "level": 12,
         "moves": [
-          "Tackle",
-          "Defense curl",
-          "Rock throw",
-          "Rock tomb"
+          "Water gun",
+          "Ancient power",
+          "Withdraw",
+          "Bite"
         ],
-        "species": "Geodude",
-        "ivs": {
-          "hp": 12,
-          "attack": 12,
-          "defense": 12,
-          "spAttack": 12,
-          "spDefense": 12,
-          "speed": 12
-        }
-      },
-      {
-        "level": 15,
-        "moves": [
-          "Block",
-          "Harden",
-          "Tackle",
-          "Rock tomb"
-        ],
-        "species": "Nosepass",
+        "species": "Omanyte",
         "heldItem": "Oran berry",
+        "ability": "Swift Swim",
+        "ivs": {
+          "hp": 20,
+          "attack": 20,
+          "defense": 20,
+          "spAttack": 20,
+          "spDefense": 20,
+          "speed": 20
+        }
+      },
+      {
+        "level": 13,
+        "moves": [
+          "Ancient power",
+          "Acid",
+          "Confuse ray",
+          "Ingrain"
+        ],
+        "species": "Lileep",
+        "heldItem": "Sitrus berry",
+        "ability": "Suction Cups",
         "ivs": {
           "hp": 24,
           "attack": 24,
@@ -511,8 +540,49 @@
           "spDefense": 24,
           "speed": 24
         }
+      },
+      {
+        "level": 14,
+        "moves": [
+          "Fury cutter",
+          "Rock blast",
+          "Water gun",
+          "Metal claw"
+        ],
+        "species": "Anorith",
+        "heldItem": "Focus sash",
+        "ability": "Battle Armor",
+        "ivs": {
+          "hp": 24,
+          "attack": 24,
+          "defense": 24,
+          "spAttack": 24,
+          "spDefense": 24,
+          "speed": 24
+        }
+      },
+      {
+        "level": 15,
+        "moves": [
+          "Power gem",
+          "Thunderbolt",
+          "Thunder wave",
+          "Rest"
+        ],
+        "species": "Nosepass",
+        "heldItem": "Chesto berry",
+        "ability": "Sand Force",
+        "ivs": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 30,
+          "spAttack": 30,
+          "spDefense": 30,
+          "speed": 30
+        }
       }
-    ]
+    ],
+    "location": "Rustboro City - Gym"
   },
   {
     "id": 266,
@@ -586,7 +656,8 @@
           "speed": 24
         }
       }
-    ]
+    ],
+    "location": "Dewford Town - Gym"
   },
   {
     "id": 267,
@@ -678,7 +749,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Mauville City - Gym"
   },
   {
     "id": 268,
@@ -770,7 +842,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Lavaridge Town - Gym 1 F"
   },
   {
     "id": 269,
@@ -862,7 +935,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Petalburg City - Gym"
   },
   {
     "id": 270,
@@ -973,7 +1047,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Fortree City - Gym"
   },
   {
     "id": 271,
@@ -1068,7 +1143,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Mossdeep City - Gym"
   },
   {
     "id": 272,
@@ -1178,7 +1254,8 @@
           "speed": 30
         }
       }
-    ]
+    ],
+    "location": "Sootopolis City - Gym 1 F"
   },
   {
     "id": 335,
@@ -1308,7 +1385,8 @@
           "speed": 31
         }
       }
-    ]
+    ],
+    "location": "Ever Grande City - Champions Room"
   },
   {
     "id": 770,
