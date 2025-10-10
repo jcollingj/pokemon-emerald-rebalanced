@@ -171,6 +171,12 @@ void NewGameInitData(void)
     PlayTimeCounter_Reset();
     ClearPokedexFlags();
     InitEventData();
+
+    // Skip Wally tutorial at Petalburg Gym
+    VarSet(VAR_PETALBURG_GYM_STATE, 2);
+    FlagSet(FLAG_HIDE_PETALBURG_CITY_WALLY);
+    FlagSet(FLAG_HIDE_PETALBURG_GYM_WALLY);
+
     ClearTVShowData();
     ResetGabbyAndTy();
     ClearSecretBases();

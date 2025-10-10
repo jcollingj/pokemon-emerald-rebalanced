@@ -15,6 +15,7 @@
   - [How to add a new trainer class](tutorials/how_to_trainer_class.md)
   - [How to add a new Pokémon](tutorials/how_to_new_pokemon.md)
     - [v1.6.x and earlier](tutorials/how_to_new_pokemon_1_6_0.md)
+  - [How to implement party-wide EXP Share](tutorials/how_to_party_exp_share.md)
   - [How to use the Testing System](tutorials/how_to_testing_system.md)
   - [How to add new Trainer Slides](tutorials/how_to_new_trainer_slide.md)
   - [Day/Night System FAQ](tutorials/dns.md)
