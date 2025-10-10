@@ -69,6 +69,8 @@ interface Pokemon {
   eggGroups: string[];
   bodyColor: string;
   levelUpLearnset: LevelUpMove[];
+  teachableLearnset: string[];
+  eggMoveLearnset: string[];
   modifications?: Modifications;
 }
 
@@ -154,7 +156,7 @@ async function parsePokemon() {
     moveNameMap.set(constantName, name);
   }
 
-  // Parse learnsets
+  // Parse level-up learnsets
   const learnsetMap = new Map<string, LevelUpMove[]>();
   const learnsetGenFiles = [
     'gen_1.h',
@@ -201,6 +203,74 @@ async function parsePokemon() {
     } catch (err) {
       console.warn(`⚠️  Could not read learnset file ${genFile}: ${err}`);
     }
+  }
+
+  // Parse teachable learnsets (TMs/HMs/Move Tutors)
+  const teachableLearnsetMap = new Map<string, string[]>();
+  const teachableLearnsetPath = join(projectRoot, 'src/data/pokemon/teachable_learnsets.h');
+  try {
+    const teachableContent = await readFile(teachableLearnsetPath, 'utf-8');
+
+    // Parse teachable learnsets - format: static const u16 sXXXTeachableLearnset[] = {
+    const teachableRegex = /static const u16 s(\w+)TeachableLearnset\[\]\s*=\s*\{([^}]+)\}/g;
+
+    while ((match = teachableRegex.exec(teachableContent)) !== null) {
+      const [, pokemonName, movesBlock] = match;
+      const moves: string[] = [];
+
+      // Parse individual moves: MOVE_NAME,
+      const moveRegex = /(MOVE_\w+)/g;
+      let moveMatch;
+
+      while ((moveMatch = moveRegex.exec(movesBlock)) !== null) {
+        const moveConstant = moveMatch[1];
+        const moveName = moveNameMap.get(moveConstant);
+
+        if (moveName && moveConstant !== 'MOVE_UNAVAILABLE' && moveConstant !== 'MOVE_NONE') {
+          moves.push(moveName);
+        }
+      }
+
+      if (moves.length > 0) {
+        teachableLearnsetMap.set(pokemonName.toUpperCase(), moves);
+      }
+    }
+  } catch (err) {
+    console.warn(`⚠️  Could not read teachable learnsets: ${err}`);
+  }
+
+  // Parse egg move learnsets
+  const eggMoveLearnsetMap = new Map<string, string[]>();
+  const eggMoveLearnsetPath = join(projectRoot, 'src/data/pokemon/egg_moves.h');
+  try {
+    const eggMoveContent = await readFile(eggMoveLearnsetPath, 'utf-8');
+
+    // Parse egg move learnsets - format: static const u16 sXXXEggMoveLearnset[] = {
+    const eggMoveRegex = /static const u16 s(\w+)EggMoveLearnset\[\]\s*=\s*\{([^}]+)\}/g;
+
+    while ((match = eggMoveRegex.exec(eggMoveContent)) !== null) {
+      const [, pokemonName, movesBlock] = match;
+      const moves: string[] = [];
+
+      // Parse individual moves: MOVE_NAME,
+      const moveRegex = /(MOVE_\w+)/g;
+      let moveMatch;
+
+      while ((moveMatch = moveRegex.exec(movesBlock)) !== null) {
+        const moveConstant = moveMatch[1];
+        const moveName = moveNameMap.get(moveConstant);
+
+        if (moveName && moveConstant !== 'MOVE_UNAVAILABLE' && moveConstant !== 'MOVE_NONE') {
+          moves.push(moveName);
+        }
+      }
+
+      if (moves.length > 0) {
+        eggMoveLearnsetMap.set(pokemonName.toUpperCase(), moves);
+      }
+    }
+  } catch (err) {
+    console.warn(`⚠️  Could not read egg move learnsets: ${err}`);
   }
 
   const pokemon: Pokemon[] = [];
@@ -302,9 +372,11 @@ async function parsePokemon() {
       }
     }
 
-    // Get learnset for this Pokemon
+    // Get learnsets for this Pokemon
     const pokemonNameUpper = nameMatch[1].toUpperCase().replace(/[^A-Z]/g, '');
     const learnset = learnsetMap.get(pokemonNameUpper) || [];
+    const teachableLearnset = teachableLearnsetMap.get(pokemonNameUpper) || [];
+    const eggMoveLearnset = eggMoveLearnsetMap.get(pokemonNameUpper) || [];
 
     const mon: Pokemon = {
       id,
@@ -334,6 +406,8 @@ async function parsePokemon() {
       eggGroups: [],
       bodyColor: bodyColorMatch ? (bodyColorMap[bodyColorMatch[1]] || bodyColorMatch[1]) : 'Unknown',
       levelUpLearnset: learnset,
+      teachableLearnset,
+      eggMoveLearnset,
     };
 
     // Parse egg groups

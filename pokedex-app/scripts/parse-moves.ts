@@ -3,6 +3,12 @@
 import { readFile, writeFile } from 'fs/promises';
 import { join } from 'path';
 
+interface AdditionalEffect {
+  moveEffect: string;
+  chance: number;
+  self: boolean;
+}
+
 interface Move {
   id: number;
   name: string;
@@ -15,6 +21,7 @@ interface Move {
   priority: number;
   target: string;
   effect: string;
+  additionalEffects?: AdditionalEffect[];
   flags: {
     makesContact?: boolean;
     ignoresProtect?: boolean;
@@ -52,6 +59,54 @@ const targetMap: Record<string, string> = {
   'MOVE_TARGET_USER_AND_ALLIES': 'User and Allies',
   'MOVE_TARGET_ALLY': 'Ally',
   'MOVE_TARGET_ALLIES': 'All Allies',
+};
+
+const moveEffectDescriptions: Record<string, string> = {
+  'MOVE_EFFECT_SLEEP': 'May cause sleep',
+  'MOVE_EFFECT_POISON': 'May poison the target',
+  'MOVE_EFFECT_BURN': 'May burn the target',
+  'MOVE_EFFECT_FREEZE': 'May freeze the target',
+  'MOVE_EFFECT_PARALYSIS': 'May paralyze the target',
+  'MOVE_EFFECT_TOXIC': 'May badly poison the target',
+  'MOVE_EFFECT_FROSTBITE': 'May inflict frostbite',
+  'MOVE_EFFECT_CONFUSION': 'May confuse the target',
+  'MOVE_EFFECT_FLINCH': 'May cause flinching',
+  'MOVE_EFFECT_ATK_PLUS_1': 'Raises Attack by 1 stage',
+  'MOVE_EFFECT_DEF_PLUS_1': 'Raises Defense by 1 stage',
+  'MOVE_EFFECT_SPD_PLUS_1': 'Raises Speed by 1 stage',
+  'MOVE_EFFECT_SP_ATK_PLUS_1': 'Raises Special Attack by 1 stage',
+  'MOVE_EFFECT_SP_DEF_PLUS_1': 'Raises Special Defense by 1 stage',
+  'MOVE_EFFECT_ACC_PLUS_1': 'Raises Accuracy by 1 stage',
+  'MOVE_EFFECT_EVS_PLUS_1': 'Raises Evasion by 1 stage',
+  'MOVE_EFFECT_ATK_MINUS_1': 'Lowers Attack by 1 stage',
+  'MOVE_EFFECT_DEF_MINUS_1': 'Lowers Defense by 1 stage',
+  'MOVE_EFFECT_SPD_MINUS_1': 'Lowers Speed by 1 stage',
+  'MOVE_EFFECT_SP_ATK_MINUS_1': 'Lowers Special Attack by 1 stage',
+  'MOVE_EFFECT_SP_DEF_MINUS_1': 'Lowers Special Defense by 1 stage',
+  'MOVE_EFFECT_ACC_MINUS_1': 'Lowers Accuracy by 1 stage',
+  'MOVE_EFFECT_EVS_MINUS_1': 'Lowers Evasion by 1 stage',
+  'MOVE_EFFECT_ATK_PLUS_2': 'Raises Attack by 2 stages',
+  'MOVE_EFFECT_DEF_PLUS_2': 'Raises Defense by 2 stages',
+  'MOVE_EFFECT_SPD_PLUS_2': 'Raises Speed by 2 stages',
+  'MOVE_EFFECT_SP_ATK_PLUS_2': 'Raises Special Attack by 2 stages',
+  'MOVE_EFFECT_SP_DEF_PLUS_2': 'Raises Special Defense by 2 stages',
+  'MOVE_EFFECT_ACC_PLUS_2': 'Raises Accuracy by 2 stages',
+  'MOVE_EFFECT_EVS_PLUS_2': 'Raises Evasion by 2 stages',
+  'MOVE_EFFECT_ATK_MINUS_2': 'Lowers Attack by 2 stages',
+  'MOVE_EFFECT_DEF_MINUS_2': 'Lowers Defense by 2 stages',
+  'MOVE_EFFECT_SPD_MINUS_2': 'Lowers Speed by 2 stages',
+  'MOVE_EFFECT_SP_ATK_MINUS_2': 'Lowers Special Attack by 2 stages',
+  'MOVE_EFFECT_SP_DEF_MINUS_2': 'Lowers Special Defense by 2 stages',
+  'MOVE_EFFECT_ACC_MINUS_2': 'Lowers Accuracy by 2 stages',
+  'MOVE_EFFECT_EVS_MINUS_2': 'Lowers Evasion by 2 stages',
+  'MOVE_EFFECT_RECHARGE': 'User must recharge next turn',
+  'MOVE_EFFECT_ALL_STATS_UP': 'Raises all stats',
+  'MOVE_EFFECT_REMOVE_STATUS': 'Removes status conditions',
+  'MOVE_EFFECT_ATK_DEF_DOWN': 'Lowers Attack and Defense',
+  'MOVE_EFFECT_DEF_SPDEF_DOWN': 'Lowers Defense and Special Defense',
+  'MOVE_EFFECT_CLEAR_SMOG': 'Removes all stat changes from the target',
+  'MOVE_EFFECT_RECOIL_HP_25': 'User takes 25% recoil damage',
+  'MOVE_EFFECT_PAYDAY': 'Scatters coins',
 };
 
 async function parseMoves() {
@@ -179,6 +234,24 @@ async function parseMoves() {
 
     if (!nameMatch) return;
 
+    // Parse additional effects
+    const additionalEffects: AdditionalEffect[] = [];
+    const additionalEffectsMatch = blockContent.match(/\.additionalEffects\s*=\s*ADDITIONAL_EFFECTS\(\{([^}]+(?:\{[^}]+\}[^}]*)*)\}\)/s);
+    if (additionalEffectsMatch) {
+      const effectsContent = additionalEffectsMatch[1];
+      const moveEffectMatch = effectsContent.match(/\.moveEffect\s*=\s*(MOVE_EFFECT_\w+)/);
+      const chanceMatch = effectsContent.match(/\.chance\s*=\s*(\d+)/);
+      const selfMatch = effectsContent.includes('.self = TRUE');
+
+      if (moveEffectMatch) {
+        additionalEffects.push({
+          moveEffect: moveEffectMatch[1],
+          chance: chanceMatch ? parseInt(chanceMatch[1], 10) : 100,
+          self: selfMatch,
+        });
+      }
+    }
+
     const move: Move = {
       id,
       name: nameMatch[1],
@@ -191,6 +264,7 @@ async function parseMoves() {
       priority: priorityMatch ? parseInt(priorityMatch[1], 10) : 0,
       target: targetMatch ? (targetMap[targetMatch[1]] || targetMatch[1]) : 'Single Target',
       effect: effectMatch ? effectMatch[1].split('_').map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(' ') : '',
+      additionalEffects: additionalEffects.length > 0 ? additionalEffects : undefined,
       flags: {},
     };
 

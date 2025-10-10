@@ -4257,7 +4257,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                  && !gBattleMons[battler].volatiles.healBlock)
                 {
                     BattleScriptPushCursorAndCallback(BattleScript_RainDishActivates);
-                    gBattleStruct->moveDamage[battler] = GetNonDynamaxMaxHP(battler) / (gLastUsedAbility == ABILITY_RAIN_DISH ? 16 : 8);
+                    gBattleStruct->moveDamage[battler] = GetNonDynamaxMaxHP(battler) / (gLastUsedAbility == ABILITY_RAIN_DISH ? 8 : 8);
                     if (gBattleStruct->moveDamage[battler] == 0)
                         gBattleStruct->moveDamage[battler] = 1;
                     gBattleStruct->moveDamage[battler] *= -1;
@@ -8969,6 +8969,14 @@ static inline u32 CalcDefenseStat(struct DamageContext *ctx)
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
             if (ctx->updateFlags)
                 RecordAbilityBattle(battlerDef, ABILITY_GRASS_PELT);
+        }
+        break;
+    case ABILITY_RAIN_DISH:
+        if (IsBattlerWeatherAffected(battlerDef, B_WEATHER_RAIN) && usesDefStat)
+        {
+            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
+            if (ctx->updateFlags)
+                RecordAbilityBattle(battlerDef, ABILITY_RAIN_DISH);
         }
         break;
     case ABILITY_FLOWER_GIFT:

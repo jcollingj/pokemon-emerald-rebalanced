@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Search } from "lucide-react";
 import { InfoCard } from "./InfoCard";
 
@@ -44,6 +45,12 @@ interface Modifications {
   generalNotes?: string[];
 }
 
+interface AdditionalEffect {
+  moveEffect: string;
+  chance: number;
+  self: boolean;
+}
+
 interface Move {
   id: number;
   name: string;
@@ -56,6 +63,7 @@ interface Move {
   priority: number;
   target: string;
   effect: string;
+  additionalEffects?: AdditionalEffect[];
   flags: {
     makesContact?: boolean;
     ignoresProtect?: boolean;
@@ -102,6 +110,8 @@ interface Pokemon {
   eggGroups: string[];
   bodyColor: string;
   levelUpLearnset: LevelUpMove[];
+  teachableLearnset: string[];
+  eggMoveLearnset: string[];
   modifications?: Modifications;
 }
 
@@ -130,6 +140,84 @@ const typeColors: Record<string, string> = {
   Fairy: "bg-pink-300",
 };
 
+const moveEffectDescriptions: Record<string, string> = {
+  'MOVE_EFFECT_SLEEP': 'May cause sleep',
+  'MOVE_EFFECT_POISON': 'May poison the target',
+  'MOVE_EFFECT_BURN': 'May burn the target',
+  'MOVE_EFFECT_FREEZE': 'May freeze the target',
+  'MOVE_EFFECT_PARALYSIS': 'May paralyze the target',
+  'MOVE_EFFECT_TOXIC': 'May badly poison the target',
+  'MOVE_EFFECT_FROSTBITE': 'May inflict frostbite',
+  'MOVE_EFFECT_CONFUSION': 'May confuse the target',
+  'MOVE_EFFECT_FLINCH': 'May cause flinching',
+  'MOVE_EFFECT_ATK_PLUS_1': 'Raises Attack by 1 stage',
+  'MOVE_EFFECT_DEF_PLUS_1': 'Raises Defense by 1 stage',
+  'MOVE_EFFECT_SPD_PLUS_1': 'Raises Speed by 1 stage',
+  'MOVE_EFFECT_SP_ATK_PLUS_1': 'Raises Special Attack by 1 stage',
+  'MOVE_EFFECT_SP_DEF_PLUS_1': 'Raises Special Defense by 1 stage',
+  'MOVE_EFFECT_ACC_PLUS_1': 'Raises Accuracy by 1 stage',
+  'MOVE_EFFECT_EVS_PLUS_1': 'Raises Evasion by 1 stage',
+  'MOVE_EFFECT_ATK_MINUS_1': 'Lowers Attack by 1 stage',
+  'MOVE_EFFECT_DEF_MINUS_1': 'Lowers Defense by 1 stage',
+  'MOVE_EFFECT_SPD_MINUS_1': 'Lowers Speed by 1 stage',
+  'MOVE_EFFECT_SP_ATK_MINUS_1': 'Lowers Special Attack by 1 stage',
+  'MOVE_EFFECT_SP_DEF_MINUS_1': 'Lowers Special Defense by 1 stage',
+  'MOVE_EFFECT_ACC_MINUS_1': 'Lowers Accuracy by 1 stage',
+  'MOVE_EFFECT_EVS_MINUS_1': 'Lowers Evasion by 1 stage',
+  'MOVE_EFFECT_ATK_PLUS_2': 'Raises Attack by 2 stages',
+  'MOVE_EFFECT_DEF_PLUS_2': 'Raises Defense by 2 stages',
+  'MOVE_EFFECT_SPD_PLUS_2': 'Raises Speed by 2 stages',
+  'MOVE_EFFECT_SP_ATK_PLUS_2': 'Raises Special Attack by 2 stages',
+  'MOVE_EFFECT_SP_DEF_PLUS_2': 'Raises Special Defense by 2 stages',
+  'MOVE_EFFECT_ACC_PLUS_2': 'Raises Accuracy by 2 stages',
+  'MOVE_EFFECT_EVS_PLUS_2': 'Raises Evasion by 2 stages',
+  'MOVE_EFFECT_ATK_MINUS_2': 'Lowers Attack by 2 stages',
+  'MOVE_EFFECT_DEF_MINUS_2': 'Lowers Defense by 2 stages',
+  'MOVE_EFFECT_SPD_MINUS_2': 'Lowers Speed by 2 stages',
+  'MOVE_EFFECT_SP_ATK_MINUS_2': 'Lowers Special Attack by 2 stages',
+  'MOVE_EFFECT_SP_DEF_MINUS_2': 'Lowers Special Defense by 2 stages',
+  'MOVE_EFFECT_ACC_MINUS_2': 'Lowers Accuracy by 2 stages',
+  'MOVE_EFFECT_EVS_MINUS_2': 'Lowers Evasion by 2 stages',
+  'MOVE_EFFECT_RECHARGE': 'User must recharge next turn',
+  'MOVE_EFFECT_ALL_STATS_UP': 'Raises all stats',
+  'MOVE_EFFECT_REMOVE_STATUS': 'Removes status conditions',
+  'MOVE_EFFECT_ATK_DEF_DOWN': 'Lowers Attack and Defense',
+  'MOVE_EFFECT_DEF_SPDEF_DOWN': 'Lowers Defense and Special Defense',
+  'MOVE_EFFECT_CLEAR_SMOG': 'Removes all stat changes from the target',
+  'MOVE_EFFECT_RECOIL_HP_25': 'User takes 25% recoil damage',
+  'MOVE_EFFECT_PAYDAY': 'Scatters coins',
+};
+
+function getAdditionalEffectDescription(effect: AdditionalEffect): string {
+  const baseDescription = moveEffectDescriptions[effect.moveEffect] || effect.moveEffect;
+  const target = effect.self ? 'the user' : 'the target';
+
+  // Replace generic target mentions with specific target
+  let description = baseDescription.replace(/the target|the user/i, target);
+
+  // For stat changes, add "of the user" or "of the target"
+  if (baseDescription.includes('Raises') || baseDescription.includes('Lowers')) {
+    if (!description.includes(' of ')) {
+      description = description + (effect.self ? ' of the user' : '');
+    }
+  }
+
+  // Add chance if not 100%
+  if (effect.chance < 100) {
+    return `${effect.chance}% chance: ${description}`;
+  }
+
+  return description;
+}
+
+function getAbilityRatingBadge(rating: number): string {
+  if (rating >= 8) return 'Excellent';
+  if (rating >= 6) return 'Strong';
+  if (rating >= 4) return 'Good';
+  if (rating >= 2) return 'Average';
+  return 'Weak';
+}
+
 export function PokemonPage({ navigate }: PokemonPageProps) {
   const [pokemon, setPokemon] = useState<Pokemon[]>([]);
   const [loading, setLoading] = useState(true);
@@ -148,6 +236,12 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
     name: string;
     description: string;
     aiRating: number;
+    breakable?: boolean;
+    cantBeSwapped?: boolean;
+    cantBeTraced?: boolean;
+    cantBeSuppressed?: boolean;
+    cantBeOverwritten?: boolean;
+    failsOnMaxGuard?: boolean;
   }
 
   useEffect(() => {
@@ -521,6 +615,42 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
                   </div>
                 )}
 
+                {/* Teachable Moves (TMs/HMs/Tutors) */}
+                {selectedPokemon.teachableLearnset && selectedPokemon.teachableLearnset.length > 0 && (
+                  <div>
+                    <h3 className="font-semibold mb-2">TMs/HMs/Move Tutors ({selectedPokemon.teachableLearnset.length})</h3>
+                    <div className="space-y-1 max-h-[400px] overflow-y-auto">
+                      {selectedPokemon.teachableLearnset.map((move, idx) => (
+                        <button
+                          key={idx}
+                          onClick={() => handleMoveClick(move)}
+                          className="w-full flex items-center justify-between p-2 rounded hover:bg-muted transition-colors cursor-pointer text-left"
+                        >
+                          <span className="text-sm">{move}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Egg Moves */}
+                {selectedPokemon.eggMoveLearnset && selectedPokemon.eggMoveLearnset.length > 0 && (
+                  <div>
+                    <h3 className="font-semibold mb-2">Egg Moves ({selectedPokemon.eggMoveLearnset.length})</h3>
+                    <div className="space-y-1 max-h-[400px] overflow-y-auto">
+                      {selectedPokemon.eggMoveLearnset.map((move, idx) => (
+                        <button
+                          key={idx}
+                          onClick={() => handleMoveClick(move)}
+                          className="w-full flex items-center justify-between p-2 rounded hover:bg-muted transition-colors cursor-pointer text-left"
+                        >
+                          <span className="text-sm">{move}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 {/* Metadata at Bottom */}
                 <div className="border-t pt-4">
                   <h3 className="font-semibold mb-3">Pokémon Data</h3>
@@ -746,6 +876,19 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
                             <div className="text-sm">{move.effect}</div>
                           </div>
 
+                          {move.additionalEffects && move.additionalEffects.length > 0 && (
+                            <div>
+                              <div className="text-xs text-muted-foreground mb-2">Additional Effects</div>
+                              <div className="space-y-1">
+                                {move.additionalEffects.map((effect, idx) => (
+                                  <div key={idx} className="text-sm bg-blue-50 dark:bg-blue-950 p-2 rounded">
+                                    {getAdditionalEffectDescription(effect)}
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+
                           {Object.keys(move.flags).length > 0 && (
                             <div>
                               <div className="text-xs text-muted-foreground mb-2">Flags</div>
@@ -770,10 +913,59 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
                       const ability = card.data as Ability;
                       return (
                         <>
+                          <div className="flex items-center gap-2">
+                            <Badge variant="outline">
+                              {getAbilityRatingBadge(ability.aiRating)}
+                            </Badge>
+                          </div>
+
                           <p className="text-sm">{ability.description}</p>
-                          <div>
-                            <div className="text-xs text-muted-foreground mb-1">AI Rating</div>
-                            <div className="text-lg font-bold">{ability.aiRating}/10</div>
+
+                          {(ability.breakable || ability.cantBeSwapped || ability.cantBeTraced ||
+                            ability.cantBeSuppressed || ability.cantBeOverwritten || ability.failsOnMaxGuard) && (
+                            <div>
+                              <div className="text-xs text-muted-foreground mb-2">Properties</div>
+                              <div className="flex flex-wrap gap-1">
+                                {ability.breakable && (
+                                  <Badge variant="secondary" className="text-xs">
+                                    Breakable
+                                  </Badge>
+                                )}
+                                {ability.cantBeSwapped && (
+                                  <Badge variant="secondary" className="text-xs">
+                                    Can't Swap
+                                  </Badge>
+                                )}
+                                {ability.cantBeTraced && (
+                                  <Badge variant="secondary" className="text-xs">
+                                    Can't Trace
+                                  </Badge>
+                                )}
+                                {ability.cantBeSuppressed && (
+                                  <Badge variant="secondary" className="text-xs">
+                                    Can't Suppress
+                                  </Badge>
+                                )}
+                                {ability.cantBeOverwritten && (
+                                  <Badge variant="secondary" className="text-xs">
+                                    Can't Overwrite
+                                  </Badge>
+                                )}
+                                {ability.failsOnMaxGuard && (
+                                  <Badge variant="secondary" className="text-xs">
+                                    Max Guard Fail
+                                  </Badge>
+                                )}
+                              </div>
+                            </div>
+                          )}
+
+                          <div className="flex items-center justify-between text-xs text-muted-foreground">
+                            <div>
+                              <div className="text-xs text-muted-foreground mb-1">AI Rating</div>
+                              <div className="text-lg font-bold">{ability.aiRating}/10</div>
+                            </div>
+                            <div className="text-xs text-muted-foreground">ID: #{ability.id}</div>
                           </div>
                         </>
                       );

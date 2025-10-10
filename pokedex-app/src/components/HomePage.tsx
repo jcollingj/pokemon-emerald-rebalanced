@@ -14,6 +14,12 @@ const pages = [
     icon: '📖',
   },
   {
+    path: '/moves',
+    title: 'Moves',
+    description: 'Browse all moves with power, accuracy, type, and detailed effects',
+    icon: '⚔️',
+  },
+  {
     path: '/routes',
     title: 'Routes & Areas',
     description: 'Explore routes with wild encounters, trainers, and items for each location',

@@ -93,6 +93,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PAYDAY",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -107,6 +114,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -124,6 +138,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FREEZE_OR_FROSTBITE",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -141,6 +162,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -318,6 +346,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -366,6 +401,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -430,6 +472,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -462,6 +511,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -542,6 +598,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -558,6 +621,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -590,6 +660,13 @@
     "priority": 0,
     "target": "Random",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_THRASH",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -638,6 +715,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -652,6 +736,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -696,6 +787,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "bitingMove": true
@@ -822,6 +920,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -836,6 +941,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -910,6 +1022,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FREEZE_OR_FROSTBITE",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -924,6 +1043,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FREEZE_OR_FROSTBITE",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "windMove": true
     }
@@ -940,6 +1066,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -954,6 +1087,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -968,6 +1108,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -982,6 +1129,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -1248,6 +1402,13 @@
     "priority": 0,
     "target": "Random",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_THRASH",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true,
       "danceMove": true
@@ -1295,6 +1456,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1309,6 +1477,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1323,6 +1498,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1353,6 +1535,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1441,6 +1630,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1455,6 +1651,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1920,6 +2123,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -1936,6 +2146,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 40,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1950,6 +2167,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1964,6 +2188,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1978,6 +2209,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -1992,6 +2230,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -2008,6 +2253,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -2038,6 +2290,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Two Turns Attack",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -2068,6 +2327,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -2242,6 +2508,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Two Turns Attack",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -2273,6 +2546,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -2287,6 +2567,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -2463,6 +2750,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -2477,6 +2771,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "bitingMove": true
@@ -2529,6 +2830,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_TRI_ATTACK",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -2594,6 +2902,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Struggle",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECOIL_HP_25",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true,
       "mirrorMoveBanned": true
@@ -2704,6 +3019,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -2720,6 +3042,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Snore",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -2847,6 +3176,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FREEZE_OR_FROSTBITE",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -2956,6 +3292,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -2970,6 +3313,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ACC_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -2984,6 +3334,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ACC_MINUS_1",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -3015,6 +3372,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -3078,6 +3442,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "windMove": true
     }
@@ -3139,6 +3510,13 @@
     "priority": 0,
     "target": "Random",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_THRASH",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -3286,6 +3664,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -3319,6 +3704,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_PLUS_1",
+        "chance": 10,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -3480,6 +3872,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -3508,6 +3907,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -3541,6 +3947,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -3634,6 +4047,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -3650,6 +4070,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_PLUS_1",
+        "chance": 10,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -3766,6 +4193,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "windMove": true
     }
@@ -3816,6 +4250,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "bitingMove": true
@@ -3880,6 +4321,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ALL_STATS_UP",
+        "chance": 10,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -3894,6 +4342,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -3925,6 +4380,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -3941,6 +4403,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -3969,6 +4438,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "First Turn Only",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -3983,6 +4459,13 @@
     "priority": 0,
     "target": "Random",
     "effect": "Uproar",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_UPROAR",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -4051,6 +4534,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "windMove": true
     }
@@ -4178,6 +4668,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Double Power On Arg Status",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_REMOVE_STATUS",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -4357,6 +4854,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_DEF_DOWN",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -4581,6 +5085,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SECRET_POWER",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -4663,6 +5174,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -4677,6 +5195,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_1",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -4724,6 +5249,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -4773,6 +5305,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -4823,6 +5362,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_TOXIC",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "bitingMove": true
@@ -4840,6 +5386,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -4856,6 +5409,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -4870,6 +5430,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -4884,6 +5451,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_PLUS_1",
+        "chance": 20,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -4901,6 +5475,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -4982,6 +5563,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -5010,6 +5598,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -5024,6 +5619,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ALL_STATS_UP",
+        "chance": 10,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -5120,6 +5722,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -5151,6 +5760,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -5182,6 +5798,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -5210,6 +5833,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ACC_MINUS_1",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -5337,6 +5967,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -5369,6 +6006,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Semi Invulnerable",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -5385,6 +6029,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -5399,6 +6050,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -5429,6 +6087,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -5558,6 +6223,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -5589,6 +6261,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -5652,6 +6331,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Double Power On Arg Status",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_REMOVE_STATUS",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -5668,6 +6354,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -5746,6 +6439,13 @@
     "priority": 2,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FEINT",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "ignoresProtect": true
     }
@@ -5762,6 +6462,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BUG_BITE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -5844,6 +6551,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_SPDEF_DOWN",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -6220,6 +6934,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Recoil",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -6236,6 +6957,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -6284,6 +7012,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -6300,6 +7035,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6361,6 +7103,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "slicingMove": true
     }
@@ -6394,6 +7143,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -6424,6 +7180,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -6485,6 +7248,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6499,6 +7269,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6529,6 +7306,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6557,6 +7341,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -6721,6 +7512,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ACC_MINUS_1",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6751,6 +7549,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -6767,6 +7572,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ACC_MINUS_1",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6781,6 +7593,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6795,6 +7614,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -6841,6 +7667,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -6855,6 +7688,13 @@
     "priority": 0,
     "target": "All Adjacent",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6869,6 +7709,13 @@
     "priority": 0,
     "target": "All Adjacent",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6883,6 +7730,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -6913,6 +7767,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -6927,6 +7788,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "slicingMove": true
@@ -6944,6 +7812,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -6958,6 +7833,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -7051,6 +7933,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -7081,6 +7970,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BUG_BITE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -7097,6 +7993,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_PLUS_1",
+        "chance": 70,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -7225,6 +8128,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -7287,6 +8197,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -7317,6 +8234,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_2",
+        "chance": 40,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -7331,6 +8255,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ALL_STATS_UP",
+        "chance": 10,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -7345,6 +8276,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Semi Invulnerable",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FEINT",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "ignoresProtect": true
@@ -7571,6 +8509,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLAME_BURST",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -7585,6 +8530,13 @@
     "priority": 0,
     "target": "All Adjacent",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -7678,6 +8630,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -7712,6 +8671,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -7728,6 +8694,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_2",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -7807,6 +8780,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Round",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ROUND",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -7855,6 +8835,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CLEAR_SMOG",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -7918,6 +8905,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8031,6 +9025,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_INCINERATE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8137,6 +9138,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8207,6 +9215,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8221,6 +9236,13 @@
     "priority": 0,
     "target": "All Adjacent",
     "effect": "Earthquake",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8283,6 +9305,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8345,6 +9374,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -8394,6 +9430,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "slicingMove": true
@@ -8427,6 +9470,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ACC_MINUS_1",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8441,6 +9491,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -8475,6 +9532,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ACC_MINUS_1",
+        "chance": 40,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8519,6 +9583,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "windMove": true
     }
@@ -8567,6 +9638,13 @@
     "priority": 0,
     "target": "All Adjacent",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8595,6 +9673,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SLEEP",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -8627,6 +9712,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8641,6 +9733,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -8657,6 +9756,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8671,6 +9777,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_PLUS_1",
+        "chance": 50,
+        "self": true
+      }
+    ],
     "flags": {
       "danceMove": true
     }
@@ -8687,6 +9800,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Two Turns Attack",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8701,6 +9821,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Two Turns Attack",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8715,6 +9842,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -8731,6 +9865,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -8745,6 +9886,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_V_CREATE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -8890,6 +10038,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Semi Invulnerable",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FEINT",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "ignoresProtect": true
@@ -9003,6 +10158,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Super Effective On Arg",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FREEZE_OR_FROSTBITE",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -9164,6 +10326,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_MINUS_1",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -9196,6 +10365,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_1",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -9308,6 +10484,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -9322,6 +10505,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FEINT",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "ignoresProtect": true
     }
@@ -9352,6 +10542,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -9577,6 +10774,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -9609,6 +10813,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -9625,6 +10836,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -9670,6 +10888,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PREVENT_ESCAPE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -9740,6 +10965,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_SPDEF_DOWN",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -9756,6 +10988,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hyperspace Fury",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "ignoresProtect": true
     }
@@ -9823,6 +11062,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PREVENT_ESCAPE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -9853,6 +11099,13 @@
     "priority": 0,
     "target": "All Adjacent",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_REMOVE_STATUS",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -9869,6 +11122,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -10035,6 +11295,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_THROAT_CHOP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10065,6 +11332,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PREVENT_ESCAPE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10098,6 +11372,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10114,6 +11395,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10146,6 +11434,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Fail If Not Arg Type",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_REMOVE_ARG_TYPE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -10223,6 +11518,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CORE_ENFORCER",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -10237,6 +11539,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10285,6 +11594,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -10367,6 +11683,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_2",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -10414,6 +11737,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -10444,6 +11774,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10460,6 +11797,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -10537,6 +11881,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10597,6 +11948,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ION_DELUGE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -10628,6 +11986,13 @@
     "priority": 2,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_EVS_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10644,6 +12009,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -10658,6 +12030,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10702,6 +12081,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -10716,6 +12102,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -10732,6 +12125,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_LIGHT_SCREEN",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -10746,6 +12146,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_REFLECT",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -10760,6 +12167,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_LEECH_SEED",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "magicCoatAffected": true
     }
@@ -10776,6 +12190,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_HAZE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -10790,6 +12211,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_AROMATHERAPY",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -10820,6 +12248,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -10867,6 +12302,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_TRAP_BOTH",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true,
       "bitingMove": true
@@ -11099,6 +12541,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11113,6 +12562,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -11129,6 +12585,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11176,6 +12639,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Aura Wheel",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -11190,6 +12660,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -11238,6 +12715,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11252,6 +12736,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Grav Apple",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11266,6 +12757,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -11282,6 +12780,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11347,6 +12852,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -11361,6 +12873,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_RECHARGE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -11433,6 +12952,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Two Turns Attack",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -11447,6 +12973,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Shell Side Arm",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11519,6 +13052,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -11535,6 +13075,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11660,6 +13207,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11725,6 +13279,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_WRAP",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11753,6 +13314,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FREEZE_OR_FROSTBITE",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11767,6 +13335,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -11781,6 +13356,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -11825,6 +13407,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_EERIE_SPELL",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -11841,6 +13430,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DIRE_CLAW",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -11857,6 +13453,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -11908,6 +13511,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_MINUS_1",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "windMove": true
     }
@@ -11924,6 +13534,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -11938,6 +13555,13 @@
     "priority": 0,
     "target": "Random",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_THRASH",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -11982,6 +13606,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -12015,6 +13646,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_SPDEF_DOWN",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true,
       "punchMove": true
@@ -12032,6 +13670,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Double Power On Arg Status",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -12046,6 +13691,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -12060,6 +13712,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -12106,6 +13765,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Double Power On Arg Status",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -12137,6 +13803,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "windMove": true
     }
@@ -12153,6 +13826,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "windMove": true
     }
@@ -12169,6 +13849,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {
       "windMove": true
     }
@@ -12221,6 +13908,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Tera Blast",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_TERA_BLAST",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -12252,6 +13946,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Recoil If Miss",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -12282,6 +13983,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_DEF_MINUS_2",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -12296,6 +14004,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Order Up",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ORDER_UP",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "mirrorMoveBanned": true
     }
@@ -12345,6 +14060,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_2",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -12427,6 +14149,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SALT_CURE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -12539,6 +14268,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -12555,6 +14291,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true,
       "danceMove": true
@@ -12716,6 +14459,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -12732,6 +14482,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SPD_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -12748,6 +14505,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_ATK_MINUS_1",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -12810,6 +14574,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_DEF_SPDEF_DOWN",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -12841,6 +14612,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Fail If Not Arg Type",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_REMOVE_ARG_TYPE",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -12903,6 +14681,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "mirrorMoveBanned": true
     }
@@ -12919,6 +14704,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SLEEP",
+        "chance": 10,
+        "self": false
+      }
+    ],
     "flags": {
       "mirrorMoveBanned": true
     }
@@ -12935,6 +14727,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_POISON",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "mirrorMoveBanned": true
     }
@@ -12951,6 +14750,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PARALYSIS",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "mirrorMoveBanned": true
     }
@@ -12967,6 +14773,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 30,
+        "self": false
+      }
+    ],
     "flags": {
       "mirrorMoveBanned": true
     }
@@ -13028,6 +14841,13 @@
     "priority": 0,
     "target": "Both Foes",
     "effect": "Absorb",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_BURN",
+        "chance": 20,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -13042,6 +14862,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SYRUP_BOMB",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {}
   },
   {
@@ -13070,6 +14897,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Two Turns Attack",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_SP_ATK_PLUS_1",
+        "chance": 100,
+        "self": true
+      }
+    ],
     "flags": {}
   },
   {
@@ -13207,6 +15041,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_CONFUSION",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -13255,6 +15096,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_PSYCHIC_NOISE",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "soundMove": true
     }
@@ -13271,6 +15119,13 @@
     "priority": 3,
     "target": "Single Target",
     "effect": "Upper Hand",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_FLINCH",
+        "chance": 100,
+        "self": false
+      }
+    ],
     "flags": {
       "makesContact": true
     }
@@ -13287,6 +15142,13 @@
     "priority": 0,
     "target": "Single Target",
     "effect": "Hit",
+    "additionalEffects": [
+      {
+        "moveEffect": "MOVE_EFFECT_TOXIC",
+        "chance": 50,
+        "self": false
+      }
+    ],
     "flags": {}
   }
 ]

@@ -5,6 +5,7 @@ import { PokemonPage } from "./components/PokemonPage";
 import { TrainersPage } from "./components/TrainersPage";
 import { GymLeadersPage } from "./components/GymLeadersPage";
 import { RoutesPage } from "./components/RoutesPage";
+import { MovesPage } from "./components/MovesPage";
 import { useRoute } from "./hooks/useRoute";
 import "./index.css";
 
@@ -25,6 +26,8 @@ export function App() {
         return <GymLeadersPage navigate={navigate} />;
       case '/routes':
         return <RoutesPage navigate={navigate} />;
+      case '/moves':
+        return <MovesPage navigate={navigate} />;
       case '/':
       default:
         return <HomePage navigate={navigate} />;

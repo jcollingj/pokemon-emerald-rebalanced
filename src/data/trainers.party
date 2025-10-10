@@ -4812,7 +4812,7 @@ AI: Basic Trainer
 
 Larvitar @ Smooth Rock
 Level: 10
-Ability: 3
+Ability: ABILITY_SAND_STREAM
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Stealth Rock
 - Rock Slide
@@ -4821,7 +4821,7 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Geodude @ Wide Lens
 Level: 11
-Ability: 1
+Ability: ABILITY_ROCK_HEAD
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Defense Curl
 - Rollout
@@ -4830,7 +4830,7 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Omanyte @ Oran Berry
 Level: 12
-Ability: 1
+Ability: ABILITY_SWIFT_SWIM
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Water Gun
 - Ancient Power
@@ -4839,7 +4839,7 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Lileep @ Sitrus Berry
 Level: 13
-Ability: 1
+Ability: ABILITY_SUCTION_CUPS
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Ancient Power
 - Acid
@@ -4848,7 +4848,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Anorith @ Focus Sash
 Level: 14
-Ability: 1
+Ability: ABILITY_BATTLE_ARMOR
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Fury Cutter
 - Rock Blast
@@ -4857,7 +4857,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Nosepass @ Chesto Berry
 Level: 15
-Ability: 3
+Ability: ABILITY_SAND_FORCE
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Power Gem
 - Thunderbolt
