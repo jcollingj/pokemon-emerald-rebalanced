@@ -406,8 +406,10 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_PICKUP] =
     {
         .name = _("Pickup"),
-        .description = COMPOUND_STRING("May pick up items."),
-        .aiRating = 1,
+        .description = COMPOUND_STRING(
+            "Halves damage at full HP\n"
+            "when not holding an item."),
+        .aiRating = 7,
     },
 
     [ABILITY_TRUANT] =

@@ -9241,6 +9241,14 @@ static inline uq4_12_t GetDefenderAbilitiesModifier(struct DamageContext *ctx)
             recordAbility = TRUE;
         }
         break;
+    case ABILITY_PICKUP:
+        // Pickup grants Multiscale effect when not holding an item
+        if (IsBattlerAtMaxHp(ctx->battlerDef) && GetBattlerHoldEffect(ctx->battlerDef, FALSE) == HOLD_EFFECT_NONE)
+        {
+            modifier = UQ_4_12(0.5);
+            recordAbility = TRUE;
+        }
+        break;
     case ABILITY_FILTER:
     case ABILITY_SOLID_ROCK:
     case ABILITY_PRISM_ARMOR:
