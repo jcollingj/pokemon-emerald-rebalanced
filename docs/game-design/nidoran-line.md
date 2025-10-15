@@ -1,206 +1,152 @@
-# Nidoran Evolution Line - Design Recommendations
+# Nidoran Evolution Line - Design Recommendations (REVISED)
 
 ## Design Philosophy
 
-The Nidoran line is being redesigned with a **clear gender-based split**:
+The Nidoran line features a **poison-based asymmetric split**:
 
-### **Female Line (Nidorina/Nidoqueen) - Special Poison Setters**
-- **Role:** Toxic Spikes setter → Venoshock spammer
-- **Core Combo:** Toxic Spikes/Toxic → Venoshock (doubles from 65 to 130 power!)
-- **Ability:** Poison Point (both stages)
-- **Stat Focus:** Special Attack, HP, Special Defense
-- **Strategy:** Set up poison hazards, then demolish poisoned opponents with Venoshock
+### **Female Line (Nidorina/Nidoqueen) - Poison Heal Tank**
+- **Role:** Special Defense wall that thrives when poisoned
+- **Core Mechanic:** Poison Heal ability (heals 1/8 HP per turn when poisoned)
+- **Stat Focus:** HP, Special Defense, Defense
+- **Strategy:** Use Toxic Orb to self-poison → heal 1/8 HP every turn → become unkillable wall
 
-### **Male Line (Nidorino/Nidoking) - Physical Bruisers**
-- **Role:** Physical attacker with mixed coverage
-- **Core Combo:** High Attack stat → powerful physical moves
-- **Ability:** Poison Point → Sheer Force (evolution)
-- **Stat Focus:** Attack, Speed, Defense
-- **Strategy:** Hit hard with physical STAB and coverage moves
+### **Male Line (Nidorino/Nidoking) - Toxic Boost Attacker**
+- **Role:** Physical attacker that gets stronger when poisoned
+- **Core Mechanic:** Toxic Boost ability (1.5× Attack when poisoned)
+- **Stat Focus:** Attack, Speed
+- **Strategy:** Use Toxic Orb to self-poison → gain 1.5× Attack boost → hit like a truck
 
 ---
 
-## FEMALE LINE: Nidorina (Special Poison Setter)
+## FEMALE LINE: Nidorina (Defensive Pre-Evolution)
 
 ### Current Status
 **Base Stats:**
-- HP: 70, Attack: 62, Defense: 67, Speed: 56, SpA: 55, SpD: 55
-- **BST: 365**
+- HP: 85, Attack: 50, Defense: 70, Speed: 60, SpA: 75, SpD: 75
+- **BST: 415** (already updated)
 
-### Recommended Changes
-
-**Stat Adjustments:**
-- HP: 70 → **85** (+15)
-- Attack: 62 → **50** (-12, not a physical attacker)
-- Defense: 67 → **70** (+3)
-- Speed: 56 → **60** (+4)
-- Sp. Attack: 55 → **75** (+20, MAIN STAT)
-- Sp. Defense: 55 → **75** (+20)
-- **New BST: 415** (+50)
-
-**Rationale:** Nidorina becomes a bulky special attacker that can set up Toxic Spikes and survive to spam Venoshock.
+### Recommended Stats (Keep Current)
+- HP: **85** (good bulk)
+- Attack: **50** (not needed)
+- Defense: **70** (decent)
+- Speed: **60** (slow tank)
+- Sp. Attack: **75** (moderate special offense)
+- Sp. Defense: **75** (decent special bulk)
+- **BST: 415**
 
 **Ability:**
-- Ability 1: **Poison Point** (30% chance to poison on contact)
-- Ability 2: **Poison Point** (same - consistency across line)
-- Hidden: **Poison Point** (females only get this)
+- Ability 1: **Poison Point** (30% poison on contact)
+- Ability 2: **Poison Point**
+- Hidden: **Poison Heal** (heals 1/8 HP when poisoned - preview of evolution!)
 
-**Rationale:** Poison Point synergizes perfectly - even if hit by contact moves, you poison them, then Venoshock doubles in power!
-
-**New Learnset (Toxic Spikes/Venoshock Focus):**
-- Lv 1: Tackle, Growl
-- Lv 6: **Poison Sting** (15 power Poison special, 30% poison)
-- Lv 8: **Acid** (40 power Poison special, 10% SpD drop)
-- Lv 10: **Toxic Spikes** (sets poison hazard - KEY MOVE!)
-- Lv 12: **Toxic** (guaranteed poison)
-- Lv 14: **Venoshock** (65 power, 130 vs poisoned - CORE MOVE!)
-- Lv 18: **Sludge** (65 power Poison special, 30% poison)
-- Lv 22: **Earth Power** (90 power Ground special, 10% SpD drop)
-- Lv 26: **Sludge Bomb** (90 power Poison special, 30% poison)
-- Lv 30: **Shadow Ball** (80 power Ghost special, 20% SpD drop)
-- Lv 34: **Ice Beam** (90 power Ice special, 10% freeze)
-- Lv 38: **Thunderbolt** (90 power Electric special, 10% para)
-- Lv 42: **Flamethrower** (90 power Fire special, 10% burn)
-
-### Core Strategy - Toxic Spikes + Venoshock
-
-**Turn 1-2 Setup:**
-1. **Turn 1:** Toxic Spikes (opponent and all switch-ins get poisoned!)
-2. **Turn 2:** Venoshock → 130 effective power (65 × 2 vs poisoned)
-3. **Every turn after:** Spam Venoshock on poisoned targets
-4. **If hit by contact move:** Poison Point activates → more Venoshock targets!
-
-**Why This Works:**
-- Toxic Spikes poisons ALL enemies that switch in
-- Venoshock doubles to 130 power vs poisoned targets
-- With STAB: 130 × 1.5 = **195 effective power!**
-- Poison Point ensures even contact attackers get poisoned
-- 75 SpA + 195 effective power = massive damage
-- 85/70/75 bulk lets you survive to set up
-
-**Example Battle:**
-```
-Turn 1: Toxic Spikes (opponent poisoned)
-Turn 2: Venoshock → 195 effective power with STAB
-Turn 3: Opponent switches → new Pokemon poisoned by spikes
-Turn 4: Venoshock → 195 effective power again!
-Turn 5: Enemy hits with contact move → Poison Point activates
-Turn 6: Venoshock → 195 effective power on freshly poisoned target
-```
-
-### Competitive Niche
-- Toxic Spikes setter (passive poison on all enemies)
-- Venoshock spammer (130 base power vs poisoned = better than most nukes)
-- Poison Point ensures contact attackers also get poisoned
-- Special coverage (Earth Power, Ice Beam, Thunderbolt, Flamethrower)
-- Bulky enough to survive setup turns
+**Learnset (Keep special attack focus):**
+- Lv 10: Toxic Spikes
+- Lv 12: Toxic
+- Lv 14: Venoshock
+- Lv 22: Earth Power
+- Lv 26: Sludge Bomb
+- Plus coverage moves (Ice Beam, Thunderbolt, Flamethrower)
 
 ---
 
-## FEMALE LINE: Nidoqueen (Special Poison Tank)
+## FEMALE LINE: Nidoqueen (Special Defense Tank)
 
-### Current Status
-**Base Stats:**
-- HP: 90, Attack: 92, Defense: 87, Speed: 76, SpA: 75, SpD: 85
-- **BST: 505**
-
-### Recommended Changes
+### Recommended Stats (REVISED)
 
 **Stat Adjustments:**
-- HP: 90 → **105** (+15)
-- Attack: 92 → **70** (-22, not needed)
-- Defense: 87 → **95** (+8)
-- Speed: 76 → **70** (-6, tanks don't need speed)
-- Sp. Attack: 75 → **105** (+30, MAIN STAT)
-- Sp. Defense: 85 → **100** (+15)
-- **New BST: 545** (+40)
+- HP: 105 → **105** (keep - excellent bulk)
+- Attack: 70 → **70** (keep - not needed)
+- Defense: 95 → **95** (keep - good physical bulk)
+- Speed: 70 → **70** (keep - slow tank)
+- Sp. Attack: 105 → **85** (-20, still decent for coverage)
+- Sp. Defense: 100 → **120** (+20, MAIN DEFENSIVE STAT)
+- **New BST: 545**
 
-**Rationale:** Nidoqueen becomes a bulky special tank with high HP and excellent SpA for devastating Venoshock spam.
+**Rationale:** Nidoqueen becomes a special defense wall with incredible HP and SpD, can still hit decently with 85 SpA.
 
 **Type:** Poison/Ground (immune to Electric, resists Rock/Poison/Bug/Fighting)
 
 **Ability:**
-- Ability 1: **Poison Point** (30% poison on contact)
-- Ability 2: **Poison Point** (consistency)
-- Hidden: **Sheer Force** (1.3× power on moves with secondary effects)
+- Ability 1: **Poison Heal** (heals 1/8 max HP per turn when poisoned - CORE ABILITY!)
+- Ability 2: **Poison Point** (alternative for contact poison)
+- Hidden: **Sheer Force** (coverage option)
 
 **Rationale:**
-- Poison Point synergizes with Toxic Spikes/Venoshock strategy
-- Sheer Force alternative for coverage moves (Earth Power, Ice Beam, etc.)
+- **Poison Heal** is the star - hold Toxic Orb, get poisoned, heal 1/8 HP every turn!
+- With 105 HP, that's ~13 HP healed per turn
+- Combined with 95 Def / 120 SpD = nearly unkillable wall
 
-**New Learnset (Moon Stone Evolution):**
-Upon evolution from Nidorina, learns:
-- **Earth Power** (90 power Ground special STAB, 10% SpD drop)
-- **Sludge Bomb** (90 power Poison special STAB, 30% poison)
+**New Learnset (Special Defense Tank):**
+- Lv 1: Earth Power, Sludge Bomb (evolution moves)
+- Lv 1: Toxic, Venoshock (inherited)
+- Lv 16: **Protect** (stall turns for healing)
+- Lv 20: **Recover** (instant 50% HP heal)
+- Lv 24: Ice Beam (coverage)
+- Lv 28: **Stealth Rock** (hazard setting)
+- Lv 32: Sludge Wave (Poison STAB)
+- Lv 36: Earth Power (Ground STAB)
+- Lv 40: **Rest** (full heal + sleep)
+- Lv 44: Thunderbolt (coverage)
+- Lv 48: **Toxic** (poison opponents)
 
-Inherits Nidorina's moveset, plus:
-- Lv 20: **Surf** (90 power Water special - coverage)
-- Lv 24: **Ice Beam** (90 power Ice special, 10% freeze)
-- Lv 28: **Thunderbolt** (90 power Electric special, 10% para)
-- Lv 32: **Flamethrower** (90 power Fire special, 10% burn)
-- Lv 36: **Shadow Ball** (80 power Ghost special, 20% SpD drop)
-- Lv 40: **Sludge Wave** (95 power Poison special, 10% poison)
-- Lv 44: **Focus Blast** (120 power Fighting special, 10% SpD drop)
-- Lv 48: **Fire Blast** (110 power Fire special, 10% burn)
+### Core Strategy - Poison Heal Tank
 
-### Core Strategy - Tanky Venoshock Spammer
+**Turn 1 Setup:**
+1. Hold **Toxic Orb** (poisons holder after 1 turn)
+2. Turn 1: Toxic Orb activates → Nidoqueen is poisoned
+3. **Poison Heal activates** → Instead of taking damage, heal 1/8 HP per turn (~13 HP)
 
-**Primary Strategy (Poison Point):**
-1. **Turn 1:** Toxic Spikes (poisons all switch-ins)
-2. **Turn 2+:** Venoshock spam
-   - Venoshock: 65 × 2 (poisoned) × 1.5 (STAB) = **195 effective power**
-   - With 105 SpA stat, this hits incredibly hard
-3. **If hit by contact:** Poison Point → more Venoshock targets
-4. **Tank hits** with 105/95/100 bulk
-
-**Alternative Strategy (Sheer Force + Life Orb):**
-1. Hold Life Orb
-2. Use coverage moves with secondary effects:
-   - Earth Power: 90 × 1.3 (Sheer) × 1.3 (Life Orb) × 1.5 (STAB) = **228 effective power, NO RECOIL!**
-   - Ice Beam: 90 × 1.3 × 1.3 = **152 effective power**
-   - Fire Blast: 110 × 1.3 × 1.3 = **186 effective power**
-3. Coverage for everything: Poison/Ground/Fire/Ice/Electric/Fighting
+**Every Turn After:**
+- Heal 13 HP per turn
+- Tank hits with 105/95/120 bulk
+- Fire back with Earth Power, Sludge Wave, Ice Beam (85 SpA is still decent)
+- Use Protect to stall extra healing turns
+- Use Recover for instant 50% HP heal
+- Use Rest for full heal (sleep doesn't matter when you're unkillable)
 
 **Why This Works:**
-- 105 SpA is excellent for special attacking
-- 105 HP / 95 Def / 100 SpD = elite bulk
-- Toxic Spikes + Venoshock = 195 power STAB move
-- Sheer Force variant gets insane coverage with no Life Orb recoil
-- Poison/Ground typing resists common types
-- Can run pure Venoshock spam OR coverage monster build
+- **105 HP / 95 Def / 120 SpD** = elite mixed bulk
+- **Poison Heal + Toxic Orb** = permanent 1/8 HP healing every turn
+- **13 HP/turn** healing is INSANE sustain
+- **85 SpA** is still enough to do damage with STAB moves
+- Poison/Ground typing gives great resistances
+- Can set Stealth Rock for team support
 
-**Sample Sets:**
+**Damage Calculations:**
+- Earth Power: 90 × 1.5 (STAB) = **135 effective power** (still hits hard!)
+- Sludge Wave: 95 × 1.5 (STAB) = **142.5 effective power**
+- With 85 SpA, these moves are solid
 
-**Set 1: Toxic Spikes Spammer**
-- Toxic Spikes
-- Venoshock (195 effective vs poisoned)
-- Earth Power (Ground STAB)
+**Healing Calculations:**
+- Poison Heal: 1/8 × 105 HP = **~13 HP per turn**
+- Recover: 50% × 105 HP = **52 HP instant heal**
+- Rest: 100% × 105 HP = **105 HP full heal**
+
+### Sample Sets
+
+**Set 1: Poison Heal Wall (RECOMMENDED)**
+**Ability:** Poison Heal
+**Item:** Toxic Orb
+**Moves:**
+- Toxic / Stealth Rock (utility)
+- Earth Power (STAB)
 - Ice Beam (coverage)
+- Recover / Protect (healing/stalling)
 
-**Set 2: Sheer Force Tank (Life Orb)**
-- Earth Power (228 effective, no recoil)
-- Sludge Wave (241 effective, no recoil)
-- Ice Beam (152 effective, no recoil)
-- Flamethrower/Thunderbolt (coverage)
-
-### Competitive Niche
-- Bulky special tank with elite HP/SpD
-- Toxic Spikes setter → Venoshock nuker
-- Sheer Force + Life Orb coverage monster
-- Poison Point passive poisoning
-- Resists Rock/Fighting/Bug/Poison, immune to Electric
-- Perfect special wall that can hit back hard
+**Set 2: Defensive Pivot**
+**Ability:** Poison Heal
+**Item:** Toxic Orb
+**Moves:**
+- Stealth Rock (hazards)
+- Earth Power (STAB)
+- Sludge Wave (STAB)
+- Recover (healing)
 
 ---
 
-## MALE LINE: Nidorino (Physical Attacker)
+## MALE LINE: Nidorino (Physical Attacker Pre-Evolution)
 
-### Current Status
-**Base Stats:**
-- HP: 61, Attack: 72, Defense: 57, Speed: 65, SpA: 55, SpD: 55
-- **BST: 365**
-
-### Recommended Changes
+### Recommended Stats
 
 **Stat Adjustments:**
 - HP: 61 → **70** (+9)
@@ -211,57 +157,30 @@ Inherits Nidorina's moveset, plus:
 - Sp. Defense: 55 → **65** (+10)
 - **New BST: 405** (+40)
 
-**Rationale:** Nidorino becomes a physical attacker with good speed and attack power.
-
 **Ability:**
 - Ability 1: **Poison Point** (30% poison on contact)
-- Ability 2: **Rivalry** (1.25× vs same gender, 0.75× vs opposite)
-- Hidden: **Hustle** (1.5× Attack, 0.8× accuracy)
+- Ability 2: **Rivalry** (1.25× vs same gender)
+- Hidden: **Toxic Boost** (1.5× Attack when poisoned - preview of evolution!)
 
 **New Learnset (Physical Focus):**
 - Lv 1: Tackle, Leer
-- Lv 6: **Horn Attack** (65 power Normal physical)
-- Lv 8: **Poison Sting** (15 power Poison physical, 30% poison)
-- Lv 10: **Bite** (60 power Dark physical, 30% flinch)
-- Lv 12: **Double Kick** (30×2 Fighting physical)
-- Lv 14: **Poison Jab** (80 power Poison physical STAB, 30% poison)
-- Lv 18: **Thrash** (120 power Normal physical, 2-3 turns)
-- Lv 22: **Bulldoze** (60 power Ground physical, lowers Speed)
-- Lv 26: **Crunch** (80 power Dark physical, 20% Def drop)
-- Lv 30: **Drill Run** (80 power Ground physical, high crit)
-- Lv 34: **Megahorn** (120 power Bug physical, 85% accuracy)
-- Lv 38: **Horn Drill** (OHKO move)
-- Lv 42: **Gunk Shot** (120 power Poison physical, 80% accuracy, 30% poison)
-
-### Core Strategy - Physical Attacker
-
-**Turn 1 Options:**
-1. **Poison Jab** → poison opponent (30% chance)
-2. **Double Kick** → fighting coverage
-3. **Bite** → flinch chance
-
-**Mid-Game:**
-- Bulldoze to lower opponent Speed
-- Drill Run for Ground coverage
-- Crunch for Dark coverage
-- Megahorn for Bug coverage (120 power!)
-
-**Why This Works:**
-- 85 Attack with physical moves
-- 75 Speed outspeeds many threats
-- Poison Jab + coverage moves handle most types
-- Can evolve into Nidoking for massive power boost
+- Lv 6: Horn Attack (65 power Normal)
+- Lv 10: **Poison Sting** (15 power Poison physical)
+- Lv 12: **Double Kick** (30×2 Fighting)
+- Lv 14: **Poison Jab** (80 power Poison STAB)
+- Lv 18: Bite (60 power Dark)
+- Lv 22: **Bulldoze** (60 power Ground)
+- Lv 26: **Crunch** (80 power Dark)
+- Lv 30: **Drill Run** (80 power Ground, high crit)
+- Lv 34: **Megahorn** (120 power Bug)
+- Lv 38: **Poison Tail** (50 power Poison, high crit, 10% poison)
+- Lv 42: **Gunk Shot** (120 power Poison, 80% acc)
 
 ---
 
 ## MALE LINE: Nidoking (Physical Wallbreaker)
 
-### Current Status
-**Base Stats:**
-- HP: 81, Attack: 102, Defense: 77, Speed: 85, SpA: 85, SpD: 75
-- **BST: 505**
-
-### Recommended Changes
+### Recommended Stats (REVISED)
 
 **Stat Adjustments:**
 - HP: 81 → **90** (+9)
@@ -272,243 +191,234 @@ Inherits Nidorina's moveset, plus:
 - Sp. Defense: 75 → **90** (+15)
 - **New BST: 545** (+40)
 
-**Rationale:** Nidoking becomes a powerful physical wallbreaker with high attack and good speed.
+**Rationale:** Nidoking becomes a powerful physical attacker with high Attack and good Speed.
 
 **Type:** Poison/Ground (immune to Electric, resists Rock/Poison/Bug/Fighting)
 
 **Ability:**
-- Ability 1: **Sheer Force** (1.3× power on moves with secondary effects)
+- Ability 1: **Toxic Boost** (1.5× Attack when poisoned - CORE ABILITY!)
 - Ability 2: **Rivalry** (1.25× vs same gender)
-- Hidden: **Hustle** (1.5× Attack, 0.8× accuracy)
+- Hidden: **Sheer Force** (alternative for coverage moves)
 
 **Rationale:**
-- **Sheer Force** is the star - 1.3× boost on physical moves with secondary effects
-- **Sheer Force + Life Orb** = 1.69× damage with NO LIFE ORB RECOIL!
-- Rivalry for gender matchups
-- Hustle for high-risk builds
+- **Toxic Boost** is the star - hold Toxic Orb, get poisoned, 120 Atk → **180 effective Attack!**
+- With 180 effective Attack, Nidoking hits harder than most legendaries
+- 95 Speed outspeeds most threats
+- Sheer Force alternative for non-Toxic Boost builds
 
-**New Learnset (Moon Stone Evolution):**
+**New Learnset (Physical Attacker):**
 Upon evolution from Nidorino, learns:
 - **Earthquake** (100 power Ground physical STAB)
-- **Gunk Shot** (120 power Poison physical STAB, 80% acc, 30% poison - Sheer Force!)
+- **Gunk Shot** (120 power Poison physical STAB)
 
-Inherits Nidorino's moveset, plus:
-- Lv 20: **Rock Slide** (75 power Rock physical, 30% flinch - Sheer Force!)
-- Lv 24: **Iron Tail** (100 power Steel physical, 30% Def drop - Sheer Force!)
-- Lv 28: **Fire Punch** (75 power Fire physical, 10% burn - Sheer Force!)
-- Lv 32: **Ice Punch** (75 power Ice physical, 10% freeze - Sheer Force!)
-- Lv 36: **Thunder Punch** (75 power Electric physical, 10% para - Sheer Force!)
-- Lv 40: **Megahorn** (120 power Bug physical, 85% accuracy)
-- Lv 44: **Stone Edge** (100 power Rock physical, high crit)
-- Lv 48: **Superpower** (120 power Fighting physical, stat drops - Sheer Force!)
+Level-up moves:
+- Lv 1: Earthquake, Gunk Shot (evolution)
+- Lv 1: Poison Jab, Double Kick (inherited)
+- Lv 20: **Fire Punch** (75 power Fire)
+- Lv 24: **Ice Punch** (75 power Ice)
+- Lv 28: **Thunder Punch** (75 power Electric)
+- Lv 32: **Megahorn** (120 power Bug)
+- Lv 36: **Stone Edge** (100 power Rock, high crit)
+- Lv 40: **Superpower** (120 power Fighting)
+- Lv 44: **Aqua Tail** (90 power Water)
+- Lv 48: **Dragon Tail** (60 power Dragon, forces switch)
 
-### Core Strategy - Sheer Force Physical Wallbreaker
+### Core Strategy - Toxic Boost Wallbreaker
 
-**Primary Strategy (Sheer Force + Life Orb):**
-1. Hold **Life Orb**
-2. Use Sheer Force-boosted moves:
-   - **Gunk Shot:** 120 × 1.3 (Sheer) × 1.3 (Life Orb) × 1.5 (STAB) = **304 effective power, NO RECOIL!**
-   - **Earthquake:** 100 × 1.5 (STAB) = **150 power** (no Sheer Force, but still STAB)
-   - **Rock Slide:** 75 × 1.3 × 1.3 = **127 effective power, no recoil!**
-   - **Superpower:** 120 × 1.3 × 1.3 = **203 effective power, no recoil!**
-   - **Iron Tail:** 100 × 1.3 × 1.3 = **169 effective power, no recoil!**
-   - **Fire/Ice/Thunder Punch:** 75 × 1.3 × 1.3 = **127 effective power each, no recoil!**
+**Turn 1 Setup:**
+1. Hold **Toxic Orb** (poisons holder after 1 turn)
+2. Turn 1: Switch in or tank a hit
+3. Toxic Orb activates → Nidoking is poisoned
+4. **Toxic Boost activates** → 120 Attack → **180 effective Attack!**
 
-3. **120 Attack stat** makes all these moves devastating
-4. **95 Speed** outspeeds most threats
-5. **No Life Orb recoil** thanks to Sheer Force!
+**Turn 2+ Sweep:**
+- Hit with 180 effective Attack (50% boost!)
+- Gunk Shot: 120 power × 180 Atk = DEVASTATING
+- Earthquake: 100 power × 180 Atk = MASSIVE
+- Coverage punches hit incredibly hard
+- 95 Speed outspeeds most threats
 
 **Why This Works:**
-- 120 Attack is MASSIVE for a mid-stage Pokemon
-- Sheer Force + Life Orb = 1.69× damage with no downside
-- Gunk Shot STAB = 304 effective power (insane!)
-- Coverage for days: Poison/Ground/Rock/Fighting/Steel/Fire/Ice/Electric/Bug
-- 95 Speed outspeeds base 90 tier
-- Can run Choice Band for even more power
+- **120 base Attack → 180 with Toxic Boost** = insane power
+- **95 Speed** outspeeds base 90 tier (most mid-game threats)
+- **Toxic Orb** activates Toxic Boost immediately
+- Takes 1/8 HP damage per turn (12 HP with 90 HP) - worth it for 50% Attack boost!
+- Coverage options: Poison/Ground/Fire/Ice/Electric/Rock/Fighting/Bug/Water/Dragon
 
-**Sample Sets:**
+**Damage Calculations (with Toxic Boost):**
+- **Effective Attack: 120 × 1.5 = 180**
+- Gunk Shot: 120 × 1.5 (STAB) = 180 power × 180 Atk = **NUKE**
+- Earthquake: 100 × 1.5 (STAB) = 150 power × 180 Atk = **MASSIVE**
+- Megahorn: 120 power × 180 Atk = **DEVASTATING**
+- Superpower: 120 power × 180 Atk = **INSANE**
 
-**Set 1: Life Orb Wallbreaker (RECOMMENDED)**
-- Gunk Shot (304 effective with STAB + boosts)
-- Earthquake (150 Ground STAB)
-- Rock Slide/Stone Edge (Rock coverage)
-- Superpower/Megahorn (Fighting/Bug coverage)
+**Life Orb Alternative (Sheer Force):**
+- Sheer Force + Life Orb = 1.69× damage, no recoil
+- Fire/Ice/Thunder Punch: 75 × 1.3 × 1.3 = 127 effective power
+- But Toxic Boost is generally better for raw power
 
-**Set 2: Choice Band Nuke**
-- Gunk Shot (456 effective with Choice Band!)
-- Earthquake (225 with Choice Band)
-- Megahorn (180 with Choice Band)
-- Stone Edge (150 with Choice Band)
+### Sample Sets
 
-**Set 3: Elemental Punches**
-- Gunk Shot (Poison STAB)
+**Set 1: Toxic Boost Sweeper (RECOMMENDED)**
+**Ability:** Toxic Boost
+**Item:** Toxic Orb
+**Moves:**
+- Gunk Shot (Poison STAB nuke)
 - Earthquake (Ground STAB)
-- Fire Punch / Ice Punch / Thunder Punch (coverage triangle)
-- Superpower (Fighting coverage)
+- Megahorn / Superpower (coverage)
+- Ice Punch / Stone Edge (coverage)
 
-### Sheer Force Move Interactions
+**Strategy:** Get poisoned, sweep with 180 effective Attack.
 
-**Moves That Get Boosted (1.3× + no Life Orb recoil):**
-- ✅ Gunk Shot (30% poison)
-- ✅ Rock Slide (30% flinch)
-- ✅ Iron Tail (30% Def drop)
-- ✅ Fire Punch (10% burn)
-- ✅ Ice Punch (10% freeze)
-- ✅ Thunder Punch (10% para)
-- ✅ Superpower (stat drops)
-- ✅ Poison Jab (30% poison)
-- ✅ Crunch (20% Def drop)
+**Set 2: Sheer Force Wallbreaker**
+**Ability:** Sheer Force (hidden)
+**Item:** Life Orb
+**Moves:**
+- Gunk Shot (no Sheer Force boost, but STAB)
+- Earthquake (STAB)
+- Fire Punch / Ice Punch / Thunder Punch (all Sheer Force boosted!)
+- Superpower (Sheer Force boosted)
 
-**Moves That DON'T Get Boosted (but still hit hard):**
-- ❌ Earthquake (no secondary effect, but STAB)
-- ❌ Megahorn (no secondary effect)
-- ❌ Stone Edge (no secondary effect)
-- ❌ Drill Run (no secondary effect)
+**Strategy:** Hit hard with coverage, no Life Orb recoil.
 
-### Competitive Niche
-- Physical wallbreaker with 120 Attack
-- Sheer Force + Life Orb abuser (no recoil!)
-- 95 Speed for revenge killing
-- Absurd coverage options (9+ types)
-- STAB Gunk Shot = 304 effective power
-- Choice Band option for prediction-based nuking
+---
+
+## Ability Comparison
+
+### Poison Heal (Nidoqueen)
+**Effect:** Heals 1/8 max HP per turn when poisoned (instead of taking damage)
+**With 105 HP:** ~13 HP healed per turn
+**Item:** Toxic Orb (poisons self after 1 turn)
+**Strategy:** Become unkillable tank with permanent healing
+
+### Toxic Boost (Nidoking)
+**Effect:** Attack is increased by 50% when poisoned
+**With 120 Attack:** 120 → 180 effective Attack (+60!)
+**Item:** Toxic Orb (poisons self after 1 turn)
+**Strategy:** Trade 1/8 HP per turn for massive damage boost
+**Worth It?** YES! 12 HP/turn is nothing compared to 50% Attack boost
 
 ---
 
 ## Gender Split Comparison
 
-| Aspect | Female Line (Nidorina/Queen) | Male Line (Nidorino/King) |
-|--------|------------------------------|---------------------------|
-| **Attacking Stat** | Special Attack | Physical Attack |
-| **Core Strategy** | Toxic Spikes + Venoshock | Sheer Force + Life Orb |
-| **Key Move** | Venoshock (195 effective) | Gunk Shot (304 effective) |
-| **Ability Focus** | Poison Point (both) | Poison Point → Sheer Force |
-| **Coverage** | Earth Power, Ice/Fire/Thunder Beam | Earthquake, Punches, Megahorn |
-| **Speed (Final)** | 70 (slower, tankier) | 95 (faster, sweeper) |
-| **Bulk Focus** | HP + SpD (105/95/100) | HP + Def (90/85/90) |
-| **Playstyle** | Setup hazards, tank, spam | Wallbreak, sweep, revenge kill |
-| **Item** | Life Orb (Sheer Force) / Leftovers | Life Orb (Sheer Force) |
+| Aspect | Nidoqueen (Female) | Nidoking (Male) |
+|--------|-------------------|-----------------|
+| **Role** | Special Defense Tank | Physical Wallbreaker |
+| **Core Ability** | Poison Heal (heal 13 HP/turn) | Toxic Boost (180 Atk) |
+| **Stat Focus** | HP (105), SpD (120) | Atk (120→180), Speed (95) |
+| **Playstyle** | Tank hits, heal, outlast | Get poisoned, sweep hard |
+| **Item** | Toxic Orb (for healing) | Toxic Orb (for Attack boost) |
+| **Coverage** | Special (Earth/Ice/Electric) | Physical (Punches/Megahorn) |
+| **Speed** | 70 (slow tank) | 95 (fast sweeper) |
+| **Sustain** | +13 HP/turn (Poison Heal) | -12 HP/turn (poison damage) |
 
 ---
 
 ## Stat Comparison Summary
 
-### Nidorina vs Nidorino (Pre-Evolutions)
-| Stat | Nidorina (Special) | Nidorino (Physical) |
-|------|-------------------|---------------------|
-| HP | 85 | 70 |
-| Attack | 50 | 85 |
-| Defense | 70 | 65 |
-| Speed | 60 | 75 |
-| Sp. Attack | **75** | 45 |
-| Sp. Defense | 75 | 65 |
-| **BST** | **415** | **405** |
+### Nidoqueen (Special Defense Tank)
+| Stat | Final Value |
+|------|-------------|
+| HP | **105** |
+| Attack | 70 |
+| Defense | 95 |
+| Speed | 70 |
+| Sp. Attack | **85** |
+| Sp. Defense | **120** |
+| **BST** | **545** |
 
-### Nidoqueen vs Nidoking (Final Evolutions)
-| Stat | Nidoqueen (Special) | Nidoking (Physical) |
-|------|---------------------|---------------------|
-| HP | 105 | 90 |
-| Attack | 70 | **120** |
-| Defense | 95 | 85 |
-| Speed | 70 | 95 |
-| Sp. Attack | **105** | 65 |
-| Sp. Defense | 100 | 90 |
-| **BST** | **545** | **545** |
+### Nidoking (Physical Wallbreaker)
+| Stat | Final Value | With Toxic Boost |
+|------|-------------|------------------|
+| HP | 90 | 90 |
+| Attack | **120** | **180** |
+| Defense | 85 | 85 |
+| Speed | **95** | 95 |
+| Sp. Attack | 65 | 65 |
+| Sp. Defense | 90 | 90 |
+| **BST** | **545** | **605** (effective) |
 
 ---
 
 ## Core Combos Summary
 
-### Female Line: Toxic Spikes → Venoshock
+### Nidoqueen: Poison Heal Tank
 **Setup:**
-1. Nidorina/Nidoqueen uses Toxic Spikes
-2. All enemies that switch in are poisoned
-3. Venoshock doubles to 130 power vs poisoned targets
-4. With STAB: 130 × 1.5 = **195 effective power**
-5. Poison Point ensures contact attackers also get poisoned
-6. Spam Venoshock forever on poisoned team
+1. Hold Toxic Orb
+2. Turn 1: Toxic Orb activates → poisoned
+3. Poison Heal: Heal 13 HP per turn (instead of taking damage!)
+4. Tank hits with 105/95/120 bulk
+5. Fire back with Earth Power (135 power), Sludge Wave (142.5 power)
+6. Use Protect to stall, Recover for instant heal
+7. Never die!
 
-**Damage Calculation:**
-- Base Venoshock vs poisoned: 65 × 2 = 130
-- With STAB: 130 × 1.5 = 195
-- With 105 SpA Nidoqueen: Massive damage
-- **Better than most 120 power moves!**
+**Sustain:**
+- Passive: +13 HP/turn (Poison Heal)
+- Recover: +52 HP instant
+- Rest: +105 HP full heal
+- Total sustain: Unkillable
 
-### Male Line: Sheer Force + Life Orb
+### Nidoking: Toxic Boost Attacker
 **Setup:**
-1. Nidoking holds Life Orb
-2. Uses moves with secondary effects
-3. Sheer Force: 1.3× power, removes secondary effects
-4. Life Orb: 1.3× power boost
-5. **Sheer Force removes Life Orb recoil!**
-6. Total: 1.3 × 1.3 = 1.69× damage, no downside
+1. Hold Toxic Orb
+2. Turn 1: Toxic Orb activates → poisoned
+3. Toxic Boost: 120 Atk → **180 Atk** (+50%!)
+4. Sweep with Gunk Shot (180 power STAB), Earthquake (150 power STAB)
+5. Coverage: Megahorn, Superpower, Fire/Ice/Thunder Punch
+6. 95 Speed outspeeds most threats
 
-**Damage Calculation:**
-- Gunk Shot: 120 × 1.3 × 1.3 × 1.5 (STAB) = **304 effective power**
-- Superpower: 120 × 1.3 × 1.3 = **203 effective power**
-- Rock Slide: 75 × 1.3 × 1.3 = **127 effective power**
-- With 120 Attack: Absolutely devastating
+**Damage:**
+- Gunk Shot: 180 Atk × 180 power (STAB) = **DEVASTATING**
+- Earthquake: 180 Atk × 150 power (STAB) = **MASSIVE**
+- Cost: -12 HP/turn (worth it!)
 
 ---
 
-## Evolution Timing Recommendations
+## Evolution Timing
 
-**When to Evolve Nidorina → Nidoqueen:**
+**When to Evolve:**
 - Evolve around **Level 25-30** when Moon Stone is available
-- Immediately gains Earth Power + Sludge Bomb
-- Gets massive stat boosts (especially SpA: 75 → 105)
-- Can start Toxic Spikes + Venoshock spam immediately
-- Best for: Special attacking teams, poison stall teams
-
-**When to Evolve Nidorino → Nidoking:**
-- Evolve around **Level 25-30** when Moon Stone is available
-- Immediately gains Earthquake + Gunk Shot
-- Gets huge Attack boost (85 → 120)
-- Gains Sheer Force ability for Life Orb synergy
-- Best for: Physical attacking teams, wallbreaking, sweeping
-
-**Why Not Evolve Earlier?**
-- Pre-evolutions learn moves faster by level-up
-- Can delay evolution to get moves like Megahorn, Crunch earlier
-- But stat gains are significant, so evolving at ~25-30 is recommended
+- Both evolutions gain signature abilities (Poison Heal / Toxic Boost)
+- Immediate power spikes upon evolution
 
 ---
 
 ## Team Synergies
 
 ### Nidoqueen Synergies:
-- **Pairs with:** Physical attackers (she's special), Grass types (she handles Fire/Poison), hazard stackers (Stealth Rock + Toxic Spikes)
-- **Counters:** Steel types (Earth Power), Fire types (Surf), Rock types (Earth Power/Surf)
-- **Weak to:** Water, Psychic, Ice, Ground
+- **Pairs with:** Physical attackers (she tanks special hits), Grass types (she handles Fire/Steel/Poison)
+- **Role:** Special wall, Stealth Rock setter, status absorber
+- **Counters:** Poison types can't poison her (she wants it!), Fire/Steel types (Earth Power)
 
 ### Nidoking Synergies:
-- **Pairs with:** Special attackers (he's physical), Water types (he handles Electric with immunity), fast sweepers
-- **Counters:** Steel types (Earthquake/Superpower), Rock types (Earthquake), Poison types (Earthquake)
-- **Weak to:** Water, Psychic, Ice, Ground
+- **Pairs with:** Special attackers (he's physical), fast sweepers, Toxic Spikes setters (auto-poison!)
+- **Role:** Physical wallbreaker, late-game cleaner
+- **Counters:** Ground types (Earthquake), Steel types (Earthquake/Superpower)
 
 ---
 
 ## Success Metrics
 
 **Player Should Feel:**
-- Clear distinction between female (special) and male (physical) lines
-- Nidoqueen's Toxic Spikes + Venoshock combo is devastating
-- Nidoking's Sheer Force + Life Orb combo is unstoppable
-- Both evolutions are equally powerful, just different playstyles
-- Choosing your Nidoran gender is a meaningful decision
+- Nidoqueen is an unkillable wall that loves being poisoned
+- Nidoking is a powerhouse that trades HP for devastating damage
+- Toxic Orb is a MUST-HAVE item for both
+- Gender choice matters - defensive Queen vs offensive King
+- Both are equally viable, just different roles
 
 **Player Should NOT Feel:**
-- One line is strictly better than the other
-- Confused about which moves to use (special vs physical is clear)
-- Outclassed by other Poison or Ground types
-- Limited by movepool or lack of synergy
+- One is strictly better than the other
+- Poison is a bad status (it's a BUFF for both!)
+- Limited by movepool or coverage
+- Forced to use specific items (though Toxic Orb is optimal)
 
 ---
 
 ## Status
-- 📋 Gender split design complete
-- ⚡ Nidoqueen = Special (Toxic Spikes + Venoshock)
-- 💪 Nidoking = Physical (Sheer Force + Life Orb)
-- 🎯 Both Poison Point in pre-evos, diverge at evolution
-- ✅ Clear stat distributions (SpA vs Atk focus)
-- 🔄 Waiting for implementation feedback
+- 📋 Redesigned with Poison Heal/Toxic Boost focus
+- 🛡️ Nidoqueen = Special Defense tank (Poison Heal)
+- ⚔️ Nidoking = Physical attacker (Toxic Boost)
+- 🧪 Both use Toxic Orb for opposite effects
+- ✅ Stat distributions finalized
+- 🔄 Ready for implementation

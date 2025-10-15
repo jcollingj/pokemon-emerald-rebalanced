@@ -4389,12 +4389,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_NIDORINA] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 62,
-        .baseDefense   = 67,
-        .baseSpeed     = 56,
-        .baseSpAttack  = 55,
-        .baseSpDefense = 55,
+        .baseHP        = 85,
+        .baseAttack    = 50,
+        .baseDefense   = 70,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 75,
+        .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_POISON),
         .catchRate = 120,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 128 : 117,
@@ -4405,9 +4405,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_POISON_POINT, ABILITY_RIVALRY, ABILITY_HUSTLE },
+        .abilities = { ABILITY_POISON_POINT, ABILITY_POISON_POINT, ABILITY_POISON_HEAL },
     #else
-        .abilities = { ABILITY_POISON_POINT, ABILITY_NONE, ABILITY_HUSTLE },
+        .abilities = { ABILITY_POISON_POINT, ABILITY_NONE, ABILITY_POISON_HEAL },
     #endif
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Nidorina"),
@@ -4460,12 +4460,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_NIDOQUEEN] =
     {
-        .baseHP        = 90,
-        .baseAttack    = P_UPDATED_STATS >= GEN_6 ? 92 : 82,
-        .baseDefense   = 87,
-        .baseSpeed     = 76,
-        .baseSpAttack  = 75,
-        .baseSpDefense = P_UPDATED_STATS >= GEN_2 ? 85 : 75,
+        .baseHP        = 105,
+        .baseAttack    = 70,
+        .baseDefense   = 95,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 120,
         .types = MON_TYPES(TYPE_POISON, TYPE_GROUND),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -4484,9 +4484,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_POISON_POINT, ABILITY_RIVALRY, ABILITY_SHEER_FORCE },
+        .abilities = { ABILITY_POISON_HEAL, ABILITY_POISON_POINT, ABILITY_SHEER_FORCE },
     #else
-        .abilities = { ABILITY_POISON_POINT, ABILITY_NONE, ABILITY_SHEER_FORCE },
+        .abilities = { ABILITY_POISON_HEAL, ABILITY_NONE, ABILITY_SHEER_FORCE },
     #endif
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Nidoqueen"),
@@ -4683,12 +4683,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_NIDOKING] =
     {
-        .baseHP        = 81,
-        .baseAttack    = P_UPDATED_STATS >= GEN_6 ? 102 : 92,
-        .baseDefense   = 77,
-        .baseSpeed     = 85,
-        .baseSpAttack  = P_UPDATED_STATS >= GEN_2 ? 85 : 75,
-        .baseSpDefense = 75,
+        .baseHP        = 90,
+        .baseAttack    = 120,
+        .baseDefense   = 85,
+        .baseSpeed     = 95,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 90,
         .types = MON_TYPES(TYPE_POISON, TYPE_GROUND),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -4707,9 +4707,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_FIELD),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_POISON_POINT, ABILITY_RIVALRY, ABILITY_SHEER_FORCE },
+        .abilities = { ABILITY_TOXIC_BOOST, ABILITY_RIVALRY, ABILITY_SHEER_FORCE },
     #else
-        .abilities = { ABILITY_POISON_POINT, ABILITY_NONE, ABILITY_SHEER_FORCE },
+        .abilities = { ABILITY_TOXIC_BOOST, ABILITY_NONE, ABILITY_SHEER_FORCE },
     #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Nidoking"),

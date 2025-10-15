@@ -928,36 +928,26 @@ static const u16 sFinalStrikeOnlyEffects[] =
 
 static const struct PickupItem sPickupTable[] =
 {//   Item                      1+  11+  21+  31+  41+  51+  61+  71+  81+  91+   Levels
-    { ITEM_POTION,          {  35,   _,   _,   _,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_TINY_MUSHROOM,   {  25,  10,   _,   _,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_REPEL,           {   8,  30,   _,   _,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_SUPER_POTION,    {   8,  10,  30,   _,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_POKE_DOLL,       {   8,  10,   9,  30,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_BIG_MUSHROOM,    {   3,  10,   9,   _,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_SUPER_REPEL,     {   3,  10,   9,   9,  30,   _,   _,   _,   _,   _, } },
-    { ITEM_FULL_HEAL,       {   3,   3,   9,   8,   9,  30,   _,   _,   _,   _, } },
-    { ITEM_REVIVE,          {   3,   3,   3,   8,   8,   9,  30,   _,   _,   _, } },
-    { ITEM_HYPER_POTION,    {   3,   3,   3,   4,   8,   9,   8,  30,   _,   _, } },
-    { ITEM_ETHER,           {   1,   1,   3,   4,   4,   _,   _,   _,   _,   _, } },
-    { ITEM_MAX_REPEL,       {   _,   3,   3,   4,   4,   9,   8,   8,  30,   _, } },
-    { ITEM_MOON_STONE,      {   _,   3,   3,   4,   4,   4,   4,   5,   9,  10, } },
-    { ITEM_SUN_STONE,       {   _,   3,   3,   4,   4,   4,   4,   5,   9,  10, } },
-    { ITEM_RARE_CANDY,      {   _,   1,   1,   1,   1,   4,   4,   5,   4,   5, } },
-    { ITEM_NUGGET,          {   _,   _,   3,   4,   4,   4,   4,   5,   4,   5, } },
-    { ITEM_MAX_POTION,      {   _,   _,   3,   4,   4,   4,   8,   8,   9,  30, } },
-    { ITEM_MAX_ETHER,       {   _,   _,   1,   1,   4,   4,   4,   _,   _,   _, } },
-    { ITEM_PP_UP,           {   _,   _,   1,   1,   1,   4,   4,   5,   4,   5, } },
-    { ITEM_BIG_NUGGET,      {   _,   _,   1,   1,   1,   1,   4,   5,   4,   5, } },
-    { ITEM_DESTINY_KNOT,    {   _,   _,   1,   1,   1,   1,   1,   1,   1,   1, } },
-    { ITEM_LEFTOVERS,       {   _,   _,   1,   1,   1,   1,   1,   1,   1,   1, } },
-    { ITEM_MENTAL_HERB,     {   _,   _,   1,   1,   1,   1,   1,   1,   1,   1, } },
-    { ITEM_POWER_HERB,      {   _,   _,   1,   1,   1,   1,   1,   1,   1,   1, } },
-    { ITEM_WHITE_HERB,      {   _,   _,   1,   1,   1,   1,   1,   1,   1,   1, } },
-    { ITEM_BALM_MUSHROOM,   {   _,   _,   1,   4,   4,   4,   4,   5,   4,   5, } },
-    { ITEM_MAX_REVIVE,      {   _,   _,   _,   4,   4,   4,   4,   7,   9,   9, } },
-    { ITEM_ELIXIR,          {   _,   _,   _,   _,   1,   1,   4,   5,   4,   5, } },
-    { ITEM_MAX_ELIXIR,      {   _,   _,   _,   _,   _,   _,   1,   1,   4,   5, } },
-    { ITEM_BOTTLE_CAP,      {   _,   _,   _,   _,   _,   _,   _,   1,   1,   1, } },
+    { ITEM_ULTRA_BALL,      {  15,  15,  15,  15,  15,  15,  15,  15,  15,  15, } },
+    { ITEM_SUPER_POTION,    {  20,  15,  10,   _,   _,   _,   _,   _,   _,   _, } },
+    { ITEM_HYPER_POTION,    {   _,  15,  20,  15,  10,   _,   _,   _,   _,   _, } },
+    { ITEM_MAX_POTION,      {   _,   _,  10,  15,  20,  20,  15,  10,   _,   _, } },
+    { ITEM_FULL_RESTORE,    {   _,   _,   _,   _,  10,  15,  20,  25,  30,  35, } },
+    { ITEM_TOXIC_ORB,       {  10,  10,  10,  10,  10,  10,  10,  10,  10,  10, } },
+    { ITEM_FLAME_ORB,       {   5,   5,   5,   5,   5,   5,   5,   5,   5,   5, } },
+    { ITEM_KINGS_ROCK,      {   8,   8,   8,   8,   8,   8,   8,   8,   8,   8, } },
+    { ITEM_QUICK_CLAW,      {   8,   8,   8,   8,   8,   8,   8,   8,   8,   8, } },
+    { ITEM_LUM_BERRY,       {  10,  10,  10,  10,  10,  10,  10,  10,  10,  10, } },
+    { ITEM_SITRUS_BERRY,    {  10,  10,  10,  10,  10,  10,  10,  10,  10,  10, } },
+    { ITEM_LEPPA_BERRY,     {   5,   5,   5,   5,   5,   5,   5,   5,   5,   5, } },
+    { ITEM_SALAC_BERRY,     {   3,   3,   3,   3,   3,   3,   3,   3,   3,   3, } },
+    { ITEM_LIECHI_BERRY,    {   2,   2,   2,   2,   2,   2,   2,   2,   2,   2, } },
+    { ITEM_PETAYA_BERRY,    {   2,   2,   2,   2,   2,   2,   2,   2,   2,   2, } },
+    { ITEM_RARE_CANDY,      {   _,   3,   5,   5,   5,   5,   5,   5,   5,   5, } },
+    { ITEM_NUGGET,          {   2,   3,   5,   8,   8,   8,   8,   8,   8,   8, } },
+    { ITEM_LEFTOVERS,       {   _,   2,   3,   5,   5,   5,   5,   5,   5,   5, } },
+    { ITEM_FOCUS_SASH,      {   _,   2,   3,   5,   5,   5,   5,   5,   5,   5, } },
+    { ITEM_CHOICE_SCARF,    {   _,   _,   2,   3,   3,   3,   3,   3,   3,   3, } },
 };
 
 #undef _
@@ -13392,7 +13382,7 @@ static void Cmd_pickup(void)
                 && species != SPECIES_NONE
                 && species != SPECIES_EGG
                 && heldItem == ITEM_NONE
-                && (Random() % 10) == 0)
+                && (Random() % 30) == 0)
             {
                 if (isInPyramid)
                 {

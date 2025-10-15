@@ -411,7 +411,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_MAGIKARP"
+                "species": "SPECIES_SQUIRTLE"
               },
               {
                 "min_level": 5,
@@ -565,12 +565,12 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_MAGIKARP"
+                "species": "SPECIES_CORSOLA"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_MAGIKARP"
+                "species": "SPECIES_HORSEA"
               },
               {
                 "min_level": 10,
