@@ -1,0 +1,8 @@
+{
+  "name": "pokemon-emerald-rebalanced",
+  "private": true,
+  "scripts": {
+    "dev": "docker compose up --build",
+    "build": "make -j$(nproc) && ./update-openemu.sh"
+  }
+}

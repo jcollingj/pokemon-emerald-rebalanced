@@ -1,3 +1,12 @@
+---
+name: Toxapex
+dex_number: 748
+status: designed
+ability: Regenerator
+role: Wall / Stall
+evolution_line: [Mareanie, Toxapex]
+---
+
 # Toxapex - Rebalance Notes
 
 ## Design Philosophy

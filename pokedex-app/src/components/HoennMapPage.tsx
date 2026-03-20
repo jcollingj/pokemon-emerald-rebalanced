@@ -87,17 +87,7 @@ export function HoennMapPage({ navigate }: HoennMapPageProps) {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center gap-4">
-        <Button variant="ghost" size="icon" onClick={() => navigate("/")}>
-          <ArrowLeft className="h-4 w-4" />
-        </Button>
-        <div>
-          <h1 className="text-3xl font-bold">Hoenn Region Map</h1>
-          <p className="text-muted-foreground">
-            Explore the cities and towns of the Hoenn region
-          </p>
-        </div>
-      </div>
+      <h1 className="text-xl font-bold">Hoenn Region Map</h1>
 
       <div className="rounded-xl border bg-card overflow-hidden">
         <svg

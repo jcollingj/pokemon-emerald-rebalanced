@@ -11,21 +11,7 @@ interface WeatherPageProps {
 export function WeatherPage({ navigate }: WeatherPageProps) {
   return (
     <div className="space-y-6">
-      <Button
-        variant="ghost"
-        className="gap-2"
-        onClick={() => navigate('/')}
-      >
-        <ArrowLeft className="h-4 w-4" />
-        Back to Home
-      </Button>
-
-      <div className="text-center space-y-2">
-        <h1 className="text-3xl font-bold">Weather Conditions</h1>
-        <p className="text-muted-foreground">
-          All weather effects, abilities, and interactions in battle
-        </p>
-      </div>
+      <h1 className="text-xl font-bold">Weather Conditions</h1>
 
       {/* Weather Conditions */}
       <div className="space-y-4">

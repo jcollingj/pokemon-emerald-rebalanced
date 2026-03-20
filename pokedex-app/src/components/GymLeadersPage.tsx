@@ -280,16 +280,7 @@ export function GymLeadersPage({ navigate }: GymLeadersPageProps) {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <Button variant="ghost" onClick={() => navigate("/")}>
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Home
-          </Button>
-        </div>
-        <h1 className="text-4xl font-bold">Gym Leaders & Elite Four</h1>
-        <div className="w-24" />
-      </div>
+      <h1 className="text-xl font-bold">Gym Leaders & Elite Four</h1>
 
       {/* Gym Leaders */}
       <div>

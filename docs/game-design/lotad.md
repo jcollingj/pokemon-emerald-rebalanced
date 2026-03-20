@@ -1,3 +1,12 @@
+---
+name: Lotad
+dex_number: 270
+status: designed
+ability: Rain Dish
+role: Rain Support
+evolution_line: [Lotad, Lombre, Ludicolo]
+---
+
 # Lotad - Rebalance Notes
 
 ## Design Philosophy

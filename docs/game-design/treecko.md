@@ -1,3 +1,12 @@
+---
+name: Treecko
+dex_number: 252
+status: designed
+ability: Unburden
+role: Speed Sweeper
+evolution_line: [Treecko, Grovyle, Sceptile]
+---
+
 # Treecko/Sceptile - Rebalance Notes
 
 ## Design Philosophy

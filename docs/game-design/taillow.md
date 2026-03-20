@@ -1,3 +1,12 @@
+---
+name: Taillow
+dex_number: 276
+status: designed
+ability: Guts
+role: Physical Sweeper
+evolution_line: [Taillow, Swellow]
+---
+
 # Taillow - Rebalance Notes
 
 ## Design Philosophy

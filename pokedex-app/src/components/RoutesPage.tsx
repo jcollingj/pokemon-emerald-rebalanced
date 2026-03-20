@@ -279,14 +279,7 @@ export function RoutesPage({ navigate }: RoutesPageProps) {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <Button variant="ghost" onClick={() => navigate("/")}>
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
-        </Button>
-        <h1 className="text-4xl font-bold">Routes & Areas</h1>
-        <div className="w-24" />
-      </div>
+      <h1 className="text-xl font-bold">Routes & Areas</h1>
 
       <Card>
         <CardHeader>

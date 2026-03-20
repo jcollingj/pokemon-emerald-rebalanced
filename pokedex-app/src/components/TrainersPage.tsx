@@ -347,16 +347,7 @@ export function TrainersPage({ navigate }: TrainersPageProps) {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <Button variant="ghost" onClick={() => navigate("/")}>
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Home
-          </Button>
-        </div>
-        <h1 className="text-4xl font-bold">Trainers</h1>
-        <div className="w-24" />
-      </div>
+      <h1 className="text-xl font-bold">Trainers</h1>
 
       <Card>
         <CardHeader>

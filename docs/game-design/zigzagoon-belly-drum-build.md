@@ -1,3 +1,12 @@
+---
+name: Zigzagoon
+dex_number: 263
+status: implemented
+ability: Pickup
+role: Setup Sweeper
+evolution_line: [Zigzagoon, Linoone]
+---
+
 # Zigzagoon - Belly Drum Build Design
 
 ## Overview

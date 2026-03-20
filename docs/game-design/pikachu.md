@@ -1,3 +1,12 @@
+---
+name: Pikachu
+dex_number: 25
+status: implemented
+ability: Static
+role: Light Ball Specialist
+evolution_line: [Pikachu, Raichu]
+---
+
 # Pikachu - The Light Ball Specialist
 
 ## Design Philosophy

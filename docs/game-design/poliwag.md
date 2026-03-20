@@ -1,3 +1,12 @@
+---
+name: Poliwag
+dex_number: 60
+status: designed
+ability: Swift Swim
+role: Rain Sweeper
+evolution_line: [Poliwag, Poliwhirl, Poliwrath]
+---
+
 # Poliwag - Rebalance Notes
 
 ## Design Philosophy

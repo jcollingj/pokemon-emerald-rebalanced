@@ -1,3 +1,12 @@
+---
+name: Wurmple
+dex_number: 265
+status: designed
+ability: Shield Dust
+role: Early Bug
+evolution_line: [Wurmple, Silcoon, Beautifly, Cascoon, Dustox]
+---
+
 # Wurmple - Rebalance Notes
 
 ## Design Philosophy

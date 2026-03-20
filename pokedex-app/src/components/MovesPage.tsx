@@ -185,15 +185,7 @@ export function MovesPage({ navigate }: MovesPageProps) {
 
   return (
     <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <Button variant="ghost" onClick={() => navigate("/")}>
-            <ArrowLeft className="h-4 w-4 mr-2" />
-            Back to Home
-          </Button>
-          <h1 className="text-3xl font-bold">Move Database</h1>
-        </div>
-      </div>
+      <h1 className="text-xl font-bold">Move Database</h1>
 
       <div className="flex gap-4 flex-wrap">
         <div className="relative flex-1 min-w-[200px]">

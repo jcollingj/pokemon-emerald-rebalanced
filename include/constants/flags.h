@@ -44,7 +44,7 @@
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
 #define FLAG_EXP_SHARE_ENABLED    0x20 // Toggles party-wide EXP Share (Gen6+ Key Item)
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
+#define FLAG_ITEM_LITTLEROOT_TOWN_EXP_SHARE    0x21
 #define FLAG_UNUSED_0x022    0x22 // Unused Flag
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag
@@ -1186,7 +1186,7 @@
 #define FLAG_ITEM_MOSSDEEP_STEVENS_HOUSE_HM08                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
 #define FLAG_ITEM_ROUTE_119_NUGGET                                  0x46E
 #define FLAG_ITEM_ROUTE_104_POTION                                  0x46F
-#define FLAG_UNUSED_0x470                                           0x470 // Unused Flag
+#define FLAG_ITEM_ROUTE_104_DAMP_ROCK                                0x470
 #define FLAG_ITEM_ROUTE_103_PP_UP                                   0x471
 #define FLAG_ITEM_ROUTE_103_EXP_SHARE                               0x472
 #define FLAG_ITEM_ROUTE_108_STAR_PIECE                              0x473

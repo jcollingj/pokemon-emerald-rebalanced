@@ -1,3 +1,12 @@
+---
+name: Mudkip
+dex_number: 258
+status: implemented
+ability: Stamina
+role: Bulky Physical Tank
+evolution_line: [Mudkip, Marshtomp, Swampert]
+---
+
 # Mudkip - Rebalance Notes
 
 ## Design Philosophy

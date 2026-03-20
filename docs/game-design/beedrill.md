@@ -1,3 +1,12 @@
+---
+name: Beedrill
+dex_number: 15
+status: designed
+ability: Merciless
+role: Crit Sweeper
+evolution_line: [Weedle, Kakuna, Beedrill]
+---
+
 # Beedrill - Rebalance Notes
 
 ## Design Philosophy

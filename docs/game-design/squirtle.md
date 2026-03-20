@@ -1,3 +1,12 @@
+---
+name: Squirtle
+dex_number: 7
+status: implemented
+ability: Mega Launcher
+role: Pulse Mage
+evolution_line: [Squirtle, Wartortle, Blastoise]
+---
+
 # Squirtle - Rebalance Notes
 
 ## Design Philosophy

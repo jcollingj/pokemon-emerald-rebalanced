@@ -1,3 +1,12 @@
+---
+name: Nidoran
+dex_number: 29
+status: implemented
+ability: Poison Heal / Toxic Boost
+role: Poison Tank / Poison Sweeper
+evolution_line: [Nidoran♀, Nidorina, Nidoqueen, Nidoran♂, Nidorino, Nidoking]
+---
+
 # Nidoran Evolution Line - Design Recommendations (REVISED)
 
 ## Design Philosophy

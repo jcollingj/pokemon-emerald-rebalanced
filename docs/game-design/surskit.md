@@ -1,3 +1,12 @@
+---
+name: Surskit
+dex_number: 283
+status: designed
+ability: Swift Swim
+role: Rain Pivot
+evolution_line: [Surskit, Masquerain]
+---
+
 # Surskit - Rebalance Notes
 
 ## Design Philosophy

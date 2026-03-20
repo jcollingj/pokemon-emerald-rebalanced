@@ -99,6 +99,14 @@ The GBA has strict memory limitations that the code carefully manages:
 - ROM (up to 32MB) - Game code and assets
 - Custom linker script manages section placement
 
+## Development Philosophy
+
+**Test-Driven Development (TDD):**
+- Write failing tests first, then implement to make them pass
+- Prioritize testing logic upfront before writing implementation code
+- Tests should verify behavior, not implementation details
+- For tooling and scripts, use Python's `unittest` (no external dependencies)
+
 ## Development Practices
 
 **Asset Processing:**

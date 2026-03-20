@@ -118,6 +118,9 @@
 
 ## Items
 
+### Littleroot Town
+- Exp Share (item ball, near the lab)
+
 ### Oldale Town
 - Old Rod (from Fisherman NPC near north exit)
 
@@ -130,7 +133,6 @@
 ### Route 103
 - Guard Spec (item ball)
 - PP Up (item ball)
-- Exp Share (item ball)
 
 ### Route 104
 **Item Balls:**
@@ -138,6 +140,7 @@
 - PP Up
 - Poke Ball
 - X Accuracy
+- Damp Rock (north side, after Petalburg Woods)
 
 **NPC Gifts:**
 - Chesto Berry (from NPC)
@@ -189,3 +192,4 @@
 - Nidoran line available evolved (Nidorino/Nidorina) on Route 102
 - Roxanne's team has type diversity beyond Rock (Water Gun on Omanyte/Anorith, Thunderbolt on Nosepass)
 - Sand Stream + Sand Force Nosepass is the ace combo
+- Damp Rock on Route 104 north enables Rain Dance strategies against Roxanne's sandstorm team

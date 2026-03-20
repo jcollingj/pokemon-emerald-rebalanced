@@ -1,3 +1,12 @@
+---
+name: Poochyena
+dex_number: 261
+status: designed
+ability: Guts
+role: Bulky Physical Attacker
+evolution_line: [Poochyena, Mightyena]
+---
+
 # Poochyena - Rebalance Notes
 
 ## Design Philosophy

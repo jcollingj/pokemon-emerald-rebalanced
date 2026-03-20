@@ -1,3 +1,12 @@
+---
+name: Torchic
+dex_number: 255
+status: designed
+ability: Speed Boost
+role: Physical Sweeper
+evolution_line: [Torchic, Combusken, Blaziken]
+---
+
 # Torchic/Blaziken - Rebalance Notes
 
 ## Design Philosophy
