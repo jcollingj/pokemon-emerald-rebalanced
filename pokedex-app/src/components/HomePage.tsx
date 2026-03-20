@@ -20,10 +20,16 @@ const pages = [
     icon: '⚔️',
   },
   {
+    path: '/map',
+    title: 'Hoenn Map',
+    description: 'Interactive SVG map of the Hoenn region with all cities, towns, and routes',
+    icon: '🗺️',
+  },
+  {
     path: '/routes',
     title: 'Routes & Areas',
     description: 'Explore routes with wild encounters, trainers, and items for each location',
-    icon: '🗺️',
+    icon: '📍',
   },
   {
     path: '/trainers',

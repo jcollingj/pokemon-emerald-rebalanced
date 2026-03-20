@@ -339,6 +339,56 @@ OldaleTown_Movement_ReturnToOriginalPosition:
 	walk_left
 	step_end
 
+OldaleTown_EventScript_OldRodFisherman::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_OLD_ROD, OldaleTown_EventScript_OldRodHowsFishing
+	msgbox OldaleTown_Text_HeardThereAreRarePokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, OldaleTown_EventScript_GiveOldRod
+	goto_if_eq VAR_RESULT, NO, OldaleTown_EventScript_OldRodDecline
+	end
+
+OldaleTown_EventScript_GiveOldRod::
+	msgbox OldaleTown_Text_HereTakeThisRod, MSGBOX_DEFAULT
+	giveitem ITEM_OLD_ROD
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_OLD_ROD
+	msgbox OldaleTown_Text_OldRodFishingAdvice, MSGBOX_DEFAULT
+	release
+	end
+
+OldaleTown_EventScript_OldRodDecline::
+	msgbox OldaleTown_Text_OldRodMaybeLater, MSGBOX_DEFAULT
+	release
+	end
+
+OldaleTown_EventScript_OldRodHowsFishing::
+	msgbox OldaleTown_Text_CatchAnythingGood, MSGBOX_NPC
+	release
+	end
+
+OldaleTown_Text_HeardThereAreRarePokemon:
+	.string "I've heard there are some rare POKéMON\n"
+	.string "you can only find by fishing around here.\p"
+	.string "Want to try your hand at fishing?$"
+
+OldaleTown_Text_HereTakeThisRod:
+	.string "That's the spirit!\n"
+	.string "Here, take this OLD ROD of mine.$"
+
+OldaleTown_Text_OldRodFishingAdvice:
+	.string "Just face the water and use the ROD.\p"
+	.string "Focus your mind…\n"
+	.string "When you get a bite, press the A Button!$"
+
+OldaleTown_Text_OldRodMaybeLater:
+	.string "Oh, that's too bad.\n"
+	.string "Come find me if you change your mind!$"
+
+OldaleTown_Text_CatchAnythingGood:
+	.string "Caught anything good yet?\n"
+	.string "Keep at it!$"
+
 OldaleTown_Text_SavingMyProgress:
 	.string "I want to take a rest, so I'm saving my\n"
 	.string "progress.$"

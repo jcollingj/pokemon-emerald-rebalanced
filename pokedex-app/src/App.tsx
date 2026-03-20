@@ -6,6 +6,7 @@ import { TrainersPage } from "./components/TrainersPage";
 import { GymLeadersPage } from "./components/GymLeadersPage";
 import { RoutesPage } from "./components/RoutesPage";
 import { MovesPage } from "./components/MovesPage";
+import { HoennMapPage } from "./components/HoennMapPage";
 import { useRoute } from "./hooks/useRoute";
 import "./index.css";
 
@@ -28,6 +29,8 @@ export function App() {
         return <RoutesPage navigate={navigate} />;
       case '/moves':
         return <MovesPage navigate={navigate} />;
+      case '/map':
+        return <HoennMapPage navigate={navigate} />;
       case '/':
       default:
         return <HomePage navigate={navigate} />;

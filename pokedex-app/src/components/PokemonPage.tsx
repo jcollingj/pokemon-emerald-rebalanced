@@ -224,6 +224,7 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [typeFilter, setTypeFilter] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("dex");
+  const [modFilter, setModFilter] = useState<string>("all");
   const [selectedPokemon, setSelectedPokemon] = useState<Pokemon | null>(null);
   const [openInfoCards, setOpenInfoCards] = useState<Array<{id: string, type: 'move' | 'ability', data: Move | Ability}>>([]);
   const [modificationsExpanded, setModificationsExpanded] = useState(true);
@@ -417,6 +418,17 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
       filtered = filtered.filter((p) => p.types.includes(typeFilter));
     }
 
+    // Filter by modification status
+    if (modFilter === "modified") {
+      filtered = filtered.filter((p) => p.modifications);
+    } else if (modFilter === "implemented") {
+      filtered = filtered.filter((p) => p.modifications?.implemented === true);
+    } else if (modFilter === "proposed") {
+      filtered = filtered.filter((p) => p.modifications && !p.modifications.implemented);
+    } else if (modFilter === "unmodified") {
+      filtered = filtered.filter((p) => !p.modifications);
+    }
+
     // Sort
     const sorted = [...filtered];
     switch (sortBy) {
@@ -444,7 +456,7 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
     }
 
     return sorted;
-  }, [pokemon, searchTerm, typeFilter, sortBy]);
+  }, [pokemon, searchTerm, typeFilter, sortBy, modFilter]);
 
   // Auto-focus search input on mount
   useEffect(() => {
@@ -495,7 +507,7 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
   // Reset highlighted index when filters change
   useEffect(() => {
     setHighlightedIndex(0);
-  }, [searchTerm, typeFilter, sortBy]);
+  }, [searchTerm, typeFilter, sortBy, modFilter]);
 
   // Scroll highlighted Pokemon into view
   useEffect(() => {
@@ -1029,6 +1041,19 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
               </SelectContent>
             </Select>
 
+            <Select value={modFilter} onValueChange={setModFilter}>
+              <SelectTrigger className="w-[180px]">
+                <SelectValue placeholder="Modifications" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Pokemon</SelectItem>
+                <SelectItem value="modified">Modified</SelectItem>
+                <SelectItem value="implemented">Implemented</SelectItem>
+                <SelectItem value="proposed">Proposed</SelectItem>
+                <SelectItem value="unmodified">Unmodified</SelectItem>
+              </SelectContent>
+            </Select>
+
             <Select value={sortBy} onValueChange={setSortBy}>
               <SelectTrigger className="w-[180px]">
                 <SelectValue placeholder="Sort by" />
@@ -1054,6 +1079,8 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
             data-pokemon-index={index}
             className={`cursor-pointer transition-all hover:shadow-lg ${
               index === highlightedIndex ? 'ring-4 ring-primary ring-offset-2' : ''
+            } ${
+              p.modifications ? (p.modifications.implemented ? 'border-green-500 border-2' : 'border-yellow-500 border-2') : ''
             }`}
             onClick={() => setSelectedPokemon(p)}
             onMouseEnter={() => setHighlightedIndex(index)}
@@ -1081,6 +1108,15 @@ export function PokemonPage({ navigate }: PokemonPageProps) {
               <div className="text-sm text-muted-foreground">
                 {p.abilities.join(", ")}
               </div>
+              {p.modifications && (
+                <Badge variant={p.modifications.implemented ? "default" : "secondary"} className={
+                  p.modifications.implemented
+                    ? "bg-green-600 hover:bg-green-700 text-white"
+                    : "bg-yellow-500 hover:bg-yellow-600 text-white"
+                }>
+                  {p.modifications.implemented ? "Implemented" : "Proposed"}
+                </Badge>
+              )}
             </CardContent>
           </Card>
         ))}
