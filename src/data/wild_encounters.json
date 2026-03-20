@@ -311,22 +311,22 @@
           "map": "MAP_ROUTE103",
           "base_label": "gRoute103",
           "land_mons": {
-            "encounter_rate": 20,
+            "encounter_rate": 1,
             "mons": [
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_SQUIRTLE"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_SQUIRTLE"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_SQUIRTLE"
               },
               {
                 "min_level": 4,
@@ -470,12 +470,12 @@
               {
                 "min_level": 4,
                 "max_level": 5,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_SQUIRTLE"
               },
               {
                 "min_level": 4,
                 "max_level": 5,
-                "species": "SPECIES_WURMPLE"
+                "species": "SPECIES_SQUIRTLE"
               },
               {
                 "min_level": 5,

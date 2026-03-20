@@ -25,6 +25,12 @@ These Pokemon have both design documentation and code implementation complete:
 - [ ] Taillow (design doc complete, verify code)
 
 ### Starter Pokemon
+- [x] **Squirtle Line** - Mega Launcher pulse-move specialist (COMPLETED)
+  - Abilities: All forms use Mega Launcher (ability 1)
+  - Stats: Squirtle (60/48/65/65/70/43), Wartortle (75/63/85/85/90/58), Blastoise (92/83/105/110/112/78)
+  - Learnsets: Full pulse move coverage (Water Pulse, Aura Sphere, Dragon Pulse, Dark Pulse, Origin Pulse, Hydro Cannon)
+  - Game mechanics: Origin Pulse and Hydro Cannon confirmed as pulse moves
+  - Build tested: ✓ Successful (Oct 29, 2025)
 - [ ] Treecko (design doc complete, verify code)
 - [ ] Torchic (design doc complete, verify code)
 - [ ] Mudkip (design doc complete, verify code)
@@ -40,7 +46,7 @@ These Pokemon have both design documentation and code implementation complete:
 
 These Pokemon have finished design docs but need code implementation verified:
 
-*(Move completed Pokemon here once code is verified)*
+*(No Pokemon currently in this section)*
 
 ---
 
@@ -58,7 +64,6 @@ These Pokemon need design documentation and implementation:
 
 ### Water-Type Pokemon (Priority: Early Game Encounters)
 - [ ] **Tentacool** - Water/Poison pivot with Rain Dish ability
-- [ ] **Squirtle** - Classic starter line
 - [ ] **Chinchou** - Water/Electric defensive pivot
 - [ ] **Corsola** - Bulky Water/Rock wall
 - [ ] **Relicanth** - Ancient Water/Rock tank
