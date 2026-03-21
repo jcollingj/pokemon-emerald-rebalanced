@@ -2410,4 +2410,11 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+
+    [ABILITY_LANCER] =
+    {
+        .name = _("Lancer"),
+        .description = COMPOUND_STRING("Boosts piercing moves."),
+        .aiRating = 6,
+    },
 };

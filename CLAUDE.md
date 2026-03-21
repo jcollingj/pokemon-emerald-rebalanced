@@ -105,7 +105,22 @@ The GBA has strict memory limitations that the code carefully manages:
 - Write failing tests first, then implement to make them pass
 - Prioritize testing logic upfront before writing implementation code
 - Tests should verify behavior, not implementation details
-- For tooling and scripts, use Python's `unittest` (no external dependencies)
+
+**Tooling & Scripts:**
+- Use **bun** for all scripting and tooling — not Python
+- Write TypeScript with proper types (interfaces, type aliases, exported types)
+- Tests use `bun:test` (built-in test runner)
+- One-off inline scripts: `bun -e "import { ... } from './path'; ..."`
+- Always import and use types from shared modules — don't duplicate type definitions
+- Run `bun test <file>` to verify before committing
+
+**Session Flushing:**
+At the end of a work session (or when asked to "flush"), persist all active threads so future conversations can pick up where we left off:
+1. Update `memory/project_design_progress.md` with current state — what's done, what's in progress, what's next
+2. Update any stale memory files that no longer reflect reality
+3. Ensure all design docs and cards are written to disk (not just discussed)
+4. Run `bun tools/pokedex/pokedex.ts stats` to capture the current count
+5. Note any open questions or decisions that need to be made next session
 
 ## Development Practices
 

@@ -97,6 +97,7 @@ struct MoveInfo
     bool32 danceMove:1;
     bool32 windMove:1;
     bool32 slicingMove:1;
+    bool32 piercingMove:1;
     bool32 healingMove:1;
     bool32 minimizeDoubleDamage:1;
     bool32 ignoresTargetAbility:1;
@@ -320,6 +321,11 @@ static inline bool32 IsDanceMove(u32 moveId)
 static inline bool32 IsWindMove(u32 moveId)
 {
     return gMovesInfo[SanitizeMoveId(moveId)].windMove;
+}
+
+static inline bool32 IsPiercingMove(u32 moveId)
+{
+    return gMovesInfo[SanitizeMoveId(moveId)].piercingMove;
 }
 
 static inline bool32 IsSlicingMove(u32 moveId)

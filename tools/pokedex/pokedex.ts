@@ -3,10 +3,12 @@
  * pokedex - CLI tool for managing Pokemon design cards.
  *
  * Usage:
- *   bun tools/pokedex/pokedex.ts list [--status=STATUS] [--search=NAME]
+ *   bun tools/pokedex/pokedex.ts list [--status=STATUS] [--search=NAME] [--all]
  *   bun tools/pokedex/pokedex.ts show <name_or_number>
  *   bun tools/pokedex/pokedex.ts init
- *   bun tools/pokedex/pokedex.ts stats
+ *   bun tools/pokedex/pokedex.ts stats [--all]
+ *
+ * By default, only Gen 1-3 Pokemon (#1-386) are shown. Use --all for the full dex.
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "fs";
@@ -43,7 +45,10 @@ export interface WriteCardData {
 export interface ListOptions {
   status?: DesignStatus;
   search?: string;
+  all?: boolean;
 }
+
+const MAX_GEN3_DEX = 386;
 
 // --- Constants ---
 
@@ -176,7 +181,7 @@ export function writeCard(path: string, data: WriteCardData): void {
 }
 
 export function listCards(designsDir: string, options: ListOptions = {}): PokemonCard[] {
-  const { status, search } = options;
+  const { status, search, all } = options;
 
   if (!existsSync(designsDir)) return [];
 
@@ -190,6 +195,9 @@ export function listCards(designsDir: string, options: ListOptions = {}): Pokemo
     const card = parseCard(join(designsDir, file));
     if (!card) continue;
 
+    const dexNum = parseInt(card.dex_number);
+    if (!all && dexNum > MAX_GEN3_DEX) continue;
+
     if (status && card.status !== status) continue;
     if (search && !card.name.toLowerCase().includes(search.toLowerCase())) continue;
 
@@ -202,10 +210,11 @@ export function listCards(designsDir: string, options: ListOptions = {}): Pokemo
 
 // --- CLI Commands ---
 
-function cmdList(status?: string, search?: string): void {
+function cmdList(status?: string, search?: string, all?: boolean): void {
   const cards = listCards(DESIGNS_DIR, {
     status: status as DesignStatus | undefined,
     search,
+    all,
   });
 
   if (cards.length === 0) {
@@ -307,8 +316,8 @@ function cmdInit(): void {
   console.log(`Created ${created} cards, skipped ${skipped} existing.`);
 }
 
-function cmdStats(): void {
-  const cards = listCards(DESIGNS_DIR);
+function cmdStats(all?: boolean): void {
+  const cards = listCards(DESIGNS_DIR, { all });
   const counts = new Map<string, number>();
 
   for (const c of cards) {
@@ -341,10 +350,11 @@ function main(): void {
         options: {
           status: { type: "string", short: "s" },
           search: { type: "string", short: "q" },
+          all: { type: "boolean", default: false },
         },
         allowPositionals: false,
       });
-      cmdList(values.status, values.search);
+      cmdList(values.status, values.search, values.all);
       break;
     }
     case "show": {
@@ -359,9 +369,17 @@ function main(): void {
     case "init":
       cmdInit();
       break;
-    case "stats":
-      cmdStats();
+    case "stats": {
+      const { values: statsValues } = parseArgs({
+        args: args.slice(1),
+        options: {
+          all: { type: "boolean", default: false },
+        },
+        allowPositionals: false,
+      });
+      cmdStats(statsValues.all);
       break;
+    }
     default:
       console.log(`pokedex - Manage Pokemon design cards
 

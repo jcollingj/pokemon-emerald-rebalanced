@@ -2835,7 +2835,9 @@ static const struct LevelUpMove sTaurosPaldeaAquaLevelUpLearnset[] = {
 #if P_FAMILY_MAGIKARP
 static const struct LevelUpMove sMagikarpLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
-    LEVEL_UP_MOVE(15, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 8, MOVE_TACKLE),
+    LEVEL_UP_MOVE(12, MOVE_FLAIL),
+    LEVEL_UP_MOVE(14, MOVE_AQUA_JET),
     LEVEL_UP_END
 };
 

@@ -1,6 +1,6 @@
 # Segment 1: Start to Rustboro Gym
 
-**Route:** Littleroot Town -> Route 101 -> Oldale Town -> Route 103 (rival battle) -> Route 102 -> Petalburg City -> Route 104 -> Petalburg Woods -> Route 104 (north) -> Rustboro City -> Rustboro Gym
+**Route:** Littleroot Town -> Route 101 -> Oldale Town -> Route 103 (rival battle) -> Route 102 -> Petalburg City -> Route 104 -> Petalburg Woods -> Route 104 (north) -> Rustboro City -> Route 116 -> Rusturf Tunnel -> Rustboro Gym
 
 ---
 
@@ -12,12 +12,12 @@
 
 | # | Pokemon  | Level | Item         | Ability      | Moves                                          |
 |---|----------|-------|--------------|--------------|-------------------------------------------------|
-| 1 | Larvitar | 10    | Smooth Rock  | Sand Stream  | Stealth Rock, Rock Slide, Bite, Protect         |
+| 1 | Larvitar | 10    | Smooth Rock  | Sand Stream  | Stealth Rock, Rock Slide, Crunch, Protect       |
 | 2 | Geodude  | 11    | Wide Lens    | Rock Head    | Defense Curl, Rollout, Rock Throw, Tackle       |
-| 3 | Omanyte  | 12    | Oran Berry   | Swift Swim   | Water Gun, Ancient Power, Withdraw, Bite        |
-| 4 | Lileep   | 13    | Sitrus Berry | Suction Cups | Ancient Power, Acid, Confuse Ray, Ingrain       |
-| 5 | Anorith  | 14    | Focus Sash   | Battle Armor | Fury Cutter, Rock Blast, Water Gun, Metal Claw  |
-| 6 | Nosepass | 15    | Chesto Berry | Sand Force   | Power Gem, Thunderbolt, Thunder Wave, Rest       |
+| 3 | Omanyte  | 12    | White Herb   | Swift Swim   | Shell Smash, Water Gun, Ancient Power, Bite     |
+| 4 | Lileep   | 13    | Big Root     | Suction Cups | Ancient Power, Giga Drain, Confuse Ray, Ingrain|
+| 5 | Anorith  | 14    | Life Orb     | Battle Armor | X-Scissor, Rock Blast, Aqua Jet, Metal Claw    |
+| 6 | Nosepass | 15    | Leftovers    | Sand Force   | Power Gem, Thunder, Thunder Wave, Rest          |
 
 **Gym Trainers:**
 - Josh: Geodude L10
@@ -49,7 +49,9 @@
 | Zigzagoon| 3-4    |                |
 | Wingull  | 3-4    |                |
 
-*Fishing:* Squirtle (L5-10), Tentacool, Magikarp, Wailmer, Sharpedo (L30-35)
+*Old Rod:* Magikarp, Tentacool
+*Good Rod:* Squirtle (L5-10)
+*Super Rod:* Wailmer, Sharpedo (L30-35)
 
 ### Route 102
 *Encounter Rate: 20%*
@@ -65,7 +67,8 @@
 | Ralts     | 8      |                    |
 | Pikachu   | 7-8    | Holding Light Ball |
 
-*Fishing:* Magikarp, Goldeen, Corphish
+*Old Rod:* Magikarp
+*Good Rod:* Goldeen, Corphish
 
 ### Route 104
 *Encounter Rate: 20%*
@@ -80,8 +83,9 @@
 | Taillow   | 4      |       |
 | Wingull   | 4-5    |       |
 
-*Water:* Toxapex (L5-8), Wingull (L10-15)
-*Fishing:* Corsola, Horsea (L5-10), Magikarp
+*Water:* Wingull (L10-15)
+*Old Rod:* Magikarp
+*Good Rod:* Corsola, Horsea (L5-10)
 
 ### Petalburg Woods
 *Encounter Rate: 20%*
@@ -94,6 +98,30 @@
 | Lotad     | 5-6    |
 | Taillow   | 5-6    |
 | Slakoth   | 5-6    |
+
+### Route 116
+*Encounter Rate: 20%*
+
+| Pokemon   | Levels | Notes |
+|-----------|--------|-------|
+| Poochyena | 6-8    |       |
+| Whismur   | 6      |       |
+| Nincada   | 6-7    |       |
+| Abra      | 7      |       |
+| Taillow   | 6-8    |       |
+| Skitty    | 7-8    |       |
+| Eevee     | 7-8    | Rare (1 slot) |
+
+### Rusturf Tunnel
+*Encounter Rate: 10%*
+
+| Pokemon   | Levels | Notes |
+|-----------|--------|-------|
+| Whismur   | 9-11   | Common (5 slots) |
+| Geodude   | 9-11   | Classic cave mon (3 slots) |
+| Makuhita  | 10-11  | First Fighting type (2 slots) |
+| Aron      | 10-12  | Rare chase encounter (1 slot) |
+| Nosepass  | 11-12  | Rare — catch Roxanne's ace (1 slot) |
 
 ---
 

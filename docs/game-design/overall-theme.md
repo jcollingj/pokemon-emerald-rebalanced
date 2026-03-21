@@ -63,6 +63,10 @@ This is a complete rebalance of Pokemon Emerald focused on one primary dimension
 - Early Route Trainers: Zigzagoon with Belly Drum - fun, challenging, memorable
 - Every trainer should feel like a mini-puzzle to solve
 
+## Scope
+
+**Gen 1-3 Pokemon only.** This rebalance covers the original 386 Pokemon (Kanto, Johto, Hoenn). No Pokemon from Gen 4+ are included in encounter tables, trainer teams, or design work.
+
 ## Implementation Guidelines
 
 ### Pokemon Rebalancing

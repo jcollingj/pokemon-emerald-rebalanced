@@ -8,6 +8,7 @@ import gymLeadersData from "./data/gym-leaders.json";
 import routesData from "./data/routes.json";
 
 const server = serve({
+  port: 2222,
   routes: {
     // Serve index.html for all unmatched routes.
     "/*": index,
@@ -130,4 +131,4 @@ const server = serve({
   },
 });
 
-console.log(`🚀 Server running at ${server.url}`);
+console.log(`Pokedex running at http://localhost:2222`);

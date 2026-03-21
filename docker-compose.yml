@@ -3,8 +3,14 @@ services:
     build:
       context: ./pokedex-app
     ports:
-      - "3000:3000"
+      - "2222:2222"
     volumes:
       - ./pokedex-app/src:/app/src
     environment:
       - NODE_ENV=development
+    networks:
+      - pokedex-net
+
+networks:
+  pokedex-net:
+    name: pokedex-net
