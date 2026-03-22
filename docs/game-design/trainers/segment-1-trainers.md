@@ -1,9 +1,9 @@
 ---
 segment: 1
 name: Start to Rustboro Gym
-status: not_started
+status: in_progress
 total_trainers: 39
-designed: 0
+designed: 9
 ---
 
 # Segment 1 Trainers: Start to Rustboro Gym
@@ -135,74 +135,141 @@ designed: 0
 ## Route 104
 
 ### Billy (Youngster) — Optional
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| Zigzagoon | 8 | | | |
-| Seedot | 8 | | | |
-| Taillow | 7 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon. Needs movesets. Seedot is not in our Route 104 pool — consider swapping.
+
+**Status:** designed
+
+**Puzzle:** Zigzagoon opens with Sand Attack accuracy stacking. Taillow looks fragile but has 70/70/70 bulk (Guts tank) — status moves only help it. Wurmple's Technician makes Poison Sting + Tackle much stronger than they look. Player needs to play through accuracy drops and not waste status moves.
+
+| Pokemon   | Level | Item     | Ability                       | Moves                                    |
+|-----------|-------|----------|-------------------------------|------------------------------------------|
+| Zigzagoon | 8     | —        | Pickup (Multiscale at full HP)| Quick Attack, Sand Attack, Howl, Tackle  |
+| Seedot    | 8     | Oran Berry | Chlorophyll                 | Growth, Bullet Seed, Harden, Bide        |
+| Taillow   | 8     | —        | Guts                          | Pluck, Wing Attack, Growl, Peck          |
+| Wurmple   | 8     | —        | Technician                    | Tackle, Poison Sting, String Shot        |
+
+---
 
 ### Joey (Youngster) — Optional
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| Machop | 9 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Machop not locally available. Expand and adjust.
+
+**Status:** designed
+
+**Puzzle:** Two Guts Pokemon (Machop, Poochyena) — status moves backfire and boost their Attack. Marill's Huge Power makes Aqua Jet hit far harder than a L8 Water-type has any right to. Player must deal damage quickly instead of trying to cripple the team.
+
+| Pokemon   | Level | Item     | Ability    | Moves                                    |
+|-----------|-------|----------|------------|------------------------------------------|
+| Machop    | 9     | —        | Guts       | Low Kick, Karate Chop, Leer, Seismic Toss|
+| Poochyena | 9     | —        | Guts       | Bite, Quick Attack, Howl, Tackle         |
+| Marill    | 8     | Oran Berry | Huge Power | Aqua Jet, Water Gun, Tackle, Defense Curl|
+| Surskit   | 9     | —        | Swift Swim | Silver Wind, Bubble, Quick Attack, Sweet Scent |
+
+---
 
 ### Haley (Lass) — Optional
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| Lotad | 8 | | | |
-| Shroomish | 8 | | | |
-| Ralts | 7 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon, good variety from nearby routes.
+
+**Status:** designed
+
+**Puzzle:** Lotad opens with Rain Dance + Leech Seed. Wingull switches in and resets rain via Drizzle, maintaining the healing cycle. Rain Dish + Leech Seed = sustained HP drain. Shroomish uses Stun Spore to paralyze a sweeper. Ralts' Disarming Voice never misses. Player must disrupt the rain cycle early or get bled out.
+
+| Pokemon   | Level | Item     | Ability    | Moves                                    |
+|-----------|-------|----------|------------|------------------------------------------|
+| Lotad     | 8     | —        | Rain Dish  | Rain Dance, Leech Seed, Absorb, Astonish |
+| Wingull   | 8     | —        | Drizzle    | Water Gun, Wing Attack, Supersonic, Growl|
+| Shroomish | 9     | Oran Berry | Technician | Stun Spore, Bullet Seed, Absorb, Tackle |
+| Ralts     | 8     | —        | Trace      | Confusion, Disarming Voice, Growl        |
+
+---
 
 ### Janice (Lass) — Optional
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| Marill | 9 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand.
+
+**Status:** designed
+
+**Puzzle:** All-Water team but three completely different mechanics. Marill's Huge Power Aqua Jet hits with priority and doubled Attack. Squirtle's Water Pulse (Mega Launcher boosted to 90 effective power) has 20% confusion chance. Horsea crits 50% of the time with Snipe Shot and Sniper passive. Player faces priority, confusion, and crit variance simultaneously.
+
+| Pokemon | Level | Item     | Ability       | Moves                               |
+|---------|-------|----------|---------------|-------------------------------------|
+| Marill  | 9     | Oran Berry | Huge Power  | Aqua Jet, Water Gun, Tackle, Defense Curl |
+| Squirtle| 10    | —        | Mega Launcher | Water Pulse, Water Gun, Tail Whip, Tackle |
+| Horsea  | 9     | —        | Sniper        | Snipe Shot, Water Gun, Smokescreen  |
+
+---
 
 ### Cindy (Lady) — Optional
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| Zigzagoon | 9 | Nugget | | |
-| Ralts | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Pokemon. Nugget is a money reward.
+
+**Status:** designed
+
+**Puzzle:** Corsola opens with Stealth Rock then Scald-fishes for burns — Regenerator means switching it out just heals it back to health. Wingull auto-resets rain with Drizzle. Ralts' Trace copies the player's ability (often doing something unexpected), and Disarming Voice never misses. Zigzagoon closes with Multiscale (halves first hit at full HP) + priority. Player must eliminate Corsola before the hazard chip and burns stack up.
+
+| Pokemon   | Level | Item       | Ability                       | Moves                                    |
+|-----------|-------|------------|-------------------------------|------------------------------------------|
+| Corsola   | 9     | Oran Berry | Regenerator                   | Scald, Stealth Rock, Harden, Tackle      |
+| Wingull   | 9     | —          | Drizzle                       | Water Gun, Wing Attack, Supersonic, Growl|
+| Ralts     | 9     | —          | Trace                         | Confusion, Disarming Voice, Growl        |
+| Zigzagoon | 9     | Sitrus Berry | Pickup (Multiscale at full HP)| Quick Attack, Sand Attack, Howl, Tackle |
+
+---
 
 ### Winston (Rich Boy) — Optional
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| Zigzagoon | 9 | Nugget | | |
-| Poochyena | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Pokemon. Paired with Cindy.
+
+**Status:** designed
+
+**Puzzle:** Poochyena holds a Flame Orb — it willingly burns itself to activate Guts. By turn 2, Bite + Quick Attack hit with 1.5× boosted Attack and the player can't burn or poison it further. Taillow also has Guts so status moves on it backfire. Squirtle's Water Pulse threatens confusion. Winston's complement to Cindy: she burns enemies, Winston thrives on being burned.
+
+| Pokemon   | Level | Item      | Ability                       | Moves                                    |
+|-----------|-------|-----------|-------------------------------|------------------------------------------|
+| Zigzagoon | 9     | —         | Pickup (Multiscale at full HP)| Quick Attack, Sand Attack, Tackle, Growl |
+| Poochyena | 9     | Flame Orb | Guts                          | Bite, Quick Attack, Howl, Tackle         |
+| Taillow   | 9     | —         | Guts                          | Wing Attack, Pluck, Tackle, Growl        |
+| Squirtle  | 10    | —         | Mega Launcher                 | Water Pulse, Water Gun, Tail Whip, Tackle|
+
+---
 
 ### Gina & Mia (Twins) — Optional, Double Battle
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| Seedot | 9 | | | |
-| Lotad | 9 | | | |
-**Status:** not_started
-**Notes:** Doubles team. Seedot not in our pool — consider swapping.
+
+**Status:** designed
+
+**Puzzle:** Rain doubles — Wingull's Drizzle auto-sets rain the moment it enters. Surskit's Swift Swim immediately doubles its Speed to 130 effective, making it the fastest thing on the field. Lotad's Rain Dish heals 1/16 HP per turn in rain. Leech Seed drains the other target. The player must shut down rain (KO Wingull) AND deal with a Speed-doubling Surskit simultaneously. Seedot + Growth is the pressure release valve that forces a choice.
+
+**Gina's team:**
+
+| Pokemon | Level | Item       | Ability     | Moves                                 |
+|---------|-------|------------|-------------|---------------------------------------|
+| Seedot  | 9     | Oran Berry | Chlorophyll | Growth, Bullet Seed, Harden, Bide     |
+| Wingull | 9     | —          | Drizzle     | Water Gun, Wing Attack, Supersonic, Growl |
+
+**Mia's team:**
+
+| Pokemon | Level | Item | Ability    | Moves                                      |
+|---------|-------|------|------------|--------------------------------------------|
+| Lotad   | 9     | —    | Rain Dish  | Rain Dance, Leech Seed, Absorb, Astonish   |
+| Surskit | 9     | —    | Swift Swim | Silver Wind, Bubble, Quick Attack, Sweet Scent |
+
+---
 
 ### Jerry (School Kid) — Optional
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| Ralts | 9 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand.
+
+**Status:** designed
+
+**Puzzle:** Jerry did his homework. Scope Lens on Horsea stacks with Sniper's passive +1 crit stage and Snipe Shot's +1 crit stage — that's +3 total, guaranteeing crits every time. Every Snipe Shot hits for 2.25× crit damage. Player must KO Horsea immediately or get shredded. Ralts leads and Traces the player's ability (sometimes copying a useful tool against Jerry). Corsola sets Stealth Rock and is hard to put down with Regenerator.
+
+| Pokemon | Level | Item       | Ability     | Moves                               |
+|---------|-------|------------|-------------|-------------------------------------|
+| Ralts   | 8     | —          | Trace       | Confusion, Disarming Voice, Growl   |
+| Horsea  | 9     | Scope Lens | Sniper      | Snipe Shot, Water Gun, Smokescreen  |
+| Corsola | 9     | Oran Berry | Regenerator | Scald, Stealth Rock, Tackle, Harden |
+
+---
 
 ### Karen (School Kid) — Optional
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| Shroomish | 9 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand.
+
+**Status:** designed
+
+**Puzzle:** Shroomish leads with Stun Spore to paralyze the player's lead. Then both remaining Pokemon have Guts — status moves on them boost their Attack. Player paralyzed their own Pokemon and now can't afford to status Karen's either. Must outright KO them while slower due to paralysis. Pluck from Taillow removes any healing berry the player might have relied on.
+
+| Pokemon   | Level | Item       | Ability    | Moves                               |
+|-----------|-------|------------|------------|-------------------------------------|
+| Shroomish | 9     | Oran Berry | Technician | Stun Spore, Bullet Seed, Absorb, Tackle |
+| Taillow   | 9     | —          | Guts       | Wing Attack, Pluck, Tackle, Growl   |
+| Poochyena | 9     | —          | Guts       | Bite, Howl, Quick Attack, Tackle    |
 
 ---
 
