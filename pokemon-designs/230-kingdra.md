@@ -1,7 +1,7 @@
 ---
 name: Kingdra
 dex_number: 230
-status: designed
+status: implemented
 ability: Sniper
 role: Critical Hit Sniper Sweeper
 ideal_items: Scope Lens, Razor Claw, Choice Specs

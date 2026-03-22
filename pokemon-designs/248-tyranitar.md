@@ -1,7 +1,7 @@
 ---
 name: Tyranitar
 dex_number: 248
-status: designed
+status: implemented
 ---
 
 # Tyranitar
