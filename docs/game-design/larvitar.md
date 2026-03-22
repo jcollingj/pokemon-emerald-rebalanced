@@ -67,7 +67,7 @@ Pupitar is the awkward middle child. Slight Atk boost to keep momentum through t
 
 ## Learnset
 
-### Larvitar (evolves at 16)
+### Larvitar (vanilla evolves at L30)
 
 | Level | Move | BP | Type | Purpose |
 |-------|------|----|------|---------|
@@ -75,24 +75,23 @@ Pupitar is the awkward middle child. Slight Atk boost to keep momentum through t
 | 1 | Leer | — | Normal | Utility — lowers Def for physical attacks |
 | 8 | **Stealth Rock** | — | Rock | **First synergy move.** Hazards + Sand Stream chip = constant pressure. The build turns on. |
 | 12 | **Rock Slide** | 75 | Rock | **Rock STAB.** 30% flinch chance rewards Larvitar's bulk — it survives to flinch. |
-| 16 | **Rock Tomb** | 60 | Rock | Evolution reward. Lowers Speed — Larvitar/Pupitar are slow, so this fixes the matchup. |
+| 21 | **Rock Tomb** | 60 | Rock | Speed control — Larvitar/Pupitar are slow, so this helps fix unfavorable matchups. |
+| 30 | **Crunch** | 80 | Dark | Evolution reward. Upgraded Bite — Dark STAB that lowers Def 20% of the time. |
 
-### Pupitar (evolves at 36)
-
-| Level | Move | BP | Type | Purpose |
-|-------|------|----|------|---------|
-| 16 | **Rock Tomb** | 60 | Rock | Evolution reward — Speed control for a slow line |
-| 21 | **Crunch** | 80 | Dark | Upgraded Bite. Dark STAB that lowers Def 20% of the time. |
-| 27 | **Earthquake** | 100 | Ground | Massive coverage. Hits Steel/Fire/Electric/Poison/Rock. Ground STAB for Pupitar (Rock/Ground). |
-| 33 | **Iron Head** | 80 | Steel | Coverage for Fairy/Ice/Rock. Flinch chance stacks with sand chip. |
-
-### Tyranitar (evolves at 36)
+### Pupitar (vanilla evolves at L55)
 
 | Level | Move | BP | Type | Purpose |
 |-------|------|----|------|---------|
-| 36 | **Stone Edge** | 100 | Rock | Evolution reward — the big Rock STAB. High crit rate. STAB → 150 effective. |
-| 42 | **Dragon Dance** | — | Dragon | Setup move. +1 Atk / +1 Spe fixes Tyranitar's only weakness: 61 Speed. One DD and it outspeeds most things while hitting even harder. |
-| 48 | **Giga Impact** | 150 | Normal | Final move. The nuke. When you absolutely need something dead this turn. |
+| 36 | **Earthquake** | 100 | Ground | Massive coverage. Hits Steel/Fire/Electric/Poison/Rock. Ground STAB for Pupitar (Rock/Ground). |
+| 42 | **Iron Head** | 80 | Steel | Coverage for Fairy/Ice/Rock. Flinch chance stacks with sand chip. |
+| 48 | **Dragon Dance** | — | Dragon | Setup move available before final evolution. +1 Atk / +1 Spe — one DD and Tyranitar outspeeds almost everything. |
+| 55 | **Stone Edge** | 100 | Rock | Evolution reward — the big Rock STAB. High crit rate. STAB → 150 effective. |
+
+### Tyranitar
+
+| Level | Move | BP | Type | Purpose |
+|-------|------|----|------|---------|
+| 62 | **Giga Impact** | 150 | Normal | Final move. The nuke. When you absolutely need something dead this turn. |
 
 ## The Math
 
@@ -145,12 +144,12 @@ This passive damage is the real power of the build. Tyranitar doesn't need to ki
 2. Stealth Rock on the first turn. Now every switch costs the opponent HP from rocks + sand chip.
 3. Start attacking with Stone Edge (Rock STAB) or Crunch (Dark STAB). Pick the move that hits harder.
 4. If they send in something faster, Tyranitar tanks it — 100/110/150(sand) bulk means it survives almost anything.
-5. If you need to sweep late-game, Dragon Dance at L42 turns Tyranitar into a 201 Atk / 91 Spe monster.
+5. If you need to sweep late-game, Dragon Dance (learned at L48 as Pupitar) turns Tyranitar into a 201 Atk / 91 Spe monster.
 
 ### When to Use Tyranitar
 - **Lead:** Set sand + Stealth Rock, then start attacking. The passive damage adds up fast.
 - **Special wall:** Switch in on special attackers. 150 effective SpDef in sand means even super effective special moves barely scratch it.
-- **Late-game sweeper:** Dragon Dance + Stone Edge/Crunch cleans weakened teams.
+- **Late-game sweeper:** Dragon Dance (learned at L48 as Pupitar, carried into Tyranitar) + Stone Edge/Crunch cleans weakened teams.
 - **NOT a speed demon.** 61 Speed means Tyranitar gets outsped by most things before Dragon Dance. It wins by tanking, not racing.
 
 ### Roxanne's Larvitar (L10)

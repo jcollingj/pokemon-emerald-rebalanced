@@ -26,9 +26,7 @@ Sand Stream (summons sandstorm for 5 turns on entry)
 ## Learnset
 | Level | Move | Type | Notes |
 |-------|------|------|-------|
-| 36 | Stone Edge | Rock | Evolution reward — Rock STAB, 150 effective BP |
-| 42 | Dragon Dance | Dragon | Setup — +1 Atk/Spe fixes 61 Speed |
-| 48 | Giga Impact | Normal | Final nuke, 150 BP |
+| 62 | Giga Impact | Normal | Final nuke, 150 BP |
 
 ## Ideal Items
 1. Smooth Rock (extends sand to 8 turns)

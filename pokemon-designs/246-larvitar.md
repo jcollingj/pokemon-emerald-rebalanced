@@ -30,7 +30,8 @@ Sand Stream (summons sandstorm for 5 turns on entry)
 | 1 | Leer | Normal | Utility |
 | 8 | Stealth Rock | Rock | First synergy move — hazards + sand chip |
 | 12 | Rock Slide | Rock | Rock STAB, 30% flinch |
-| 16 | Rock Tomb | Rock | Speed control on evolution |
+| 21 | Rock Tomb | Rock | Speed control, mid-game |
+| 30 | Crunch | Dark | Evolution reward — upgraded Dark STAB |
 
 ## Ideal Items
 1. Smooth Rock (extends sand to 8 turns)

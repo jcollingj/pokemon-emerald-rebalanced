@@ -26,10 +26,10 @@ Sand Stream (summons sandstorm for 5 turns on entry)
 ## Learnset
 | Level | Move | Type | Notes |
 |-------|------|------|-------|
-| 16 | Rock Tomb | Rock | Evolution reward, Speed control |
-| 21 | Crunch | Dark | Upgraded Bite, Dark STAB |
-| 27 | Earthquake | Ground | Major coverage, Ground STAB |
-| 33 | Iron Head | Steel | Fairy/Ice/Rock coverage, flinch chance |
+| 36 | Earthquake | Ground | Major coverage, Ground STAB |
+| 42 | Iron Head | Steel | Fairy/Ice/Rock coverage, flinch chance |
+| 48 | Dragon Dance | Dragon | Setup — available before final evo |
+| 55 | Stone Edge | Rock | Evolution reward — big Rock STAB |
 
 ## Ideal Items
 1. Smooth Rock (extends sand to 8 turns)
