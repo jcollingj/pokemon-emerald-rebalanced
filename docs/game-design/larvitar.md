@@ -1,7 +1,7 @@
 ---
 name: Larvitar
 dex_number: 246
-status: designed
+status: implemented
 ability: Sand Stream
 role: Sand Bulky Attacker
 ideal_items: Smooth Rock, Assault Vest, Choice Band

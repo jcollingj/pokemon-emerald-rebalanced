@@ -1,7 +1,7 @@
 ---
 name: Azumarill
 dex_number: 184
-status: designed
+status: implemented
 ability: Huge Power
 role: Physical Water Wallbreaker
 ideal_items: Choice Band, Sitrus Berry, Mystic Water
