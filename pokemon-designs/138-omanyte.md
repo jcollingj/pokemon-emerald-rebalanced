@@ -1,7 +1,7 @@
 ---
 name: Omanyte
 dex_number: 138
-status: designed
+status: implemented
 ability: Swift Swim
 role: Rain Shell Smasher
 ideal_items: White Herb, Damp Rock, Choice Specs
