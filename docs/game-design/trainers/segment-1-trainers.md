@@ -3,7 +3,7 @@ segment: 1
 name: Start to Rustboro Gym
 status: in_progress
 total_trainers: 39
-designed: 1
+designed: 9
 ---
 
 # Segment 1 Trainers: Start to Rustboro Gym
@@ -103,64 +103,153 @@ designed: 1
 - Level curve (7 / 6 / 5) ensures the fight is a genuine challenge without being insurmountable with a solo starter
 
 ### Daisy (Aroma Lady) — Optional
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Shroomish | 14 | | | |
-| Roselia | 14 | | | |
-**Status:** not_started
-**Notes:** 2 Pokemon, needs expansion to 3-6. Higher level than other Route 103 trainers. Add Grass/Poison types.
+| Tentacool | 13 | Toxic Orb | Poison Heal | Whirlpool, Acid Spray, Poison Sting, Water Gun |
+| Marill | 14 | None | Huge Power | Aqua Jet, Play Rough, Defense Curl, Water Gun |
+| Poliwag | 14 | None | Swift Swim | Hypnosis, Rain Dance, Water Pulse, Mud Shot |
+
+**Status:** designed
+
+**Design notes:**
+- **Tentacool (lead):** Opens with Whirlpool to trap the player's Pokemon (buffed: traps + Atk -1) and immediately stacks Acid Spray (-2 SpDef on the trapped target). Toxic Orb activates Poison Heal on turn 1 — she's now healing 1/8 HP per turn and can't be statused. Forces the player to burn their trapped Pokemon's turn while Daisy's team chunks them down.
+- **Marill (anchor):** Huge Power doubles Atk (30 base → 60 effective). Aqua Jet is priority Water STAB with 60 effective BP — comes in after Tentacool softens the target. Play Rough covers Dragon/Fighting. A surprisingly hard hit for Route 103. No item to underscore "just raw power."
+- **Poliwag (closer):** Hypnosis is the wild card — if the player expects a standard Water fight and Poliwag sleeps their best counter, the match becomes much harder. Rain Dance into Water Pulse under Swift Swim is also a credible threat (Swift Swim doubles Speed in rain). Mud Shot chips and slows.
+- **Mini-puzzle:** Tentacool traps + debuffs, Marill closes with priority, Poliwag disrupts with sleep. The player is punished for leaving a weakened Pokemon in against Tentacool — they can't switch out of Whirlpool.
+
+---
 
 ### Miguel (Pokefan) — Optional
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Skitty | 15 | Oran Berry | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Needs major expansion.
+| Wingull | 13 | None | Drizzle | Wing Attack, Water Pulse, Supersonic, Water Gun |
+| Poliwag | 14 | None | Swift Swim | Hypnosis, Rain Dance, Water Pulse, Mud Shot |
+| Marill | 14 | None | Huge Power | Aqua Jet, Play Rough, Defense Curl, Water Gun |
+| Squirtle | 15 | None | Mega Launcher | Water Pulse, Rapid Spin, Aura Sphere, Tail Whip |
+
+**Status:** designed
+
+**Design notes:**
+- **Wingull (lead):** Drizzle sets rain on entry — immediately boosts Water moves by 1.5× and sets up Swift Swim. Supersonic confuses on turn 1 while rain is being taken advantage of. Water Pulse (60 BP → 90 in rain) is real pressure even without Mega Launcher.
+- **Poliwag (middle):** Swift Swim doubles Speed in rain — suddenly an otherwise slow Pokemon outspeeds most of the player's team. Hypnosis from a fast Pokemon is brutal (the player can't outspeed to preempt). Water Pulse hits for 90 effective BP in rain off 70 rebalanced SpA.
+- **Marill (pivot):** Huge Power Aqua Jet is priority physical Water STAB — still hits hard even as the rain setup is being established. Play Rough for coverage. The rain isn't required for Marill to function, which makes the team harder to play around.
+- **Squirtle (closer):** Mega Launcher + Aura Sphere (Fighting, never misses) is the surprise. The player likely isn't expecting a Fighting-type coverage move from a Water trainer at this point. Water Pulse off 65 SpA with Mega Launcher = 90 effective BP.
+- **Mini-puzzle:** Miguel is teaching the player "rain teams exist." Wingull sets up → Poliwag goes first → Marill cleans up with priority → Squirtle has unexpected coverage. The player who doesn't recognize the rain loop will lose to Poliwag's surprise speed.
+
+---
 
 ### Andrew (Fisherman) — Optional
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Magikarp | 5 | | | |
-| Tentacool | 10 | | | |
-| Magikarp | 15 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon. Classic fisherman team. Add more Water types from the area.
+| Magikarp | 13 | None | Moxie | Aqua Jet, Tackle, Splash |
+| Tentacool | 14 | Toxic Orb | Poison Heal | Whirlpool, Acid Spray, Poison Sting, Water Gun |
+| Magikarp | 15 | None | Moxie | Aqua Jet, Flail, Tackle |
+| Poliwag | 14 | None | Swift Swim | Hypnosis, Rain Dance, Water Pulse, Mud Shot |
+
+**Status:** designed
+
+**Design notes:**
+- **Magikarp L13 (lead):** Aqua Jet (priority Water STAB, 50 rebalanced Atk) surprises players who expect Magikarp to be useless. It's still weak but Moxie means even one KO on a weakened target turns it into a real threat. A taste of the Gyarados sweep fantasy.
+- **Tentacool (middle):** The genuinely dangerous mon. Whirlpool traps + Acid Spray shreds SpDef, Poison Heal + Toxic Orb makes it nearly unkillable while the trap ticks. Forces the player to either stay in and get ground down or wait out the trap.
+- **Magikarp L15 (third):** Flail deals up to 200 BP at low HP — at 1 HP, Flail is a terror. Andrew has "trained" this Magikarp to hang on at low health. The player has to decide whether to quick-kill it or risk the Flail. Moxie means if it somehow gets a KO, the next Aqua Jet hits even harder.
+- **Poliwag (closer):** Hypnosis as the final disruptor. After surviving Tentacool's trap and the Magikarp threats, a sleep move is extremely annoying. Rain Dance + Water Pulse is a fallback offensive line.
+- **Mini-puzzle:** The player must respect Tentacool but also not let Magikarp L15 accumulate Flail value. Andrew tests "can you close out a fight without letting desperation tactics pay off?"
+
+---
 
 ### Pete (Swimmer M) — Optional
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Tentacool | 15 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand with Water types.
+| Wingull | 14 | None | Drizzle | Wing Attack, Water Pulse, Supersonic, Water Gun |
+| Poliwag | 14 | None | Swift Swim | Hypnosis, Rain Dance, Water Pulse, Mud Shot |
+| Tentacool | 15 | Toxic Orb | Poison Heal | Whirlpool, Acid Spray, Poison Sting, Water Gun |
+
+**Status:** designed
+
+**Design notes:**
+- **Wingull (lead):** Drizzle on entry + Supersonic immediately puts the player's lead in confusion. Wing Attack for Flying STAB chip. The rain + confusion combination means the player is forced to act through adverse conditions from turn 1.
+- **Poliwag (middle):** Hypnosis threatens sleep — the player's Pokemon may already be confused from Supersonic, and now it's asleep too. Rain Dance is redundant (Wingull already set it) but can be used to reset rain if it runs out. Swift Swim under rain is the real payoff — outspeeds everything.
+- **Tentacool (closer):** The confused/weakened Pokemon left after the status barrage gets Whirlpoold and ground out. Acid Spray softens SpDef so Tentacool's offense actually matters. Poison Heal keeps it up through the entire trap sequence.
+- **Mini-puzzle:** Pete's puzzle is "status denial." The player who doesn't have a status cure or a fast attacker will spend multiple turns hitting themselves or sleeping. Every turn of confusion/sleep buys Tentacool a free trap application. The player learns that disruption stacks.
+
+---
 
 ### Isabelle (Swimmer F) — Optional
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Marill | 15 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand with Water types.
+| Wingull | 14 | None | Drizzle | Wing Attack, Water Pulse, Water Gun, Roost |
+| Marill | 15 | None | Huge Power | Aqua Jet, Play Rough, Defense Curl, Water Gun |
+| Squirtle | 14 | None | Mega Launcher | Water Pulse, Rapid Spin, Aura Sphere, Tail Whip |
+
+**Status:** designed
+
+**Design notes:**
+- **Wingull (lead):** Drizzle sets rain. Roost gives Wingull real longevity — it can tank a hit, Roost back to full, and keep rain cycling. Wing Attack + Water Pulse (90 BP in rain off 60 SpA) is real damage pressure. Isabelle's Wingull doesn't die immediately unlike other trainers' leads.
+- **Marill (sweeper):** Huge Power + rain = Aqua Jet goes from 60 effective BP to 90 effective BP with STAB and rain boost (40 BP × 2 Huge Power × 1.5 STAB × 1.5 rain = 180 effective damage). Play Rough catches Dragon/Dark types. Defense Curl into Aqua Jet is a pseudo-setup. At L15, Marill with rain-boosted Aqua Jet is a genuine threat.
+- **Squirtle (coverage):** Mega Launcher Aura Sphere (80 BP, never misses, Fighting type) is the surprise. Water Pulse (90 BP with Mega Launcher) under rain is 135 effective BP. Rapid Spin clears any hazards the player might have set. Squirtle's type diversity (Water + Fighting + spin utility) makes it hard to answer with one Pokemon.
+- **Mini-puzzle:** Isabelle tests the player's understanding of priority mechanics. Rain boosts everything, Marill's Aqua Jet is much harder than it looks, and Squirtle's Aura Sphere covers the types the player might bring to resist Water.
+
+---
 
 ### Amy & Liv (Twins) — Optional, Double Battle
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Plusle | 15 | | | |
-| Minun | 15 | | | |
-**Status:** not_started
-**Notes:** Doubles team. Plusle/Minun are Gen 3. Keep the theme but add more Pokemon.
+| Minun | 15 | Sitrus Berry | Friend Guard | Follow Me, Nuzzle, ThunderShock, Growl |
+| Plusle | 15 | None | Plus | Charge Beam, Nuzzle, ThunderShock, Growl |
+| Marill | 15 | None | Huge Power | Aqua Jet, Play Rough, Defense Curl, Water Gun |
+| Squirtle | 15 | None | Mega Launcher | Water Pulse, Rapid Spin, Aura Sphere, Tail Whip |
+
+**Status:** designed
+
+**Design notes:**
+- **Opening pair — Minun + Plusle:**
+  - **Turn 1:** Minun uses Follow Me — all single-target moves from both player slots redirect to Minun (95/75/95 bulk + Sitrus Berry). Plusle uses Charge Beam: 50 BP Electric STAB + 70% chance to raise SpA by +1. Plus ability gives 1.5× SpA when Minun (Minus) is adjacent — Plusle opens at 172 effective SpA.
+  - **Turn 2:** Minun uses Nuzzle (paralysis) on the faster of the two player Pokemon. Plusle Charge Beams again — now potentially at 172 × 1.5 (if +1 triggered) = 258 effective SpA ThunderShock.
+  - **Turn 3+:** If Follow Me and Charge Beam stacking has gone well, Plusle's ThunderShock hits at 40 BP × boosted SpA. The player must deal with one paralyzed Pokemon trying to kill Minun while Plusle fires from behind.
+- **Bench — Marill + Squirtle:** If Minun falls, Marill comes in with Huge Power Aqua Jet priority. If Plusle falls, Squirtle brings Aura Sphere (never-miss Fighting coverage). The bench ensures the fight has legs even after the core duo is broken.
+- **Mini-puzzle:** The classic Plusle/Minun doubles dilemma. Kill Minun first? Hard — 95 HP / 75 Def / Friend Guard + Sitrus Berry. Kill Plusle first? Can't — Follow Me redirects single-target hits to Minun. Use spread moves? Unlikely the player has them at Route 103. The player probably loses one Pokemon to Nuzzle paralysis and has to scramble.
+
+---
 
 ### Marcos (Guitarist) — Optional
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Voltorb | 15 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Electric theme. Expand.
+| Voltorb | 15 | None | Galvanize | Thunder Wave, Sonic Boom, Self-Destruct, Tackle |
+| Wingull | 14 | None | Drizzle | Water Gun, Wing Attack, Supersonic, Growl |
+| Marill | 14 | None | Huge Power | Aqua Jet, Play Rough, Defense Curl, Water Gun |
+
+**Status:** designed
+
+**Design notes:**
+- **Voltorb (lead):** Thunder Wave paralyzes on turn 1 — the player's lead is now at 25% Speed and has a 25% chance to lose their turn each round. Sonic Boom deals fixed 20 damage regardless of type — bypasses resistances. The real threat is Self-Destruct: Galvanize converts it to Electric type (156 effective BP with STAB) at 110 Speed. The player must decide: do I KO Voltorb quickly (but I'm paralyzed and slower), or switch and let it paralyze the next Pokemon?
+- **Wingull (middle):** Drizzle activates on switch-in. Supersonic stacks confusion on top of the paralysis Voltorb applied. Water Gun and Wing Attack are the offense. The paralysis + confusion combination means the player's active Pokemon may fail to act for several turns.
+- **Marill (closer):** Huge Power Aqua Jet is the clean-up priority move after the player has been worn down. Play Rough for Fairy coverage. No item to keep the math clean, but 60 effective Atk + priority Water STAB still deals real chip.
+- **Mini-puzzle:** Voltorb is the Bomb Problem — kill it now (while paralyzed, at risk of turn loss) or let it stay in and apply more Thunder Waves on switches. Self-Destruct can erase a weakened team member. Marcos tests "can you play through status pressure and close out a bomb threat?"
+
+---
 
 ### Rhett (Black Belt) — Optional
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Makuhita | 15 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Fighting theme. Expand.
+| Makuhita | 15 | None | Iron Fist | Fake Out, Mach Punch, Fire Punch, Tackle |
+| Tentacool | 14 | Toxic Orb | Poison Heal | Whirlpool, Acid Spray, Poison Sting, Water Gun |
+| Poliwag | 14 | None | Swift Swim | Hypnosis, Rain Dance, Water Pulse, Mud Shot |
+
+**Status:** designed
+
+**Design notes:**
+- **Makuhita (lead):** Fake Out on turn 1 guarantees a flinch and free chip damage — the player loses their first move. Mach Punch is +1 priority Iron Fist Fighting STAB (48 effective BP) — Makuhita acts before most Pokemon every subsequent turn. Fire Punch (90 effective BP with Iron Fist) covers the Grass types a player might bring to exploit the Water team members. A Fighting type on a "Water route" trainer is the surprise.
+- **Tentacool (middle):** Whirlpool traps the Pokemon that survived Makuhita's Fake Out + Mach Punch. Acid Spray immediately shreds SpDef. Poison Heal + Toxic Orb makes it nearly unkillable while the trap runs. The player who "safely" switched into Tentacool to get away from Makuhita is now stuck.
+- **Poliwag (closer):** Hypnosis is the disruption wildcard from what looks like a straightforward fighting trainer. After surviving Fake Out, Mach Punch chip, and a Tentacool trap, a sleep move on the player's last healthy Pokemon is devastating. Rain Dance + Swift Swim fallback if Hypnosis is blocked.
+- **Mini-puzzle:** Rhett punishes passive play. Fake Out forces the player to take chip or switch (into Tentacool's trap). Mach Punch means the player can't outspeed Makuhita. The player needs a Ghost type (immune to Fake Out + Mach Punch) or a fast spread move to break Rhett's momentum — unlikely at Route 103.
 
 ---
 
