@@ -73,31 +73,34 @@ Vanilla Kingdra is too well-rounded — 95 across the board doesn't commit to an
 
 ## Learnset
 
-### Horsea (Lv 1-16)
+### Horsea (Lv 1-32)
 
 | Level | Move | BP | Type | Crit? | Purpose |
 |-------|------|----|------|-------|---------|
 | 1 | Water Gun | 40 | Water | No | Basic STAB |
-| 1 | Smokescreen | — | Normal | — | Evasion utility |
-| 8 | **Snipe Shot** | 80 | Water | **+1 crit stage** | First high-crit STAB. With Sniper's passive +1 = +2 crit stage = 50% crits immediately. |
-| 14 | Twister | 40 | Dragon | No | Dragon coverage, evolves into Seadra |
-| 16 | **Focus Energy** | — | Normal | **+2 crit stages** | Optional setup — guarantees crits with Snipe Shot (+1 ability, +1 move, +2 Focus Energy = +4, capped at +3). Moved later since it's no longer essential. |
-
-### Seadra (Lv 16-36)
-
-| Level | Move | BP | Type | Crit? | Purpose |
-|-------|------|----|------|-------|---------|
+| 1 | Smokescreen | — | Normal | — | Accuracy utility |
+| 8 | **Snipe Shot** | 80 | Water | **+1 crit stage** | First high-crit STAB. With Sniper's passive +1 = +2 crit stage = 50% crits immediately. Build turns on here. |
+| 14 | Twister | 40 | Dragon | No | Dragon type preview, chip damage |
+| 16 | **Focus Energy** | — | Normal | **+2 crit stages** | Optional setup — guarantees crits on everything (+1 ability, +2 Focus Energy = +3). Not required but ceiling move. |
 | 21 | Agility | — | Psychic | — | Speed doubling for sweep potential |
-| 27 | **Ice Beam** | 90 | Ice | No | Coverage — hits Grass/Dragon that resist Water |
-| 33 | **Dragon Pulse** | 85 | Dragon | No | Dragon STAB preview, strong coverage |
-| 36 | **Hydro Pump** | 110 | Water | No | Evolution into Kingdra. Big Water nuke — crits make the 80% accuracy worth the risk |
+| 27 | Bubble Beam | 65 | Water | No | Stronger Water STAB, 33% chance to lower Speed |
 
-### Kingdra (Lv 36+)
+### Seadra (Lv 32+)
 
 | Level | Move | BP | Type | Crit? | Purpose |
 |-------|------|----|------|-------|---------|
-| 42 | **Draco Meteor** | 130 | Dragon | No | Nuclear option. SpA drop doesn't matter as much when you're critting for 2.25x |
-| 48 | **Dragon Dance** | — | Dragon | — | Alt build: boosts Atk+Spe for a physical variant, or just the Speed for special |
+| 1 | (carries all Horsea moves) | — | — | — | — |
+| 33 | **Ice Beam** | 90 | Ice | No | Coverage — hits Grass/Dragon that resist Water |
+| 36 | **Dragon Pulse** | 85 | Dragon | No | Dragon STAB, strong coverage |
+| 42 | **Hydro Pump** | 110 | Water | No | Big Water nuke — crits make the 80% accuracy worth the risk |
+
+### Kingdra (via Linking Cord)
+
+| Level | Move | BP | Type | Crit? | Purpose |
+|-------|------|----|------|-------|---------|
+| 1 | (carries all Seadra moves) | — | — | — | — |
+| 48 | **Draco Meteor** | 130 | Dragon | No | Nuclear option. SpA drop doesn't matter when critting for 2.25x — crits ignore stat drops. |
+| 54 | **Dragon Dance** | — | Dragon | — | Alt build: boosts Atk+Spe for physical variant, or just Speed for special |
 
 ## The Math
 
@@ -249,5 +252,5 @@ Each water-type fills a completely different role. Swampert walls, Blastoise cov
 Vanilla evolution: Horsea evolves at Lv 32 (Seadra), Seadra evolves via trade holding Dragon Scale (Kingdra).
 
 Rebalanced evolution:
-- Horsea -> Seadra at **Lv 16** (standard 3-stage schedule)
-- Seadra -> Kingdra at **Lv 36** (standard 3-stage schedule, removes trade evolution)
+- Horsea -> Seadra at **Lv 32** (vanilla, unchanged)
+- Seadra -> Kingdra via **Linking Cord** (trade evo removed — use Linking Cord instead of Dragon Scale trade)
