@@ -1,7 +1,7 @@
 ---
 name: Staryu
 dex_number: 120
-status: designed
+status: implemented
 ability: Illuminate (reworked — beam moves 1.3x)
 role: Beam Mage (pre-evolution)
 evolution: Water Stone → Starmie

@@ -132,7 +132,8 @@ struct MoveInfo
     bool32 dampBanned:1;
     //Other
     bool32 validApprenticeMove:1;
-    u32 padding:6;
+    bool32 beamMove:1;
+    u32 padding:5;
     // end of word
 
     union {
@@ -331,6 +332,11 @@ static inline bool32 IsPiercingMove(u32 moveId)
 static inline bool32 IsSlicingMove(u32 moveId)
 {
     return gMovesInfo[SanitizeMoveId(moveId)].slicingMove;
+}
+
+static inline bool32 IsBeamMove(u32 moveId)
+{
+    return gMovesInfo[SanitizeMoveId(moveId)].beamMove;
 }
 
 static inline bool32 IsHealingMove(u32 moveId)

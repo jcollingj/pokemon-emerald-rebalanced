@@ -8414,6 +8414,10 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageContext *ctx)
         if (IsPulseMove(move))
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
         break;
+    case ABILITY_ILLUMINATE:
+        if (IsBeamMove(move))
+           modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
+        break;
     case ABILITY_WATER_BUBBLE:
         if (moveType == TYPE_WATER)
            modifier = uq4_12_multiply(modifier, UQ_4_12(2.0));

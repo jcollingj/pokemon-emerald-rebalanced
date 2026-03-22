@@ -1,7 +1,7 @@
 ---
 name: Tentacruel
 dex_number: 73
-status: designed
+status: implemented
 ability: Poison Heal
 role: Trapping Poison Tank
 ---
