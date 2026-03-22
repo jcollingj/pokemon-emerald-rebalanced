@@ -4101,12 +4101,12 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 #if P_FAMILY_MAKUHITA
     [SPECIES_MAKUHITA] =
     {
-        .baseHP        = 72,
-        .baseAttack    = 60,
-        .baseDefense   = 30,
-        .baseSpeed     = 25,
+        .baseHP        = 80,
+        .baseAttack    = 70,
+        .baseDefense   = 40,
+        .baseSpeed     = 30,
         .baseSpAttack  = 20,
-        .baseSpDefense = 30,
+        .baseSpDefense = 40,
         .types = MON_TYPES(TYPE_FIGHTING),
         .catchRate = 180,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 47 : 87,
@@ -4117,7 +4117,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FLUCTUATING,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_THICK_FAT, ABILITY_GUTS, ABILITY_SHEER_FORCE },
+        .abilities = { ABILITY_IRON_FIST, ABILITY_THICK_FAT, ABILITY_SHEER_FORCE },
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Makuhita"),
         .cryId = CRY_MAKUHITA,
@@ -4172,7 +4172,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .levelUpLearnset = sMakuhitaLevelUpLearnset,
         .teachableLearnset = sMakuhitaTeachableLearnset,
         .eggMoveLearnset = sMakuhitaEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 24, SPECIES_HARIYAMA}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_HARIYAMA}),
     },
 
     [SPECIES_HARIYAMA] =
@@ -4193,7 +4193,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FLUCTUATING,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_THICK_FAT, ABILITY_GUTS, ABILITY_SHEER_FORCE },
+        .abilities = { ABILITY_IRON_FIST, ABILITY_THICK_FAT, ABILITY_SHEER_FORCE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Hariyama"),
         .cryId = CRY_HARIYAMA,
