@@ -53,7 +53,7 @@ Minimal touch. 115 SpA is already scary. 125 Def lets it survive a physical hit 
 
 ## Learnset
 
-### Omanyte (evolves at 16)
+### Omanyte (evolves at 40)
 
 | Level | Move | BP | Type | Purpose |
 |-------|------|----|------|---------|
@@ -61,13 +61,13 @@ Minimal touch. 115 SpA is already scary. 125 Def lets it survive a physical hit 
 | 1 | Withdraw | -- | Water | +1 Def, early bulk |
 | 8 | **Ancient Power** | 60 | Rock | First synergy -- Rock STAB, 10% omni-boost. Build turns on with dual STAB. |
 | 12 | **Bite** | 60 | Dark | Coverage for Psychic/Ghost. Also on Roxanne's Omanyte at L12. |
-| 16 | **Rain Dance** | -- | Water | Evolution level. Sets its own rain -- Swift Swim activates. Self-sufficient. |
+| 16 | **Rain Dance** | -- | Water | Sets its own rain -- Swift Swim activates. Self-sufficient. |
 
-### Omastar (evolves from Omanyte at 16)
+### Omastar (evolves from Omanyte at 40)
 
 | Level | Move | BP | Type | Purpose |
 |-------|------|----|------|---------|
-| 16 | **Rain Dance** | -- | Water | Evolution reward -- now the build is fully online. |
+| 16 | **Rain Dance** | -- | Water | Learns Rain Dance on evolution -- Swift Swim + rain now fully online. |
 | 21 | **Surf** | 90 | Water | Upgraded Water STAB. 90 BP x 1.5 STAB x 1.5 rain = 202 effective. |
 | 27 | **Shell Smash** | -- | Normal | The big setup move. +2 Atk/SpA/Spe, -1 Def/SpD. Omastar's signature play. |
 | 33 | **Ice Beam** | 90 | Ice | Coverage for Grass (4x weakness) and Dragon. |
