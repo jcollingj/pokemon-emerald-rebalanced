@@ -14,6 +14,6 @@ Critical hit sniper baby stage. Sniper's passive +1 crit stage means Snipe Shot 
 
 **Stats:** 30/40/70/75/25/60 (BST 300, +5 from vanilla)
 **Ability:** Sniper (passive +1 crit stage + 2.25x crit damage) / Swift Swim / Damp (HA)
-**Evolves:** Lv 16 into Seadra
+**Evolves:** Lv 32 into Seadra
 
 See [full design doc](../docs/game-design/horsea.md) for details.
