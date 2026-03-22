@@ -1,9 +1,9 @@
 ---
 segment: 1
 name: Start to Rustboro Gym
-status: not_started
+status: in_progress
 total_trainers: 39
-designed: 0
+designed: 1
 ---
 
 # Segment 1 Trainers: Start to Rustboro Gym
@@ -307,9 +307,16 @@ designed: 0
 ### Team Aqua Grunt — MANDATORY
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Poochyena | 11 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Story battle — should be 3-4 Pokemon and feel like a real fight.
+| Carvanha | 12 | — | Strong Jaw | Bite, Aqua Jet, Crunch, Leer |
+| Tentacool | 12 | — | Poison Heal | Poison Sting, Water Gun, Whirlpool, Acid Spray |
+| Wingull | 12 | — | Drizzle | Water Gun, Wing Attack, Supersonic, Water Pulse |
+| Poochyena | 13 | — | Guts | Bite, Quick Attack, Howl, Swagger |
+**Status:** designed
+**Strategy:**
+- **Carvanha** is the dangerous opener. Strong Jaw + STAB Crunch hits at 180 effective BP — the player immediately feels the escalation from Petalburg Woods. Aqua Jet provides priority Water STAB for revenge kills.
+- **Tentacool** is the annoying middle mon. Whirlpool traps the player's Pokemon (+ lowers Atk by 1 per our design), then Acid Spray shreds SpDef by -2. If the player isn't careful, Tentacool forces a favorable trade.
+- **Wingull** brings Drizzle on switch-in — passively boosts Water moves on any remaining Water types. A preview of rain team synergy the player will face more of later. Water Pulse's confusion chance is annoying, Wing Attack provides chip.
+- **Poochyena** anchors at L13. Howl sets up Attack, Swagger may confuse the player's Pokemon — but Guts means if the player tries to status Poochyena back, it gets a 1.5x Attack boost. Quick Attack is priority revenge-kill bait. This grunt's team has a real identity: Dark/Water bites you, poisons you, confuses you.
 
 ---
 
