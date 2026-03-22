@@ -1,7 +1,7 @@
 ---
 name: Armaldo
 dex_number: 348
-status: designed
+status: implemented
 ability: Tough Claws
 role: Contact Wallbreaker
 ideal_items: Choice Band, Life Orb, Assault Vest
