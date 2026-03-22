@@ -1426,9 +1426,9 @@
                 "species": "SPECIES_SKITTY"
               },
               {
-                "min_level": 8,
+                "min_level": 7,
                 "max_level": 8,
-                "species": "SPECIES_SKITTY"
+                "species": "SPECIES_EEVEE"
               }
             ]
           }
