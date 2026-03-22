@@ -1,7 +1,7 @@
 ---
 name: Seadra
 dex_number: 117
-status: designed
+status: implemented
 ability: Sniper
 role: Critical Hit Sniper (Mid)
 ideal_items: Scope Lens, Razor Claw, Choice Specs

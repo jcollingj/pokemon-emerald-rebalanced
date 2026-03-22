@@ -14922,7 +14922,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseAttack    = 40,
         .baseDefense   = 70,
         .baseSpeed     = 60,
-        .baseSpAttack  = 70,
+        .baseSpAttack  = 75,
         .baseSpDefense = P_UPDATED_STATS >= GEN_2 ? 25 : 70,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 225,
@@ -14935,9 +14935,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_DRAGON),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_SNIPER, ABILITY_DAMP },
+        .abilities = { ABILITY_SNIPER, ABILITY_SWIFT_SWIM, ABILITY_DAMP },
     #else
-        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_NONE, ABILITY_DAMP },
+        .abilities = { ABILITY_SNIPER, ABILITY_NONE, ABILITY_DAMP },
     #endif
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Horsea"),
@@ -14989,7 +14989,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sHorseaLevelUpLearnset,
         .teachableLearnset = sHorseaTeachableLearnset,
         .eggMoveLearnset = sHorseaEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_SEADRA}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_SEADRA}),
     },
 
     [SPECIES_SEADRA] =
@@ -14998,7 +14998,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseAttack    = 65,
         .baseDefense   = 95,
         .baseSpeed     = 85,
-        .baseSpAttack  = 95,
+        .baseSpAttack  = 105,
         .baseSpDefense = P_UPDATED_STATS >= GEN_2 ? 45 : 95,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 75,
@@ -15012,9 +15012,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_DRAGON),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_POISON_POINT, ABILITY_SNIPER, ABILITY_DAMP },
+        .abilities = { ABILITY_SNIPER, ABILITY_SWIFT_SWIM, ABILITY_DAMP },
     #else
-        .abilities = { ABILITY_POISON_POINT, ABILITY_NONE, ABILITY_DAMP },
+        .abilities = { ABILITY_SNIPER, ABILITY_NONE, ABILITY_DAMP },
     #endif
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Seadra"),
@@ -15066,8 +15066,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sSeadraLevelUpLearnset,
         .teachableLearnset = sSeadraTeachableLearnset,
     #if P_GEN_2_CROSS_EVOS
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_KINGDRA, CONDITIONS({IF_HOLD_ITEM, ITEM_DRAGON_SCALE})},
-                                {EVO_ITEM, ITEM_DRAGON_SCALE, SPECIES_KINGDRA}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_KINGDRA}),
     #endif
     },
 
@@ -15075,10 +15074,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_KINGDRA] =
     {
         .baseHP        = 75,
-        .baseAttack    = 95,
-        .baseDefense   = 95,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 95,
+        .baseAttack    = 75,
+        .baseDefense   = 90,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 115,
         .baseSpDefense = 95,
         .types = MON_TYPES(TYPE_WATER, TYPE_DRAGON),
         .catchRate = 45,
@@ -15099,9 +15098,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_DRAGON),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_SNIPER, ABILITY_DAMP },
+        .abilities = { ABILITY_SNIPER, ABILITY_SWIFT_SWIM, ABILITY_DAMP },
     #else
-        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_NONE, ABILITY_DAMP },
+        .abilities = { ABILITY_SNIPER, ABILITY_NONE, ABILITY_DAMP },
     #endif
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Kingdra"),
