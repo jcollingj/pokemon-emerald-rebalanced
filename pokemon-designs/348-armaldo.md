@@ -30,16 +30,15 @@ Armaldo is a slow, armored wallbreaker that uses Tough Claws (1.3x contact) to t
 
 ## Learnset
 
+Inherits all Anorith moves (Scratch/Harden L1, Fury Cutter L8, Metal Claw L12, Rock Blast L16, X-Scissor L21, Aqua Jet L27, Stone Edge L33), then gains:
+
 | Level | Move | BP | Type | Contact? | Purpose |
 |-------|------|----|------|----------|---------|
-| 16 | X-Scissor | 80 | Bug | Yes (156 w/ STAB) | Evolution reward |
-| 21 | Aqua Tail | 90 | Water | Yes (117) | Water coverage |
-| 24 | Aqua Jet | 40 | Water | Yes (52) | +1 priority — patches Speed |
-| 27 | Stone Edge | 100 | Rock | Yes (195 w/ STAB) | Rock STAB nuke |
-| 33 | Brick Break | 75 | Fighting | Yes (97) | Fighting coverage |
-| 36 | Earthquake | 100 | Ground | No | Ground coverage |
-| 42 | Liquidation | 85 | Water | Yes (110) | Upgraded Water move |
-| 48 | Swords Dance | — | Normal | — | Setup option |
+| 42 | Aqua Tail | 90 | Water | Yes (117) | Water coverage upgrade |
+| 46 | Brick Break | 75 | Fighting | Yes (97) | Fighting coverage, screen break |
+| 52 | Liquidation | 85 | Water | Yes (110) | Best water move, may lower Def |
+| 56 | Earthquake | 100 | Ground | No | Ground coverage |
+| 62 | Swords Dance | — | Normal | — | Late-game setup |
 
 ## Ideal Items
 1. Choice Band — 195 effective BP Stone Edge off 187 Atk
