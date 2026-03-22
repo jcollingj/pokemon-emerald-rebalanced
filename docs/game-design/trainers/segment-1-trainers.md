@@ -3,7 +3,7 @@ segment: 1
 name: Start to Rustboro Gym
 status: in_progress
 total_trainers: 39
-designed: 1
+designed: 5
 ---
 
 # Segment 1 Trainers: Start to Rustboro Gym
@@ -25,39 +25,86 @@ designed: 1
 ## Route 102
 
 ### Calvin (Youngster) — Optional
+
+> **Puzzle: The Priority Swarm.** Every Pokemon on Calvin's team has a Quick Attack or priority threat. The twist: Zigzagoon's Pickup ability halves the first hit it takes (no item held), creating a surprise "why didn't that KO?" moment. Rattata immediately shows off the Strong Jaw identity. Nidoran♂ threatens poison on contact with Horn Attack. Player learns: priority doesn't win automatically, and contact moves have consequences.
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Poochyena | 7 | | | |
-| Rattata | 6 | | | |
-**Status:** not_started
-**Notes:** Currently 2 Pokemon, needs expansion to 3-6. Add from Route 102 pool (Nidoran, Lotad, Zigzagoon, Pikachu, Ralts).
+| Rattata | 8 | — | Strong Jaw | Bite, Quick Attack, Tackle |
+| Zigzagoon | 7 | — | Pickup | Quick Attack, Covet, Sand Attack |
+| Nidoran♂ | 9 | — | Poison Point | Horn Attack, Leer, Tackle |
+
+**Status:** designed
+
+**Design Notes:**
+- **Rattata (lead):** Opens with Bite (90 effective BP via Strong Jaw — 60 base × 1.5) or Quick Attack priority. First trainer that teaches the Strong Jaw build identity: every move in this rat's kit is powered up. Even at L8, Bite into Quick Attack puts real pressure on slower leads.
+- **Zigzagoon (middle):** No item = Pickup active. First hit deals half damage — the player attacks expecting damage and gets a surprise. Covet can steal the player's held item (minor annoyance that teaches the move). Sand Attack drops accuracy, forcing the player to take damage they'd rather avoid.
+- **Nidoran♂ (closer):** Horn Attack (65 BP Normal) with Poison Point means every contact hit risks 30% poison. Leer on switch-in drops Defense. The threat: if the player's Pokemon is poisoned here, they carry it into the next battle.
+- **Team identity:** Fast priority pressure everywhere. Pickup surprise bulk teaches a new mechanic. Poison Point teaches status-by-contact. Answer: non-contact special moves or OHKO before Poison Point procs.
+
+---
 
 ### Rick (Bug Catcher) — Optional
+
+> **Puzzle: The Poison Pipeline.** Rick's team chains poison-setting into guaranteed crits. Weedle opens with Poison Sting chip. Nidoran♀ threatens contact poison with every hit (30% Poison Point). Then Beedrill closes — Merciless means every attack crits on a poisoned target. Five Twineedle hits on a poisoned Pokemon = five guaranteed crits. Player who doesn't have an Antidote or non-contact attacks gets demolished.
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Wurmple | 6 | | | |
-| Caterpie | 6 | | | |
-| Weedle | 6 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon but all basic bugs. Needs competitive movesets. Consider evolving some.
+| Weedle | 7 | — | Poison Point | Poison Sting, String Shot |
+| Nidoran♀ | 8 | — | Poison Point | Double Kick, Scratch, Tail Whip |
+| Beedrill | 9 | — | Merciless | Twineedle, Poison Sting |
+
+**Status:** designed
+
+**Design Notes:**
+- **Weedle (lead):** String Shot slows the player's Pokemon (-1 Speed). Poison Sting has a 10% poison chance as soft setup. A low-threat opener that lulls the player before Nidoran♀ escalates the poison threat.
+- **Nidoran♀ (middle):** Double Kick hits twice (30 BP × 2), and each hit has a 30% Poison Point proc — so two chances per turn to poison. Scratch as a backup contact move. The player who spams contact attacks here almost certainly gets poisoned before Beedrill arrives.
+- **Beedrill (closer):** Merciless = guaranteed crits on poisoned targets. Twineedle is 2 hits of Bug STAB (25 BP each); against a poisoned Pokemon, both crits (1.5× each), totaling 75 effective power with STAB. Poison Sting can poison the next incoming Pokemon to set up the loop again. If the player's current Pokemon is poisoned, Beedrill is terrifying. If not, it's manageable.
+- **Team identity:** Teaches the Beedrill Merciless build at the very first trainer with evolved bugs. Answer: Antidotes, non-contact moves (special attacks), or Fire/Flying/Rock to OHKO Beedrill before it attacks.
+
+---
 
 ### Tiana (Lass) — Optional
+
+> **Puzzle: The Status Web.** Tiana's team wraps the player in layers of status and chip damage before the real threats arrive. Shroomish paralyzes or seeds immediately — but contact attackers risk Effect Spore. Zigzagoon's Pickup buys a free turn. Then Marill hits surprisingly hard with Huge Power (doubled Attack). Ralts closes with unexpected Fairy/Psychic type coverage. The player who tries to brute-force through with contact moves ends up paralyzed, seeded, and facing a slow grind.
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Zigzagoon | 7 | | | |
-| Shroomish | 7 | | | |
-| Marill | 6 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon, good variety. Needs abilities and movesets.
+| Shroomish | 7 | — | Effect Spore | Stun Spore, Leech Seed, Absorb |
+| Zigzagoon | 7 | — | Pickup | Sand Attack, Covet, Quick Attack |
+| Marill | 8 | — | Huge Power | Water Gun, Defense Curl, Tackle |
+| Ralts | 8 | — | Trace | Confusion, Disarming Voice |
+
+**Status:** designed
+
+**Design Notes:**
+- **Shroomish (lead):** Opens with Stun Spore (paralysis, -50% Speed) or Leech Seed (1/8 HP drain per turn). Effect Spore means contact attackers have a 30% chance to be poisoned, paralyzed, or put to sleep — punishing physical attackers who try to brute-force it. Absorb drains back HP. Forces the player to think about attack type, not just damage.
+- **Zigzagoon (middle):** Pickup (no item = half damage on first hit) buys a surprise turn. Covet pokes for item theft. Sand Attack drops accuracy. Not a damage threat — a time-sink that lets Tiana's status support pile up. Player who ignores it gets worn down.
+- **Marill (third):** Huge Power doubles base Attack (20 → 40 effective). Defense Curl boosts Defense before Water Gun — Marill can take a hit and fire back with neutral Water-type coverage. Looks fragile but hits harder than expected. Under Stun Spore's paralysis support, Marill's 40 effective Attack does real chip.
+- **Ralts (closer):** Confusion (Psychic STAB) + Disarming Voice (Fairy STAB, never misses) give unexpected type coverage. If Shroomish successfully paralyzed the player's lead, Ralts' 55 base SpA (rebalanced) can finish weakened Pokemon. Teaches players the Ralts line exists and has real special power.
+- **Team identity:** Status layering is the win condition, not raw damage. Answer: ranged special moves to bypass Effect Spore, Paralyz Heals to restore Speed, and prioritizing Shroomish before the web builds.
+
+---
 
 ### Allen (Youngster) — Optional
+
+> **Puzzle: The Glass Cannon Squadron.** Allen's team hits immediately and hits hard — no status tricks, no defensive gimmicks. The centerpiece is Pikachu with Light Ball and Transistor, which can threaten KOs on Pokemon well above its level. Taillow and Pidgey apply early offensive pressure. Zigzagoon has Pickup bulk to waste a turn. Then Pikachu closes — Light Ball doubles its SpA (120 effective), Transistor boosts Electric by 1.5× (180 effective), and Thunder Wave can cripple the player's fast Pokemon. Differentiated from Calvin: Calvin's puzzle is "survive the swarm"; Allen's is "kill the Pikachu before it paralyzes your team."
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Zigzagoon | 7 | | | |
-| Taillow | 7 | | | |
-| Pidgey | 6 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon, all Normal types. Needs differentiation.
+| Taillow | 8 | — | Guts | Peck, Quick Attack, Focus Energy |
+| Zigzagoon | 7 | — | Pickup | Quick Attack, Tackle, Sand Attack |
+| Pidgey | 7 | — | Keen Eye | Gust, Sand Attack, Quick Attack |
+| Pikachu | 9 | Light Ball | Transistor | Thunder Shock, Thunder Wave, Growl |
+
+**Status:** designed
+
+**Design Notes:**
+- **Taillow (lead):** Peck (35 BP Flying STAB) + Quick Attack priority creates immediate pressure. Focus Energy sets up crits on Peck. Guts means if the player tries to status Taillow, it gets 1.5× Attack — a counterplay trap. Fast and annoying opener that teaches: Flying types can be physical attackers.
+- **Zigzagoon (middle):** Pickup (first hit halved, no item) is the familiar mechanic now seen twice on Route 102 — but here it's mid-order instead of lead, playing differently. Sand Attack drops accuracy. Used to burn a player turn while Allen saves Pikachu for a clean finish.
+- **Pidgey (third):** Keen Eye prevents accuracy drops — Sand Attack from the player's side is useless. Gust (40 BP Flying, hits airborne targets) + its own Sand Attack creates layered chip. The player can't nerf Pidgey's accuracy before switching into Pikachu.
+- **Pikachu (closer):** Light Ball doubles SpA to 120. Transistor boosts Electric moves 1.5×. Thunder Shock (40 BP) becomes 60 effective power off 120 effective SpA at L9 — devastating for this stage. Thunder Wave can paralyze the player's sweeper mid-battle, crippling their ability to outspeed Pikachu (base 100 Speed). Growl chips Attack for physical leads that survive.
+- **Team identity:** Allen's team is an escalating offense sequence ending in Pikachu as the climax threat. Answer: save a Ground-type or Rock-type coverage move for Pikachu, or sacrifice a Pokemon to absorb Thunder Wave, then revenge-kill with priority. Teaches: Pikachu with Light Ball is a real threat even at L9, Electric immunity matters.
 
 ---
 
