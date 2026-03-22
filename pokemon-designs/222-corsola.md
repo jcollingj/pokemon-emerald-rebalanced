@@ -1,7 +1,7 @@
 ---
 name: Corsola
 dex_number: 222
-status: designed
+status: implemented
 ability: Regenerator
 role: Hazard Support Pivot
 ideal_items: Leftovers, Rocky Helmet, Eject Button
