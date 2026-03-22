@@ -53,7 +53,7 @@ Speed dropped to 20. This is intentional. Probopass should always move last — 
 
 ## Learnset
 
-### Nosepass (evolves at 16)
+### Nosepass
 
 | Level | Move | BP | Type | Sand Force? | Purpose |
 |-------|------|----|------|-------------|---------|
@@ -61,9 +61,9 @@ Speed dropped to 20. This is intentional. Probopass should always move last — 
 | 1 | Harden | — | Normal | — | Early bulk |
 | 8 | **Power Gem** | 80 | Rock | **Yes → 104, STAB → 156** | First synergy move. Sand Force + STAB = build turns on. |
 | 12 | **Thunder Wave** | — | Electric | — | Cripple faster threats. Core support move. |
-| 16 | **Thunderbolt** | 90 | Electric | No | Evolution-level power spike. Strong STAB coverage (Rock/Electric). |
+| 16 | **Thunderbolt** | 90 | Electric | No | Power spike. Strong STAB coverage (Rock/Electric). |
 
-### Probopass (evolves from Nosepass at 16)
+### Probopass (evolves from Nosepass via Thunder Stone or in New Mauville)
 
 | Level | Move | BP | Type | Sand Force? | Purpose |
 |-------|------|----|------|-------------|---------|
@@ -173,9 +173,10 @@ Roxanne's set: **Power Gem / Thunderbolt / Thunder Wave / Rest** with **Chesto B
 | 1-7 | Nosepass | Tackle, Harden | Basic Rock type |
 | 8-11 | Nosepass | Power Gem, Sand Force online | Build turns on — real damage |
 | 12-15 | Nosepass | + Thunder Wave | Support toolkit emerging |
-| 16 | **→ Probopass** | + Flash Cannon, Thunderbolt | Evolution spike — dual STAB, new Steel typing |
+| — | **→ Probopass** (Thunder Stone / New Mauville) | + Flash Cannon, Thunderbolt | Evolution — dual STAB, new Steel typing |
+| 16+ | Probopass | Flash Cannon | Steel STAB unlocked at L16 |
 | 21-32 | Probopass | + Stealth Rock, Body Press | Full support kit + Fighting coverage |
 | 33-41 | Probopass | + Earth Power | Ground coverage, Sand Force boosted |
 | 42+ | Probopass | + Sandstorm, Stone Edge | Self-sufficient sand, ultimate Rock nuke |
 
-The build turns on at level 8 with Power Gem. By 16, Probopass has dual STAB and Thunder Wave. By 27, it has the full fortress kit: hazards, paralysis, and Body Press for coverage. The late moves (Earth Power, Sandstorm, Stone Edge) are endgame rewards that complete the picture.
+The build turns on at level 8 with Power Gem. After evolving, Probopass gains dual STAB and the full Steel typing. By 27, it has the full fortress kit: hazards, paralysis, and Body Press for coverage. The late moves (Earth Power, Sandstorm, Stone Edge) are endgame rewards that complete the picture.
