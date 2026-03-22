@@ -724,7 +724,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     {
         .name = _("Normalize"),
         .description = COMPOUND_STRING("Moves become Normal-type."),
-        .aiRating = -1,
+        .aiRating = 5,
     },
 
     [ABILITY_SNIPER] =
