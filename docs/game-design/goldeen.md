@@ -36,7 +36,7 @@ A custom ability that boosts piercing/horn/spike moves by 1.3x. This is the same
 
 ## Stat Changes
 
-### Goldeen (evolves at 33 -> lower to 28)
+### Goldeen (evolves at 33, vanilla)
 
 | Stat | Vanilla | Rebalanced | Change |
 |------|---------|------------|--------|
@@ -66,7 +66,7 @@ The stat story: 90 HP / 75 Def / 85 SpD is genuinely bulky for a mid-game Water 
 
 ## Learnset
 
-### Goldeen (evolves at 28)
+### Goldeen (evolves at 33, vanilla)
 
 | Level | Move | BP | Type | Lancer? | Purpose |
 |-------|------|----|------|---------|---------|
@@ -78,16 +78,16 @@ The stat story: 90 HP / 75 Def / 85 SpD is genuinely bulky for a mid-game Water 
 | 21 | **Poison Jab** | 80 | Poison | **Yes -> 104** | Coverage for Grass/Fairy |
 | 27 | **Horn Leech** | 75 | Grass | **Yes -> 97** | Signature sustain move. Heals 50% of damage dealt. |
 
-### Seaking (evolves at 28)
+### Seaking (evolves at 33)
 
 | Level | Move | BP | Type | Lancer? | Purpose |
 |-------|------|----|------|---------|---------|
-| 28 | **Smart Strike** | 70 | Steel | **Yes -> 91** | Evolution reward. Never misses. Steel coverage for Fairy/Ice/Rock. |
-| 33 | **Drill Run** | 80 | Ground | **Yes -> 104** | Coverage for Electric/Fire/Steel/Poison |
-| 36 | Swords Dance | -- | Normal | -- | Setup option. Turns Seaking from sustained attacker into sweeper threat. |
-| 40 | **Megahorn** | 120 | Bug | **Yes -> 156** | The big nuke. Bug coverage for Psychic/Dark/Grass. |
-| 44 | Agility | -- | Normal | -- | Speed fix for late game. |
-| 48 | **Horn Drill** | OHKO | Normal | -- | Desperation OHKO. Seaking's classic signature. |
+| 33 | **Smart Strike** | 70 | Steel | **Yes -> 91** | Evolution reward. Never misses. Steel coverage for Fairy/Ice/Rock. |
+| 36 | **Drill Run** | 80 | Ground | **Yes -> 104** | Coverage for Electric/Fire/Steel/Poison |
+| 40 | Swords Dance | -- | Normal | -- | Setup option. Turns Seaking from sustained attacker into sweeper threat. |
+| 44 | **Megahorn** | 120 | Bug | **Yes -> 156** | The big nuke. Bug coverage for Psychic/Dark/Grass. |
+| 48 | Agility | -- | Normal | -- | Speed fix for late game. |
+| 52 | **Horn Drill** | OHKO | Normal | -- | Desperation OHKO. Seaking's classic signature. |
 
 ## The Math
 
@@ -195,7 +195,6 @@ Each Water type plays completely differently. Azumarill is all-in burst. Swamper
 - Implementation: Same pattern as Strong Jaw -- check move flag, apply multiplier in damage calc.
 - Need to add a FLAG_PIERCING or similar move flag to tag qualifying moves.
 
-### Evolution Level Change
-- Vanilla: Goldeen evolves at 33
-- Rebalanced: Goldeen evolves at 28
-- Reason: 33 is too late for a Route 102 catch. By level 33, the player is past Flannery (4th gym). Evolving at 28 means Seaking comes online around Norman (5th gym), which is appropriate for a Good Rod catch.
+### Evolution Level
+- Vanilla: Goldeen evolves at 33 — keeping as-is
+- Goldeen's learnset gives it Horn Attack (L8), Waterfall (L12), and Horn Leech (L27) before evolution, so it's fun and viable throughout the mid-game before evolving into Seaking at L33.
