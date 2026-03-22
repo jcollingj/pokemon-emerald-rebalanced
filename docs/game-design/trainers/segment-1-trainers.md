@@ -1,9 +1,9 @@
 ---
 segment: 1
 name: Start to Rustboro Gym
-status: not_started
+status: in_progress
 total_trainers: 39
-designed: 0
+designed: 3
 ---
 
 # Segment 1 Trainers: Start to Rustboro Gym
@@ -318,24 +318,41 @@ designed: 0
 ### Josh (Youngster) — Gym Trainer
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Geodude | 10 | | | Tackle |
-**Status:** not_started
-**Notes:** Only 1 Pokemon with 1 move. Needs major upgrade.
+| Geodude | 10 | Oran Berry | Stamina | Defense Curl, Rollout, Tackle |
+| Nosepass | 11 | — | Sturdy | Harden, Power Gem, Tackle |
+| Lileep | 11 | Oran Berry | Storm Drain | Astonish, Wrap, Giga Drain |
+**Status:** designed
+**Design philosophy:** Intro fight — three Rock types, three separate mechanics to learn.
+- **Geodude**: The tutorial Rollout fight. Defense Curl doubles Rollout BP, Stamina adds +1 Def each time you hit it. Teaches: "don't trade hits with setup sweepers."
+- **Nosepass**: Introduces the special Rock attacker. Power Gem at L11 hurts. Sturdy guarantees it survives one hit. Teaches: "Rock types have special attackers too."
+- **Lileep**: The curveball. Storm Drain absorbs Water moves (most players' go-to against Rock). Giga Drain drains HP. Teaches: "Water isn't a free answer here" — foreshadows Roxanne's team composition.
+**Escalation from base:** Josh's Geodude has no Rock Throw yet (L12), no item on Nosepass. Easiest of the three gym trainers.
 
 ### Tommy (Youngster) — Gym Trainer
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Geodude | 8 | | | |
-| Geodude | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Geodude. Needs variety — use other Rock types.
+| Geodude | 12 | Oran Berry | Stamina | Defense Curl, Rollout, Rock Throw, Tackle |
+| Omanyte | 12 | — | Swift Swim | Water Gun, Withdraw, Ancient Power, Bite |
+| Anorith | 12 | — | Tough Claws | Scratch, Fury Cutter, Metal Claw, Harden |
+**Status:** designed
+**Design philosophy:** Fossil hunter — introduces the two main fossil lines and their ability gimmicks.
+- **Geodude**: Upgraded from Josh's — now knows Rock Throw (L12) as a reliable alternative to committing to Rollout. Full 4-move set shows more options.
+- **Omanyte**: First fossil. Swift Swim shows up in the ability display — planting a flag for "rain synergy" the player will decode later. Withdraw + Ancient Power gives it Def setup and Rock STAB. Bite covers Ghost/Psychic. Introduces the Rock/Water dual typing.
+- **Anorith**: Second fossil. Tough Claws makes Fury Cutter and Metal Claw noticeably hit harder than expected for their BP. Escalating Fury Cutter BP (40→80→160) is a speed bump if the player doesn't KO it fast.
+**Escalation:** Two fossils, more complete 4-move sets, two distinct ability gimmicks to deal with.
 
 ### Marc (Hiker) — Gym Trainer
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| *TBD* | | | | |
-**Status:** not_started
-**Notes:** Team not fully documented. Needs design.
+| Geodude | 13 | Eviolite | Stamina | Defense Curl, Rollout, Rock Throw, Tackle |
+| Lileep | 12 | Big Root | Storm Drain | Astonish, Giga Drain, Ancient Power, Wrap |
+| Nosepass | 13 | Hard Stone | Sand Force | Harden, Power Gem, Thunder Wave, Tackle |
+**Status:** designed
+**Design philosophy:** Sandstorm preview — the hardest pre-Roxanne fight. Each Pokemon telegraphs a piece of Roxanne's strategy.
+- **Geodude**: Tankiest version. Eviolite (+1.5x Def/SpDef) stacks with Stamina — physically nearly unkillable during Rollout. Defense Curl + Rollout + Rock Throw gives full offensive flexibility.
+- **Lileep**: Fully online at L12 — has Ancient Power alongside Giga Drain. Big Root boosts Giga Drain healing (50% → 65% of damage dealt) and Ingrain recovery. Storm Drain still eats Water moves. Much harder to wear down than Josh's L11 Lileep.
+- **Nosepass**: The preview. **Sand Force** is visible in the ability display. Power Gem already hits hard (90 SpA base + Hard Stone). Thunder Wave paralyzes the player's fastest Pokemon. When Roxanne sets Sand Stream a battle later, the player clicks: *"That's why Marc's Nosepass had Sand Force."*
+**Escalation:** Eviolite Geodude is nearly unkillable physically. Big Root Lileep recovers faster. Sand Force Nosepass + Thunder Wave is the toughest wall in the gym. Marc is designed to take 2-3 turns to beat each Pokemon rather than 1.
 
 ### Roxanne (Leader) — MANDATORY
 **Status:** designed
