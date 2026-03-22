@@ -123,24 +123,47 @@
 | Aron      | 10-12  | Rare chase encounter (1 slot) |
 | Nosepass  | 11-12  | Rare — catch Roxanne's ace (1 slot) |
 
+### Trainer-Only Pokemon (need designs)
+*These Pokemon appear on trainer teams but not in wild encounters:*
+
+| Pokemon | Trainer | Notes |
+|---------|---------|-------|
+| Seedot (#273) | Billy (Route 104), Gina (Route 104) | Grass type |
+| Machop (#66) | Joey (Route 104) | Fighting type |
+| Plusle (#311) | Amy (Route 103 doubles) | Electric type |
+| Minun (#312) | Liv (Route 103 doubles) | Electric type |
+| Voltorb (#100) | Marcos (Route 103) | Electric type |
+| Caterpie (#10) | Rick (Route 102), Lyle (Petalburg Woods) | Bug type |
+| Weedle (#13) | Rick (Route 102), Lyle (Petalburg Woods) | Bug type |
+
 ---
 
 ## Trainers
+*Full trainer designs: `docs/game-design/trainers/segment-1-trainers.md`*
 
 ### Route 102
-- **Calvin (Youngster):** Poochyena L7, Rattata L6
-- Rick, Tiana, Allen
+- Calvin (Youngster), Rick (Bug Catcher), Tiana (Lass), Allen (Youngster)
 
 ### Route 103
-- **Daisy (Aroma Lady):** Shroomish L14, Roselia L14
-- **Amy & Liv (Doubles)**
-- Miguel, Andrew, Marcos, Rhett, Pete, Isabelle
+- **Rival (Brendan/May)** — MANDATORY
+- Daisy (Aroma Lady), Miguel (Pokefan), Andrew (Fisherman), Pete (Swimmer), Isabelle (Swimmer), Amy & Liv (Twins doubles), Marcos (Guitarist), Rhett (Black Belt)
 
 ### Route 104
-- Various trainers (TODO: fill in details)
+- Billy (Youngster), Joey (Youngster), Haley (Lass), Janice (Lass), Cindy (Lady), Winston (Rich Boy), Gina & Mia (Twins doubles), Jerry (School Kid), Karen (School Kid)
 
 ### Petalburg Woods
-- **Team Aqua Grunt:** Poochyena L10, Carvanha L9
+- **Team Aqua Grunt** — MANDATORY
+- Lyle (Bug Catcher), James (Bug Catcher)
+
+### Route 116
+- Clark (Hiker), Devan (Hiker), Mike (Hiker), Jose (Bug Catcher), Johnson (Youngster), Darian (Fisherman), Sarah (Lady), Dawson (Rich Boy)
+
+### Rusturf Tunnel
+- **Team Aqua Grunt** — MANDATORY
+
+### Rustboro Gym
+- **Roxanne (Leader)** — MANDATORY (designed)
+- Josh (Youngster), Tommy (Youngster), Marc (Hiker)
 
 ---
 
