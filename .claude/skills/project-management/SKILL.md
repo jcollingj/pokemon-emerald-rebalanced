@@ -70,10 +70,25 @@ Each game segment follows this repeatable process:
 - A few "surprise" Pokemon are fine but most should be local
 - Competitive movesets — every trainer is a mini-puzzle
 
-### Step 6: Review & Approve All Designs
-- Jacob reviews all designs for the segment
-- Iterate on feedback
-- Once ALL designs are approved → move to Phase 2 (implementation)
+### Step 6: Design Review (I drive this)
+
+I go through each design issue **one at a time** with Jacob:
+
+1. **Check the issue** — Read the latest Claude bot comment or branch to see what was produced
+2. **Summarize** — Present a concise summary: ability, key stat changes, signature interaction, niche
+3. **Flag concerns** — Call out evolution level changes, TM moves in level-up, missing coverage, role duplication
+4. **Ask for input** — Use AskUserQuestion if there are decisions to make or if the design needs Jacob's opinion
+5. **Apply feedback** — Comment on the issue with corrections, then move to the next one
+6. **Mark approved** — When Jacob approves: remove `design` label, add `design approved` label. Post an "Approved" comment for the record.
+7. **Track revisions** — If Jacob requests changes, comment `@claude` with corrections and keep the `design` label until the revision is approved.
+
+**When ALL issues for a segment have `design approved` → move to Phase 2 (implementation).**
+
+**Key principle:** I am the filter. I review first, flag issues, and only bring decisions to Jacob. Don't dump raw output — summarize and recommend.
+
+### Step 7: Approve & Move to Implementation
+- Once ALL designs for the segment are reviewed and approved
+- Move to Phase 2 (implementation)
 
 ### Step 7: Implement (Phase 2)
 - Batch implement all designs via @claude
@@ -88,6 +103,7 @@ Each game segment follows this repeatable process:
 |-------|---------|
 | `pokedesign` | Pokemon design task |
 | `design` | Currently in design phase (markdown only) |
+| `design approved` | Design reviewed and approved by Jacob |
 | `implement` | Ready for code implementation |
 | `segment-1` | Part of Segment 1 (Start → Rustboro Gym) |
 | `epic` | Parent tracking issue for a segment |
