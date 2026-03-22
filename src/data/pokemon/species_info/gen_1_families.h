@@ -8275,7 +8275,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_SYNCHRONIZE, ABILITY_INNER_FOCUS, ABILITY_MAGIC_GUARD },
+        .abilities = { ABILITY_MAGIC_GUARD, ABILITY_INNER_FOCUS, ABILITY_SYNCHRONIZE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Abra"),
         .cryId = CRY_ABRA,
@@ -8347,7 +8347,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_SYNCHRONIZE, ABILITY_INNER_FOCUS, ABILITY_MAGIC_GUARD },
+        .abilities = { ABILITY_MAGIC_GUARD, ABILITY_INNER_FOCUS, ABILITY_SYNCHRONIZE },
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = TRUE,
         .speciesName = _("Kadabra"),
@@ -8409,8 +8409,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sKadabraLevelUpLearnset,
         .teachableLearnset = sKadabraTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_ALAKAZAM},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_ALAKAZAM}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_ALAKAZAM}),
     },
 
 #if P_UPDATED_STATS >= GEN_6
@@ -8447,7 +8446,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_SYNCHRONIZE, ABILITY_INNER_FOCUS, ABILITY_MAGIC_GUARD },
+        .abilities = { ABILITY_MAGIC_GUARD, ABILITY_INNER_FOCUS, ABILITY_SYNCHRONIZE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Alakazam"),
         .cryId = CRY_ALAKAZAM,
