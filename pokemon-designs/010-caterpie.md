@@ -1,7 +1,10 @@
 ---
 name: Caterpie
 dex_number: 10
-status: not_started
+status: designed
+ability: Compound Eyes
+role: Early Bug
+design_doc: docs/game-design/butterfree.md
 ---
 
 # Caterpie
