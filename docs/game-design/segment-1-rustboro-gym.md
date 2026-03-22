@@ -211,6 +211,7 @@
 - X Attack
 - Ether
 - Paralyze Heal
+- Big Root (hidden path, near mossy area — enables Roselia Triage drain and Cradily Ingrain builds)
 
 **NPC Gifts:**
 - Great Ball (Devon Employee, after Aqua Grunt)
@@ -220,6 +221,14 @@
 - Potion
 - Tiny Mushroom x2
 - Poke Ball
+
+### Route 116
+**Item Balls:**
+- Toxic Orb (hidden, near tunnel entrance — enables Tentacruel Poison Heal and Nidoking Toxic Boost)
+
+### Rusturf Tunnel
+**Item Balls:**
+- Wide Lens (item ball — enables Geodude Rollout 90→99% accuracy, Raticate Hyper Fang 90→99%)
 
 ### Rustboro City
 - X Defend (item ball)
