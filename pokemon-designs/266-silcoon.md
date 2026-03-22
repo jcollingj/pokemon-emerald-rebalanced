@@ -1,7 +1,7 @@
 ---
 name: Silcoon
 dex_number: 266
-status: designed
+status: implemented
 ability: Shed Skin
 role: Cocoon (transitional)
 design_doc: docs/game-design/wurmple-evolutions.md
