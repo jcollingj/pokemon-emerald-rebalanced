@@ -1,7 +1,7 @@
 ---
 name: Anorith
 dex_number: 347
-status: designed
+status: implemented
 ability: Tough Claws
 role: Contact Wallbreaker
 ideal_items: Choice Band, Life Orb, Assault Vest
@@ -11,7 +11,7 @@ design_doc: docs/game-design/anorith.md
 # Anorith
 
 ## Build Identity
-Anorith is a pre-evolution contact attacker that uses Tough Claws to boost every physical move it learns, hitting surprisingly hard at 95 Atk for a first-stage Pokemon.
+Anorith is a pre-evolution contact attacker that uses Tough Claws to boost every physical move it learns, hitting surprisingly hard at 95 Atk for a first-stage Pokemon. Evolves at vanilla L40 — gets good contact moves early so it's fun to use the full stretch.
 
 ## Ability
 **Tough Claws** — Contact moves deal 1.3x damage. Every attacking move in the kit is contact, so every move benefits.
@@ -34,10 +34,12 @@ Anorith is a pre-evolution contact attacker that uses Tough Claws to boost every
 |-------|------|----|------|----------|---------|
 | 1 | Scratch | 40 | Normal | Yes (52) | Basic contact move |
 | 1 | Harden | — | Normal | — | Early bulk |
-| 8 | Fury Cutter | 40+ | Bug | Yes (52+) | First synergy move |
-| 12 | Metal Claw | 50 | Steel | Yes (65) | Steel coverage |
-| 14 | Rock Blast | 25x2-5 | Rock | No | Multi-hit Rock STAB |
-| 16 | X-Scissor | 80 | Bug | Yes (156 w/ STAB) | Evolution reward |
+| 8 | Fury Cutter | 40+ | Bug | Yes (52+) | First synergy move — build turns on |
+| 12 | Metal Claw | 50 | Steel | Yes (65) | Steel coverage, may raise Atk |
+| 16 | Rock Blast | 25x2-5 | Rock | No | Multi-hit Rock STAB, breaks Sash |
+| 21 | X-Scissor | 80 | Bug | Yes (156 w/ STAB) | Mid-game power spike — real Bug STAB |
+| 27 | Aqua Tail | 90 | Water | Yes (117) | Water coverage, contact |
+| 33 | Slash | 70 | Normal | Yes (91) | High crit contact utility |
 
 ## Ideal Items
 1. Choice Band

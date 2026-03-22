@@ -28,7 +28,7 @@ Roxanne uses Anorith at L14 with Focus Sash + Battle Armor. That's the GYM versi
 
 ## Stat Changes
 
-### Anorith (evolves at 16)
+### Anorith (evolves at 40, vanilla)
 
 | Stat | Vanilla | Rebalanced | Change |
 |------|---------|------------|--------|
@@ -40,7 +40,7 @@ Roxanne uses Anorith at L14 with Focus Sash + Battle Armor. That's the GYM versi
 | Spe | 75 | 75 | - |
 | **BST** | **355** | **355** | **-** |
 
-Anorith's stats are already solid for a pre-evolution. 95 Atk is exceptional — it hits hard from the moment you get it. No changes needed. The evolution at 16 (down from vanilla 40) means players get Armaldo much earlier.
+Anorith's stats are already solid for a pre-evolution. 95 Atk is exceptional — it hits hard from the moment you get it. No stat changes needed. The evolution stays at vanilla L40 — instead of rushing to Armaldo, Anorith gets good contact moves early so it's fun to use for the full stretch.
 
 ### Armaldo
 
@@ -58,29 +58,33 @@ Anorith's stats are already solid for a pre-evolution. 95 Atk is exceptional —
 
 ## Learnset
 
-### Anorith (evolves at 16)
+### Anorith (evolves at 40, vanilla)
+
+Anorith needs to be fun for the full L1–L40 stretch. Tough Claws makes every contact move hit hard, so getting X-Scissor mid-game turns it into a real threat.
 
 | Level | Move | BP | Type | Contact? | Purpose |
 |-------|------|----|------|----------|---------|
 | 1 | Scratch | 40 | Normal | Yes (52) | Basic contact move |
 | 1 | Harden | — | Normal | — | Early bulk |
 | 8 | **Fury Cutter** | 40→80→160 | Bug | **Yes (52+)** | First synergy move. Escalating contact Bug STAB — build turns on. |
-| 12 | **Metal Claw** | 50 | Steel | **Yes (65)** | Steel coverage, contact. May raise Atk. Hits Rock/Ice/Fairy. |
-| 14 | **Rock Blast** | 25×2-5 | Rock | No | Multi-hit Rock STAB — breaks Sash/Sturdy. On Roxanne's set. |
-| 16 | **X-Scissor** | 80 | Bug | **Yes (104→156 STAB)** | Evolution reward. Real Bug STAB with Tough Claws. |
+| 12 | **Metal Claw** | 50 | Steel | **Yes (65)** | Steel coverage, contact. May raise Atk. Second synergy move. |
+| 16 | **Rock Blast** | 25×2-5 | Rock | No | Multi-hit Rock STAB — breaks Sash/Sturdy. On Roxanne's set. |
+| 21 | **X-Scissor** | 80 | Bug | **Yes (104→156 STAB)** | Real Bug STAB with Tough Claws — mid-game power spike. Anorith is now threatening. |
+| 27 | **Aqua Tail** | 90 | Water | **Yes (117)** | Water contact coverage. Hits Fire/Ground/Rock. |
+| 33 | **Slash** | 70 | Normal | **Yes (91)** | High crit rate contact move. Late Anorith utility. |
 
-### Armaldo (evolves from Anorith at 16)
+### Armaldo (evolves from Anorith at 40)
+
+Armaldo remembers all pre-evolution moves, then gets post-evolution power upgrades.
 
 | Level | Move | BP | Type | Contact? | Purpose |
 |-------|------|----|------|----------|---------|
-| 16 | **X-Scissor** | 80 | Bug | **Yes → 104, STAB → 156** | Evolution reward — contact Bug STAB |
-| 21 | **Aqua Tail** | 90 | Water | **Yes → 117** | Water coverage, contact. Hits Fire/Ground/Rock. |
-| 24 | **Aqua Jet** | 40 | Water | **Yes → 52** | +1 priority. Patches 45 Speed — the reason Armaldo works despite being slow. |
-| 27 | **Stone Edge** | 100 | Rock | **Yes → 130, STAB → 195** | Rock STAB nuke. Contact + high crit rate. |
-| 33 | **Brick Break** | 75 | Fighting | **Yes → 97** | Fighting coverage, contact. Breaks screens. Hits Steel/Normal/Dark. |
-| 36 | **Earthquake** | 100 | Ground | No | Exception — not contact, but too important to skip. Ground coverage. |
-| 42 | **Liquidation** | 85 | Water | **Yes → 110** | Upgraded water move. Contact. May lower Def. |
-| 48 | Swords Dance | — | Normal | — | Late-game setup. +2 Atk on an already monstrous 125 base = game over. |
+| 1 | Scratch, Harden, Fury Cutter, Metal Claw, Rock Blast, X-Scissor | — | — | — | Carried over from Anorith |
+| 42 | **Aqua Jet** | 40 | Water | **Yes (52)** | +1 priority. Patches 45 Speed — the reason Armaldo works despite being slow. |
+| 48 | **Stone Edge** | 100 | Rock | **Yes → 130, STAB → 195** | Rock STAB nuke. The post-evolution payoff. |
+| 54 | **Brick Break** | 75 | Fighting | **Yes (97)** | Fighting coverage, contact. Breaks screens. Hits Steel/Normal/Dark. |
+| 60 | **Liquidation** | 85 | Water | **Yes (110)** | Upgraded water move. Contact. May lower Def. |
+| 66 | Swords Dance | — | Normal | — | Late-game setup. +2 Atk on an already monstrous 125 base = game over. |
 
 ## The Math
 
