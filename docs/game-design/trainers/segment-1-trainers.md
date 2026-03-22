@@ -1,9 +1,9 @@
 ---
 segment: 1
 name: Start to Rustboro Gym
-status: in_progress
-total_trainers: 39
-designed: 9
+status: complete
+total_trainers: 38
+designed: 38
 ---
 
 # Segment 1 Trainers: Start to Rustboro Gym
@@ -27,37 +27,40 @@ designed: 9
 ### Calvin (Youngster) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Poochyena | 7 | | | |
-| Rattata | 6 | | | |
-**Status:** not_started
-**Notes:** Currently 2 Pokemon, needs expansion to 3-6. Add from Route 102 pool (Nidoran, Lotad, Zigzagoon, Pikachu, Ralts).
+| Poochyena | 7 | None | Guts | Bite, Quick Attack, Scary Face, Tackle |
+| Rattata | 7 | None | Strong Jaw | Bite, Quick Attack, Tackle, Tail Whip |
+| Nidoran M | 8 | None | Poison Point | Horn Attack, Poison Sting, Leer, Tackle |
+**Status:** designed
+**Notes:** Dark/Poison physical attacker theme. See `trainers/segment-1/calvin.md`.
 
 ### Rick (Bug Catcher) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Wurmple | 6 | | | |
-| Caterpie | 6 | | | |
-| Weedle | 6 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon but all basic bugs. Needs competitive movesets. Consider evolving some.
+| Wurmple | 6 | None | Technician | Poison Sting, Tackle, String Shot, Pin Missile |
+| Silcoon | 7 | None | Shed Skin | Harden, Tackle |
+| Cascoon | 7 | None | Shed Skin | Harden, Tackle |
+| Beautifly | 9 | None | Tinted Lens | Bug Buzz, Gust, Absorb, Sleep Powder |
+**Status:** designed
+**Notes:** Wurmple evolution showcase. See `trainers/segment-1/rick.md`.
 
 ### Tiana (Lass) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Zigzagoon | 7 | | | |
-| Shroomish | 7 | | | |
-| Marill | 6 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon, good variety. Needs abilities and movesets.
+| Zigzagoon | 7 | None | Pickup | Tackle, Growl, Sand Attack, Headbutt |
+| Shroomish | 8 | None | Technician | Bullet Seed, Mach Punch, Absorb, Stun Spore |
+| Marill | 8 | None | Huge Power | Aqua Jet, Water Gun, Tackle, Defense Curl |
+| Lotad | 7 | None | Rain Dish | Absorb, Leech Seed, Water Gun, Growl |
+**Status:** designed
+**Notes:** Priority lesson — Mach Punch, Aqua Jet. See `trainers/segment-1/tiana.md`.
 
 ### Allen (Youngster) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Zigzagoon | 7 | | | |
-| Taillow | 7 | | | |
-| Pidgey | 6 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon, all Normal types. Needs differentiation.
+| Taillow | 7 | None | Guts | Pluck, Wing Attack, Growl, Quick Attack |
+| Pidgey | 7 | None | Aerilate | Tackle, Quick Attack, Sand Attack, Gust |
+| Zigzagoon | 8 | None | Pickup | Tackle, Growl, Sand Attack, Headbutt |
+**Status:** designed
+**Notes:** Bird boy — Normal/Flying theme. See `trainers/segment-1/allen.md`.
 
 ---
 
@@ -258,72 +261,84 @@ designed: 9
 ### Billy (Youngster) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Zigzagoon | 8 | | | |
-| Seedot | 8 | | | |
-| Taillow | 7 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon. Needs movesets. Seedot is not in our Route 104 pool — consider swapping.
+| Zigzagoon | 8 | None | Pickup | Tackle, Growl, Sand Attack, Headbutt |
+| Taillow | 8 | None | Guts | Pluck, Wing Attack, Growl, Quick Attack |
+| Poochyena | 9 | None | Guts | Bite, Quick Attack, Scary Face, Tackle |
+**Status:** designed
+**Notes:** Straightforward brawler. See `trainers/segment-1/billy.md`.
 
 ### Joey (Youngster) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Machop | 9 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Machop not locally available. Expand and adjust.
+| Machop | 9 | None | Guts | Low Kick, Leer, Focus Energy, Karate Chop |
+| Poochyena | 8 | None | Guts | Bite, Quick Attack, Scary Face, Tackle |
+| Marill | 8 | None | Huge Power | Aqua Jet, Water Gun, Tackle, Defense Curl |
+**Status:** designed
+**Notes:** Fighting + Dark + Water coverage. See `trainers/segment-1/joey.md`.
 
 ### Haley (Lass) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Lotad | 8 | | | |
-| Shroomish | 8 | | | |
-| Ralts | 7 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon, good variety from nearby routes.
+| Lotad | 8 | None | Rain Dish | Absorb, Leech Seed, Water Gun, Growl |
+| Shroomish | 9 | None | Technician | Bullet Seed, Mach Punch, Absorb, Stun Spore |
+| Ralts | 9 | None | Trace | Confusion, Disarming Voice, Growl, Psybeam |
+**Status:** designed
+**Notes:** Drain-and-status team. See `trainers/segment-1/haley.md`.
 
 ### Janice (Lass) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Marill | 9 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand.
+| Marill | 9 | None | Huge Power | Aqua Jet, Play Rough, Water Gun, Defense Curl |
+| Wingull | 8 | None | Drizzle | Water Gun, Wing Attack, Growl, Water Pulse |
+| Surskit | 8 | None | Swift Swim | Water Gun, Silver Wind, Quick Attack, Bubble |
+**Status:** designed
+**Notes:** Proto-rain team. See `trainers/segment-1/janice.md`.
 
 ### Cindy (Lady) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Zigzagoon | 9 | Nugget | | |
-| Ralts | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Pokemon. Nugget is a money reward.
+| Zigzagoon | 9 | Nugget | Pickup | Tackle, Headbutt, Sand Attack, Growl |
+| Ralts | 9 | None | Trace | Confusion, Disarming Voice, Growl, Calm Mind |
+| Skitty | 9 | None | Normalize | Fake Out, Tackle, Sing, Growl |
+**Status:** designed
+**Notes:** Money trainer + status disruption. See `trainers/segment-1/cindy.md`.
 
 ### Winston (Rich Boy) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Zigzagoon | 9 | Nugget | | |
-| Poochyena | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Pokemon. Paired with Cindy.
+| Zigzagoon | 9 | Nugget | Pickup | Tackle, Headbutt, Sand Attack, Growl |
+| Poochyena | 9 | None | Guts | Bite, Quick Attack, Howl, Tackle |
+| Wingull | 8 | None | Drizzle | Water Gun, Wing Attack, Supersonic, Growl |
+**Status:** designed
+**Notes:** Money trainer + offensive momentum. See `trainers/segment-1/winston.md`.
 
 ### Gina & Mia (Twins) — Optional, Double Battle
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Seedot | 9 | | | |
-| Lotad | 9 | | | |
-**Status:** not_started
-**Notes:** Doubles team. Seedot not in our pool — consider swapping.
+| Lotad | 9 | None | Rain Dish | Rain Dance, Leech Seed, Absorb, Water Gun |
+| Wingull | 9 | None | Drizzle | Water Pulse, Wing Attack, Growl, Supersonic |
+| Marill | 9 | None | Huge Power | Aqua Jet, Play Rough, Water Gun, Defense Curl |
+| Surskit | 9 | None | Swift Swim | Silver Wind, Water Gun, Quick Attack, Bubble |
+**Status:** designed
+**Notes:** Doubles rain team. See `trainers/segment-1/gina-mia.md`.
 
 ### Jerry (School Kid) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Ralts | 9 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand.
+| Ralts | 9 | None | Trace | Confusion, Disarming Voice, Growl, Calm Mind |
+| Wingull | 8 | None | Drizzle | Water Gun, Wing Attack, Supersonic, Growl |
+| Taillow | 9 | None | Guts | Wing Attack, Pluck, Quick Attack, Growl |
+**Status:** designed
+**Notes:** Setup + weather + status punishment. See `trainers/segment-1/jerry.md`.
 
 ### Karen (School Kid) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Shroomish | 9 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand.
+| Shroomish | 9 | None | Technician | Bullet Seed, Mach Punch, Stun Spore, Absorb |
+| Wurmple | 8 | None | Technician | Pin Missile, Poison Sting, Tackle, String Shot |
+| Marill | 9 | None | Huge Power | Aqua Jet, Water Gun, Play Rough, Defense Curl |
+**Status:** designed
+**Notes:** Technician theme. See `trainers/segment-1/karen.md`.
 
 ---
 
@@ -350,20 +365,22 @@ designed: 9
 ### Lyle (Bug Catcher) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Wurmple | 6 | | | |
-| Caterpie | 6 | | | |
-| Weedle | 6 | | | |
-**Status:** not_started
-**Notes:** 3 basic bugs. Needs evolution and movesets.
+| Wurmple | 6 | None | Technician | Tackle, Poison Sting, String Shot, Pin Missile |
+| Silcoon | 7 | None | Shed Skin | Harden, Tackle |
+| Beautifly | 9 | None | Tinted Lens | Bug Buzz, Gust, Sleep Powder, Absorb |
+| Caterpie | 7 | None | Shield Dust | Tackle, String Shot, Bug Bite |
+**Status:** designed
+**Notes:** Beautifly-path showcase. See `trainers/segment-1/lyle.md`.
 
 ### James (Bug Catcher) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Nincada | 8 | | | |
-| Nincada | 8 | | | |
-| Surskit | 7 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon. Better than Lyle's team. Needs movesets.
+| Nincada | 8 | None | Speed Boost | Scratch, Sand Attack, Harden, Mud Slap |
+| Cascoon | 7 | None | Shed Skin | Harden, Tackle |
+| Dustox | 9 | None | Prankster | Confusion, Poison Powder, Venoshock, Protect |
+| Surskit | 8 | None | Swift Swim | Silver Wind, Water Gun, Quick Attack, Bubble |
+**Status:** designed
+**Notes:** Dustox-path showcase. See `trainers/segment-1/james.md`.
 
 ---
 
@@ -372,64 +389,74 @@ designed: 9
 ### Clark (Hiker) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Geodude | 8 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand with cave/rock types.
+| Geodude | 9 | None | Stamina | Defense Curl, Rollout, Rock Throw, Tackle |
+| Geodude | 9 | None | Sturdy | Rock Throw, Bulldoze, Tackle, Defense Curl |
+| Makuhita | 10 | None | Iron Fist | Fake Out, Mach Punch, Tackle, Focus Energy |
+**Status:** designed
+**Notes:** Intro to Geodude Stamina + Rollout. See `trainers/segment-1/clark.md`.
 
 ### Devan (Hiker) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Geodude | 8 | | | |
-| Geodude | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Geodude. Needs variety.
+| Geodude | 9 | None | Stamina | Defense Curl, Rollout, Bulldoze, Tackle |
+| Nincada | 9 | None | Speed Boost | Scratch, Sand Attack, Mud Slap, Harden |
+| Makuhita | 10 | None | Iron Fist | Mach Punch, Fire Punch, Fake Out, Tackle |
+**Status:** designed
+**Notes:** Variety with Nincada + accuracy drops. See `trainers/segment-1/devan.md`.
 
 ### Mike (Hiker) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Pelipper | 10 | | | Gust, Growl |
-| Poochyena | 10 | | | Bite, Scary Face |
-**Status:** not_started
-**Notes:** 2 Pokemon. Pelipper seems odd for a Hiker. Adjust.
+| Makuhita | 10 | None | Iron Fist | Mach Punch, Fire Punch, Bulk Up, Fake Out |
+| Geodude | 10 | None | Stamina | Defense Curl, Rollout, Rock Throw, Bulldoze |
+| Geodude | 11 | None | Sturdy | Rock Throw, Bulldoze, Stealth Rock, Tackle |
+**Status:** designed
+**Notes:** Hardest Hiker — Makuhita lead + Stealth Rock. See `trainers/segment-1/mike.md`.
 
 ### Jose (Bug Catcher) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Wurmple | 8 | | | |
-| Nincada | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Pokemon. Expand with evolved bug forms.
+| Nincada | 9 | None | Speed Boost | Scratch, Sand Attack, Mud Slap, Harden |
+| Dustox | 10 | None | Prankster | Poison Powder, Venoshock, Confusion, Protect |
+| Beautifly | 10 | None | Tinted Lens | Bug Buzz, Air Cutter, Sleep Powder, Absorb |
+**Status:** designed
+**Notes:** Advanced Bug Catcher with both Wurmple evolutions. See `trainers/segment-1/jose.md`.
 
 ### Johnson (Youngster) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Shroomish | 8 | | | |
-| Lotad | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Pokemon. Grass theme. Expand.
+| Poochyena | 9 | None | Guts | Bite, Quick Attack, Howl, Scary Face |
+| Taillow | 9 | None | Guts | Wing Attack, Quick Attack, Pluck, Growl |
+| Skitty | 10 | None | Normalize | Fake Out, Tackle, Sing, Growl |
+**Status:** designed
+**Notes:** Guts duo + Normalize Skitty. See `trainers/segment-1/johnson.md`.
 
 ### Darian (Fisherman) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Magikarp | 9 | | | |
-| Tentacool | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Pokemon. Classic fisherman. Expand with Water types.
+| Magikarp | 9 | None | Moxie | Tackle, Aqua Jet, Flail, Splash |
+| Tentacool | 9 | None | Poison Heal | Whirlpool, Poison Sting, Water Gun, Acid Spray |
+| Horsea | 10 | None | Sniper | Water Gun, Smokescreen, Bubble, Leer |
+**Status:** designed
+**Notes:** Water escalation: joke fish, trapper, sniper. See `trainers/segment-1/darian.md`.
 
 ### Sarah (Lady) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Lotad | 8 | | | |
-**Status:** not_started
-**Notes:** Only 1 Pokemon. Expand.
+| Skitty | 10 | None | Normalize | Fake Out, Sing, Tackle, Growl |
+| Ralts | 10 | None | Trace | Confusion, Disarming Voice, Calm Mind, Growl |
+| Eevee | 10 | None | Adaptability | Swift, Wish, Tackle, Growl |
+**Status:** designed
+**Notes:** Rare and elegant — Skitty, Ralts, Eevee. See `trainers/segment-1/sarah.md`.
 
 ### Dawson (Rich Boy) — Optional
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Zigzagoon | 8 | Nugget | | |
-| Poochyena | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Pokemon. Money trainer.
+| Zigzagoon | 10 | Nugget | Pickup | Headbutt, Tackle, Sand Attack, Growl |
+| Poochyena | 10 | None | Guts | Bite, Quick Attack, Howl, Scary Face |
+| Abra | 10 | None | Magic Guard | Confusion, Calm Mind, Teleport, Kinesis |
+**Status:** designed
+**Notes:** Money trainer with surprise Abra. See `trainers/segment-1/dawson.md`.
 
 ---
 
@@ -456,24 +483,29 @@ designed: 9
 ### Josh (Youngster) — Gym Trainer
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Geodude | 10 | | | Tackle |
-**Status:** not_started
-**Notes:** Only 1 Pokemon with 1 move. Needs major upgrade.
+| Geodude | 10 | None | Stamina | Defense Curl, Rollout, Rock Throw, Tackle |
+| Larvitar | 10 | None | Sand Stream | Rock Slide, Bite, Leer, Tackle |
+| Aron | 11 | None | Heavy Metal | Tackle, Harden, Metal Claw, Headbutt |
+**Status:** designed
+**Notes:** Gym intro fight. See `trainers/segment-1/josh.md`.
 
 ### Tommy (Youngster) — Gym Trainer
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Geodude | 8 | | | |
-| Geodude | 8 | | | |
-**Status:** not_started
-**Notes:** 2 Geodude. Needs variety — use other Rock types.
+| Geodude | 11 | None | Stamina | Defense Curl, Rollout, Bulldoze, Rock Throw |
+| Omanyte | 11 | None | Swift Swim | Water Gun, Ancient Power, Bite, Withdraw |
+| Larvitar | 12 | None | Sand Stream | Rock Slide, Crunch, Stealth Rock, Leer |
+**Status:** designed
+**Notes:** Mid-tier gym trainer with fossil preview. See `trainers/segment-1/tommy.md`.
 
 ### Marc (Hiker) — Gym Trainer
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| *TBD* | | | | |
-**Status:** not_started
-**Notes:** Team not fully documented. Needs design.
+| Larvitar | 12 | Smooth Rock | Sand Stream | Stealth Rock, Rock Slide, Crunch, Protect |
+| Geodude | 12 | Wide Lens | Stamina | Defense Curl, Rollout, Rock Throw, Bulldoze |
+| Nosepass | 13 | Leftovers | Sand Force | Power Gem, Thunder Wave, Rock Throw, Tackle |
+**Status:** designed
+**Notes:** Hardest gym trainer — direct Roxanne preview. See `trainers/segment-1/marc.md`.
 
 ### Roxanne (Leader) — MANDATORY
 **Status:** designed
