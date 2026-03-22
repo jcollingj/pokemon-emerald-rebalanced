@@ -1,7 +1,7 @@
 ---
 name: Weedle
 dex_number: 13
-status: designed
+status: implemented
 ability: Merciless
 role: Poison Setup (pre-evolution)
 ideal_items: Poison Barb, Oran Berry

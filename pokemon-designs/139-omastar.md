@@ -1,7 +1,7 @@
 ---
 name: Omastar
 dex_number: 139
-status: designed
+status: implemented
 ability: Swift Swim
 role: Rain Shell Smasher
 ideal_items: White Herb, Damp Rock, Choice Specs

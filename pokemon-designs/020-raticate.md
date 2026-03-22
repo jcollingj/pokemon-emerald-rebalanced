@@ -1,7 +1,7 @@
 ---
 name: Raticate
 dex_number: 20
-status: designed
+status: implemented
 ---
 
 # Raticate

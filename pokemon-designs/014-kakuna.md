@@ -1,7 +1,7 @@
 ---
 name: Kakuna
 dex_number: 14
-status: designed
+status: implemented
 ability: Merciless
 role: Cocoon (transition form)
 ideal_items: Oran Berry

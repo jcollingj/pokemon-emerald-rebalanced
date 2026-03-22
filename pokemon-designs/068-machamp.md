@@ -1,7 +1,7 @@
 ---
 name: Machamp
 dex_number: 68
-status: designed
+status: implemented
 ability: No Guard
 role: Confusion-Locking Brawler
 ideal_items: Choice Band, Life Orb, Assault Vest

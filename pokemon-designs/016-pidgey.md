@@ -1,7 +1,7 @@
 ---
 name: Pidgey
 dex_number: 16
-status: designed
+status: implemented
 ability: Aerilate
 role: Normal-to-Flying Sweeper
 ideal_items: Silk Scarf, Choice Band, Sharp Beak

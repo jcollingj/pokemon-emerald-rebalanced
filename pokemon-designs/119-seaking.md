@@ -1,7 +1,7 @@
 ---
 name: Seaking
 dex_number: 119
-status: designed
+status: implemented
 ability: Lancer (custom)
 role: Sustain Horn Specialist
 ideal_items: Life Orb, Choice Band, Mystic Water

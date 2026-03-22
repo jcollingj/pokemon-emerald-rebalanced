@@ -1,7 +1,7 @@
 ---
 name: Horsea
 dex_number: 116
-status: designed
+status: implemented
 ability: Sniper
 role: Critical Hit Sniper (Baby)
 ideal_items: Scope Lens, Razor Claw, Choice Specs

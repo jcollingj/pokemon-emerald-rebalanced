@@ -1,7 +1,7 @@
 ---
 name: Metapod
 dex_number: 11
-status: designed
+status: implemented
 ability: Shell Armor / Shed Skin
 role: Defensive Cocoon (transition)
 evolution_line: [Caterpie, Metapod, Butterfree]
