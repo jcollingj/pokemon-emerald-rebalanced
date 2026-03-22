@@ -5,7 +5,17 @@ on:
     branches:
       - master
       - upcoming
+    paths-ignore:
+      - 'docs/**'
+      - 'pokemon-designs/**'
+      - '*.md'
+      - '.claude/**'
   pull_request:
+    paths-ignore:
+      - 'docs/**'
+      - 'pokemon-designs/**'
+      - '*.md'
+      - '.claude/**'
 
 jobs:
   build:
