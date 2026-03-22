@@ -34,7 +34,7 @@ Swift Swim (Speed doubles in rain)
 | 1 | Withdraw | Water | +1 Def utility |
 | 8 | Ancient Power | Rock | Dual STAB, build turns on |
 | 12 | Bite | Dark | Coverage for Psychic/Ghost |
-| 16 | Rain Dance | Water | Sets own rain, evolution level |
+| 16 | Rain Dance | Water | Sets own rain, Swift Swim activates |
 
 ## Ideal Items
 1. White Herb
