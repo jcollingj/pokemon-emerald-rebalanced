@@ -211,10 +211,20 @@ designed: 0
 ### Team Aqua Grunt — MANDATORY
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Poochyena | 10 | | | |
-| Carvanha | 9 | | | |
-**Status:** not_started
-**Notes:** Story battle. 2 Pokemon, needs expansion to 3-4. Should feel threatening.
+| Carvanha | 9 | | Strong Jaw | Bite, Leer, Aqua Jet |
+| Tentacool | 10 | | Poison Heal | Poison Sting, Water Gun, Whirlpool |
+| Corphish | 10 | | Sheer Force | Vise Grip, Leer, Bite |
+| Poochyena | 11 | | Guts | Quick Attack, Bite, Scary Face |
+
+**Status:** designed
+
+**Design Notes:**
+- **Carvanha (lead):** Fast opener at 75 Spe. Opens with Leer to chip Defense, then threatens with Strong Jaw-boosted Bite (STAB Dark, 180 effective BP off a L9 Pokemon) or Aqua Jet for priority. Teaches the player that Team Aqua Pokemon are speed-oriented and hit hard.
+- **Tentacool (middle):** The annoying pivot. Whirlpool traps the player's Pokemon (buffed: traps + Atk -1), then stacks Poison Sting chip. 100 base SpDef means it tanks special hits. Forces the player to burn turns while their Pokemon can't escape — a skill-check that teaches what Tentacool does.
+- **Corphish (middle):** Raw bruiser. Sheer Force-boosted Bite (flinch effect converted to 78 BP, plus STAB Dark = 117 effective) hits hard at L10. Vise Grip is the backup if they're in a bad matchup. Reinforces the Water/Dark Team Aqua identity.
+- **Poochyena (closer):** 85 HP bulk makes this the last mon standing feel surprisingly tanky. Quick Attack priority and Bite STAB force the player to close out efficiently. Scary Face on the switch-in slows the player's mon, giving it at least one extra Bite turn. Guts synergy is flavor — no item to activate it here, but the threat of status is thematic.
+
+**Team Identity:** This team teaches three things: Water/Dark is fast and powerful (Carvanha), Aqua types can lock you down (Tentacool trapping), and Dark STAB hits hard across multiple Pokemon (Carvanha + Corphish + Poochyena). The player should feel like they survived a real fight, not a pushover.
 
 ### Lyle (Bug Catcher) — Optional
 | Pokemon | Level | Item | Ability | Moves |
