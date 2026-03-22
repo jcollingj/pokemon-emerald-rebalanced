@@ -1,7 +1,7 @@
 ---
 name: Cascoon
 dex_number: 268
-status: designed
+status: implemented
 ability: Shed Skin
 role: Cocoon (transitional)
 design_doc: docs/game-design/wurmple-evolutions.md

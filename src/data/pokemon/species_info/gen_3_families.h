@@ -1676,11 +1676,11 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_CASCOON] =
     {
         .baseHP        = 50,
-        .baseAttack    = 50,
-        .baseDefense   = 65,
+        .baseAttack    = 35,
+        .baseDefense   = 70,
         .baseSpeed     = 15,
         .baseSpAttack  = 25,
-        .baseSpDefense = 45,
+        .baseSpDefense = 50,
         .types = MON_TYPES(TYPE_BUG),
         .catchRate = 120,
     #if P_UPDATED_EXP_YIELDS >= GEN_7
