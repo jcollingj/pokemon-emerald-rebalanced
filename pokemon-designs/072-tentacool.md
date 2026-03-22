@@ -1,7 +1,7 @@
 ---
 name: Tentacool
 dex_number: 72
-status: designed
+status: implemented
 ability: Poison Heal
 role: Trapping Poison Tank
 ---
