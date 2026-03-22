@@ -1,7 +1,7 @@
 ---
 name: Hariyama
 dex_number: 297
-status: designed
+status: implemented
 ability: Iron Fist
 role: Iron Fist Elemental Brawler
 evolution_line: [Makuhita, Hariyama]

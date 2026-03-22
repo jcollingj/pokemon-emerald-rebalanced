@@ -1,7 +1,7 @@
 ---
 name: Nincada
 dex_number: 290
-status: designed
+status: implemented
 ability: Speed Boost
 role: Speed Ramp Harasser
 ideal_items: Lum Berry, Eviolite, Sitrus Berry

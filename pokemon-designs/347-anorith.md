@@ -1,7 +1,7 @@
 ---
 name: Anorith
 dex_number: 347
-status: designed
+status: implemented
 ability: Tough Claws
 role: Contact Wallbreaker
 ideal_items: Choice Band, Life Orb, Assault Vest

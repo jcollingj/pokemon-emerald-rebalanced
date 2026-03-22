@@ -1,7 +1,7 @@
 ---
 name: Seedot
 dex_number: 273
-status: designed
+status: implemented
 ability: Contrary
 role: Escalating Special Sweeper (early stage)
 ideal_items: Oran Berry

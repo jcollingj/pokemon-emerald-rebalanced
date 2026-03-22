@@ -1,7 +1,7 @@
 ---
 name: Makuhita
 dex_number: 296
-status: designed
+status: implemented
 ability: Iron Fist
 role: Iron Fist Elemental Brawler
 evolution_line: [Makuhita, Hariyama]

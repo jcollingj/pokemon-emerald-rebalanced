@@ -1,7 +1,7 @@
 ---
 name: Lairon
 dex_number: 305
-status: designed
+status: implemented
 ---
 
 # Lairon
