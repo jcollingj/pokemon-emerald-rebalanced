@@ -1,7 +1,7 @@
 ---
 name: Shedinja
 dex_number: 292
-status: designed
+status: implemented
 ability: Wonder Guard
 role: Wonder Guard Priority Assassin
 ideal_items: Lum Berry, Jaboca Berry, Eject Button

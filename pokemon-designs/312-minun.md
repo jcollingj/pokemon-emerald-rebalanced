@@ -1,7 +1,7 @@
 ---
 name: Minun
 dex_number: 312
-status: designed
+status: implemented
 ability: Friend Guard
 role: Bodyguard Tank
 ideal_items: Leftovers, Light Clay, Sitrus Berry

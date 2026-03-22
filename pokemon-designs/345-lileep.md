@@ -1,7 +1,7 @@
 ---
 name: Lileep
 dex_number: 345
-status: designed
+status: implemented
 ability: Storm Drain
 role: Immovable Special Tank
 ideal_items: Big Root, Leftovers, Assault Vest

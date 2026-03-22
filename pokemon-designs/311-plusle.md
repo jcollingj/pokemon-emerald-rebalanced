@@ -1,7 +1,7 @@
 ---
 name: Plusle
 dex_number: 311
-status: designed
+status: implemented
 ability: Plus
 role: Slow Artillery Cannon
 ideal_items: Choice Specs, Life Orb, Focus Sash

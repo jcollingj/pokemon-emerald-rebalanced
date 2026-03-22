@@ -1,7 +1,7 @@
 ---
 name: Nuzleaf
 dex_number: 274
-status: designed
+status: implemented
 ability: Contrary
 role: Escalating Special Sweeper (mid stage)
 ideal_items: Eviolite

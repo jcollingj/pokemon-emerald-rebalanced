@@ -1,7 +1,7 @@
 ---
 name: Wingull
 dex_number: 278
-status: designed
+status: implemented
 ability: Drizzle
 role: Rain Setter
 ideal_items: Damp Rock, Leftovers, Sitrus Berry

@@ -1,7 +1,7 @@
 ---
 name: Aggron
 dex_number: 306
-status: designed
+status: implemented
 ---
 
 # Aggron

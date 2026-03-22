@@ -1,7 +1,7 @@
 ---
 name: Aron
 dex_number: 304
-status: designed
+status: implemented
 ---
 
 # Aron

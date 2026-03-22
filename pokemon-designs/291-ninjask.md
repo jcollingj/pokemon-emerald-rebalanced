@@ -1,7 +1,7 @@
 ---
 name: Ninjask
 dex_number: 291
-status: designed
+status: implemented
 ability: Speed Boost
 role: Speed Boost Sweeper / Baton Passer
 ideal_items: Choice Band, Focus Sash, Salac Berry

@@ -1,7 +1,7 @@
 ---
 name: Shiftry
 dex_number: 275
-status: designed
+status: implemented
 ability: Contrary
 role: Escalating Special Sweeper
 ideal_items: Life Orb, Choice Specs, Assault Vest

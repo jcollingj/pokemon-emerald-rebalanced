@@ -1,7 +1,7 @@
 ---
 name: Nosepass
 dex_number: 299
-status: designed
+status: implemented
 ability: Sand Force
 role: Sand Fortress / Defensive Pivot
 ideal_items: Assault Vest, Leftovers, Smooth Rock
