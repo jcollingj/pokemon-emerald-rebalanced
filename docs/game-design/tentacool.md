@@ -74,7 +74,7 @@ The stat redistribution reflects the shift from fast pivot to stationary tank:
 
 ## Evolution
 
-Evolves at level **16** (changed from vanilla 30). This is a 2-stage line — evolving at 16 keeps it consistent with other 2-stage lines.
+Evolves at level **30** (vanilla). Tentacool is intentionally strong at its natural level — Poison Heal + Whirlpool makes it viable and fun well before evolution.
 
 ## Learnset
 
@@ -86,13 +86,13 @@ Evolves at level **16** (changed from vanilla 30). This is a 2-stage line — ev
 | 1 | Water Gun | 40 | Water | Basic Water STAB |
 | 8 | **Whirlpool** | 35 | Water | First synergy move — traps opponent + lowers Atk. Build turns on: trap them, heal with Poison Heal, outlast. |
 | 12 | **Acid Spray** | 40 | Poison | Guaranteed -2 SpDef. Trapped opponents melt after this. |
-| 16 | **Scald** | 80 | Water | Evolution power spike. 30% burn + Water STAB. |
+| 16 | **Scald** | 80 | Water | Strong STAB + 30% burn well before evolution at 30. Tentacool is viable here. |
 
-### Tentacruel (evolves at 16)
+### Tentacruel (evolves at 30)
 
 | Level | Move | BP | Type | Purpose |
 |-------|------|----|------|---------|
-| 16 | **Scald** | 80 | Water | Evolution reward. Reliable STAB + burn chance cripples physical attackers that got trapped. |
+| 16 | **Scald** | 80 | Water | Carried over from Tentacool. Reliable STAB + burn chance cripples physical attackers that got trapped. |
 | 21 | **Knock Off** | 65 | Dark | Remove opponent items. Huge utility — strip Leftovers from trapped targets so they can't heal. |
 | 27 | **Sludge Bomb** | 90 | Poison | Primary Poison STAB. 30% poison chance — poisoned targets take Venoshock later. |
 | 33 | **Recover** | -- | Normal | Direct healing. Stacks with Poison Heal for near-unkillable sustain. For those turns where you need to top off immediately. |
