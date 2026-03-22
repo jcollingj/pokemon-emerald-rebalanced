@@ -1,7 +1,7 @@
 ---
 name: Noctowl
 dex_number: 164
-status: designed
+status: implemented
 ability: Tinted Lens
 role: Unresisted Special Attacker
 ideal_items: Choice Specs, Life Orb, Leftovers
