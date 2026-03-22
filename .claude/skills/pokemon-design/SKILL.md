@@ -109,6 +109,7 @@ This schedule is a **rough pacing guide**, not a strict rule. Individual Pokemon
 - The learnset should feel like it has a rhythm — new moves spread out, not all front-loaded or back-loaded.
 - Synergy moves should show up early enough that the build feels fun to use, not just at endgame.
 - Evolution levels are natural moments for a power spike, so lean into that when it fits.
+- **Err on the side of more moves, not fewer.** Pokemon should learn solid moves early and have a complete-feeling build by L24-28. Don't hold back good moves until L40+. A Pokemon should have 2-3 strong moves by the mid-20s.
 - **Level-up moves must be thematically natural.** The level-up learnset should contain moves the Pokemon would logically develop on its own — STAB moves, signature moves, and thematically fitting utility. TM-quality coverage moves (Thunderbolt, Ice Beam, Flamethrower, Earthquake, etc.) belong in the teachable learnset, not level-up. A cat doesn't naturally learn Thunderbolt.
 - **Don't front-load the best move.** The strongest STAB move (e.g., Return at 102 BP) is a payoff — it goes in the L27+ range. Early synergy moves (L8, L12) should be weaker moves that introduce the build concept, not the final nuke.
 
