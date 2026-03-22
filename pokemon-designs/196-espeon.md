@@ -1,7 +1,7 @@
 ---
 name: Espeon
 dex_number: 196
-status: implemented
+status: designed
 ability: Magic Bounce
 role: Setup Sweeper / Magic Bounce Support
 evolution: Eevee + High Friendship (day)

@@ -1,7 +1,7 @@
 ---
 name: Umbreon
 dex_number: 197
-status: implemented
+status: designed
 ability: Synchronize / Prankster (hidden)
 role: Defensive Wall
 evolution: Eevee + High Friendship (night)

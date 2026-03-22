@@ -1,7 +1,7 @@
 ---
 name: Flareon
 dex_number: 136
-status: implemented
+status: designed
 ability: Guts / Flash Fire / Reckless (hidden)
 role: Physical Fire Attacker
 evolution: Eevee + Fire Stone
