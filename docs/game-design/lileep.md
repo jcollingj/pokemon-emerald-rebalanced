@@ -53,7 +53,7 @@ Minor SpA bump so Giga Drain and Ancient Power feel meaningful early. Lileep is 
 
 ## Learnset
 
-### Lileep (evolves at 16)
+### Lileep (evolves at 40)
 
 | Level | Move | BP | Type | Purpose |
 |-------|------|----|------|---------|
@@ -61,13 +61,13 @@ Minor SpA bump so Giga Drain and Ancient Power feel meaningful early. Lileep is 
 | 1 | Wrap | 15 | Normal | Trapping utility |
 | 8 | **Giga Drain** | 75 | Grass | First synergy move — drain recovery begins. Build turns on. |
 | 12 | **Ancient Power** | 60 | Rock | Rock STAB + 10% omniboost. Both STABs online. |
-| 16 | **Ingrain** | — | Grass | Evolution move. Passive recovery layer stacks with Giga Drain. |
+| 16 | **Ingrain** | — | Grass | Learned by Lileep at 16, carried over on evolution. Passive recovery layer stacks with Giga Drain. |
 
-### Cradily (evolves from Lileep at 16)
+### Cradily (evolves from Lileep at 40)
 
 | Level | Move | BP | Type | Purpose |
 |-------|------|----|------|---------|
-| 16 | **Ingrain** | — | Grass | Evolution reward — recovery anchoring begins |
+| 1 | **Ingrain** | — | Grass | Carry-over from Lileep (learned at 16) — recovery anchoring begins |
 | 21 | **Amnesia** | — | Psychic | +2 SpDef. Already high SpDef becomes nearly unbreakable. |
 | 27 | **Earth Power** | 90 | Ground | Coverage — hits Steel, Fire, Poison that threaten Cradily. |
 | 33 | **Hex** | 65 | Ghost | Coverage — doubles to 130 BP on statused targets, pairs with Toxic. |
