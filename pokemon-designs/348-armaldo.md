@@ -1,7 +1,7 @@
 ---
 name: Armaldo
 dex_number: 348
-status: designed
+status: implemented
 ability: Tough Claws
 role: Contact Wallbreaker
 ideal_items: Choice Band, Life Orb, Assault Vest
@@ -30,16 +30,15 @@ Armaldo is a slow, armored wallbreaker that uses Tough Claws (1.3x contact) to t
 
 ## Learnset
 
+Inherits all Anorith moves at L1 (Scratch, Harden, Fury Cutter, Metal Claw, Rock Blast, X-Scissor, Aqua Jet, Stone Edge). Post-evolution moves:
+
 | Level | Move | BP | Type | Contact? | Purpose |
 |-------|------|----|------|----------|---------|
-| 16 | X-Scissor | 80 | Bug | Yes (156 w/ STAB) | Evolution reward |
-| 21 | Aqua Tail | 90 | Water | Yes (117) | Water coverage |
-| 24 | Aqua Jet | 40 | Water | Yes (52) | +1 priority — patches Speed |
-| 27 | Stone Edge | 100 | Rock | Yes (195 w/ STAB) | Rock STAB nuke |
-| 33 | Brick Break | 75 | Fighting | Yes (97) | Fighting coverage |
-| 36 | Earthquake | 100 | Ground | No | Ground coverage |
-| 42 | Liquidation | 85 | Water | Yes (110) | Upgraded Water move |
-| 48 | Swords Dance | — | Normal | — | Setup option |
+| 42 | Aqua Tail | 90 | Water | Yes (117) | Water coverage |
+| 46 | Brick Break | 75 | Fighting | Yes (97) | Fighting coverage |
+| 52 | Liquidation | 85 | Water | Yes (110) | Upgraded Water move |
+| 56 | Earthquake | 100 | Ground | No | Ground coverage |
+| 62 | Swords Dance | — | Normal | — | Late-game setup |
 
 ## Ideal Items
 1. Choice Band — 195 effective BP Stone Edge off 187 Atk
