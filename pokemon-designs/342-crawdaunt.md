@@ -1,7 +1,7 @@
 ---
 name: Crawdaunt
 dex_number: 342
-status: designed
+status: implemented
 ability: Sheer Force
 role: Setup Bruiser
 ideal_items: Life Orb, Choice Band, Sitrus Berry

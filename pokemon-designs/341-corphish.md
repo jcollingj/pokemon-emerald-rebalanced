@@ -1,7 +1,7 @@
 ---
 name: Corphish
 dex_number: 341
-status: designed
+status: implemented
 ability: Sheer Force
 role: Setup Bruiser (pre-evo)
 ideal_items: Life Orb, Eviolite, Sitrus Berry
