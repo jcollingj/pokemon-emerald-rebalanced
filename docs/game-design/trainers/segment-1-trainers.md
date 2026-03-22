@@ -64,11 +64,43 @@ designed: 0
 ## Route 103
 
 ### Rival (Brendan/May) — MANDATORY
+
+> Team varies based on player's starter choice. Rival always leads with the starter counter, then Zigzagoon, then Wingull.
+
+#### Scenario A: Player chose Mudkip → Rival has Treecko
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Starter counter | 5 | | | |
-**Status:** not_started
-**Notes:** First rival battle. Only 1 Pokemon currently — consider expanding?
+| Treecko | 7 | None | Unburden | Pound, Leer, Razor Leaf |
+| Zigzagoon | 6 | None | Pickup | Tackle, Growl, Sand Attack |
+| Wingull | 5 | None | Drizzle | Water Gun, Growl |
+
+#### Scenario B: Player chose Treecko → Rival has Torchic
+
+| Pokemon | Level | Item | Ability | Moves |
+|---------|-------|------|---------|-------|
+| Torchic | 7 | None | Speed Boost | Scratch, Growl, Bulk Up, Ember |
+| Zigzagoon | 6 | None | Pickup | Tackle, Growl, Sand Attack |
+| Wingull | 5 | None | Drizzle | Water Gun, Growl |
+
+#### Scenario C: Player chose Torchic → Rival has Mudkip
+
+| Pokemon | Level | Item | Ability | Moves |
+|---------|-------|------|---------|-------|
+| Mudkip | 7 | None | Rain Dish | Tackle, Growl, Mud-Slap |
+| Zigzagoon | 6 | None | Pickup | Tackle, Growl, Sand Attack |
+| Wingull | 5 | None | Drizzle | Water Gun, Growl |
+
+**Status:** designed
+
+**Design notes:**
+- **Treecko** leads the Unburden identity immediately — physical hitter with high-crit Razor Leaf even before the item-consumption combo unlocks
+- **Torchic** shows off the Speed Boost engine early — Bulk Up on turn 1 into Ember is real pressure, and the player sees Speed Boost ticking every turn even at this level
+- **Mudkip** brings Mud-Slap (accuracy drop) + Rain Dish — sets up the defensive layering theme even without Rain Dance yet; if Wingull's Drizzle is active, Rain Dish heals Mudkip passively for extra tension
+- **Zigzagoon** carries no item to activate Pickup's Multiscale-at-full-HP: the first hit does half damage, which surprises the player and teaches the Belly Drum build identity early. Cannot use Belly Drum yet (L14) but the behavior is already visible.
+- **Wingull** is the surprise — found on Route 103 water, Drizzle activates on switch-in, immediately boosting Water Gun to 60 effective power. Teaches weather mechanics at the very start of the game. In Scenario C, Wingull's rain also activates Mudkip's Rain Dish, creating emergent synergy the player can observe.
+- No items on any Pokemon — keeps the fight readable for new players while still showcasing each Pokemon's build identity
+- Level curve (7 / 6 / 5) ensures the fight is a genuine challenge without being insurmountable with a solo starter
 
 ### Daisy (Aroma Lady) — Optional
 | Pokemon | Level | Item | Ability | Moves |
