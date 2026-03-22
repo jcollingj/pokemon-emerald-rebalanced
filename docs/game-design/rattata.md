@@ -53,7 +53,7 @@ Slightly punchier. Rattata gets Bite at L8 and it needs to feel rewarding immedi
 
 ## Learnset
 
-### Rattata (evolves at 16)
+### Rattata (evolves at 20, vanilla)
 
 | Level | Move | BP | Type | Strong Jaw? | Purpose |
 |-------|------|----|------|-------------|---------|
@@ -64,7 +64,7 @@ Slightly punchier. Rattata gets Bite at L8 and it needs to feel rewarding immedi
 | 12 | **Hyper Fang** | 80 | Normal | **Yes → 120, STAB → 180** | Signature nuke. The build is real now. |
 | 16 | **Fire Fang** | 65 | Fire | **Yes → 97** | Evolution reward. Steel/Ice/Grass coverage. |
 
-### Raticate (evolves from Rattata at 16)
+### Raticate (evolves from Rattata at level 20, vanilla)
 
 | Level | Move | BP | Type | Strong Jaw? | Purpose |
 |-------|------|----|------|-------------|---------|
