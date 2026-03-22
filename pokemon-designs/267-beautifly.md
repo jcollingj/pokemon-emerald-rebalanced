@@ -1,7 +1,7 @@
 ---
 name: Beautifly
 dex_number: 267
-status: designed
+status: implemented
 ability: Tinted Lens
 role: Quiver Dance Special Sweeper
 ideal_items: Wide Lens, Leftovers, Focus Sash
