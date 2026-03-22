@@ -1,7 +1,7 @@
 ---
 name: Starmie
 dex_number: 121
-status: designed
+status: implemented
 ability: Illuminate (reworked — beam moves 1.3x)
 role: Beam Mage / Light Cannon
 evolution: from Staryu via Water Stone

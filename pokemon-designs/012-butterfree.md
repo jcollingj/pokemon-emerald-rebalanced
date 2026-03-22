@@ -1,7 +1,7 @@
 ---
 name: Butterfree
 dex_number: 12
-status: designed
+status: implemented
 ability: Compound Eyes / Tinted Lens
 role: Sleep-Setup Sweeper
 ideal_items: Leftovers, Big Root, Choice Specs

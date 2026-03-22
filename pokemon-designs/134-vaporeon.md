@@ -1,7 +1,7 @@
 ---
 name: Vaporeon
 dex_number: 134
-status: designed
+status: implemented
 ability: Water Absorb
 role: Bulky Water Tank
 evolution: Eevee + Water Stone

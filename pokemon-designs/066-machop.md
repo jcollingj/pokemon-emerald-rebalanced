@@ -1,7 +1,7 @@
 ---
 name: Machop
 dex_number: 66
-status: designed
+status: implemented
 ability: No Guard
 role: Confusion-Locking Brawler (base stage)
 ideal_items: Eviolite

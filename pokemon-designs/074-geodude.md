@@ -1,7 +1,7 @@
 ---
 name: Geodude
 dex_number: 74
-status: designed
+status: implemented
 ---
 
 # Geodude

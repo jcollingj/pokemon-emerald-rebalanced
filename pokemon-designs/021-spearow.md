@@ -1,7 +1,7 @@
 ---
 name: Spearow
 dex_number: 21
-status: designed
+status: implemented
 ability: Sniper
 role: Crit Glass Cannon
 ideal_items: Scope Lens, Choice Band, Sharp Beak

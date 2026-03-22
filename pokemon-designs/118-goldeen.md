@@ -1,7 +1,7 @@
 ---
 name: Goldeen
 dex_number: 118
-status: designed
+status: implemented
 ability: Lancer (custom)
 role: Horn Specialist Physical Attacker (pre-evo)
 ideal_items: Life Orb, Choice Band, Mystic Water
