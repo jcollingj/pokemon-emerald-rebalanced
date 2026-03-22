@@ -1,7 +1,7 @@
 ---
 name: Roselia
 dex_number: 315
-status: designed
+status: implemented
 ability: Triage
 role: Priority Drain Mage
 ideal_items: Big Root, Black Sludge, Wise Glasses
