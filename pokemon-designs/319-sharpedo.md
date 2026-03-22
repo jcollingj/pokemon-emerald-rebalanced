@@ -1,7 +1,7 @@
 ---
 name: Sharpedo
 dex_number: 319
-status: designed
+status: implemented
 ability: Strong Jaw
 role: STAB Bite Assassin
 ideal_items: Choice Band, Choice Scarf, Life Orb

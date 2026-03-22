@@ -1,7 +1,7 @@
 ---
 name: Carvanha
 dex_number: 318
-status: designed
+status: implemented
 ability: Strong Jaw
 role: STAB Bite Assassin (pre-evo)
 ideal_items: Choice Band, Life Orb, Focus Sash
