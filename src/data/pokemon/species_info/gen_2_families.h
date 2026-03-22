@@ -8026,7 +8026,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     [SPECIES_LARVITAR] =
     {
         .baseHP        = 50,
-        .baseAttack    = 64,
+        .baseAttack    = 68,
         .baseDefense   = 50,
         .baseSpeed     = 41,
         .baseSpAttack  = 45,
@@ -8040,7 +8040,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_GUTS, ABILITY_NONE, ABILITY_SAND_STREAM },
+        .abilities = { ABILITY_SAND_STREAM, ABILITY_GUTS, ABILITY_UNNERVE },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Larvitar"),
         .cryId = CRY_LARVITAR,
@@ -8090,13 +8090,13 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sLarvitarLevelUpLearnset,
         .teachableLearnset = sLarvitarTeachableLearnset,
         .eggMoveLearnset = sLarvitarEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_PUPITAR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_PUPITAR}),
     },
 
     [SPECIES_PUPITAR] =
     {
         .baseHP        = 70,
-        .baseAttack    = 84,
+        .baseAttack    = 88,
         .baseDefense   = 70,
         .baseSpeed     = 51,
         .baseSpAttack  = 65,
@@ -8110,7 +8110,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_SHED_SKIN, ABILITY_NONE, ABILITY_NONE },
+        .abilities = { ABILITY_SAND_STREAM, ABILITY_GUTS, ABILITY_UNNERVE },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Pupitar"),
         .cryId = CRY_PUPITAR,
@@ -8157,7 +8157,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         )
         .levelUpLearnset = sPupitarLevelUpLearnset,
         .teachableLearnset = sPupitarTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_TYRANITAR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_TYRANITAR}),
     },
 
     [SPECIES_TYRANITAR] =
@@ -8183,7 +8183,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_SAND_STREAM, ABILITY_NONE, ABILITY_UNNERVE },
+        .abilities = { ABILITY_SAND_STREAM, ABILITY_GUTS, ABILITY_UNNERVE },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Tyranitar"),
         .cryId = CRY_TYRANITAR,

@@ -1,7 +1,7 @@
 ---
 name: Pupitar
 dex_number: 247
-status: designed
+status: implemented
 ---
 
 # Pupitar
