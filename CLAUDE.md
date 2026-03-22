@@ -2,6 +2,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## On Session Start
+
+**Always check GitHub issues first.** At the start of every session, run:
+```bash
+gh issue list --repo jcollingj/pokemon-emerald-rebalanced --label pokedesign --state open
+```
+Find issues that need work — design, implementation, or review. The goal is to close all open issues. Prioritize issues that are ready to implement over ones that still need design.
+
 ## Build Commands
 
 This is a Pokemon Emerald ROM hack base built on pokeemerald-expansion. Use these commands for development:
