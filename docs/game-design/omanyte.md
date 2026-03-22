@@ -53,7 +53,7 @@ Minimal touch. 115 SpA is already scary. 125 Def lets it survive a physical hit 
 
 ## Learnset
 
-### Omanyte (evolves at 16)
+### Omanyte (evolves at 40)
 
 | Level | Move | BP | Type | Purpose |
 |-------|------|----|------|---------|
@@ -63,7 +63,7 @@ Minimal touch. 115 SpA is already scary. 125 Def lets it survive a physical hit 
 | 12 | **Bite** | 60 | Dark | Coverage for Psychic/Ghost. Also on Roxanne's Omanyte at L12. |
 | 16 | **Rain Dance** | -- | Water | Evolution level. Sets its own rain -- Swift Swim activates. Self-sufficient. |
 
-### Omastar (evolves from Omanyte at 16)
+### Omastar (evolves from Omanyte at 40)
 
 | Level | Move | BP | Type | Purpose |
 |-------|------|----|------|---------|
