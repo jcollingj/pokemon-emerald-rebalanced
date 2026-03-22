@@ -1,7 +1,7 @@
 ---
 name: Eevee
 dex_number: 133
-status: designed
+status: implemented
 ability: Adaptability
 role: Baton Pass Setup / Support
 encounter: Route 116 (L7-8, rare ~1%)

@@ -1,7 +1,7 @@
 ---
 name: Voltorb
 dex_number: 100
-status: designed
+status: implemented
 ability: Galvanize
 role: Electric Detonator (pre-evolution)
 design_doc: docs/game-design/voltorb.md

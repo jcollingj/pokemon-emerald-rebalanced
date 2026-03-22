@@ -1,7 +1,7 @@
 ---
 name: Beedrill
 dex_number: 15
-status: designed
+status: implemented
 ability: Merciless
 role: Poison Setup Sweeper
 ideal_items: Loaded Dice, Scope Lens, Choice Band

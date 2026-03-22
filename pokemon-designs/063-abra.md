@@ -1,7 +1,7 @@
 ---
 name: Abra
 dex_number: 63
-status: designed
+status: implemented
 ability: Magic Guard / Inner Focus / Synchronize (hidden)
 role: Nuclear Special Sweeper (pre-evolution)
 encounter: Route 116 (L7)

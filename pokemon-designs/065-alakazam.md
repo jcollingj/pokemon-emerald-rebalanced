@@ -1,7 +1,7 @@
 ---
 name: Alakazam
 dex_number: 65
-status: designed
+status: implemented
 ability: Magic Guard / Inner Focus / Synchronize (hidden)
 role: Nuclear Special Sweeper
 ---

@@ -1,7 +1,7 @@
 ---
 name: Machoke
 dex_number: 67
-status: designed
+status: implemented
 ability: No Guard
 role: Confusion-Locking Brawler (mid stage)
 ideal_items: Eviolite

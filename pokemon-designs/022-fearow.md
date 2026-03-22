@@ -1,7 +1,7 @@
 ---
 name: Fearow
 dex_number: 22
-status: designed
+status: implemented
 ability: Sniper
 role: Crit Glass Cannon
 ideal_items: Scope Lens, Choice Band, Sharp Beak

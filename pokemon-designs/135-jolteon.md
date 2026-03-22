@@ -1,7 +1,7 @@
 ---
 name: Jolteon
 dex_number: 135
-status: designed
+status: implemented
 ability: Volt Absorb
 role: Pivot Sweeper
 evolution: Eevee + Thunder Stone

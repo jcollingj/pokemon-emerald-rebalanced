@@ -1,7 +1,7 @@
 ---
 name: Rattata
 dex_number: 19
-status: designed
+status: implemented
 ---
 
 # Rattata

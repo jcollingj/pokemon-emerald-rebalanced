@@ -1,7 +1,7 @@
 ---
 name: Caterpie
 dex_number: 10
-status: designed
+status: implemented
 ability: Compound Eyes / Shield Dust
 role: Early Bug (pre-evolution)
 evolution_line: [Caterpie, Metapod, Butterfree]

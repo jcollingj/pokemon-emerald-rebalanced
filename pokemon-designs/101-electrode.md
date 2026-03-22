@@ -1,7 +1,7 @@
 ---
 name: Electrode
 dex_number: 101
-status: designed
+status: implemented
 ability: Galvanize
 role: Electric Detonator
 design_doc: docs/game-design/voltorb.md
