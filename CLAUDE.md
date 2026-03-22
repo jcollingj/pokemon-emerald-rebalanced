@@ -10,6 +10,21 @@ gh issue list --repo jcollingj/pokemon-emerald-rebalanced --label pokedesign --s
 ```
 Find issues that need work — design, implementation, or review. The goal is to close all open issues. Prioritize issues that are ready to implement over ones that still need design.
 
+## Segment Workflow
+
+We work segment by segment through the game. Each segment follows a **design-first, then implement** approach:
+
+1. **Delineate the segment** — Define routes, towns, caves. Create a segment design doc.
+2. **Design the gym leader** — Full 6-Pokemon team with strategy, items, abilities.
+3. **Design all Pokemon** — Every encounter, fishing, surfing, and trainer Pokemon gets a design doc.
+4. **Design held items** — What items are findable in this segment? TMs, competitive items, etc.
+5. **Design all trainers** — Every trainer gets a 3-6 Pokemon team from the local area.
+6. **Review & approve** — Jacob reviews all designs. Iterate on feedback.
+7. **Implement** — Only after ALL designs are approved. Batch implement via @claude.
+
+**During design phase: markdown output only. No code changes.**
+**During implementation phase: code changes, must build successfully.**
+
 ## Build Commands
 
 This is a Pokemon Emerald ROM hack base built on pokeemerald-expansion. Use these commands for development:
