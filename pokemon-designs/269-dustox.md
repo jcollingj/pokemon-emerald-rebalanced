@@ -1,7 +1,7 @@
 ---
 name: Dustox
 dex_number: 269
-status: designed
+status: implemented
 ability: Prankster
 role: Prankster Status Controller
 ideal_items: Black Sludge, Light Clay, Leftovers
