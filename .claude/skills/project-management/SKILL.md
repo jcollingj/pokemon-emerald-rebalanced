@@ -69,6 +69,9 @@ Each game segment follows this repeatable process:
 - Teams should be representative of what the player can catch nearby
 - A few "surprise" Pokemon are fine but most should be local
 - Competitive movesets — every trainer is a mini-puzzle
+- **One file per trainer** at `docs/game-design/trainers/segment-N/<trainername>.md` — avoids merge conflicts
+- Summary tracker at `docs/game-design/trainers/segment-N-trainers.md`
+- Individual trainer issues create individual PRs — never batch all trainers in one PR
 
 ### Step 6: Design Review (I drive this)
 
