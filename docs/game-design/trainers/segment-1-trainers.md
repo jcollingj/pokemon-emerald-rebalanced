@@ -3,7 +3,7 @@ segment: 1
 name: Start to Rustboro Gym
 status: not_started
 total_trainers: 39
-designed: 0
+designed: 2
 ---
 
 # Segment 1 Trainers: Start to Rustboro Gym
@@ -217,22 +217,34 @@ designed: 0
 **Notes:** Story battle. 2 Pokemon, needs expansion to 3-4. Should feel threatening.
 
 ### Lyle (Bug Catcher) — Optional
+**Theme:** Beautifly path — aggressive Technician multi-hitters. Hit harder than they look.
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Wurmple | 6 | | | |
-| Caterpie | 6 | | | |
-| Weedle | 6 | | | |
-**Status:** not_started
-**Notes:** 3 basic bugs. Needs evolution and movesets.
+| Wurmple | 6 | — | Technician | Tackle, String Shot, Poison Sting |
+| Shroomish | 8 | Oran Berry | Technician | Tackle, Absorb, Bullet Seed |
+| Surskit | 8 | — | Swift Swim | Bubble, Quick Attack, Sweet Scent, Silver Wind |
+| Silcoon | 9 | Oran Berry | Shed Skin | Harden |
+
+**Status:** designed
+
+**Mini-puzzle:** Lyle's whole team runs Technician — moves hit 50% harder than they look. Wurmple opens with String Shot (speed drop) then Poison Sting chip; Shroomish's Bullet Seed is a 2-5 hit multi-hit surprise that can OHKO if it runs; Surskit punishes any Fire-type switch-in with Bubble and threatens random Silver Wind stat sweeps (+1 all stats on 10%); Silcoon closes by tanking hits with Harden while Shed Skin shrugs off any status the player lays down. **Solve:** Bring rock/flying to blast through the bugs, but don't lean on Fire — Surskit answers it. Ignore status against Silcoon; deal raw damage before it Hardens too many times.
+
+---
 
 ### James (Bug Catcher) — Optional
+**Theme:** Dustox path — defensive attrition. Accuracy drops, HP drain, stall you out.
+
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| Nincada | 8 | | | |
-| Nincada | 8 | | | |
-| Surskit | 7 | | | |
-**Status:** not_started
-**Notes:** 3 Pokemon. Better than Lyle's team. Needs movesets.
+| Nincada | 7 | — | Compound Eyes | Scratch, Harden, Leech Life |
+| Surskit | 7 | Oran Berry | Swift Swim | Bubble, Quick Attack, Sweet Scent |
+| Cascoon | 9 | Oran Berry | Shed Skin | Harden |
+| Nincada | 9 | — | Compound Eyes | Scratch, Leech Life, Sand Attack |
+
+**Status:** designed
+
+**Mini-puzzle:** James's team is built to outlast you. Opening Nincada Hardens up then Leech Lifes for sustained drain; Surskit Sweet Scents to lower Evasion (sets up the accuracy drop chain); Cascoon walls with Harden + Shed Skin making status useless (same as Lyle's Silcoon but even bulkier — 70 Def); closing Nincada drops accuracy further with Sand Attack and drains whatever HP remains with Leech Life. By the end, your team is weakened, your accuracy is dropped, and Cascoon is still standing. **Solve:** Burst them down fast. KO Nincada before it can drain; don't let accuracy drops stack past one. Fire/Flying/Rock all work, but your window closes quickly once Sweet Scent + Sand Attack hit twice.
 
 ---
 
