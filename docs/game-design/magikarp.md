@@ -77,14 +77,14 @@ The rest of the stats are untouched. 125 Attack is excellent, 95/79/100 bulk is 
 
 Magikarp is still weak but functional. 50 Atk + Aqua Jet means it can actually contribute and trigger Moxie on weakened targets. The priority on Aqua Jet compensates for fights where 80 Speed isn't enough. This is the "earn your evolution" experience, but now you're earning it by fighting, not by hiding in the back of the party.
 
-### Gyarados (evolves at 16)
+### Gyarados (evolves at 20, vanilla)
 
 | Level | Move | BP | Type | Moxie? | Purpose |
 |-------|------|----|------|--------|---------|
 | 1 | Tackle | 40 | Normal | - | Inherited |
 | 1 | Leer | - | Normal | - | Defense drop utility |
-| 16 | **Waterfall** | 80 | Water | **Yes — reliable KO move** | Evolution reward. Physical Water STAB, 20% flinch. The primary Moxie trigger. |
-| 16 | **Bite** | 60 | Dark | **Yes — flinch + KO weak targets** | Second evolution move. 30% flinch, decent coverage. |
+| 20 | **Waterfall** | 80 | Water | **Yes — reliable KO move** | Evolution reward. Physical Water STAB, 20% flinch. The primary Moxie trigger. |
+| 20 | **Bite** | 60 | Dark | **Yes — flinch + KO weak targets** | Second evolution move. 30% flinch, decent coverage. |
 | 21 | **Dragon Dance** | - | Dragon | **Setup for sweep** | The setup move. +1 Atk / +1 Spe. Combined with Moxie, one DD + one kill = +2 Atk / +1 Spe. |
 | 27 | **Crunch** | 80 | Dark | **Yes — upgraded Bite** | Replaces Bite as Dark coverage. Hits Psychic/Ghost types that resist Water. 20% Def drop. |
 | 33 | **Ice Fang** | 65 | Ice | **Yes — Dragon/Grass coverage** | Covers Dragon and Grass types that wall Water. 10% freeze / 10% flinch. |
