@@ -17206,7 +17206,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .tmIlliterate = TRUE,
         .levelUpLearnset = sMagikarpLevelUpLearnset,
         .teachableLearnset = sMagikarpTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_GYARADOS}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_GYARADOS}),
     },
 
     [SPECIES_GYARADOS] =
@@ -17214,7 +17214,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseHP        = 95,
         .baseAttack    = 125,
         .baseDefense   = 79,
-        .baseSpeed     = 81,
+        .baseSpeed     = 86,
         .baseSpAttack  = P_UPDATED_STATS >= GEN_2 ? 60 : 100,
         .baseSpDefense = 100,
         .types = MON_TYPES(TYPE_WATER, TYPE_FLYING),
@@ -17226,7 +17226,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2, EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_NONE, ABILITY_MOXIE },
+        .abilities = { ABILITY_MOXIE, ABILITY_INTIMIDATE, ABILITY_MOLD_BREAKER },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Gyarados"),
         .cryId = CRY_GYARADOS,
