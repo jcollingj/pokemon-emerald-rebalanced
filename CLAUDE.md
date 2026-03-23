@@ -37,7 +37,7 @@ Implementation issues must be non-overlapping (no two issues touch the same file
 - Stats, abilities, AND learnset for that line — all in one issue since they're one logical unit
 - **Run in parallel** when they touch different files
 - **Run sequentially** when they touch the same file
-- Trainer issues: **1 trainer per issue** or group by route if they're in the same file
+- Trainer issues: **1 trainer per issue** — each trainer is its own atomic commit
 - Items/encounters: **1 issue per file changed**
 
 ### Example good breakdown:
