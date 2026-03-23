@@ -1,7 +1,7 @@
 ---
 name: Magcargo
 dex_number: 219
-status: not_started
+status: implemented
 ---
 
 # Magcargo
