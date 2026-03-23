@@ -31,20 +31,23 @@ We work segment by segment through the game. Each segment follows a **design-fir
 Implementation issues must be non-overlapping (no two issues touch the same file) and collectively cover everything. This allows parallel execution without merge conflicts.
 
 ### Atomic Commits
-Break large changes into **small, atomic issues** — each one should be completable in under 10 minutes by remote Claude. Don't batch 40+ Pokemon into one issue. Instead:
-- **Split by evolution line** (e.g., "implement Rattata/Raticate" not "implement all Gen 1")
+**One Pokemon evolution line per issue. One thing per commit.**
+
+- Each issue implements exactly **1 evolution line** (e.g., "implement Zubat/Golbat/Crobat")
+- Stats, abilities, AND learnset for that line — all in one issue since they're one logical unit
 - **Run in parallel** when they touch different files
-- **Run sequentially** when they touch the same file (or split the file by line range)
-- A single issue should change **at most 5-10 Pokemon** or **1-2 trainer teams**
+- **Run sequentially** when they touch the same file
+- Trainer issues: **1 trainer per issue** or group by route if they're in the same file
+- Items/encounters: **1 issue per file changed**
 
 ### Example good breakdown:
-- `implement: Rattata/Raticate stats + learnset` (2 Pokemon, ~5 min)
-- `implement: Pidgey/Pidgeotto/Pidgeot stats + learnset` (3 Pokemon, ~5 min)
-- `implement: Route 102 trainers (Calvin, Rick, Tiana, Allen)` (4 trainers, ~5 min)
+- `implement: Zubat/Golbat/Crobat stats + abilities + learnset` (1 line, ~3 min)
+- `implement: Sableye stats + abilities + learnset` (1 Pokemon, ~2 min)
+- `implement: Trainer Takao (Dewford Gym)` (1 trainer, ~2 min)
 
 ### Example bad breakdown:
-- `implement: All Gen 1 stats` (36 Pokemon, 20+ min, too large)
-- `implement: All trainers` (36 trainers, will timeout)
+- `implement: All Gen 2 stats` (11 Pokemon, too many)
+- `implement: Zubat stats` then separate `implement: Zubat learnset` (split one logical unit across issues)
 
 ## Build Commands
 
