@@ -451,8 +451,40 @@ Double Battle: No
 AI: Check Bad Move
 
 Carvanha
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 20
+Ability: Strong Jaw
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Aqua Jet
+- Bite
+- Scary Face
+
+Tentacool
+Level: 21
+Ability: Poison Heal
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Whirlpool
+- Acid Spray
+- Scald
+- Poison Sting
+
+Poochyena
+Level: 21
+Ability: Guts
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bite
+- Howl
+- Quick Attack
+- Swagger
+
+Corphish
+Level: 22
+Ability: Sheer Force
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Vise Grip
+- Aqua Jet
+- Leer
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: GRUNT
@@ -463,13 +495,41 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sharpedo
+Level: 21
+Ability: Strong Jaw
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Aqua Jet
+- Ice Fang
+- Scary Face
 
-Carvanha
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacruel @ Toxic Orb
+Level: 22
+Ability: Poison Heal
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Whirlpool
+- Scald
+- Sludge Bomb
+- Knock Off
+
+Crawdaunt
+Level: 22
+Ability: Sheer Force
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Aqua Jet
+- Brick Break
+- Swords Dance
+
+Mightyena
+Level: 23
+Ability: Guts
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Play Rough
+- Sucker Punch
+- Howl
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -1120,16 +1180,26 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Corsola
+Level: 21
+Ability: Regenerator
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Stealth Rock
+- Scald
+- Flip Turn
+- Recover
 
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Azumarill @ Sitrus Berry
+Level: 22
+Ability: Huge Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Belly Drum
+- Aqua Jet
+- Play Rough
+- Brick Break
 
 === TRAINER_AUSTINA ===
-Name: AUSTINA
+Name: KIM
 Class: Tuber F
 Pic: Tuber F
 Gender: Female
@@ -1137,9 +1207,23 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacool
+Level: 20
+Ability: Clear Body
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Acid Spray
+- Water Pulse
+- Supersonic
+- Wrap
+
+Corsola @ Oran Berry
+Level: 21
+Ability: Natural Cure
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Spike Cannon
+- Recover
+- Bubble Beam
+- Rock Blast
 
 === TRAINER_GWEN ===
 Name: GWEN
@@ -1231,13 +1315,23 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 13
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Sand Attack
-- Headbutt
-- Tail Whip
-- Surf
+Marill @ Sitrus Berry
+Level: 21
+Ability: Huge Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aqua Jet
+- Play Rough
+- Defense Curl
+- Rollout
+
+Wailmer @ Leftovers
+Level: 22
+Ability: Stamina
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Spout
+- Body Slam
+- Amnesia
+- Dive
 
 === TRAINER_SIMON ===
 Name: SIMON
@@ -2971,7 +3065,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAVID ===
-Name: DAVID
+Name: TYLER
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
@@ -2979,13 +3073,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wingull
+Level: 20
+Ability: Keen Eye
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Wing Attack
+- U-turn
+- Growl
+- Water Gun
 
-Carvanha
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacool @ Oran Berry
+Level: 21
+Ability: Poison Heal
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Whirlpool
+- Toxic
+- Acid Spray
+- Scald
 
 === TRAINER_SPENCER ===
 Name: SPENCER
@@ -5369,17 +5473,40 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Growl
 
 === TRAINER_TED ===
-Name: TED
-Class: School Kid
-Pic: School Kid M
+Name: MIRA
+Class: Psychic
+Pic: Psychic M
 Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move
 
 Ralts
-Level: 17
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Level: 21
+Ability: Synchronize
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Disable
+- Psybeam
+- Growl
+- Confusion
+
+Sableye @ Leftovers
+Level: 22
+Ability: Prankster
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Will-O-Wisp
+- Taunt
+- Feint Attack
+- Shadow Sneak
+
+Whismur
+Level: 21
+Ability: Soundproof
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Encore
+- Screech
+- Echoed Voice
+- Uproar
 
 === TRAINER_PAUL ===
 Name: PAUL
@@ -6582,7 +6709,7 @@ Level: 36
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_EDDIE ===
-Name: EDDIE
+Name: FUSE
 Class: Youngster
 Pic: Youngster
 Gender: Male
@@ -6590,13 +6717,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Voltorb
+Level: 21
+Ability: Static
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Explosion
+- Thunderbolt
+- Thunder Wave
+- Sonic Boom
 
-Zigzagoon
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Geodude
+Level: 21
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Self-Destruct
+- Rock Throw
+- Magnitude
+- Defense Curl
+
+Gulpin @ Sitrus Berry
+Level: 21
+Ability: Gluttony
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Yawn
+- Encore
+- Sludge
+- Poison Gas
 
 === TRAINER_ALLEN ===
 Name: ALLEN
@@ -7080,7 +7226,7 @@ Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JACOB ===
-Name: JACOB
+Name: BLAKE
 Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
@@ -7088,17 +7234,23 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 6
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Electrike
+Level: 22
+Ability: Surge Surfer
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Electric Terrain
+- Thunderbolt
+- Bite
+- Spark
 
-Voltorb
-Level: 6
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Magnemite
-Level: 14
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Electrike @ Terrain Extender
+Level: 23
+Ability: Surge Surfer
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Electric Terrain
+- Thunderbolt
+- Bite
+- Thunder Wave
 
 === TRAINER_ANTHONY ===
 Name: ANTHONY
@@ -7196,7 +7348,7 @@ Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JASMINE ===
-Name: JASMINE
+Name: SOFIA
 Class: Triathlete
 Pic: Cycling Triathlete F
 Gender: Female
@@ -7204,17 +7356,32 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 14
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Oddish @ Wide Lens
+Level: 22
+Ability: Effect Spore
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sleep Powder
+- Stun Spore
+- Mega Drain
+- Absorb
 
-Magnemite
-Level: 14
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Gulpin @ Black Sludge
+Level: 22
+Ability: Gluttony
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Yawn
+- Encore
+- Sludge
+- Poison Gas
 
-Voltorb
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Seviper
+Level: 23
+Ability: Infiltrator
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Poison Fang
+- Wrap
+- Glare
+- Night Slash
 
 === TRAINER_ABIGAIL_2 ===
 Name: ABIGAIL
@@ -8390,7 +8557,7 @@ Level: 18
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CORA ===
-Name: CORA
+Name: REX
 Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
@@ -8398,9 +8565,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 27
+Breloom @ Life Orb
+Level: 23
+Ability: Technician
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Mach Punch
+- Bullet Seed
+- Rock Tomb
+- Spore
+
+Crobat
+Level: 22
+Ability: Speed Boost
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Quick Attack
+- Aerial Ace
+- Bite
+- Cross Poison
+
+Sableye @ Leftovers
+Level: 23
+Ability: Prankster
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Shadow Sneak
+- Will-O-Wisp
+- Feint Attack
+- Recover
 
 === TRAINER_PAULA ===
 Name: PAULA
@@ -8722,7 +8912,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALICE ===
-Name: ALICE
+Name: BROOKE
 Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
@@ -8730,17 +8920,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pelipper @ Damp Rock
+Level: 21
+Ability: Drizzle
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Scald
+- U-turn
+- Roost
+- Wing Attack
 
-Wingull
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Horsea
+Level: 20
+Ability: Swift Swim
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bubble Beam
+- Smokescreen
+- Water Pulse
+- Agility
 
 === TRAINER_JENNY_1 ===
 Name: JENNY
@@ -9123,21 +9319,40 @@ Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARTHA ===
-Name: MARTHA
-Class: Picnicker
-Pic: Picnicker
+Name: NINA
+Class: Aroma Lady
+Pic: Aroma Lady
 Gender: Female
-Music: Girl
+Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Skitty
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacool @ Toxic Orb
+Level: 22
+Ability: Poison Heal
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Toxic
+- Whirlpool
+- Scald
+- Wrap
 
-Swablu
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dustox @ Black Sludge
+Level: 22
+Ability: Shield Dust
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Toxic
+- Protect
+- Moonblast
+- Psybeam
+
+Roselia @ Big Root
+Level: 22
+Ability: Triage
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leech Seed
+- Giga Drain
+- Toxic
+- Venoshock
 
 === TRAINER_DIANA_1 ===
 Name: DIANA
@@ -9508,7 +9723,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Helping Hand
 
 === TRAINER_HUEY ===
-Name: HUEY
+Name: DOCK
 Class: Sailor
 Pic: Sailor
 Gender: Male
@@ -9516,13 +9731,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Carvanha
+Level: 21
+Ability: Strong Jaw
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Crunch
+- Aqua Jet
+- Ice Fang
+- Scary Face
 
-Machop
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Poochyena @ Flame Orb
+Level: 22
+Ability: Guts
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Crunch
+- Facade
+- Fire Fang
+- Howl
+
+Tentacool @ Oran Berry
+Level: 21
+Ability: Poison Heal
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Scald
+- Whirlpool
+- Toxic
+- Wrap
 
 === TRAINER_EDMOND ===
 Name: EDMOND
@@ -9533,9 +9767,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Corsola @ Leftovers
+Level: 23
+Ability: Regenerator
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Stealth Rock
+- Toxic
+- Scald
+- Recover
+
+Wailmer @ Choice Specs
+Level: 24
+Ability: Stamina
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Spout
+- Body Slam
+- Scald
+- Dive
+
+Tentacool @ Toxic Orb
+Level: 23
+Ability: Poison Heal
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Whirlpool
+- Acid Spray
+- Scald
+- Poison Sting
 
 === TRAINER_ERNEST_1 ===
 Name: ERNEST
@@ -10113,17 +10370,50 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pelipper @ Damp Rock
+Level: 22
+Ability: Drizzle
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Scald
+- Wing Attack
+- Roost
+- U-turn
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Slugma
+Level: 22
+Ability: Weak Armor
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Lava Plume
+- Rock Throw
+- Yawn
+- Will-O-Wisp
+
+Breloom
+Level: 23
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mach Punch
+- Bullet Seed
+- Force Palm
+- Stun Spore
+
+Electrike
+Level: 23
+Ability: Surge Surfer
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Electric Terrain
+- Spark
+- Bite
+- Charge
 
 Grovyle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 24
+Ability: Unburden
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Acrobatics
+- Horn Leech
+- Quick Attack
+- Razor Leaf
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
@@ -10188,17 +10478,50 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pelipper @ Damp Rock
+Level: 22
+Ability: Drizzle
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Scald
+- Wing Attack
+- Roost
+- U-turn
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Slugma
+Level: 22
+Ability: Weak Armor
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Lava Plume
+- Rock Throw
+- Yawn
+- Will-O-Wisp
+
+Breloom
+Level: 23
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mach Punch
+- Bullet Seed
+- Force Palm
+- Stun Spore
+
+Electrike
+Level: 23
+Ability: Surge Surfer
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Electric Terrain
+- Spark
+- Bite
+- Charge
 
 Combusken
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 24
+Ability: Speed Boost
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Bulk Up
+- Double Kick
+- Ember
+- Quick Attack
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -10262,17 +10585,50 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pelipper @ Damp Rock
+Level: 22
+Ability: Drizzle
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Scald
+- Wing Attack
+- Roost
+- U-turn
 
 Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level: 22
+Ability: Weak Armor
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Lava Plume
+- Rock Throw
+- Yawn
+- Will-O-Wisp
+
+Breloom
+Level: 23
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mach Punch
+- Bullet Seed
+- Force Palm
+- Stun Spore
+
+Electrike
+Level: 23
+Ability: Surge Surfer
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Electric Terrain
+- Spark
+- Bite
+- Charge
 
 Marshtomp
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 24
+Ability: Torrent
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Surf
+- Earthquake
+- Mud Shot
+- Rock Slide
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: BRENDAN
@@ -10336,17 +10692,50 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pelipper @ Damp Rock
+Level: 22
+Ability: Drizzle
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Scald
+- Wing Attack
+- Roost
+- U-turn
 
 Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level: 22
+Ability: Weak Armor
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Lava Plume
+- Rock Throw
+- Yawn
+- Will-O-Wisp
+
+Breloom
+Level: 23
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mach Punch
+- Bullet Seed
+- Force Palm
+- Stun Spore
+
+Electrike
+Level: 23
+Ability: Surge Surfer
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Electric Terrain
+- Spark
+- Bite
+- Charge
 
 Grovyle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 24
+Ability: Unburden
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Acrobatics
+- Horn Leech
+- Quick Attack
+- Razor Leaf
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
@@ -10411,17 +10800,50 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pelipper @ Damp Rock
+Level: 22
+Ability: Drizzle
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Scald
+- Wing Attack
+- Roost
+- U-turn
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Slugma
+Level: 22
+Ability: Weak Armor
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Lava Plume
+- Rock Throw
+- Yawn
+- Will-O-Wisp
+
+Breloom
+Level: 23
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mach Punch
+- Bullet Seed
+- Force Palm
+- Stun Spore
+
+Electrike
+Level: 23
+Ability: Surge Surfer
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Electric Terrain
+- Spark
+- Bite
+- Charge
 
 Combusken
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 24
+Ability: Speed Boost
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Bulk Up
+- Double Kick
+- Ember
+- Quick Attack
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: MAY
@@ -10485,17 +10907,50 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pelipper @ Damp Rock
+Level: 22
+Ability: Drizzle
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Scald
+- Wing Attack
+- Roost
+- U-turn
 
 Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level: 22
+Ability: Weak Armor
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Lava Plume
+- Rock Throw
+- Yawn
+- Will-O-Wisp
+
+Breloom
+Level: 23
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mach Punch
+- Bullet Seed
+- Force Palm
+- Stun Spore
+
+Electrike
+Level: 23
+Ability: Surge Surfer
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Electric Terrain
+- Spark
+- Bite
+- Charge
 
 Marshtomp
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 24
+Ability: Torrent
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Surf
+- Earthquake
+- Mud Shot
+- Rock Slide
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
@@ -14024,7 +14479,7 @@ Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANDLER ===
-Name: CHANDLER
+Name: SAM
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -14032,30 +14487,50 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wailmer
+Level: 21
+Ability: Stamina
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Surf
+- Rollout
+- Growl
+- Water Pulse
 
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Marill @ Sitrus Berry
+Level: 20
+Ability: Huge Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aqua Jet
+- Belly Drum
+- Defense Curl
+- Rollout
 
 === TRAINER_KALEB ===
-Name: KALEB
-Class: Pokefan
-Pic: Pokefan M
+Name: RYAN
+Class: Triathlete
+Pic: Cycling Triathlete M
 Gender: Male
-Music: Twins
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Minun @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Plusle @ Choice Specs
+Level: 22
+Ability: Plus
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunderbolt
+- Encore
+- Swift
+- Helping Hand
 
-Plusle @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Minun @ Assault Vest
+Level: 23
+Ability: Minus
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunderbolt
+- Discharge
+- Thunder Wave
+- Fake Tears
 
 === TRAINER_JOSEPH ===
 Name: JOSEPH
