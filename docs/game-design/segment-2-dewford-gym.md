@@ -136,10 +136,17 @@
 
 ## Design Notes
 
+### Level Cap
+- **Arriving cap: L19** (Badge 1 from Roxanne)
+- **Brawly's ace: L21** — player is 2 levels below. Must win with strategy, not levels.
+- **After Brawly cap: L24** (Badge 2)
+- Level cap config: `include/config/caps.h` (hard cap, zero exp at/above)
+- Full cap table: `docs/game-design/level-caps.md`
+
 ### Difficulty Curve
-- Player is ~L15-20 arriving from Roxanne
-- Granite Cave encounters L9-14 — slightly below player level (exploration, not grinding)
-- Brawly's team L18-21 — real challenge, especially Sableye and Makuhita
+- Player arrives at L17-19 (capped at 19)
+- Granite Cave encounters L9-14 — below player level (exploration, not grinding)
+- Brawly's team L18-21 — player is at or below every Pokemon. Real challenge.
 
 ### Player's Anti-Brawly Strategies
 
