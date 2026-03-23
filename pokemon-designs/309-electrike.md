@@ -1,7 +1,7 @@
 ---
 name: Electrike
 dex_number: 309
-status: not_started
+status: implemented
 ---
 
 # Electrike
