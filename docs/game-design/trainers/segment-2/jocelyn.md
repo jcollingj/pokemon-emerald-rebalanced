@@ -3,7 +3,7 @@ name: Jocelyn
 class: Battle Girl
 route: Dewford Gym
 segment: 2
-status: designed
+status: implemented
 type: mandatory
 ---
 

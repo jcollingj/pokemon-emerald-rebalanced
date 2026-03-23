@@ -3,7 +3,7 @@ name: Cristian
 class: Black Belt
 route: Dewford Gym
 segment: 2
-status: designed
+status: implemented
 type: mandatory
 ---
 

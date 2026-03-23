@@ -3,7 +3,7 @@ name: Brenden
 class: Sailor
 route: Dewford Gym
 segment: 2
-status: designed
+status: implemented
 type: mandatory
 ---
 

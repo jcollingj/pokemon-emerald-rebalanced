@@ -3,7 +3,7 @@ name: Uelliot
 class: Fisherman
 route: Route 106
 segment: 2
-status: designed
+status: implemented
 type: optional
 ---
 
