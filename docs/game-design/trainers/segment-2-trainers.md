@@ -3,7 +3,8 @@ segment: 2
 name: Dewford Gym
 status: in_progress
 total_trainers: 18
-designed: 2
+designed: 6
+gym_trainers_designed: [Takao, Jocelyn, Laura, Brenden, Lilith, Cristian]
 ---
 
 # Segment 2 Trainers: Rustboro → Dewford Gym
