@@ -14,27 +14,39 @@
 
 Two grunts guarding the museum. Both should be boss-tier — this is Team Aqua's first real showing since the caves.
 
-**Grunt 1:**
+**Grunt 1 (the blocker):** 4 Pokemon, base forms — a grunt, not a boss.
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| TBD | | | | |
+| Carvanha | 20 | — | Strong Jaw | Crunch, Aqua Jet, Bite, Scary Face |
+| Tentacool | 21 | — | Poison Heal | Whirlpool, Acid Spray, Scald, Poison Sting |
+| Poochyena | 21 | — | Guts | Bite, Howl, Quick Attack, Swagger |
+| Corphish | 22 | — | Sheer Force | Crunch, Vise Grip, Aqua Jet, Leer |
 
-**Grunt 2:**
+**Grunt 2 (the evolved one):** 4 Pokemon, evolved forms — shows Aqua is getting stronger.
 | Pokemon | Level | Item | Ability | Moves |
 |---------|-------|------|---------|-------|
-| TBD | | | | |
+| Sharpedo | 21 | — | Strong Jaw | Crunch, Aqua Jet, Ice Fang, Scary Face |
+| Tentacruel | 22 | Toxic Orb | Poison Heal | Whirlpool, Scald, Sludge Bomb, Knock Off |
+| Crawdaunt | 22 | — | Sheer Force | Crunch, Aqua Jet, Brick Break, Swords Dance |
+| Mightyena | 23 | — | Guts | Crunch, Play Rough, Sucker Punch, Howl |
 
-**Design direction:** 4-5 Pokemon each, Water/Dark/Poison theme. Should feel like a real escalation from the Rusturf Tunnel grunt. These grunts have trained since then.
+**Design notes:** Grunt 2 has evolved forms of Grunt 1's team — clear escalation. Tentacruel with Toxic Orb Poison Heal is the first NPC using a competitive item strategy against the player.
 
 ### Rival Battle #2 — Route 110 (MANDATORY)
 
 The rival intercepts you heading north. This should be a serious fight — they've been training too.
 
-| Pokemon | Level | Item | Ability | Moves |
-|---------|-------|------|---------|-------|
-| TBD | | | | |
+*Example: player chose Mudkip → rival has Grovyle*
 
-**Design direction:** 4-5 Pokemon with real competitive builds. Rival should showcase Pokemon from areas the player has been (Segments 1-3). Their starter is fully evolved or close to it.
+| Pokemon | Level | Item | Ability | Moves | Notes |
+|---------|-------|------|---------|-------|-------|
+| Pelipper | 22 | Damp Rock | Drizzle | Scald, Wing Attack, Roost, U-turn | Evolved from Segment 1 Wingull. Rain setter. |
+| Slugma | 22 | — | Flame Body | Flamethrower, Rock Slide, Yawn, Will-O-Wisp | Vanilla rival pick. Burns physicals. |
+| Breloom | 23 | — | Technician | Mach Punch, Bullet Seed, Spore, Rock Tomb | **Preview** — Technician in action |
+| Electrike | 23 | — | Lightning Rod | Thunderbolt, Flame Burst, Quick Attack, Howl | **Preview** — new Electric from Route 110 |
+| Grovyle | 24 | — | Unburden | Leaf Blade, Acrobatics, Rock Slide, Detect | Starter at cap level |
+
+**Design notes:** 5 Pokemon, mix of evolved familiar faces + new previews. Team is diverse, not perfectly synergized — rival is smart but not a gym leader. Slugma in rain from Pelipper is intentionally imperfect (rival doesn't optimize like the player does).
 
 ---
 
@@ -80,8 +92,17 @@ The rival intercepts you heading north. This should be a serious fight — they'
 ### Route 110
 - Rival (Brendan/May) — MANDATORY
 - Cycling Road trainers (Triathletes, Cyclists)
-- Trick House trainers
 - Various route trainers
+
+### Trick House (Route 110)
+Gimmick trainers — each room teaches a combat concept:
+
+| Room | Gimmick | Team Concept | Lesson |
+|------|---------|-------------|--------|
+| 1 | "The Boom Room" | All Selfdestruct/Explosion (Voltorb, Geodude, Gulpin) | Speed kills — OHKO them before they detonate |
+| 2 | "The Lock Room" | All Disable/Encore/Torment (Ralts, Sableye, Whismur) | Need diverse movesets — one move gets locked |
+| 3 | "The Poison Room" | All Toxic + stall (Tentacool, Dustox, Roselia) | Need status cures — clock is ticking |
+| 4 | "The Priority Room" | All priority moves (Breloom, Crobat, Sableye) | Can't rely on outspeeding — they always go first |
 
 ---
 
