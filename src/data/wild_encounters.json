@@ -743,7 +743,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_MINUN"
+                "species": "SPECIES_ZANGOOSE"
               },
               {
                 "min_level": 13,
@@ -756,9 +756,9 @@
                 "species": "SPECIES_WINGULL"
               },
               {
-                "min_level": 12,
-                "max_level": 12,
-                "species": "SPECIES_WINGULL"
+                "min_level": 13,
+                "max_level": 13,
+                "species": "SPECIES_SEVIPER"
               },
               {
                 "min_level": 12,
