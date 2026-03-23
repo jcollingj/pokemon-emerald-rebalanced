@@ -6,6 +6,10 @@ on:
     paths-ignore:
       - 'pokemon-designs/**'
       - '.claude/**'
+      - 'docs/game-design/**'
+      - 'docs/changelogs/**'
+      - '*.md'
+      - 'tools/pokedex/**'
 
 jobs:
   deploy:

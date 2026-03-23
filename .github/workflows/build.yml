@@ -10,12 +10,14 @@ on:
       - 'pokemon-designs/**'
       - '*.md'
       - '.claude/**'
+      - 'tools/pokedex/**'
   pull_request:
     paths-ignore:
       - 'docs/**'
       - 'pokemon-designs/**'
       - '*.md'
       - '.claude/**'
+      - 'tools/pokedex/**'
 
 jobs:
   build:
