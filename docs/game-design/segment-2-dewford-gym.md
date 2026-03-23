@@ -16,9 +16,9 @@
 | 1 | Meditite | 18 | | Pure Power | Zen Headbutt, Fake Out, Drain Punch, Detect | The Monk — meditation + doubled power |
 | 2 | Machop | 19 | | No Guard | Dynamic Punch, Rock Tomb, Bulk Up, Scary Face | The Brawler — never misses, always confuses |
 | 3 | Hitmonchan | 19 | | Iron Fist | Mach Punch, Thunder Punch, Ice Punch, Fire Punch | The Boxer — elemental fists cover everything |
-| 4 | Heracross | 20 | | Moxie | Megahorn, Brick Break, Rock Blast, Aerial Ace | The Beetle — Psychic killer, snowballs on KOs |
-| 5 | Sableye | 20 | Sitrus Berry | Prankster | Will-O-Wisp, Foul Play, Shadow Sneak, Recover | The Shadow — zero weaknesses, dirty fighter |
-| 6 | Makuhita | 21 | Sitrus Berry | Iron Fist | Mach Punch, Drain Punch, Knock Off, Bulk Up | The Sumo (ace) — priority + sustain + setup |
+| 4 | Heracross | 20 | Life Orb | Moxie | Megahorn, Brick Break, Rock Blast, Aerial Ace | The Beetle — Life Orb Psychic killer, snowballs on KOs |
+| 5 | Sableye | 20 | Sitrus Berry | Prankster | Will-O-Wisp, Foul Play, Shadow Sneak, Drain Punch | The Shadow — zero weaknesses, dirty fighter + punching |
+| 6 | Makuhita | 21 | Eviolite | Iron Fist | Mach Punch, Drain Punch, Knock Off, Bulk Up | The Sumo (ace) — Eviolite tank, priority + sustain + setup |
 
 **Design Notes:**
 - Sableye is the curveball. Player brings Psychic or Flying? Sableye is immune to both. Zero weaknesses forces the player to bring neutral coverage.
@@ -141,12 +141,42 @@
 - Granite Cave encounters L9-14 — slightly below player level (exploration, not grinding)
 - Brawly's team L18-21 — real challenge, especially Sableye and Makuhita
 
-### Player's Anti-Brawly Options
-- **Pidgeot/Noctowl** (Flying) — good vs Fighting but Sableye walls them, Hitmonchan has Thunder Punch
-- **Alakazam/Gardevoir** (Psychic) — Sableye is immune, Heracross's Megahorn kills them
-- **Butterfree** (Quiver Dance) — can set up on Meditite/Makuhita but Hitmonchan's Ice Punch hurts
-- **Tentacruel** (Poison Heal) — resists Fighting, Whirlpool traps, but weak to Psychic moves from Meditite
-- **Best answer:** Mixed team with a bulky Water type + something that handles Sableye specifically
+### Player's Anti-Brawly Strategies
+
+**No single Pokemon sweeps Brawly's whole team.** Sableye forces the player past "just use Psychic/Flying." The player needs a plan A and a plan B.
+
+**Strategy 1: "Burn and Stall" (Tentacruel)**
+- Tentacruel resists Fighting, traps with Whirlpool, Poison Heal sustains
+- Burns physical attackers with Scald — devastating vs Machop, Makuhita, Hitmonchan
+- Watch out for: Meditite's Zen Headbutt (Psychic)
+- Best against: Makuhita, Machop, Hitmonchan (physical attackers get crippled by burn)
+
+**Strategy 2: "Bird + Sableye Answer"**
+- Noctowl with Tinted Lens handles Sableye (nothing resists Tinted Lens attacks)
+- Flying types resist Fighting for the rest of the team
+- Watch out for: Hitmonchan's Thunder Punch/Ice Punch
+- Key: need Noctowl specifically — Pidgeot can't touch Sableye (Ghost immune to Normal)
+
+**Strategy 3: "Breloom Mirror Match"**
+- Technician Mach Punch outspeeds everything with priority
+- Spore puts threats to sleep (97.5% accurate? No, that's Butterfree — Breloom's is 100%)
+- Watch out for: Heracross's Aerial Ace (4x on Breloom), Sableye's Will-O-Wisp
+- Best as a revenge killer, not a lead
+
+**Strategy 4: "Gyarados Dragon Dance"**
+- Dragon Dance + Moxie, resists Fighting
+- Waterfall + Crunch handles most of the team including Sableye
+- Watch out for: Hitmonchan Thunder Punch, Machop Rock Tomb
+- If you get one Dragon Dance off, can potentially sweep
+
+**Strategy 5: "Azumarill Belly Drum"**
+- Huge Power + Belly Drum + Aqua Jet = delete anything with priority
+- Play Rough handles Sableye (if we give Sableye Fairy weakness post-Gen 6)
+- Watch out for: needs one free turn to set up. Meditite's Fake Out steals that turn.
+- Best play: bring in after Meditite is gone, set up on something slower
+
+**The Intended Experience:**
+The player should lose to Brawly at least once. First attempt they bring Psychic/Flying and get stopped by Sableye. Second attempt they adjust. The "aha" moment is realizing no type advantage solves the whole team — you need a real strategy.
 
 ### New Pokemon Needing Designs
 - Meditite/Medicham (Pure Power)
