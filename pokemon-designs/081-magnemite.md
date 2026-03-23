@@ -1,7 +1,7 @@
 ---
 name: Magnemite
 dex_number: 81
-status: not_started
+status: implemented
 ---
 
 # Magnemite
