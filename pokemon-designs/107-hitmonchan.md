@@ -1,7 +1,7 @@
 ---
 name: Hitmonchan
 dex_number: 107
-status: not_started
+status: implemented
 ---
 
 # Hitmonchan
