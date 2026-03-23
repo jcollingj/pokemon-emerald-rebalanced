@@ -1,9 +1,9 @@
 ---
 segment: 2
 name: Dewford Gym
-status: not_started
+status: in_progress
 total_trainers: 18
-designed: 0
+designed: 4
 ---
 
 # Segment 2 Trainers: Rustboro → Dewford Gym
