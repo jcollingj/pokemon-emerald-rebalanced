@@ -123,61 +123,22 @@
 ## Items
 
 ### Route 106 (beach area)
-
-**Item Balls:**
-- DeepSeaTooth (on the beach — washed ashore, fits the Clamperl Good Rod location)
-- DeepSeaScale (same beach, other side — paired with the Tooth)
 - Lum Berry (item ball)
 
-**Design notes:**
-- DeepSeaTooth and DeepSeaScale are placed here because Clamperl is available via Good Rod on Route 106. If the player wants Huntail or Gorebyss, they need to find these items in the same area they caught the Clamperl. The discovery loop is immediate: catch Clamperl → explore the beach → find the evolution item.
-- Lum Berry supports Mawile (Contrary snowball needs multiple turns — one status move ruins it) and Meditite (can't afford paralysis on the Calm Mind activation turn).
-
 ### Dewford Town
+- Good Rod (from fisherman NPC near the dock)
+- Black Belt (from dojo student inside the gym building — Fighting move boost, thematic for Brawly's town)
+- Sitrus Berry (item ball near the dock)
 
-**NPC Gifts:**
-- Good Rod (from fisherman NPC near the dock) — enables Clamperl and Staryu on Route 106
-- Black Belt (from a dojo student or sensei inside the gym building) — thematic: Brawly's fighting town hands the player a Fighting-type power booster. Works with Makuhita/Hariyama (Iron Fist stacks multiplicatively), Heracross (Guts + Black Belt is a solid set before Flame Orb is available), and generally supports any player leaning into the Fighting types of this segment.
-
-**Item Balls:**
-- Sitrus Berry (near the town center or dock)
-
-### Granite Cave 1F (entrance floor)
-
-**Item Balls:**
-- Leftovers (item ball, near the cave entrance — rewards early exploration)
-
-**Design notes:**
-- Leftovers is the #1 item for Sableye (Prankster stall), Aron (Iron Defense setup turns), and Meditite (Calm Mind activation turn). Placing it on 1F makes it accessible to all players who enter the cave, even those who don't venture deep. It's a broadly useful sustain item that never feels like a waste.
-
-### Granite Cave B1F
-
-**Item Balls:**
-- Eviolite (item ball, in the deeper shadows of B1F)
-
-**Design notes:**
-- Eviolite is placed on B1F because this is where you catch the Pokemon that want it most: Aron (L10-12), Makuhita (L11-12), Sableye (L10-12), and Mawile (L11-12, rare). Finding the Eviolite in the same floor you caught these Pokemon creates a clean "discovery → equip" loop. Makuhita with Eviolite before evolving at L24 is legitimately threatening — the stat buffs we gave Makuhita (80 HP, 45 Def, 40 SpD) plus Eviolite make it a real tank.
-- Also directly echoes Brawly's own Makuhita holding Eviolite as his ace. Player sees it on the enemy, then finds it in the same cave.
+### Granite Cave 1F
+- Leftovers (item ball near the cave entrance — broadly useful sustain item)
 
 ### Granite Cave B2F
+- Focus Sash (item ball, deepest floor before Steven's room — rewards full cave exploration)
 
-**Item Balls:**
-- Focus Sash (item ball, deepest floor before Steven's room)
-
-**Design notes:**
-- Focus Sash rewards players who fully explore the cave before the gym fight. Strategically useful against Brawly: Meditite (frail, 50 HP) with Focus Sash survives one hit and gets its Calm Mind activation turn guaranteed — this directly enables the Calm Focus build that the player may have discovered through their own Meditite. Also useful for any glass cannon against Brawly's dangerous No Guard Dynamic Punch (Machop) or Life Orb Heracross.
-
-### Granite Cave (Steven's Room)
-
-**Item Balls:**
-- Scope Lens (item ball near Steven's sketching spot)
-
-**NPC Gifts:**
-- TM Steel Wing (from Steven Stone)
-
-**Design notes:**
-- Scope Lens rewards players who fully explored all of Granite Cave. Best synergy with Heracross (Megahorn already has a boosted crit rate — Scope Lens pushes it to nearly guaranteed crits), and useful on any high-crit move set. Deepest reward for deepest exploration.
-- TM Steel Wing from Steven is already part of the story beat (Steven gives this in the vanilla game). Fits Aron/Aggron (Steel STAB), and any Pokemon with a wide physical movepool.
+### Granite Cave — Steven's Room
+- Scope Lens (item ball near Steven — rewards deepest exploration, synergizes with Heracross Megahorn crits)
+- TM Steel Wing (from Steven Stone — story gift)
 
 ---
 
