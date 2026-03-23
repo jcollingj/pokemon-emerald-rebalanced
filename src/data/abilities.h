@@ -2417,4 +2417,11 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Boosts piercing moves."),
         .aiRating = 6,
     },
+
+    [ABILITY_SPORE_CLOUD] =
+    {
+        .name = _("Spore Cloud"),
+        .description = COMPOUND_STRING("Powder moves go first."),
+        .aiRating = 8,
+    },
 };

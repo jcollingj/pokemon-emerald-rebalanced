@@ -1,7 +1,7 @@
 ---
 name: Oddish
 dex_number: 43
-status: designed
+status: implemented
 ability: Effect Spore (reworked as "Spore Cloud")
 role: Priority Status Spreader
 ideal_items: Wide Lens, Black Sludge, Choice Specs
