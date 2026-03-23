@@ -1,7 +1,7 @@
 ---
 name: Medicham
 dex_number: 308
-status: not_started
+status: implemented
 ---
 
 # Medicham
