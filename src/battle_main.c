@@ -4851,6 +4851,10 @@ s32 GetBattleMovePriority(u32 battler, u32 ability, u32 move)
     {
         priority += 3;
     }
+    else if (ability == ABILITY_SPORE_CLOUD && IsPowderMove(move))
+    {
+        priority++;
+    }
 
     return priority;
 }
