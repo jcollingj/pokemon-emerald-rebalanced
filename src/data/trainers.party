@@ -3296,9 +3296,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 13
+Makuhita @ Eviolite
+Level: 16
+Ability: Iron Fist
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mach Punch
+- Fire Punch
+- Bulk Up
+- Tackle
+
+Tyrogue @ Oran Berry
+Level: 17
+Ability: Guts
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out
+- Low Kick
+- Force Palm
+- Leer
+
+Machop
+Level: 17
+Ability: No Guard
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Karate Chop
+- Low Kick
+- Seismic Toss
+- Focus Energy
 
 === TRAINER_HITOSHI ===
 Name: HITOSHI
@@ -4987,28 +5010,58 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Machop
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
-
 Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Bulk Up
-
-Makuhita @ Sitrus Berry
-Level: 19
+Level: 18
+Ability: Pure Power
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
+- Zen Headbutt
+- Fake Out
+- Drain Punch
+- Detect
+
+Machop
+Level: 19
+Ability: No Guard
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dynamic Punch
+- Rock Tomb
+- Bulk Up
+- Scary Face
+
+Hitmonchan
+Level: 19
+Ability: Iron Fist
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mach Punch
+- Thunder Punch
+- Ice Punch
+- Fire Punch
+
+Heracross @ Life Orb
+Level: 20
+Ability: Moxie
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Megahorn
+- Brick Break
+- Rock Blast
+- Aerial Ace
+
+Sableye @ Sitrus Berry
+Level: 20
+Ability: Prankster
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Will-O-Wisp
+- Foul Play
+- Shadow Sneak
+- Drain Punch
+
+Makuhita @ Eviolite
+Level: 21
+Ability: Iron Fist
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mach Punch
+- Drain Punch
+- Knock Off
 - Bulk Up
 
 === TRAINER_WATTSON_1 ===
@@ -6752,16 +6805,30 @@ Double Battle: No
 AI: Check Bad Move
 
 Magikarp
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 15
+Ability: Moxie
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Aqua Jet
+- Tackle
+- Flail
 
-Tentacool
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacool @ Toxic Orb
+Level: 16
+Ability: Poison Heal
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Whirlpool
+- Acid Spray
+- Scald
+- Poison Sting
 
-Magikarp
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wailmer @ Oran Berry
+Level: 17
+Ability: Water Veil
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Water Pulse
+- Aqua Ring
+- Dive
+- Water Gun
 
 === TRAINER_NED ===
 Name: NED
@@ -6772,9 +6839,31 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 11
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Magikarp @ Oran Berry
+Level: 16
+Ability: Moxie
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Aqua Jet
+- Tackle
+- Flail
+
+Clamperl @ Eviolite
+Level: 17
+Ability: Shell Armor
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Clamp
+- Water Gun
+- Whirlpool
+- Iron Defense
+
+Tentacool @ Toxic Orb
+Level: 18
+Ability: Poison Heal
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Whirlpool
+- Acid Spray
+- Scald
+- Poison Sting
 
 === TRAINER_DALE ===
 Name: DALE
@@ -8220,9 +8309,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 13
+Tyrogue
+Level: 16
+Ability: Guts
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out
+- Low Kick
+- Force Palm
+- Leer
+
+Meditite @ Eviolite
+Level: 17
+Ability: Pure Power
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out
+- Confusion
+- Drain Punch
+- Meditate
+
+Makuhita @ Sitrus Berry
+Level: 17
+Ability: Iron Fist
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mach Punch
+- Fire Punch
+- Drain Punch
+- Bulk Up
 
 === TRAINER_LAURA ===
 Name: LAURA
@@ -8233,9 +8345,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 13
+Makuhita
+Level: 17
+Ability: Iron Fist
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Mach Punch
+- Fire Punch
+- Bulk Up
+- Tackle
+
+Sableye @ Sitrus Berry
+Level: 18
+Ability: Prankster
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Will-O-Wisp
+- Feint Attack
+- Shadow Sneak
+- Taunt
+
+Meditite @ Eviolite
+Level: 18
+Ability: Pure Power
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Fake Out
+- Drain Punch
+- Confusion
+- Detect
 
 === TRAINER_CYNDY_1 ===
 Name: CYNDY
@@ -11148,9 +11283,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 13
+Tyrogue
+Level: 17
+Ability: Guts
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Low Kick
+- Force Palm
+- Leer
+
+Hitmonchan @ Sitrus Berry
+Level: 18
+Ability: Iron Fist
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Mach Punch
+- Thunder Punch
+- Fire Punch
+- Ice Punch
+
+Makuhita @ Eviolite
+Level: 18
+Ability: Iron Fist
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Mach Punch
+- Drain Punch
+- Bulk Up
+- Fire Punch
 
 === TRAINER_LILITH ===
 Name: LILITH
@@ -11161,9 +11319,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 13
+Sableye @ Sitrus Berry
+Level: 18
+Ability: Prankster
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Will-O-Wisp
+- Feint Attack
+- Taunt
+- Shadow Sneak
+
+Makuhita
+Level: 18
+Ability: Iron Fist
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Mach Punch
+- Fire Punch
+- Drain Punch
+- Bulk Up
+
+Hitmontop @ Eviolite
+Level: 19
+Ability: Contrary
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Triple Kick
+- Close Combat
+- Rapid Spin
+- Sucker Punch
 
 === TRAINER_CRISTIAN ===
 Name: CRISTIAN
@@ -11174,9 +11355,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Makuhita
-Level: 13
+Meditite @ Eviolite
+Level: 18
+Ability: Pure Power
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Drain Punch
+- Confusion
+- Detect
+
+Machop
+Level: 19
+Ability: No Guard
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Karate Chop
+- Seismic Toss
+- Focus Energy
+- Low Kick
+
+Sableye @ Sitrus Berry
+Level: 19
+Ability: Prankster
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Will-O-Wisp
+- Feint Attack
+- Foul Play
+- Taunt
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA
