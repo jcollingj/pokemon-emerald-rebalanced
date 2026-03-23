@@ -1,7 +1,7 @@
 ---
 name: Gulpin
 dex_number: 316
-status: not_started
+status: implemented
 ---
 
 # Gulpin
