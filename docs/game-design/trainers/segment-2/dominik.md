@@ -1,0 +1,18 @@
+---
+name: Udominik
+class: Swimmer M
+route: Route 105
+segment: 2
+status: not_started
+type: optional
+---
+
+# Udominik (Swimmer M) — Route 105
+
+## Team
+| Pokemon | Level | Item | Ability | Moves |
+|---------|-------|------|---------|-------|
+
+## Puzzle
+
+## Design Notes
