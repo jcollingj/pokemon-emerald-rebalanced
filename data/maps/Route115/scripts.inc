@@ -20,7 +20,54 @@ Route115_OnFrame:
 	.2byte 0
 
 Route115_EventScript_Woman::
-	msgbox Route115_Text_NeverKnowWhenCavePokemonWillAppear, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_STONE_ROUTE_115, Route115_EventScript_WomanAfterGift
+	msgbox Route115_Text_WomanStoneIntro, MSGBOX_DEFAULT
+	multichoice 0, 0, MULTI_STONE_CHOICE, TRUE
+	switch VAR_RESULT
+	case 0, Route115_EventScript_GiveFireStone
+	case 1, Route115_EventScript_GiveThunderStone
+	case 2, Route115_EventScript_GiveWaterStone
+	case 3, Route115_EventScript_WomanCancel
+	case MULTI_B_PRESSED, Route115_EventScript_WomanCancel
+	end
+
+Route115_EventScript_GiveFireStone::
+	msgbox Route115_Text_WomanFireChoice, MSGBOX_DEFAULT
+	giveitem ITEM_FIRE_STONE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_STONE_ROUTE_115
+	msgbox Route115_Text_WomanEnjoy, MSGBOX_DEFAULT
+	release
+	end
+
+Route115_EventScript_GiveThunderStone::
+	msgbox Route115_Text_WomanElectricChoice, MSGBOX_DEFAULT
+	giveitem ITEM_THUNDER_STONE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_STONE_ROUTE_115
+	msgbox Route115_Text_WomanEnjoy, MSGBOX_DEFAULT
+	release
+	end
+
+Route115_EventScript_GiveWaterStone::
+	msgbox Route115_Text_WomanWaterChoice, MSGBOX_DEFAULT
+	giveitem ITEM_WATER_STONE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_STONE_ROUTE_115
+	msgbox Route115_Text_WomanEnjoy, MSGBOX_DEFAULT
+	release
+	end
+
+Route115_EventScript_WomanCancel::
+	msgbox Route115_Text_WomanCancel, MSGBOX_DEFAULT
+	release
+	end
+
+Route115_EventScript_WomanAfterGift::
+	msgbox Route115_Text_WomanAfterGift, MSGBOX_DEFAULT
+	release
 	end
 
 Route115_EventScript_RouteSignRustboro::
@@ -129,11 +176,36 @@ Route115_EventScript_Marlene::
 	msgbox Route115_Text_MarlenePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route115_Text_NeverKnowWhenCavePokemonWillAppear:
-	.string "Exploring a cave isn't like walking\n"
-	.string "on a road.\p"
-	.string "You never know when wild POKéMON will\n"
-	.string "appear. It's full of suspense.$"
+Route115_Text_WomanStoneIntro:
+	.string "Oh, hello there!\p"
+	.string "I collect evolution stones as a hobby.\n"
+	.string "I have a few extras I don't need.\p"
+	.string "Tell me, which type do you prefer?\n"
+	.string "FIRE, ELECTRIC, or WATER?$"
+
+Route115_Text_WomanFireChoice:
+	.string "Ah, fire! There's nothing like the\n"
+	.string "warmth of a flame.$"
+
+Route115_Text_WomanElectricChoice:
+	.string "Electric! The crackling energy is\n"
+	.string "thrilling, isn't it?$"
+
+Route115_Text_WomanWaterChoice:
+	.string "Water! So calm and powerful at\n"
+	.string "the same time.$"
+
+Route115_Text_WomanEnjoy:
+	.string "I hope your POKéMON enjoys it!\n"
+	.string "Use it wisely.$"
+
+Route115_Text_WomanCancel:
+	.string "No worries! Come talk to me again\n"
+	.string "if you change your mind.$"
+
+Route115_Text_WomanAfterGift:
+	.string "Did your POKéMON enjoy the stone\n"
+	.string "I gave you?$"
 
 Route115_Text_RouteSignRustboro:
 	.string "ROUTE 115\n"

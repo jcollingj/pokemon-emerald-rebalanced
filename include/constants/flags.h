@@ -45,9 +45,9 @@
 
 #define FLAG_EXP_SHARE_ENABLED    0x20 // Toggles party-wide EXP Share (Gen6+ Key Item)
 #define FLAG_ITEM_LITTLEROOT_TOWN_EXP_SHARE    0x21
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
+#define FLAG_ITEM_PETALBURG_CITY_NUGGET_1                            0x22
+#define FLAG_ITEM_PETALBURG_CITY_NUGGET_2                            0x23
+#define FLAG_RECEIVED_STONE_ROUTE_115  0x24
 #define FLAG_UNUSED_0x025    0x25 // Unused Flag
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
