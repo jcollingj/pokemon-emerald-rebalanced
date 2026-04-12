@@ -113,6 +113,9 @@ The battle system is highly modular with separate files for:
 **Learnset Files:**
 The project has multiple learnset files per generation in `/src/data/pokemon/level_up_learnsets/`. The active file is controlled by `P_LVL_UP_LEARNSETS` in `include/config/pokemon.h`, which is set to `GEN_LATEST`. This means **`gen_9.h` is the active learnset file**. Always edit `gen_9.h` for learnset changes — edits to `gen_3.h` or other generation files will have no effect in-game.
 
+**Editing Data Files (Learnsets, Species Info, etc.):**
+These files contain many similar-looking lines (e.g., `LEVEL_UP_MOVE(12, MOVE_ABSORB)` may appear for multiple Pokemon). When editing, **always use the full surrounding context** — include the function/array name (e.g., `sBeautiflyLevelUpLearnset`) and multiple adjacent lines to ensure uniqueness. Never do a find-and-replace on a single generic line like `LEVEL_UP_MOVE(12, MOVE_ABSORB)` — it will match the wrong Pokemon. When replacing an entire learnset, replace the whole block from the array declaration to `LEVEL_UP_END`.
+
 ### Custom Toolchain
 
 The project includes 20+ custom tools in `/tools/` that process various game assets:
