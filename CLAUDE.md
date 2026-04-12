@@ -110,6 +110,9 @@ The battle system is highly modular with separate files for:
 - `/graphics/` - Raw image assets (PNG format)
 - `/sound/` - Audio assets and music
 
+**Learnset Files:**
+The project has multiple learnset files per generation in `/src/data/pokemon/level_up_learnsets/`. The active file is controlled by `P_LVL_UP_LEARNSETS` in `include/config/pokemon.h`, which is set to `GEN_LATEST`. This means **`gen_9.h` is the active learnset file**. Always edit `gen_9.h` for learnset changes — edits to `gen_3.h` or other generation files will have no effect in-game.
+
 ### Custom Toolchain
 
 The project includes 20+ custom tools in `/tools/` that process various game assets:
